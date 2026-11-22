@@ -1,0 +1,591 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' file: data:; style-src 'self' file: 'unsafe-inline'; font-src 'self' file: data:; script-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Приложение C: Основы распределённого состояния – Системы машинного обучения — русское издание</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+
+
+
+
+
+
+<meta name="quarto:offset" content="../../../../">
+
+
+
+
+
+
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-0b983791fd02a84ab17c6cf8e5c4fb5d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+
+
+
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-1ac4cb1b9cf41a76d54e107821d68875.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+
+
+<link href="../../../../site_libs/quarto-contrib/foldbox/foldbox.css" rel="stylesheet">
+
+<link href="../../../../site_libs/quarto-contrib/pseudocode-2.4.1/pseudocode.min.css" rel="stylesheet">
+
+<!-- AUTO-GENERATED NOTATION MACROS FROM MLSYSIM -->
+<link rel="stylesheet" href="../../../../offline.css"></head><body class="nav-sidebar floating nav-fixed quarto-light offline-book"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Перейти к основному тексту</a>
+
+<style type="text/css">
+/* Фокус-рисунок главы вверху правого поля: отодвигаем «Содержание» вниз,
+   чтобы оно не наезжало на рисунок (только на страницах с фокусом). */
+body:has(.column-margin img[src*="margin_stack"]) div.sidebar.margin-sidebar {
+  margin-top: 210px;
+}
+</style>
+<style>
+.callout-takeaways {
+  --color1: #FCF4F8;
+  --color2: #9D3C72;
+  --border-color: #9D3C72;
+  --background-color: rgba(157, 60, 114, 0.04);
+  --title-background-color: rgba(157, 60, 114, 0.04);
+  --dark-background-color: rgba(157, 60, 114, 0.12);
+  --dark-title-background-color: rgba(157, 60, 114, 0.12);
+}
+.callout-warning {
+  --color1: #FEF2F2;
+  --color2: #DC2626;
+  --border-color: #DC2626;
+  --background-color: rgba(220, 38, 38, 0.04);
+  --title-background-color: rgba(220, 38, 38, 0.04);
+  --dark-background-color: rgba(220, 38, 38, 0.12);
+  --dark-title-background-color: rgba(220, 38, 38, 0.12);
+}
+.callout-principle {
+  --color1: #F3F2FA;
+  --color2: #3D3B8E;
+  --border-color: #3D3B8E;
+  --background-color: rgba(61, 59, 142, 0.04);
+  --title-background-color: rgba(61, 59, 142, 0.04);
+  --dark-background-color: rgba(61, 59, 142, 0.12);
+  --dark-title-background-color: rgba(61, 59, 142, 0.12);
+}
+.callout-notebook {
+  --color1: #F4F7FA;
+  --color2: #3F6077;
+  --border-color: #3F6077;
+  --background-color: rgba(63, 96, 119, 0.04);
+  --title-background-color: rgba(63, 96, 119, 0.04);
+  --dark-background-color: rgba(63, 96, 119, 0.12);
+  --dark-title-background-color: rgba(63, 96, 119, 0.12);
+}
+.callout-resource-videos {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-quiz-answer {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-case-study {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-resource-exercises {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-research-questions {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-resource-slides {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-chapter-connection {
+  --color1: #F1F5F9;
+  --color2: #64748B;
+  --border-color: #64748B;
+  --background-color: rgba(100, 116, 139, 0.04);
+  --title-background-color: rgba(100, 116, 139, 0.04);
+  --dark-background-color: rgba(100, 116, 139, 0.12);
+  --dark-title-background-color: rgba(100, 116, 139, 0.12);
+}
+.callout-code {
+  --color1: #F2F4F8;
+  --color2: #3C4858;
+  --border-color: #3C4858;
+  --background-color: rgba(60, 72, 88, 0.04);
+  --title-background-color: rgba(60, 72, 88, 0.04);
+  --dark-background-color: rgba(60, 72, 88, 0.12);
+  --dark-title-background-color: rgba(60, 72, 88, 0.12);
+}
+.callout-lighthouse {
+  --color1: #FDF8E6;
+  --color2: #B8860B;
+  --border-color: #B8860B;
+  --background-color: rgba(184, 134, 11, 0.04);
+  --title-background-color: rgba(184, 134, 11, 0.04);
+  --dark-background-color: rgba(184, 134, 11, 0.12);
+  --dark-title-background-color: rgba(184, 134, 11, 0.12);
+}
+.callout-quiz-question {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-checkpoint {
+  --color1: #F7FEE7;
+  --color2: #4D7C0F;
+  --border-color: #4D7C0F;
+  --background-color: rgba(77, 124, 15, 0.04);
+  --title-background-color: rgba(77, 124, 15, 0.04);
+  --dark-background-color: rgba(77, 124, 15, 0.12);
+  --dark-title-background-color: rgba(77, 124, 15, 0.12);
+}
+.callout-learning-objectives {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-definition {
+  --color1: #F2F7FA;
+  --color2: #4F7396;
+  --border-color: #4F7396;
+  --background-color: rgba(79, 115, 150, 0.04);
+  --title-background-color: rgba(79, 115, 150, 0.04);
+  --dark-background-color: rgba(79, 115, 150, 0.12);
+  --dark-title-background-color: rgba(79, 115, 150, 0.12);
+}
+.callout-perspective {
+  --color1: #F7F8FA;
+  --color2: #4A5568;
+  --border-color: #4A5568;
+  --background-color: rgba(74, 85, 104, 0.04);
+  --title-background-color: rgba(74, 85, 104, 0.04);
+  --dark-background-color: rgba(74, 85, 104, 0.12);
+  --dark-title-background-color: rgba(74, 85, 104, 0.12);
+}
+.callout-example {
+  --color1: #F0F8F6;
+  --color2: #148F77;
+  --border-color: #148F77;
+  --background-color: rgba(20, 143, 119, 0.04);
+  --title-background-color: rgba(20, 143, 119, 0.04);
+  --dark-background-color: rgba(20, 143, 119, 0.12);
+  --dark-title-background-color: rgba(20, 143, 119, 0.12);
+}
+.callout-colab {
+  --color1: #FFF5E6;
+  --color2: #FF6B35;
+  --border-color: #FF6B35;
+  --background-color: rgba(255, 107, 53, 0.04);
+  --title-background-color: rgba(255, 107, 53, 0.04);
+  --dark-background-color: rgba(255, 107, 53, 0.12);
+  --dark-title-background-color: rgba(255, 107, 53, 0.12);
+}
+.callout-war-story {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-caution {
+  --color1: #FFFBEB;
+  --color2: #D97706;
+  --border-color: #D97706;
+  --background-color: rgba(217, 119, 6, 0.04);
+  --title-background-color: rgba(217, 119, 6, 0.04);
+  --dark-background-color: rgba(217, 119, 6, 0.12);
+  --dark-title-background-color: rgba(217, 119, 6, 0.12);
+}
+.callout-theorem {
+  --color1: #F5F0FA;
+  --color2: #6B46C1;
+  --border-color: #6B46C1;
+  --background-color: rgba(107, 70, 193, 0.04);
+  --title-background-color: rgba(107, 70, 193, 0.04);
+  --dark-background-color: rgba(107, 70, 193, 0.12);
+  --dark-title-background-color: rgba(107, 70, 193, 0.12);
+}
+</style>
+
+<style>
+details.callout-takeaways > summary::before {
+  background-image: none;
+}
+details.callout-warning > summary::before {
+  background-image: none;
+}
+details.callout-principle > summary::before {
+  background-image: none;
+}
+details.callout-notebook > summary::before {
+  background-image: none;
+}
+details.callout-resource-videos > summary::before {
+  background-image: none;
+}
+details.callout-quiz-answer > summary::before {
+  background-image: none;
+}
+details.callout-case-study > summary::before {
+  background-image: none;
+}
+details.callout-resource-exercises > summary::before {
+  background-image: none;
+}
+details.callout-research-questions > summary::before {
+  background-image: none;
+}
+details.callout-resource-slides > summary::before {
+  background-image: none;
+}
+details.callout-chapter-connection > summary::before {
+  background-image: none;
+}
+details.callout-code > summary::before {
+  background-image: none;
+}
+details.callout-lighthouse > summary::before {
+  background-image: none;
+}
+details.callout-quiz-question > summary::before {
+  background-image: none;
+}
+details.callout-checkpoint > summary::before {
+  background-image: none;
+}
+details.callout-learning-objectives > summary::before {
+  background-image: none;
+}
+details.callout-definition > summary::before {
+  background-image: none;
+}
+details.callout-perspective > summary::before {
+  background-image: none;
+}
+details.callout-example > summary::before {
+  background-image: none;
+}
+details.callout-colab > summary::before {
+  background-image: none;
+}
+details.callout-war-story > summary::before {
+  background-image: none;
+}
+details.callout-caution > summary::before {
+  background-image: none;
+}
+details.callout-theorem > summary::before {
+  background-image: none;
+}
+</style>
+    <style type="text/css">
+    .ps-root .ps-algorithm {
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+    }
+    .pseudocode-container {
+      text-align: left;
+    }
+    </style>
+  
+      <style type="text/css">
+      .ps-algorithm > .ps-line {
+        text-align: left;
+      }
+      </style>
+    
+
+
+
+
+
+
+
+  <header id="quarto-header"><nav aria-label="Сайт" class="offline-navbar"><a class="offline-brand" href="../../../../index.html">Библиотека HCL</a><div class="offline-top-links"><a href="../../index.html">Оглавление</a><a href="../../vol1/01_introduction/01_introduction.html">Том 1</a><a href="../../vol2/01_introduction/01_introduction.html">Том 2</a><a href="../01_introduction/01_introduction.html">Том 3</a><a href="../../vol4/index.html">Том 4</a></div></nav></header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="offline-sidebar" aria-label="Раздел"><p class="offline-volume">Том 3</p><p class="offline-volume-title">Агентные системы ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../01_introduction/01_introduction.html">Введение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_foundation_model/02_foundation_model.html">Фундаментальная модель</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_test_time_compute/03_test_time_compute.html">Вычисления во время инференса</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_context_engineering/04_context_engineering.html">Проектирование контекста</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_kv_cache/05_kv_cache.html">KV-кэш</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_long_term_memory/06_long_term_memory.html">Долговременная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_tool_calling/07_tool_calling.html">Вызов инструментов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_sandboxes/08_sandboxes.html">Песочницы</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_security/09_security.html">Безопасность</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_agent_harness/10_agent_harness.html">Каркас агента</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_durable_execution/11_durable_execution.html">Долговременное исполнение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_failure_recovery/12_failure_recovery.html">Восстановление после отказов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_evaluation/13_evaluation.html">Оценка</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_agent_operations/14_agent_operations.html">Операции агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_trajectory_curation/15_trajectory_curation.html">Курирование траекторий</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_fine_tuning/16_fine_tuning.html">Дообучение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_rlvr/17_rlvr.html">RLVR</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_multi_agent/18_multi_agent.html">Мультиагентные системы</a></li><li class="sidebar-item"><a class="sidebar-link" href="../19_agent_economics/19_agent_economics.html">Экономика агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../20_conclusion/20_conclusion.html">Заключение</a></li><li class="sidebar-item"><a class="sidebar-link" href="references.html">Список литературы</a></li><li class="sidebar-item"><a class="sidebar-link" href="appendix_math.html">Приложение A: Математические основы</a></li><li class="sidebar-item"><a class="sidebar-link" href="appendix_inference.html">Приложение B: Основы инференса</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="appendix_systems.html">Приложение C: Основы распределённого состояния</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_a_reference_architecture.html">Приложение D: Эталонная архитектура</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_b_tool_design.html">Приложение E: Типизированные интерфейсы инструментов</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_c_failure_taxonomy.html">Приложение F: Таксономия отказов агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#основы-распределённых-систем-sec-vol3-appendix-systems-.unlisted" id="toc-основы-распределённых-систем-sec-vol3-appendix-systems-.unlisted" class="nav-link active"><span class="header-section-number">1</span> Основы распределённых систем</a>
+  <ul class="collapse show">
+  <li><a href="#как-пользоваться-этим-приложением" id="toc-как-пользоваться-этим-приложением" class="nav-link">Как пользоваться этим приложением</a></li>
+  <li><a href="#sec-vol3-appendix-systems-order" id="toc-sec-vol3-appendix-systems-order" class="nav-link"><span class="header-section-number">1.1</span> Истории и порядок операций</a></li>
+  <li><a href="#sec-vol3-appendix-systems-boundaries" id="toc-sec-vol3-appendix-systems-boundaries" class="nav-link"><span class="header-section-number">1.2</span> Границы гарантий</a></li>
+  <li><a href="#sec-vol3-appendix-systems-transactions" id="toc-sec-vol3-appendix-systems-transactions" class="nav-link"><span class="header-section-number">1.3</span> Классический материал о транзакциях</a>
+  <ul class="collapse show">
+  <li><a href="#транзакции-и-двухфазная-фиксация" id="toc-транзакции-и-двухфазная-фиксация" class="nav-link"><span class="header-section-number">1.3.1</span> Транзакции и двухфазная фиксация</a></li>
+  <li><a href="#саги" id="toc-саги" class="nav-link"><span class="header-section-number">1.3.2</span> Саги</a></li>
+  <li><a href="#журнал-упреждающей-записи" id="toc-журнал-упреждающей-записи" class="nav-link"><span class="header-section-number">1.3.3</span> Журнал упреждающей записи</a></li>
+  </ul></li>
+  <li><a href="#sec-vol3-appendix-systems-retries" id="toc-sec-vol3-appendix-systems-retries" class="nav-link"><span class="header-section-number">1.4</span> Повторы и восстановление результатов</a></li>
+  <li><a href="#sec-vol3-appendix-systems-fencing" id="toc-sec-vol3-appendix-systems-fencing" class="nav-link"><span class="header-section-number">1.5</span> Аренды и отсечение</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1"><details class="offline-mobile-nav"><summary>Главы тома 3</summary><p class="offline-volume">Том 3</p><p class="offline-volume-title">Агентные системы ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../01_introduction/01_introduction.html">Введение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_foundation_model/02_foundation_model.html">Фундаментальная модель</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_test_time_compute/03_test_time_compute.html">Вычисления во время инференса</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_context_engineering/04_context_engineering.html">Проектирование контекста</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_kv_cache/05_kv_cache.html">KV-кэш</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_long_term_memory/06_long_term_memory.html">Долговременная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_tool_calling/07_tool_calling.html">Вызов инструментов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_sandboxes/08_sandboxes.html">Песочницы</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_security/09_security.html">Безопасность</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_agent_harness/10_agent_harness.html">Каркас агента</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_durable_execution/11_durable_execution.html">Долговременное исполнение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_failure_recovery/12_failure_recovery.html">Восстановление после отказов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_evaluation/13_evaluation.html">Оценка</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_agent_operations/14_agent_operations.html">Операции агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_trajectory_curation/15_trajectory_curation.html">Курирование траекторий</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_fine_tuning/16_fine_tuning.html">Дообучение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_rlvr/17_rlvr.html">RLVR</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_multi_agent/18_multi_agent.html">Мультиагентные системы</a></li><li class="sidebar-item"><a class="sidebar-link" href="../19_agent_economics/19_agent_economics.html">Экономика агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="../20_conclusion/20_conclusion.html">Заключение</a></li><li class="sidebar-item"><a class="sidebar-link" href="references.html">Список литературы</a></li><li class="sidebar-item"><a class="sidebar-link" href="appendix_math.html">Приложение A: Математические основы</a></li><li class="sidebar-item"><a class="sidebar-link" href="appendix_inference.html">Приложение B: Основы инференса</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="appendix_systems.html">Приложение C: Основы распределённого состояния</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_a_reference_architecture.html">Приложение D: Эталонная архитектура</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_b_tool_design.html">Приложение E: Типизированные интерфейсы инструментов</a></li><li class="sidebar-item"><a class="sidebar-link" href="app_c_failure_taxonomy.html">Приложение F: Таксономия отказов агентов</a></li><li class="sidebar-item"><a class="sidebar-link" href="glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></details><details class="offline-mobile-toc"><summary>Содержание главы</summary>
+    <h2>Содержание</h2>
+   
+  <ul>
+  <li><a href="#основы-распределённых-систем-sec-vol3-appendix-systems-.unlisted" class="nav-link active"><span class="header-section-number">1</span> Основы распределённых систем</a>
+  <ul class="collapse show">
+  <li><a href="#как-пользоваться-этим-приложением" class="nav-link">Как пользоваться этим приложением</a></li>
+  <li><a href="#sec-vol3-appendix-systems-order" class="nav-link"><span class="header-section-number">1.1</span> Истории и порядок операций</a></li>
+  <li><a href="#sec-vol3-appendix-systems-boundaries" class="nav-link"><span class="header-section-number">1.2</span> Границы гарантий</a></li>
+  <li><a href="#sec-vol3-appendix-systems-transactions" class="nav-link"><span class="header-section-number">1.3</span> Классический материал о транзакциях</a>
+  <ul class="collapse show">
+  <li><a href="#транзакции-и-двухфазная-фиксация" class="nav-link"><span class="header-section-number">1.3.1</span> Транзакции и двухфазная фиксация</a></li>
+  <li><a href="#саги" class="nav-link"><span class="header-section-number">1.3.2</span> Саги</a></li>
+  <li><a href="#журнал-упреждающей-записи" class="nav-link"><span class="header-section-number">1.3.3</span> Журнал упреждающей записи</a></li>
+  </ul></li>
+  <li><a href="#sec-vol3-appendix-systems-retries" class="nav-link"><span class="header-section-number">1.4</span> Повторы и восстановление результатов</a></li>
+  <li><a href="#sec-vol3-appendix-systems-fencing" class="nav-link"><span class="header-section-number">1.5</span> Аренды и отсечение</a></li>
+  </ul></li>
+  </ul>
+</details>
+
+
+
+
+
+<section id="основы-распределённых-систем-sec-vol3-appendix-systems-.unlisted" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Основы распределённых систем</h1>
+<p>Среда исполнения агента опирается на гарантии распределённых систем, когда она фиксирует намерение, вызывает инструмент или передаёт работу другому исполнителю. Это приложение даёт истории, сравнение границ и примеры отказов для интерпретации этих гарантий — без предположения, что локальная транзакция управляет всей задачей целиком. Главы сохраняют специфичные для агентов протоколы допуска, персистентности и компенсации.</p>
+<section id="как-пользоваться-этим-приложением" class="level2 unnumbered">
+<h2 class="unnumbered anchored">Как пользоваться этим приложением</h2>
+<p>Используйте наблюдаемую неоднозначность, чтобы выбрать нужный теоретический материал. Каждая статья изолирует одну гарантию распределённых систем, на которую опирается среда исполнения агента при фиксации намерения, диспетчеризации инструментов или передаче работы между исполнителями:</p>
+<ul>
+<li>Когда метки времени словно противоречат друг другу в вопросе о том, какая операция произошла первой, <a href="#sec-vol3-appendix-systems-order" class="quarto-xref">Глава&nbsp;1.1</a> отличает причинный порядок от навязанного порядка операций.</li>
+<li>Когда дизайн утверждает, что обновление атомарно или долговечно, <a href="#sec-vol3-appendix-systems-boundaries" class="quarto-xref">Глава&nbsp;1.2</a> определяет состояние и отказы, которые должно охватывать это утверждение.</li>
+<li>Когда восстановление задействует транзакции, саги или журнал упреждающей записи, <a href="#sec-vol3-appendix-systems-transactions" class="quarto-xref">Глава&nbsp;1.3</a> разделяет их гарантии.</li>
+<li>Когда ответ потерян, <a href="#sec-vol3-appendix-systems-retries" class="quarto-xref">Глава&nbsp;1.4</a> различает повторное исполнение, повторные эффекты и восстановление результата.</li>
+<li>Когда сменный исполнитель принимает владение, <a href="#sec-vol3-appendix-systems-fencing" class="quarto-xref">Глава&nbsp;1.5</a> объясняет, как ресурс отсекает устаревшего владельца.</li>
+</ul>
+<p>Эти различия помогают в интерпретации, но не заменяют реальный контракт конечной точки. Главы основного текста, упомянутые в каждом разделе, определяют дополнительные протоколы среды исполнения, необходимые для сквозной безопасности.</p>
+</section>
+<section id="sec-vol3-appendix-systems-order" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored"><span class="header-section-number">1.1</span> Истории и порядок операций</h2>
+<p>Два исполнителя читают одну и ту же версию конфигурации и независимо готовят замены. Сортировка их записей в журнале по меткам времени реального времени не решает, какая замена может быть опубликована. Часы могут расходиться, и даже идеально упорядоченные наблюдения не помешают обоим исполнителям действовать на основе старой версии.</p>
+<p>Причинная история записывает зависимости, а не выводит их из меток времени. Отношение «произошло-раньше» Лэмпорта включает локальный порядок событий процесса, передачу сообщения до его получения и транзитивные следствия этих отношений. События, не связанные этим отношением, конкурентны. Логические часы сохраняют импликацию от причинного предшествования к возрастанию значений часов, но обратное неверно: неравные логические метки времени не обязательно устанавливают причинную связь <span class="citation" data-cites="lamport1978time">(<a href="#ref-lamport1978time" role="doc-biblioref">Lamport 1978 г.</a>)</span>.</p>
+<p>Конечная точка может навязывать своим операциям более сильный контракт. При линеаризуемости каждая завершённая операция выглядит как вступающая в силу в одной точке между вызовом и ответом, согласованно с последовательной спецификацией объекта. Если одна операция вернулась до начала другой, этот порядок должен соблюдаться. Перекрывающиеся операции могут получить любой порядок, если их результаты соответствуют этой спецификации. Оригинальное условие корректности <span class="citation" data-cites="herlihy1990linearizability">(<a href="#ref-herlihy1990linearizability" role="doc-biblioref">Herlihy и Wing 1990 г.</a>)</span> касается наблюдаемых историй, а не синхронизированных часов.</p>
+<p>Для примера с конфигурацией предположим, что конечная точка предоставляет линеаризуемое условное обновление, которое сравнивает ожидаемую версию и заменяет значение и версию вместе. Когда оба исполнителя передают одну и ту же старую версию, одно обновление успешно выполняется и увеличивает версию, так что другое не может также успешно завершиться против этого устаревшего предусловия. Эта гарантия соблюдается, только если версии никогда не возвращаются к старому идентификатору и каждый конфликтующий писатель проходит через контролирующую границу, поскольку отдельное чтение с последующей безусловной записью не реализует эту операцию.</p>
+<p>Сравнение защищает только то, что оно охватывает. Если публикация также зависит от изменяющейся записи о разрешениях в другом месте, проверка только версии конфигурации оставляет это разрешение непроверенным при публикации. Поэтому порядок операций требует явной границы состояния, а не просто метки упорядочивания.</p>
+</section>
+<section id="sec-vol3-appendix-systems-boundaries" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored"><span class="header-section-number">1.2</span> Границы гарантий</h2>
+<p>Сервис может зафиксировать обновление в базе данных, в то время как отправленное другому сервису уведомление остаётся недоставленным. Называть это обновление транзакцией не помещает уведомление внутрь неё. Сравнение гарантий в <a href="#tbl-vol3-appendix-systems-guarantees" class="quarto-xref">Таблица&nbsp;1</a> разделяет утверждения, которые часто появляются вместе, но отвечают на разные вопросы об отказах.</p>
+<div id="tbl-vol3-appendix-systems-guarantees" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[19,40,41]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-vol3-appendix-systems-guarantees-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;1: <strong>Различные гарантии транзакций</strong>: Каждое свойство требует объявленной границы; ни одно из них не даёт остальных свойств только своим названием.
+</figcaption>
+<div aria-describedby="tbl-vol3-appendix-systems-guarantees-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 40%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Свойство</th>
+<th style="text-align: left;">Что определяет контракт</th>
+<th style="text-align: left;">Что из него не следует</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Атомарность</td>
+<td style="text-align: left;">Какие изменения фиксируются или откатываются вместе</td>
+<td style="text-align: left;">Несвязанные удалённые эффекты участвуют</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Изоляция</td>
+<td style="text-align: left;">Какие конкурентные наблюдения и чередования допускаются</td>
+<td style="text-align: left;">Каждый уровень изоляции даёт семантику последовательного исполнения</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Долговечность</td>
+<td style="text-align: left;">Какие подтверждённые изменения переживают какие отказы</td>
+<td style="text-align: left;">Каждая копия или домен отказов выживает</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Согласованность приложения</td>
+<td style="text-align: left;">Какие ограничения состояния сохраняет каждая зафиксированная транзакция</td>
+<td style="text-align: left;">Хранилище понимает, корректен ли результат задачи</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Атомарность касается единицы фиксации, тогда как долговечность касается персистентности после фиксации <span class="citation" data-cites="gray1981transaction">(<a href="#ref-gray1981transaction" role="doc-biblioref">Gray 1981 г.</a>)</span>. Процесс может восстановиться после сбоя, используя неповреждённый локальный диск, и всё же потерять ту же историю, если диск исчезнет навсегда. Репликация расширяет множество переживаемых отказов только тогда, когда политика подтверждения требует от соответствующих реплик сохранить обновление. Поэтому слово «долговечный» должно указывать и на подтверждение, и на предполагаемые отказы.</p>
+<p>Изоляция касается помех при конкурентном исполнении. Сериализуемое исполнение даёт эффект некоторого последовательного порядка участвующих транзакций; оно не обязательно сохраняет их порядок в реальном времени. Транзакция, работающая на более слабой изоляции, может наблюдать другой класс историй. Даже сериализуемость не способна исправить некорректную транзакцию, нарушающую задуманное правило приложения при одиночном выполнении. Инженер должен установить и корректный переход состояния, и контракт конкурентного исполнения, в котором он выполняется.</p>
+<p>Для рабочего процесса, охватывающего независимые конечные точки, проверка границы состоит в том, чтобы определить, какие операции участвуют в одном решении о фиксации. Всё, что вне этого множества, нуждается в собственном контракте завершения и восстановления. Классические механизмы координации сохраняют это различие.</p>
+</section>
+<section id="sec-vol3-appendix-systems-transactions" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored"><span class="header-section-number">1.3</span> Классический материал о транзакциях</h2>
+<p>Сбой базы данных может оставить изменённые страницы на диске, в то время как другие изменения остаются только в памяти. Распределённый рабочий процесс добавляет ещё одну трудность: один участник мог зафиксироваться, тогда как другой не получил решения. Восстановление транзакций решает эти случаи только там, где хранилище и участники реализуют требуемый протокол.</p>
+<section id="транзакции-и-двухфазная-фиксация" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored"><span class="header-section-number">1.3.1</span> Транзакции и двухфазная фиксация</h3>
+<p>Когда рабочий процесс обновляет два независимых хранилища, сбой после фиксации первого хранилища может оставить второе хранилище откатённым, если только оба хранилища предварительно не согласились удерживать свои изменения в подготовленном состоянии. Двухфазная фиксация координирует это решение об атомарной фиксации среди участвующих менеджеров ресурсов. Во время подготовки каждый участник устанавливает, что он может зафиксироваться, и сохраняет необходимое состояние для восстановления. Участник, проголосовавший за фиксацию, не может затем откатиться в одностороннем порядке лишь потому, что перестал получать сигналы от координатора. Финальное решение определяет, фиксируются участники или откатываются <span class="citation" data-cites="gray1981transaction">(<a href="#ref-gray1981transaction" role="doc-biblioref">Gray 1981 г.</a>)</span>. Подготовка, следовательно, является обязательством по восстановлению, а не намёком на готовность.</p>
+<p>Протокол требует сотрудничающих участников. Запись слова «prepare» в журнал среды исполнения не подключает несвязанный сервис и не делает его эффект обратимым. Более того, подготовленный участник может быть вынужден ждать, когда он не может узнать решение. Дизайн должен учитывать эту блокировку и ресурсы, удерживаемые во время ожидания; атомарное решение не является обещанием ограниченного времени завершения.</p>
+</section>
+<section id="саги" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored"><span class="header-section-number">1.3.2</span> Саги</h3>
+<p>Удержание блокировок базы данных на протяжении многосекундного вызова инструмента или ожидания подтверждения человеком блокирует всех конкурентных писателей сервиса. Чтобы избежать долгоживущих блокировок, сага делит длинную операцию на отдельно фиксируемые транзакции с компенсирующими транзакциями для частичного исполнения <span class="citation" data-cites="garciamolina1987sagas">(<a href="#ref-garciamolina1987sagas" role="doc-biblioref">Garcia-Molina и Salem 1987 г.</a>)</span>. Промежуточные эффекты могут стать видимыми, поскольку вся последовательность не сохраняет изоляцию одной транзакции. Бронирование с последующей отменой иллюстрирует различие: отмена — это новый переход состояния, а не удаление прежней истории.</p>
+<p>Приложение должно специфицировать, что компенсация восстанавливает, а что остаётся. Уже понесённые списания или наблюдения другого клиента могут пережить её. Оригинальная абстракция саги опирается на способность системы исполнить требуемые компенсации; удалённый рабочий процесс должен отдельно обрабатывать компенсаторы, которые отказывают или остаются в неопределённости. <strong><a class="ref" href="../12_failure_recovery/12_failure_recovery.html#sec-vol3-sagas-architecture">Паттерн «сага траектории»</a></strong> развивает специфичные для агентов записи обязательств и доказательства, необходимые для этого случая.</p>
+</section>
+<section id="журнал-упреждающей-записи" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored"><span class="header-section-number">1.3.3</span> Журнал упреждающей записи</h3>
+<p>Если процесс отказывает после перезаписи страницы данных на диске, но до записи того, что изменилось, восстановление не может определить, содержит ли страница старое состояние, новое состояние или разорванную смесь обоих. Журнал упреждающей записи устраняет эту неоднозначность, навязывая порядок между информацией для восстановления и персистентными изменениями. Прежде чем база данных записывает изменённую страницу в персистентное хранилище, информация журнала, необходимая для восстановления этого изменения, должна быть долговечной. Прежде чем она подтверждает долговечную фиксацию, требуемый префикс журнала транзакций должен пережить обещанные отказы. Этот порядок допускает восстановление, даже когда сами страницы данных были выгружены не все.</p>
+<p>ARIES организует восстановление в анализ, повтор и отмену <span class="citation" data-cites="mohan1992aries">(<a href="#ref-mohan1992aries" role="doc-biblioref">Mohan и др. 1992 г.</a>)</span>. Анализ реконструирует состояние восстановления; повтор воспроизводит релевантную журналированную историю; отмена удаляет эффекты транзакций, назначенных на откат, журналируя при этом работу по отмене. Подготовленные транзакции, ожидающие решения о фиксации, должны сохранять свой неразрешённый статус. Постраничный повтор ARIES и поддержка логической отмены более общие, чем восстановление старого побайтового образа для каждой операции. Цепочки журнала транзакций помогают находить более ранние записи, но конкретный формат записи — это выбор алгоритма, а не определение журнала упреждающей записи.</p>
+<p>Долговечное намерение среды исполнения заимствует требование упорядочивания, но не контроль базы данных над удалённым состоянием. Восстановление записи запроса не устанавливает, что конечная точка его исполнила. <strong><a class="ref" href="../11_durable_execution/11_durable_execution.html#sec-vol3-persistence-wal">Долговременный intent до диспетчеризации</a></strong> развивает это различие для диспетчеризации траекторий; интерпретация неопределённого ответа дополнительно требует контракта повтора конечной точки.</p>
+</section>
+</section>
+<section id="sec-vol3-appendix-systems-retries" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored"><span class="header-section-number">1.4</span> Повторы и восстановление результатов</h2>
+<p>Клиент прерывается по таймауту после запроса на изменение состояния. Сервер мог никогда не получить запрос, мог ещё исполнять его или мог завершить его и потерять ответ. Один таймаут не различает эти истории. Поэтому протоколы удалённого вызова процедур разделяют обработку ретрансляции и знание вызывающего об исполнении <span class="citation" data-cites="birrell1984rpc">(<a href="#ref-birrell1984rpc" role="doc-biblioref">Birrell и Nelson 1984 г.</a>)</span>.</p>
+<p>Идемпотентность означает, что повторение операции даёт тот же эффект на заданном состоянии, что и однократное применение, при заявленных условиях. Она не требует одинаковых ответов. Обновление с ожидаемой версией может отклонить повтор после более раннего успеха, защищая состояние, но оставляя вызывающего в неведении, какой именно вызов удался. Наоборот, повторный «set» может перезаписать вмешавшегося писателя, даже если дважды установить одно и то же значение идемпотентно само по себе.</p>
+<p>Дедупликация требует стабильной логической идентичности операции и контролирующей записи на границе эффекта. Ограниченная реализация может атомарно фиксировать локальную мутацию вместе с идентичностью операции и её результатом. Повторная доставка этой идентичности тогда восстанавливает записанный результат вместо повторения мутации. Если запись и эффект фиксируются независимо, сбой между ними воссоздаёт неоднозначность. Повторное использование идентичности с другими аргументами также должно отклоняться или иначе разрешаться объявленным контрактом.</p>
+<p>Удержание результата ограничивает гарантию. Когда конечная точка отбрасывает запись, старый запрос не должен молча становиться новой операцией, если контракт не допускает такого поведения. «Ровно один раз» имеет смысл только при заявленной границе эффекта, области видимости идентичности, правиле удержания и модели отказов; он не подразумевает eventual завершения сквозь бесконечные недоступности. <strong><a class="ref" href="../07_tool_calling/07_tool_calling.html#sec-vol3-tool-calling-idempotency">Повторение неопределённых действий</a></strong> применяет эти различия к результатам инструментов, не трактуя таймаут как разрешение повторить эффект.</p>
+</section>
+<section id="sec-vol3-appendix-systems-fencing" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored"><span class="header-section-number">1.5</span> Аренды и отсечение</h2>
+<p>Исполнитель приостанавливается достаточно долго, чтобы потерять свою аренду. Сменщик приобретает владение, но старый исполнитель позднее возобновляется и отправляет буферизованную запись. Новое предоставление владения от сервиса владения само по себе не останавливает этот запрос на ресурсе.</p>
+<p>Аренда предоставляет владение на ограниченный интервал в рамках заявленного контракта синхронизации. Токен отсечения обеспечивает принуждение на ресурсе. Один из дизайнов присоединяет аутентифицированное поколение владения к запросам и записывает текущее поколение на ресурсе. После установки поколения сменщика ресурс отклоняет запросы от более старых поколений. Механизм секвенсора Chubby <span class="citation" data-cites="burrows2006chubby">(<a href="#ref-burrows2006chubby" role="doc-biblioref">Burrows 2006 г.</a>)</span> служит примером валидации поколения блокировки на стороне ресурса.</p>
+<p>Мы можем проверить передачу владения, задержав запись старого исполнителя до момента после установки нового отсечения. Отклонение демонстрирует задуманное отсечение для этой трассы. Если запись приходит до установки, одно лишь сравнение поколений не может обнаружить истечение старой аренды. Для этого требуется контракт действительности аренды или протокол передачи владения, устанавливающий отсечение до того, как полагаться на отсечение.</p>
+<p>Текущий владелец может выпустить несколько различных операций под одним поколением; отсечение не дедуплицирует их. И большее целое число само по себе не устанавливает полномочий, если ресурс не аутентифицирует своё предоставление. Эти различия удерживают отдельно владение, обработку повторов и расчёт эффектов. Реализация должна принуждать каждую гарантию там, где соответствующее состояние может измениться.</p>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">использованная литература</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-birrell1984rpc" class="csl-entry" role="listitem">
+Birrell, Andrew D., и Bruce Jay Nelson. 1984 г. <span>«Implementing Remote Procedure Calls»</span>. <em>ACM Transactions on Computer Systems</em> 2 (1): 39–59. <a href="https://doi.org/10.1145/2080.357392">https://doi.org/10.1145/2080.357392</a>.
+</div>
+<div id="ref-burrows2006chubby" class="csl-entry" role="listitem">
+Burrows, Mike. 2006 г. <span>«The <span>Chubby</span> Lock Service for Loosely-Coupled Distributed Systems»</span>. <em>USENIX Symposium on Operating Systems Design and Implementation (OSDI)</em>.<a href="https://www.usenix.org/conference/osdi-06/chubby-lock-service-loosely-coupled-distributed-systems">https://www.usenix.org/conference/osdi-06/chubby-lock-service-loosely-coupled-distributed-systems </a>.
+</div>
+<div id="ref-garciamolina1987sagas" class="csl-entry" role="listitem">
+Garcia-Molina, Hector, и Kenneth Salem. 1987 г. <span>«Sagas»</span>. <em>Proceedings of the 1987 ACM SIGMOD International Conference on Management of Data</em>, 249–59. <a href="https://doi.org/10.1145/38713.38742">https://doi.org/10.1145/38713.38742</a>.
+</div>
+<div id="ref-gray1981transaction" class="csl-entry" role="listitem">
+Gray, Jim. 1981 г. <span>«The Transaction Concept: Virtues and Limitations»</span>. <em>Proceedings of the Seventh International Conference on Very Large Data Bases (VLDB)</em> 7: 144–54.
+</div>
+<div id="ref-herlihy1990linearizability" class="csl-entry" role="listitem">
+Herlihy, Maurice P., и Jeannette M. Wing. 1990 г. <span>«Linearizability: A Correctness Condition for Concurrent Objects»</span>. <em>ACM Transactions on Programming Languages and Systems</em> 12 (3): 463–92. <a href="https://doi.org/10.1145/78969.78972">https://doi.org/10.1145/78969.78972</a>.
+</div>
+<div id="ref-lamport1978time" class="csl-entry" role="listitem">
+Lamport, Leslie. 1978 г. <span>«Time, Clocks, and the Ordering of Events in a Distributed System»</span>. <em>Communications of the ACM</em> 21 (7): 558–65. <a href="https://doi.org/10.1145/359545.359563">https://doi.org/10.1145/359545.359563</a>.
+</div>
+<div id="ref-mohan1992aries" class="csl-entry" role="listitem">
+Mohan, Chandrasekaran, Don Haderle, Bruce Lindsay, Hamid Pirahesh, и Peter Schwarz. 1992 г. <span>«<span>ARIES</span>: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging»</span>. <em>ACM Transactions on Database Systems</em> 17 (1): 94–162. <a href="https://doi.org/10.1145/128765.128770">https://doi.org/10.1145/128765.128770</a>.
+</div>
+</div></section></div><nav class="offline-pager" aria-label="Переход между главами"><a href="appendix_inference.html">← Приложение B: Основы инференса</a><a href="../../index.html">Оглавление</a><a href="app_a_reference_architecture.html">Приложение D: Эталонная архитектура →</a></nav></main> <!-- /main -->
+
+  
+</div> <!-- /content -->
+    
+  
+
+
+
+
+</body></html>

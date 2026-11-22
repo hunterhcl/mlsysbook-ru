@@ -1,0 +1,573 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' file: data:; style-src 'self' file: 'unsafe-inline'; font-src 'self' file: data:; script-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>about – Физический ИИ — Том IV</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-0b983791fd02a84ab17c6cf8e5c4fb5d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+
+
+
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-8f022b0e57e5ed0e7d204115147e731a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+
+
+<link href="../../../../site_libs/quarto-contrib/foldbox/foldbox.css" rel="stylesheet">
+
+<link href="../../../../site_libs/quarto-contrib/pseudocode-2.4.1/pseudocode.min.css" rel="stylesheet">
+
+<!-- AUTO-GENERATED NOTATION MACROS FROM MLSYSIM -->
+<link rel="stylesheet" href="../../../../offline.css"></head><body class="nav-sidebar floating quarto-light offline-book"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Перейти к основному тексту</a>
+
+<style type="text/css">
+/* Фокус-рисунок главы вверху правого поля: отодвигаем «Содержание» вниз,
+   чтобы оно не наезжало на рисунок (только на страницах с фокусом). */
+body:has(.column-margin img[src*="margin_stack"]) div.sidebar.margin-sidebar {
+  margin-top: 210px;
+}
+</style>
+<style>
+.callout-chapter-connection {
+  --color1: #F1F5F9;
+  --color2: #64748B;
+  --border-color: #64748B;
+  --background-color: rgba(100, 116, 139, 0.04);
+  --title-background-color: rgba(100, 116, 139, 0.04);
+  --dark-background-color: rgba(100, 116, 139, 0.12);
+  --dark-title-background-color: rgba(100, 116, 139, 0.12);
+}
+.callout-notebook {
+  --color1: #F4F7FA;
+  --color2: #3F6077;
+  --border-color: #3F6077;
+  --background-color: rgba(63, 96, 119, 0.04);
+  --title-background-color: rgba(63, 96, 119, 0.04);
+  --dark-background-color: rgba(63, 96, 119, 0.12);
+  --dark-title-background-color: rgba(63, 96, 119, 0.12);
+}
+.callout-research-questions {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-learning-objectives {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-theorem {
+  --color1: #F5F0FA;
+  --color2: #6B46C1;
+  --border-color: #6B46C1;
+  --background-color: rgba(107, 70, 193, 0.04);
+  --title-background-color: rgba(107, 70, 193, 0.04);
+  --dark-background-color: rgba(107, 70, 193, 0.12);
+  --dark-title-background-color: rgba(107, 70, 193, 0.12);
+}
+.callout-colab {
+  --color1: #FFF5E6;
+  --color2: #FF6B35;
+  --border-color: #FF6B35;
+  --background-color: rgba(255, 107, 53, 0.04);
+  --title-background-color: rgba(255, 107, 53, 0.04);
+  --dark-background-color: rgba(255, 107, 53, 0.12);
+  --dark-title-background-color: rgba(255, 107, 53, 0.12);
+}
+.callout-quiz-question {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-resource-videos {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-takeaways {
+  --color1: #FCF4F8;
+  --color2: #9D3C72;
+  --border-color: #9D3C72;
+  --background-color: rgba(157, 60, 114, 0.04);
+  --title-background-color: rgba(157, 60, 114, 0.04);
+  --dark-background-color: rgba(157, 60, 114, 0.12);
+  --dark-title-background-color: rgba(157, 60, 114, 0.12);
+}
+.callout-perspective {
+  --color1: #F7F8FA;
+  --color2: #4A5568;
+  --border-color: #4A5568;
+  --background-color: rgba(74, 85, 104, 0.04);
+  --title-background-color: rgba(74, 85, 104, 0.04);
+  --dark-background-color: rgba(74, 85, 104, 0.12);
+  --dark-title-background-color: rgba(74, 85, 104, 0.12);
+}
+.callout-code {
+  --color1: #F2F4F8;
+  --color2: #3C4858;
+  --border-color: #3C4858;
+  --background-color: rgba(60, 72, 88, 0.04);
+  --title-background-color: rgba(60, 72, 88, 0.04);
+  --dark-background-color: rgba(60, 72, 88, 0.12);
+  --dark-title-background-color: rgba(60, 72, 88, 0.12);
+}
+.callout-warning {
+  --color1: #FEF2F2;
+  --color2: #DC2626;
+  --border-color: #DC2626;
+  --background-color: rgba(220, 38, 38, 0.04);
+  --title-background-color: rgba(220, 38, 38, 0.04);
+  --dark-background-color: rgba(220, 38, 38, 0.12);
+  --dark-title-background-color: rgba(220, 38, 38, 0.12);
+}
+.callout-quiz-answer {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-case-study {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-principle {
+  --color1: #F3F2FA;
+  --color2: #3D3B8E;
+  --border-color: #3D3B8E;
+  --background-color: rgba(61, 59, 142, 0.04);
+  --title-background-color: rgba(61, 59, 142, 0.04);
+  --dark-background-color: rgba(61, 59, 142, 0.12);
+  --dark-title-background-color: rgba(61, 59, 142, 0.12);
+}
+.callout-lighthouse {
+  --color1: #FDF8E6;
+  --color2: #B8860B;
+  --border-color: #B8860B;
+  --background-color: rgba(184, 134, 11, 0.04);
+  --title-background-color: rgba(184, 134, 11, 0.04);
+  --dark-background-color: rgba(184, 134, 11, 0.12);
+  --dark-title-background-color: rgba(184, 134, 11, 0.12);
+}
+.callout-example {
+  --color1: #F0F8F6;
+  --color2: #148F77;
+  --border-color: #148F77;
+  --background-color: rgba(20, 143, 119, 0.04);
+  --title-background-color: rgba(20, 143, 119, 0.04);
+  --dark-background-color: rgba(20, 143, 119, 0.12);
+  --dark-title-background-color: rgba(20, 143, 119, 0.12);
+}
+.callout-caution {
+  --color1: #FFFBEB;
+  --color2: #D97706;
+  --border-color: #D97706;
+  --background-color: rgba(217, 119, 6, 0.04);
+  --title-background-color: rgba(217, 119, 6, 0.04);
+  --dark-background-color: rgba(217, 119, 6, 0.12);
+  --dark-title-background-color: rgba(217, 119, 6, 0.12);
+}
+.callout-resource-slides {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-resource-exercises {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-checkpoint {
+  --color1: #F7FEE7;
+  --color2: #4D7C0F;
+  --border-color: #4D7C0F;
+  --background-color: rgba(77, 124, 15, 0.04);
+  --title-background-color: rgba(77, 124, 15, 0.04);
+  --dark-background-color: rgba(77, 124, 15, 0.12);
+  --dark-title-background-color: rgba(77, 124, 15, 0.12);
+}
+.callout-war-story {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-definition {
+  --color1: #F2F7FA;
+  --color2: #4F7396;
+  --border-color: #4F7396;
+  --background-color: rgba(79, 115, 150, 0.04);
+  --title-background-color: rgba(79, 115, 150, 0.04);
+  --dark-background-color: rgba(79, 115, 150, 0.12);
+  --dark-title-background-color: rgba(79, 115, 150, 0.12);
+}
+</style>
+
+<style>
+details.callout-chapter-connection > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_chapter_connection.png");
+}
+details.callout-notebook > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_notebook.png");
+}
+details.callout-research-questions > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_research_questions.png");
+}
+details.callout-learning-objectives > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_learning_objectives.png");
+}
+details.callout-theorem > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_theorem.png");
+}
+details.callout-colab > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_colab.png");
+}
+details.callout-quiz-question > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_quiz_question.png");
+}
+details.callout-resource-videos > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_videos.png");
+}
+details.callout-takeaways > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_takeaways.png");
+}
+details.callout-perspective > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_perspective.png");
+}
+details.callout-code > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_code.png");
+}
+details.callout-warning > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_warning.png");
+}
+details.callout-quiz-answer > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_quiz_answer.png");
+}
+details.callout-case-study > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_case_study.png");
+}
+details.callout-principle > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_principle.png");
+}
+details.callout-lighthouse > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_lighthouse.png");
+}
+details.callout-example > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_example.png");
+}
+details.callout-caution > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_caution.png");
+}
+details.callout-resource-slides > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_slides.png");
+}
+details.callout-resource-exercises > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_exercises.png");
+}
+details.callout-checkpoint > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_checkpoint.png");
+}
+details.callout-war-story > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_case_study.png");
+}
+details.callout-definition > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_definition.png");
+}
+</style>
+    <style type="text/css">
+    .ps-root .ps-algorithm {
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+    }
+    .pseudocode-container {
+      text-align: left;
+    }
+    </style>
+  
+      <style type="text/css">
+      .ps-algorithm > .ps-line {
+        text-align: left;
+      }
+      </style>
+    
+
+  
+  
+
+
+
+
+
+
+
+
+  <header id="quarto-header"><nav aria-label="Сайт" class="offline-navbar"><a class="offline-brand" href="../../../../index.html">Библиотека HCL</a><div class="offline-top-links"><a href="../../index.html">Оглавление</a><a href="../../vol1/01_introduction/01_introduction.html">Том 1</a><a href="../../vol2/01_introduction/01_introduction.html">Том 2</a><a href="../../vol3/01_introduction/01_introduction.html">Том 3</a><a href="../index.html">Том 4</a></div></nav></header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="offline-sidebar" aria-label="Сайт"><p class="offline-volume">Том 4</p><p class="offline-volume-title">Системы физического ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../index.html">Физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="about.html">Предисловие</a></li><li class="sidebar-item"><a class="sidebar-link" href="dedication.html">Посвящение</a></li><li class="sidebar-item"><a class="sidebar-link" href="author_note.html">Примечание автора</a></li><li class="sidebar-item"><a class="sidebar-link" href="about_author.html">Об авторе</a></li><li class="sidebar-item"><a class="sidebar-link" href="prerequisites.html">Руководство для читателя и необходимая подготовка</a></li><li class="sidebar-item"><a class="sidebar-link" href="acknowledgements.html">Благодарности</a></li><li class="sidebar-item"><a class="sidebar-link" href="ai_use.html">Об использовании ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="notation.html">Обозначения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../01_boundary/01_boundary.html">Причинная граница</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/anatomy_principles.html">Анатомия машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_body/02_body.html">Физическое тело</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_brain/03_brain.html">Когнитивный мозг</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_nervous/04_nervous.html">Нервная система</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/teaching_principles.html">Обучение машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_data/05_data.html">Физические данные</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_training/06_training.html">Обучение политики управления</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_evaluation/07_evaluation.html">Оценка в замкнутом контуре</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/running_principles.html">Работа машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_perception/08_perception.html">Восприятие с помощью датчиков</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_memory/09_memory.html">Пространственная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_intent/10_intent.html">Намерение с физической привязкой</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_planning/11_planning.html">Планирование траектории</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_enforcement/12_enforcement.html">Принудительное обеспечение безопасности</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_placement/13_placement.html">Размещение рабочей нагрузки</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/governing_principles.html">Надзор за машиной</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_intervention/14_intervention.html">Вмешательство оператора</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_verification/15_verification.html">Верификация в неблагоприятных условиях</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_release/16_release.html">Допуск к эксплуатации</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_responsibility/17_responsibility.html">Ответственный физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_frontier/18_frontier.html">Инженерия физического ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/references.html">Литература</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_ml.html">Основы машинного обучения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_control.html">Управление и динамика</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_systems.html">Системы и аппаратное обеспечение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_spa.html">Парадигма «Восприятие — планирование — действие»</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/glossary/glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#sec-about" id="toc-sec-about" class="nav-link active">Предисловие</a>
+  <ul class="collapse show">
+  <li><a href="#sec-about-audience" id="toc-sec-about-audience" class="nav-link">Для кого эта книга</a></li>
+  <li><a href="#sec-about-why" id="toc-sec-about-why" class="nav-link">Зачем нужен физический ИИ Учебник</a></li>
+  <li><a href="#sec-about-mental-model" id="toc-sec-about-mental-model" class="nav-link">Причинная граница и четыре закона</a></li>
+  <li><a href="#sec-about-covers" id="toc-sec-about-covers" class="nav-link">О чем эта книга</a></li>
+  <li><a href="#sec-about-reading" id="toc-sec-about-reading" class="nav-link">Как читать эту книгу</a>
+  <ul class="collapse show">
+  <li><a href="#sec-about-margin-pointers" id="toc-sec-about-margin-pointers" class="nav-link">Поля для чтения и указатели навигации</a></li>
+  </ul></li>
+  <li><a href="#sec-about-not" id="toc-sec-about-not" class="nav-link">Чем не является эта книга</a></li>
+  <li><a href="#sec-about-durability" id="toc-sec-about-durability" class="nav-link">Примечание о долговечности</a></li>
+  <li><a href="#sec-about-open-source" id="toc-sec-about-open-source" class="nav-link">Учебник с открытым исходным кодом</a></li>
+  <li><a href="#sec-about-living" id="toc-sec-about-living" class="nav-link">Живой учебник</a></li>
+  <li><a href="#sec-about-prerequisites" id="toc-sec-about-prerequisites" class="nav-link">Предварительные требования</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1"><details class="offline-mobile-nav"><summary>Главы тома 4</summary><p class="offline-volume">Том 4</p><p class="offline-volume-title">Системы физического ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../index.html">Физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="about.html">Предисловие</a></li><li class="sidebar-item"><a class="sidebar-link" href="dedication.html">Посвящение</a></li><li class="sidebar-item"><a class="sidebar-link" href="author_note.html">Примечание автора</a></li><li class="sidebar-item"><a class="sidebar-link" href="about_author.html">Об авторе</a></li><li class="sidebar-item"><a class="sidebar-link" href="prerequisites.html">Руководство для читателя и необходимая подготовка</a></li><li class="sidebar-item"><a class="sidebar-link" href="acknowledgements.html">Благодарности</a></li><li class="sidebar-item"><a class="sidebar-link" href="ai_use.html">Об использовании ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="notation.html">Обозначения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../01_boundary/01_boundary.html">Причинная граница</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/anatomy_principles.html">Анатомия машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_body/02_body.html">Физическое тело</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_brain/03_brain.html">Когнитивный мозг</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_nervous/04_nervous.html">Нервная система</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/teaching_principles.html">Обучение машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_data/05_data.html">Физические данные</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_training/06_training.html">Обучение политики управления</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_evaluation/07_evaluation.html">Оценка в замкнутом контуре</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/running_principles.html">Работа машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_perception/08_perception.html">Восприятие с помощью датчиков</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_memory/09_memory.html">Пространственная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_intent/10_intent.html">Намерение с физической привязкой</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_planning/11_planning.html">Планирование траектории</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_enforcement/12_enforcement.html">Принудительное обеспечение безопасности</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_placement/13_placement.html">Размещение рабочей нагрузки</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/governing_principles.html">Надзор за машиной</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_intervention/14_intervention.html">Вмешательство оператора</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_verification/15_verification.html">Верификация в неблагоприятных условиях</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_release/16_release.html">Допуск к эксплуатации</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_responsibility/17_responsibility.html">Ответственный физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_frontier/18_frontier.html">Инженерия физического ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/references.html">Литература</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_ml.html">Основы машинного обучения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_control.html">Управление и динамика</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_systems.html">Системы и аппаратное обеспечение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_spa.html">Парадигма «Восприятие — планирование — действие»</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/glossary/glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></details>
+
+
+
+
+
+<section id="sec-about" class="level1 unnumbered">
+<h1 class="unnumbered">Предисловие</h1>
+<section id="sec-about-audience" class="level2">
+<h2 class="anchored">Для кого эта книга</h2>
+<p>Эта книга предназначена для студентов старших курсов и начинающих аспирантов в области информатики, робототехники, электротехники и машинного обучения, а также для практикующих инженеров, которые создают, развертывают или сертифицируют физические системы искусственного интеллекта. Она написана для инженера, который видел, как воплощенная политика преуспела в моделировании или демонстрации по сценарию, и теперь должен создать машину, которая день за днем ​​перемещает массы среди людей. Эта машина не должна столкнуться с коллегой, повредить полезную нагрузку, сжечь обмотку двигателя или убежать из-за тайм-аута сети.</p>
+<p>Читатель должен понимать основы программирования на Python и интуитивное машинное обучение, а также знакомиться с вводными понятиями ньютоновской физики, линейной алгебры и основ теории вероятности. Книга не предполагает наличие предыдущих книг этой серии. Он разрабатывает концепции физического ИИ там, где они впервые используются, и выводит временные характеристики, управление и взаимосвязь с размещением оборудования, необходимые для анализа воплощенных рабочих нагрузок, не требуя специального образования в теории нелинейного управления или микроархитектуры интегральных схем (ASIC) для конкретных приложений.</p>
+</section>
+<section id="sec-about-why" class="level2">
+<h2 class="anchored">Зачем нужен физический ИИ Учебник</h2>
+<p>Разумный инженер мог бы взглянуть на нынешнюю волну моделей фундаментов роботов и задать скептический вопрос. <em>Является ли физический ИИ настоящей системной дисциплиной с прочными принципами, или это просто классическая робототехника с прикрученным трансформатором или сквозная нейронная сеть, работающая на бортовом компьютере?</em></p>
+<p>Скептицизм справедлив. Большая часть того, что написано о воплощенном ИИ, посвящена впечатляющим демонстрациям однозадачности, таким как ловкое ручное складывание белья или гуманоид, идущий по лаборатории. Демонстрация, однако, не является развертыванием. В полевых условиях неудача редко возникает из-за грубой выразительности модели. Что дает сбой, так это система вокруг нее: когда наблюдение поступает с опозданием на 50 миллисекунд, предложение действий требует большего крутящего момента, чем могут обеспечить приводы шарнирного привода, или немоделированная задержка превращает команду торможения в удар.</p>
+<p>Традиционные системы машинного обучения основаны на бестелесном прогнозировании. Модель оценивает статические входные данные в разомкнутом цикле и возвращает рекомендательные метки, рейтинги или токены, не воздействуя непосредственно на мир. Поскольку человек или нижестоящая служба все равно должны решить, что делать с этими выходными данными, ошибочный прогноз может быть отброшен или пересчитан до того, как он причинит вред, а системная инженерия сосредотачивается на балансировании затрат на обучение с задержкой обслуживания, памятью и пропускной способностью. Системы агентного машинного обучения переходят от одиночных прогнозов к последовательным действиям: модель формулирует многоэтапные планы, проверяет обратную связь и вызывает программные инструменты в замкнутом цикле. Однако пока этот цикл остается внутри цифровой среды, виртуальное время можно приостановить, выполнение можно изолировать, а неудачные транзакции можно откатить.</p>
+<p>Системы физического ИИ привносят агентность в непрерывную физику. Когда автономная модель управляет исполнительными механизмами, вычисления пересекают причинную границу массы, импульса, трения и тепла. В непрерывной физике не существует виртуальных песочниц: время не может остановиться, пока рассматривается модель фундамента, а ньютоновская работа не может быть повернута вспять после удара. Более крупная модель не может сократить тормозной путь, охладить электрическую обмотку или восстановить зазор, затраченный во время вычислений. Поэтому физический ИИ требует архитектурной дисциплины. Изученные модели предполагают, в то время как независимый путь разрешения, со своим собственным временем и собственным резервным рабочим режимом, решает, что может проникнуть в физический мир.</p>
+<p>Эта книга учит, как проектировать, измерять и управлять этой машиной. Ее центральный вопрос заключается в том, что нужно воплощенной задаче на основе изученной модели для создания полезного физического сервиса, подкрепленного необходимыми доказательствами. Читатели должны иметь возможность переводить физические ограничения в вычислительные бюджеты, разрабатывать сенсомоторные политики, которые замыкают цикл в рамках сроков в реальном времени, обеспечивать гарантию выполнения во время независимо от ученого, предлагающего, и обосновывать выпуск обоснованием безопасности, которое связывает утверждения с эмпирическими данными.</p>
+</section>
+<section id="sec-about-mental-model" class="level2">
+<h2 class="anchored">Причинная граница и четыре закона</h2>
+<p>Единицей проектирования в этой книге является <strong>причинная граница</strong>, интерфейс, где допустимая цифровая команда становится током в обмотке двигателя, крутящим моментом на валу и физической силой, передаваемой в мир. Точность имеющегося набора данных не является мерилом физической системы искусственного интеллекта. Мерой является то, достигают ли действия с обратной связью цели задачи в проверенных физических пределах, что подтверждается доказательствами, независимыми от самоотчета изученной модели, и с какой ценой в задержке, энергии, тепловом запасе и вычислениях.</p>
+<p>Четыре основных закона определяют архитектуру книги. Каждый закон сочетает физическое или статистическое ограничение с системным механизмом, необходимым для его ограничения:</p>
+<ul>
+<li><strong>Первый закон: необратимость.</strong> Программное обеспечение не может отменить физические последствия. Каждая проверка, допускающая команду, должна завершиться до того, как машина пройдет оставшееся расстояние, поэтому физические ограничения становятся строгими бюджетами по времени, расстоянию, крутящему моменту, нагреву и напряжению.</li>
+<li><strong>Второй закон: эндогенные данные.</strong> Действия физической машины выбирают ее следующие наблюдения. Состояния, которые посещает развернутая политика, обусловлены ее собственными предыдущими действиями, поэтому компетентность - это утверждение, ограниченное операционным диапазоном, который фактически проверяется оценкой с обратной связью.</li>
+<li><strong>Третий закон: предложение не является разрешением.</strong> Обученная модель может предлагать движение; только независимый путь разрешения может это допустить. Путь разрешений оценивает состояние, возраст которого ограничен, выполняется в течение детерминированного срока, установленного физикой объекта управления, и поддерживает возможный резервный режим, который не зависит от обученного предлагающего.</li>
+<li><strong>Четвертый закон: разрешение должно быть заработано.</strong> Разрешение на эксплуатацию предоставляется в соответствии с условиями эксплуатации на основании записанных доказательств, и его срок действия истекает, когда эти доказательства исчезают.</li>
+</ul>
+<p>Первый из них – физический закон. Остальные три — это принципы проектирования, воплощенные аналоги ковариатного сдвига, обеспечение работоспособности и обоснование безопасности. Эта книга возводит их в ранг основополагающих законов, поскольку производственная машина, нарушающая их, подвергается предсказуемым физическим рискам.</p>
+<p>Два отношения определяют количественную оценку этих обязательств на протяжении всей книги. <strong>Задержка — это расстояние</strong> определяет тормозной бюджет: если машина, движущаяся со скоростью <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg aria-label="\SpeedAtDetection" style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.097ex" height="1.027ex" role="img" focusable="false" viewBox="0 -443 485 454"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D463" d="M173 380Q173 405 154 405Q130 405 104 376T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Q21 294 29 316T53 368T97 419T160 441Q202 441 225 417T249 361Q249 344 246 335Q246 329 231 291T200 202T182 113Q182 86 187 69Q200 26 250 26Q287 26 319 60T369 139T398 222T409 277Q409 300 401 317T383 343T365 361T357 383Q357 405 376 424T417 443Q436 443 451 425T467 367Q467 340 455 284T418 159T347 40T241 -11Q177 -11 139 22Q102 54 102 117Q102 148 110 181T151 298Q173 362 173 380Z"></path></g></g></g></svg></mjx-container></span>, требует времени реакции <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg aria-label="\PrebrakeDelay" style="vertical-align: -0.666ex;" xmlns="http://www.w3.org/2000/svg" width="4.866ex" height="1.641ex" role="img" focusable="false" viewBox="0 -431 2150.6 725.2"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D70F" d="M39 284Q18 284 18 294Q18 301 45 338T99 398Q134 425 164 429Q170 431 332 431Q492 431 497 429Q517 424 517 402Q517 388 508 376T485 360Q479 358 389 358T299 356Q298 355 283 274T251 109T233 20Q228 5 215 -4T186 -13Q153 -13 153 20V30L203 192Q214 228 227 272T248 336L254 357Q254 358 208 358Q206 358 197 358T183 359Q105 359 61 295Q56 287 53 286T39 284Z"></path></g><g data-mml-node="TeXAtom" transform="translate(470,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="64" d="M376 495Q376 511 376 535T377 568Q377 613 367 624T316 637H298V660Q298 683 300 683L310 684Q320 685 339 686T376 688Q393 689 413 690T443 693T454 694H457V390Q457 84 458 81Q461 61 472 55T517 46H535V0Q533 0 459 -5T380 -11H373V44L365 37Q307 -11 235 -11Q158 -11 96 50T34 215Q34 315 97 378T244 442Q319 442 376 393V495ZM373 342Q328 405 260 405Q211 405 173 369Q146 341 139 305T131 211Q131 155 138 120T173 59Q203 26 251 26Q322 26 373 103V342Z"></path><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z" transform="translate(556,0)"></path><path data-c="6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z" transform="translate(1000,0)"></path><path data-c="61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z" transform="translate(1278,0)"></path><path data-c="79" d="M69 -66Q91 -66 104 -80T118 -116Q118 -134 109 -145T91 -160Q84 -163 97 -166Q104 -168 111 -168Q131 -168 148 -159T175 -138T197 -106T213 -75T225 -43L242 0L170 183Q150 233 125 297Q101 358 96 368T80 381Q79 382 78 382Q66 385 34 385H19V431H26L46 430Q65 430 88 429T122 428Q129 428 142 428T171 429T200 430T224 430L233 431H241V385H232Q183 385 185 366L286 112Q286 113 332 227L376 341V350Q376 365 366 373T348 383T334 385H331V431H337H344Q351 431 361 431T382 430T405 429T422 429Q477 429 503 431H508V385H497Q441 380 422 345Q420 343 378 235T289 9T227 -131Q180 -204 113 -204Q69 -204 44 -177T19 -116Q19 -89 35 -78T69 -66Z" transform="translate(1778,0)"></path></g></g></g></g></g></svg></mjx-container></span> для обнаружения, расчета и срабатывания перед замедлением со скоростью <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg aria-label="\CredibleBrakingDeceleration" style="vertical-align: -0.357ex;" xmlns="http://www.w3.org/2000/svg" width="5.256ex" height="1.355ex" role="img" focusable="false" viewBox="0 -441 2323.2 598.8"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="TeXAtom" transform="translate(562,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="62" d="M307 -11Q234 -11 168 55L158 37Q156 34 153 28T147 17T143 10L138 1L118 0H98V298Q98 599 97 603Q94 622 83 628T38 637H20V660Q20 683 22 683L32 684Q42 685 61 686T98 688Q115 689 135 690T165 693T176 694H179V543Q179 391 180 391L183 394Q186 397 192 401T207 411T228 421T254 431T286 439T323 442Q401 442 461 379T522 216Q522 115 458 52T307 -11ZM182 98Q182 97 187 90T196 79T206 67T218 55T233 44T250 35T271 29T295 26Q330 26 363 46T412 113Q424 148 424 212Q424 287 412 323Q385 405 300 405Q270 405 239 390T188 347L182 339V98Z"></path><path data-c="72" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z" transform="translate(556,0)"></path><path data-c="61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z" transform="translate(948,0)"></path><path data-c="6B" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T97 124T98 167T98 217T98 272T98 329Q98 366 98 407T98 482T98 542T97 586T97 603Q94 622 83 628T38 637H20V660Q20 683 22 683L32 684Q42 685 61 686T98 688Q115 689 135 690T165 693T176 694H179V463L180 233L240 287Q300 341 304 347Q310 356 310 364Q310 383 289 385H284V431H293Q308 428 412 428Q475 428 484 431H489V385H476Q407 380 360 341Q286 278 286 274Q286 273 349 181T420 79Q434 60 451 53T500 46H511V0H505Q496 3 418 3Q322 3 307 0H299V46H306Q330 48 330 65Q330 72 326 79Q323 84 276 153T228 222L176 176V120V84Q176 65 178 59T189 49Q210 46 238 46H254V0H246Q231 3 137 3T28 0H20V46H36Z" transform="translate(1448,0)"></path><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z" transform="translate(1976,0)"></path></g></g></g></g></g></svg></mjx-container></span>, общий тормозной путь равен <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg aria-label="\StoppingDistance = \SpeedAtDetection \cdot \PrebrakeDelay + \frac{\SpeedAtDetection^2}{2\CredibleBrakingDeceleration}" style="vertical-align: -1.033ex;" xmlns="http://www.w3.org/2000/svg" width="23.198ex" height="3.258ex" role="img" focusable="false" viewBox="0 -983.7 10253.7 1440.2"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"></path></g><g data-mml-node="TeXAtom" transform="translate(553,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="73" d="M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z"></path><path data-c="74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z" transform="translate(394,0)"></path><path data-c="6F" d="M28 214Q28 309 93 378T250 448Q340 448 405 380T471 215Q471 120 407 55T250 -10Q153 -10 91 57T28 214ZM250 30Q372 30 372 193V225V250Q372 272 371 288T364 326T348 362T317 390T268 410Q263 411 252 411Q222 411 195 399Q152 377 139 338T126 246V226Q126 130 145 91Q177 30 250 30Z" transform="translate(783,0)"></path><path data-c="70" d="M36 -148H50Q89 -148 97 -134V-126Q97 -119 97 -107T97 -77T98 -38T98 6T98 55T98 106Q98 140 98 177T98 243T98 296T97 335T97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 61 434T98 436Q115 437 135 438T165 441T176 442H179V416L180 390L188 397Q247 441 326 441Q407 441 464 377T522 216Q522 115 457 52T310 -11Q242 -11 190 33L182 40V-45V-101Q182 -128 184 -134T195 -145Q216 -148 244 -148H260V-194H252L228 -193Q205 -192 178 -192T140 -191Q37 -191 28 -194H20V-148H36ZM424 218Q424 292 390 347T305 402Q234 402 182 337V98Q222 26 294 26Q345 26 384 80T424 218Z" transform="translate(1283,0)"></path></g></g></g><g data-mml-node="mo" transform="translate(2181.1,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mi" transform="translate(3236.9,0)"><path data-c="1D463" d="M173 380Q173 405 154 405Q130 405 104 376T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Q21 294 29 316T53 368T97 419T160 441Q202 441 225 417T249 361Q249 344 246 335Q246 329 231 291T200 202T182 113Q182 86 187 69Q200 26 250 26Q287 26 319 60T369 139T398 222T409 277Q409 300 401 317T383 343T365 361T357 383Q357 405 376 424T417 443Q436 443 451 425T467 367Q467 340 455 284T418 159T347 40T241 -11Q177 -11 139 22Q102 54 102 117Q102 148 110 181T151 298Q173 362 173 380Z"></path></g><g data-mml-node="mo" transform="translate(3944.1,0)"><path data-c="22C5" d="M78 250Q78 274 95 292T138 310Q162 310 180 294T199 251Q199 226 182 208T139 190T96 207T78 250Z"></path></g><g data-mml-node="msub" transform="translate(4444.4,0)"><g data-mml-node="mi"><path data-c="1D70F" d="M39 284Q18 284 18 294Q18 301 45 338T99 398Q134 425 164 429Q170 431 332 431Q492 431 497 429Q517 424 517 402Q517 388 508 376T485 360Q479 358 389 358T299 356Q298 355 283 274T251 109T233 20Q228 5 215 -4T186 -13Q153 -13 153 20V30L203 192Q214 228 227 272T248 336L254 357Q254 358 208 358Q206 358 197 358T183 359Q105 359 61 295Q56 287 53 286T39 284Z"></path></g><g data-mml-node="TeXAtom" transform="translate(470,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="64" d="M376 495Q376 511 376 535T377 568Q377 613 367 624T316 637H298V660Q298 683 300 683L310 684Q320 685 339 686T376 688Q393 689 413 690T443 693T454 694H457V390Q457 84 458 81Q461 61 472 55T517 46H535V0Q533 0 459 -5T380 -11H373V44L365 37Q307 -11 235 -11Q158 -11 96 50T34 215Q34 315 97 378T244 442Q319 442 376 393V495ZM373 342Q328 405 260 405Q211 405 173 369Q146 341 139 305T131 211Q131 155 138 120T173 59Q203 26 251 26Q322 26 373 103V342Z"></path><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z" transform="translate(556,0)"></path><path data-c="6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z" transform="translate(1000,0)"></path><path data-c="61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z" transform="translate(1278,0)"></path><path data-c="79" d="M69 -66Q91 -66 104 -80T118 -116Q118 -134 109 -145T91 -160Q84 -163 97 -166Q104 -168 111 -168Q131 -168 148 -159T175 -138T197 -106T213 -75T225 -43L242 0L170 183Q150 233 125 297Q101 358 96 368T80 381Q79 382 78 382Q66 385 34 385H19V431H26L46 430Q65 430 88 429T122 428Q129 428 142 428T171 429T200 430T224 430L233 431H241V385H232Q183 385 185 366L286 112Q286 113 332 227L376 341V350Q376 365 366 373T348 383T334 385H331V431H337H344Q351 431 361 431T382 430T405 429T422 429Q477 429 503 431H508V385H497Q441 380 422 345Q420 343 378 235T289 9T227 -131Q180 -204 113 -204Q69 -204 44 -177T19 -116Q19 -89 35 -78T69 -66Z" transform="translate(1778,0)"></path></g></g></g><g data-mml-node="mo" transform="translate(6817.2,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g><g data-mml-node="mfrac" transform="translate(7817.4,0)"><g data-mml-node="msup" transform="translate(892.3,394) scale(0.707)"><g data-mml-node="mi"><path data-c="1D463" d="M173 380Q173 405 154 405Q130 405 104 376T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Q21 294 29 316T53 368T97 419T160 441Q202 441 225 417T249 361Q249 344 246 335Q246 329 231 291T200 202T182 113Q182 86 187 69Q200 26 250 26Q287 26 319 60T369 139T398 222T409 277Q409 300 401 317T383 343T365 361T357 383Q357 405 376 424T417 443Q436 443 451 425T467 367Q467 340 455 284T418 159T347 40T241 -11Q177 -11 139 22Q102 54 102 117Q102 148 110 181T151 298Q173 362 173 380Z"></path></g><g data-mml-node="mn" transform="translate(518,363) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mrow" transform="translate(220,-345) scale(0.707)"><g data-mml-node="mn"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g><g data-mml-node="msub" transform="translate(500,0)"><g data-mml-node="mi"><path data-c="1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></g><g data-mml-node="TeXAtom" transform="translate(562,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext"><path data-c="62" d="M307 -11Q234 -11 168 55L158 37Q156 34 153 28T147 17T143 10L138 1L118 0H98V298Q98 599 97 603Q94 622 83 628T38 637H20V660Q20 683 22 683L32 684Q42 685 61 686T98 688Q115 689 135 690T165 693T176 694H179V543Q179 391 180 391L183 394Q186 397 192 401T207 411T228 421T254 431T286 439T323 442Q401 442 461 379T522 216Q522 115 458 52T307 -11ZM182 98Q182 97 187 90T196 79T206 67T218 55T233 44T250 35T271 29T295 26Q330 26 363 46T412 113Q424 148 424 212Q424 287 412 323Q385 405 300 405Q270 405 239 390T188 347L182 339V98Z"></path><path data-c="72" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z" transform="translate(556,0)"></path><path data-c="61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z" transform="translate(948,0)"></path><path data-c="6B" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T97 124T98 167T98 217T98 272T98 329Q98 366 98 407T98 482T98 542T97 586T97 603Q94 622 83 628T38 637H20V660Q20 683 22 683L32 684Q42 685 61 686T98 688Q115 689 135 690T165 693T176 694H179V463L180 233L240 287Q300 341 304 347Q310 356 310 364Q310 383 289 385H284V431H293Q308 428 412 428Q475 428 484 431H489V385H476Q407 380 360 341Q286 278 286 274Q286 273 349 181T420 79Q434 60 451 53T500 46H511V0H505Q496 3 418 3Q322 3 307 0H299V46H306Q330 48 330 65Q330 72 326 79Q323 84 276 153T228 222L176 176V120V84Q176 65 178 59T189 49Q210 46 238 46H254V0H246Q231 3 137 3T28 0H20V46H36Z" transform="translate(1448,0)"></path><path data-c="65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z" transform="translate(1976,0)"></path></g></g></g></g><rect width="2196.3" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container></span>. Каждая миллисекунда задержки — это расстояние, пройденное до начала торможения. <strong>Истечение срока действия</strong> управляет достоверностью состояния: наблюдение или оценка состояния имеют временную метку истечения срока действия, полученную из максимальной скорости изменений контролируемой физической системы, после которой оно не может обосновать утверждение безопасности.</p>
+<p>Архитектура машины разделяет пять ролей: <strong>Мозг</strong> (обученные модели, предлагающие цели и движения), <strong>Нервная система</strong> (детерминированная коммуникация и независимый путь разрешения), <strong>Корпус</strong> (приводы приводов, трансмиссии, обмотки и системы питания), <strong>Граница</strong> (запись регистров и захват данных датчиков) и <strong>Мир</strong> (непрерывная физическая динамика, препятствия и люди). Мобильный складской манипулятор, который перемещается по проходу, совместно используемому с работниками, открывает дверь с пружинной защелкой и перемещает хрупкий полезный груз, служит эталонной машиной в каждой главе. Пример гуманоида в конце каждой части проверяет, выживут ли рассуждения в теле, сочетающем в себе баланс, крутящий момент суставов и рассеивание тепла.</p>
+</section>
+<section id="sec-about-covers" class="level2">
+<h2 class="anchored">О чем эта книга</h2>
+<p>Книга строит понимание в порядке физической зависимости: <strong>анатомия, обучение, бег, управление</strong>. В каждой части добавляются обязанности, к оценке которых читатель готовится в предыдущем материале, а справочные приложения содержат вспомогательные математические, управляющие и аппаратные выводы:</p>
+<ul>
+<li><strong>Введение: Причинная граница</strong> (<a class="quarto-xref" href="../01_boundary/01_boundary.html#sec-boundary">Глава 1</a>) оценивает задержку на причинной границе, определяет пятиуровневую машинную архитектуру и устанавливает четыре управляющих закона.</li>
+<li><strong>Часть I: Анатомия машины</strong> превращает первый закон в физические бюджеты. <a class="quarto-xref" href="../02_body/02_body.html#sec-body">Глава 2</a> измеряет то, что тело может сделать до повреждения, <a class="quarto-xref" href="../03_brain/03_brain.html#sec-brain">Глава 3</a> характеризует обученного предлагающего и то, как быстро устаревают его доказательства, а <a class="quarto-xref" href="../04_nervous/04_nervous.html#sec-nervous">Глава 4</a> определяет, как часто должен проходить путь разрешения и как долго предложение может управлять исполнительными механизмами.</li>
+<li><strong>Часть II: Обучение машины</strong> применяет второй закон к сенсомоторному обучению. <a class="quarto-xref" href="../05_data/05_data.html#sec-data">Глава 5</a> записывает демонстрации с условиями их эксплуатации, <a class="quarto-xref" href="../06_training/06_training.html#sec-training">Глава 6</a> анализирует режимы обучения и зависимости, которые они скрывают, а <a class="quarto-xref" href="../07_evaluation/07_evaluation.html#sec-evaluation">Глава 7</a> ограничивает компетентность политики посредством оценки с обратной связью с конечным числом проб.</li>
+<li><strong>Часть III: Запуск машины</strong> применяет третий закон во время выполнения. Он следует за измерениями датированных датчиков через восприятие (<a class="quarto-xref" href="../08_perception/08_perception.html#sec-perception">Глава 8</a>), пространственную память и оценку состояния (<a class="quarto-xref" href="../09_memory/09_memory.html#sec-memory">Глава 9</a>), привязка намерения (<a class="quarto-xref" href="../10_intent/10_intent.html#sec-intent">Глава 10</a>) и планирование траектории (<a class="quarto-xref" href="../11_planning/11_planning.html#sec-planning">Глава 11</a>) до принудительного исполнения во время выполнения (<a class="quarto-xref" href="../12_enforcement/12_enforcement.html#sec-enforcement">Глава 12</a>), а также проверяет, поддерживает ли оборудование реального времени этот путь вовремя. (<a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement">Глава 13</a>).</li>
+<li><strong>Часть IV: Управление машиной</strong> применяет четвёртый закон к оперативной власти. <a class="quarto-xref" href="../14_intervention/14_intervention.html#sec-intervention">Глава 14</a> управляет передачей полномочий между машиной и оператором. <a class="quarto-xref" href="../15_verification/15_verification.html#sec-verification">Глава 15</a> вводит физические и вычислительные ошибки, чтобы доказать сдерживание. <a class="quarto-xref" href="../16_release/16_release.html#sec-release">Глава 16</a> создает обоснование безопасности, оправдывающее выпуск при указанных условиях. <a class="quarto-xref" href="../17_responsibility/17_responsibility.html#sec-responsibility">Глава 17</a> называет тех, кто отвечает за каждое решение, лежащее в основе допустимого действия, какие человеческие роли человек действительно может выполнять, и какие люди несут риск машины и фигурируют в ее записях.</li>
+<li><strong>Вывод: Инженерный физический ИИ</strong> (<a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a>) синтезирует полную методологию, переносит рассуждения на незнакомую машину и устанавливает открытые границы исследований.</li>
+</ul>
+<p>Справочные приложения содержат базовую информацию по основам машинного обучения (<a class="quarto-xref" href="../backmatter/appendix_ml.html#sec-appendix-ml">Основы машинного обучения</a>), управлению и динамике (<a class="quarto-xref" href="../backmatter/appendix_control.html#sec-appendix-control">Управление и динамика</a>), системам и оборудованию (<a class="quarto-xref" href="../backmatter/appendix_systems.html#sec-appendix-systems">Системы и аппаратное обеспечение</a>), устранению сенсомоторных неполадок (<a class="quarto-xref" href="../backmatter/appendix_spa.html#sec-appendix-spa-troubleshooting">физический ИИ. Матрица устранения производственных неполадок</a>), а также единый глоссарий. Каждое приложение организовано в виде справочника, чтобы читатели могли ознакомиться с конкретным выводом, не теряя нити основного текста.</p>
+</section>
+<section id="sec-about-reading" class="level2">
+<h2 class="anchored">Как читать эту книгу</h2>
+<p>Книга написана для того, чтобы ее читали по порядку. В каждой главе используются только идеи, представленные ранее или определенные там, где они появляются, и каждая владеет своими концепциями. Каждая глава начинается с описания физической проблемы, которую она решает, раскрывает механизм как ответ и завершается подведением итогов и переходом к следующей главе. Классические системные механизмы (периоды действия сторожевых разрешений, фильтры безопасности, блокировки, отказоустойчивые резервы и планирование в реальном времени) представляют собой конкретные решения физических опасностей, а не абстрактную теорию.</p>
+<p>Читатели с особым вниманием могут адаптировать свою глубину после введения. Четыре направления соответствуют основным инженерным должностям, которые сотрудничают при развертывании физического ИИ:</p>
+<ul>
+<li><strong>Учебная программа по основным системам</strong>: следуйте полной последовательности от <a class="quarto-xref" href="../01_boundary/01_boundary.html#sec-boundary">Глава 1</a> до <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a>, чтобы интегрировать физические ограничения, обучение, проектирование среды выполнения и эксплуатационные данные.</li>
+<li><strong>Системы машинного обучения и изученные среды выполнения</strong>: сосредоточьтесь на общей основе, сенсомоторной тренировке и оценке (от <a class="quarto-xref" href="../05_data/05_data.html#sec-data">Глава 5</a> до <a class="quarto-xref" href="../07_evaluation/07_evaluation.html#sec-evaluation">Глава 7</a>), восприятии и планировании (от <a class="quarto-xref" href="../08_perception/08_perception.html#sec-perception">Глава 8</a> до <a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement">Глава 13</a>) и выпуске. (<a class="quarto-xref" href="../16_release/16_release.html#sec-release">Глава 16</a>).</li>
+<li><strong>Встроенные системы и микросхемы</strong>: Сосредоточьтесь на общей основе, размещении среды выполнения (<a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement">Глава 13</a>), синхронизации связи (<a class="quarto-xref" href="../04_nervous/04_nervous.html#sec-nervous">Глава 4</a>) и проверке ошибок (<a class="quarto-xref" href="../15_verification/15_verification.html#sec-verification">Глава 15</a>).</li>
+<li><strong>Робототехника, контроль и обеспечение</strong>: Сосредоточьтесь на общей основе, оценке состояния и планировании (<a class="quarto-xref" href="../09_memory/09_memory.html#sec-memory">Глава 9</a>–<a class="quarto-xref" href="../11_planning/11_planning.html#sec-planning">Глава 11</a>), обеспечении исполнения во время выполнения (<a class="quarto-xref" href="../12_enforcement/12_enforcement.html#sec-enforcement">Глава 12</a>), человеческом вмешательстве (<a class="quarto-xref" href="../14_intervention/14_intervention.html#sec-intervention">Глава 14</a>) и ответственности за окружающих. машина (<a class="quarto-xref" href="../17_responsibility/17_responsibility.html#sec-responsibility">Глава 17</a>).</li>
+</ul>
+<p>Доказательства перетекают от физической анатомии через обучение и выполнение во время выполнения к оперативному выпуску, и зависимости глав в шести разделах книги следуют этому прогрессу (<a href="#fig-vol4-chapter-dependencies" class="quarto-xref">рисунок&nbsp;1</a>). Каждая стрелка на карте представляет собой конкретную запись или физическую границу, передаваемую от одного этапа разработки к другому.</p>
+<div id="fig-vol4-chapter-dependencies" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Шесть горизонтальных полос, по одной на каждый раздел книги от введения до заключения, каждая из которых содержит блоки глав. Стрелки соединяют главы между подразделениями. Сплошные стрелки используют три веса для подсчета цитирования; пунктирные стрелки обозначают светлые звенья." data-fig-env="figure" data-fig-pos="htb">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vol4-chapter-dependencies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../../ru/vol4/frontmatter/images/svg/fm_chapter_dependency_map.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vol4-chapter-dependencies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;1: <strong>Карта зависимостей глав</strong>: стрелки показывают зависимости глав между разделами книги. Вес сплошной стрелки соответствует полосам количества цитирований в легенде: 5–9, 10–19 и 20 или более цитирований; пунктирные стрелки обозначают светлые связи. Транзитивные ссылки опущены для ясности.
+</figcaption>
+</figure>
+</div>
+<section id="sec-about-margin-pointers" class="level3">
+<h3 class="anchored">Поля для чтения и указатели навигации</h3>
+<p>На полях рядом с текстом размещены небольшие наглядные пособия, где легче всего увидеть количественные отношения, разрыв масштаба или порог. Каждый визуальный образ соответствует одной из пяти повторяющихся форм:</p>
+<ul>
+<li><strong>Лестники</strong> охватывают порядки величин (например, пропускную способность приема датчиков или скорость выполнения цикла).</li>
+<li><strong>Пороговые колени</strong> отмечают точку, в которой физическое соотношение меняет режим (например, отраженная инерция ротора, доминирующая в зубчатых передачах, или пиковые силы контактной жесткости).</li>
+<li><strong>Конверты бюджета</strong> устанавливают конкурирующие требования в зависимости от крайнего срока (например, этапы диффузионного шумоподавления в зависимости от периодов контроля или задержки при поглощении оператором).</li>
+<li><strong>Полоски последовательности</strong> иллюстрируют многофазную синхронизацию (например, выполнение фрагмента с отступающим горизонтом или подтверждение неисправности).</li>
+<li><strong>Причинно-следственные цепочки</strong> отслеживают распространение неисправности от ошибки датчика до физических последствий.</li>
+</ul>
+<div class="quarto-layout-panel" data-layout-ncol="4">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="../../../ru/vol4/05_data/images/svg/margin_sensory_ingestion_bandwidth_ladder.svg" class="img-fluid" alt="Визуальный пример поля: лестница пропускной способности записи."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="../../../ru/vol4/02_body/images/svg/margin_reflected_rotor_inertia_knee.svg" class="img-fluid" alt="Визуальный пример поля: пороговое колено, показывающее оптимальный коэффициент согласования инерции."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="../../../ru/vol4/06_training/images/svg/margin_generative_inference_deadlines_envelope.svg" class="img-fluid" alt="Наглядный пример маржи: бюджетный конверт, сравнивающий время шумоподавления со сроками контроля."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="../../../ru/vol4/14_intervention/images/svg/margin_takeover_allowance_envelope.svg" class="img-fluid" alt="Наглядный пример маржи: бюджетный конверт, устанавливающий допуск на поглощение в зависимости от времени остановки."></p>
+</div>
+</div>
+</div>
+<p>Наряду с этими визуальными примечаниями, ненумерованные <strong>маргинальные навигационные указатели</strong> прослеживают архитектурные связи между главами. Три символа определяют, смотрит ли указатель назад на основу, вперед на последующего потребителя или на контрастный дизайн:</p>
+<ul>
+<li><strong><code>↩︎</code> Указатель назад:</strong> Направляет читателя обратно к предыдущей главе, где была установлена физическая привязка, аппаратный контракт или тактовая частота.</li>
+<li><strong><code>↪</code> Указатель вперед:</strong> Направляет читателя к следующей главе или к приложению, где идея развивается, измеряется или реализуется.</li>
+<li><strong><code>⇄</code> Контраст:</strong> Отмечает место, где две главы или машинные классы по-разному решают одну и ту же проблему.</li>
+</ul>
+<p>Указатель только ориентирует. Если аргумент зависит от другой главы, ссылка остается в тексте.</p>
+</section>
+</section>
+<section id="sec-about-not" class="level2">
+<h2 class="anchored">Чем не является эта книга</h2>
+<p>Это не руководство по ROS 2 или промежуточному программному обеспечению. Промежуточное программное обеспечение и платформы обмена сообщениями меняются, тогда как физические требования, которым они должны удовлетворять (ограниченная задержка, детерминированная сериализация и изоляция ошибок), остаются неизменными. Поэтому в книге протоколы реального времени и очереди сообщений представлены только как механизмы соблюдения установленных физических сроков. Это также не руководство по механическому САПР или трактат по проектированию двигателей, поскольку в нем характеризуются приводы, трансмиссии и температурные ограничения через бюджеты на программное обеспечение, которые они налагают, а не через их механическое производство. По той же причине моделирование предстает здесь не как таблица лидеров, где оценки разомкнутого цикла используются для развертывания, а как инструмент для генерации гипотез и обучающих данных. Его утверждения все равно должны быть проверены на физической машине. Программные агенты, которые действуют исключительно с помощью цифровых API без физических исполнительных механизмов, остаются за пределами нашей компетенции.</p>
+</section>
+<section id="sec-about-durability" class="level2">
+<h2 class="anchored">Примечание о долговечности</h2>
+<p>Форм-факторы роботов, архитектура нейронных сетей и микросхемы приводов двигателей будут развиваться, причем некоторые из них будут развиваться еще до того, как эта книга выйдет в печать. Таким образом, в тексте подчеркиваются принципы, которые выдерживают эти переходы: причинная граница как единица разработки, четыре управляющих закона, разделение между учеными предлагающими и детерминистическими путями разрешения, а также дисциплина, обосновывающая оперативный авторитет эмпирическими данными. Текущие платформы и модели представлены повсюду, чтобы конкретизировать концепции, но принципы не зависят от какого-либо конкретного поставщика, модели или аппаратной платформы. Там, где вопрос активно не решается в этой области, например, как лучше всего проверить общую политику в редких крайних случаях, книга представляет проблему как открытую инженерную задачу, а не как устоявшуюся доктрину.</p>
+</section>
+<section id="sec-about-open-source" class="level2">
+<h2 class="anchored">Учебник с открытым исходным кодом</h2>
+<p>Эта книга имеет открытый исходный код. Полный текст, рисунки и система сборки доступны по адресу <a href="https://mlsysbook.ai/git">mlsysbook.ai/git</a>, вклад каждого читателя приветствуется. Эта открытость является преднамеренной. физический ИИ опирается на робототехнику, управление, машинное обучение и встроенные системы, знания которых редко хранятся в одном месте. Учебник, который их объединяет, должен быть доступен всем, кто работает за пределами этих границ, независимо от географического положения или институциональной принадлежности.</p>
+<p>Читатели помогают больше всего, исправляя ошибку, предлагая более четкое объяснение, добавляя проработанный пример или сообщая о случаях, когда претензия не распространяется на реальное оборудование. Проблемы и запросы на включение обеспечивают механизм такого сотрудничества.</p>
+</section>
+<section id="sec-about-living" class="level2">
+<h2 class="anchored">Живой учебник</h2>
+<!-- Shared across all volumes. How the book is kept current does not vary by volume,
+     so this statement does not either. Edit here, not in a volume. -->
+<p>Печатный учебник готов в день его сдачи в печать. Этого поля нет, как и мое понимание его. Как педагог, я хочу, чтобы читатели получили самое лучшее объяснение, которое я могу дать, поэтому я продолжаю пересматривать онлайн-издание по мере того, как меняются системы и поскольку преподавание показывает мне более ясный способ объяснить идею. Принципы, изложенные в этой книге, выбраны на века. Примеры, цифры и объяснения вокруг них — вот что меняется. Каждый выпуск имеет номер версии, а в <a href="https://github.com/harvard-edge/cs249r_book/releases">примечаниях к выпуску</a> записано, что изменилось, поэтому курс или цитата могут указывать на фиксированную версию.</p>
+</section>
+<section id="sec-about-prerequisites" class="level2">
+<h2 class="anchored">Предварительные требования</h2>
+<p>Проработанные примеры и выводы основаны на пяти основных областях. Читателям должно быть удобно:</p>
+<ul>
+<li>программирование на Python и работа с числовыми массивами;</li>
+<li>основные концепции машинного обучения, включая контролируемое обучение, функции потерь и логический вывод;</li>
+<li>вводная механика Ньютона (положение, скорость, ускорение, сила, крутящий момент, инерция);</li>
+<li>линейная алгебра (векторы, матрицы, преобразования координат); и</li>
+<li>вероятность бакалавриата и базовая статистика.</li>
+</ul>
+<p>Более глубокое знание классической теории управления, операционных систем реального времени или кинематики робототехники полезно, но не обязательно; В книге развиваются необходимые концепции контроля, оценки и работы в реальном времени там, где они необходимы в первую очередь. Каждый специализированный инструмент вводится с первых принципов в тот момент, когда от него зависит принятие конкретного системного решения.</p>
+
+
+</section>
+</section><details class="offline-mobile-toc"><summary>Содержание главы</summary>
+    <h2>Содержание</h2>
+   
+  <ul>
+  <li><a href="#sec-about" class="nav-link active">Предисловие</a>
+  <ul class="collapse show">
+  <li><a href="#sec-about-audience" class="nav-link">Для кого эта книга</a></li>
+  <li><a href="#sec-about-why" class="nav-link">Зачем нужен физический ИИ Учебник</a></li>
+  <li><a href="#sec-about-mental-model" class="nav-link">Причинная граница и четыре закона</a></li>
+  <li><a href="#sec-about-covers" class="nav-link">О чем эта книга</a></li>
+  <li><a href="#sec-about-reading" class="nav-link">Как читать эту книгу</a>
+  <ul class="collapse show">
+  <li><a href="#sec-about-margin-pointers" class="nav-link">Поля для чтения и указатели навигации</a></li>
+  </ul></li>
+  <li><a href="#sec-about-not" class="nav-link">Чем не является эта книга</a></li>
+  <li><a href="#sec-about-durability" class="nav-link">Примечание о долговечности</a></li>
+  <li><a href="#sec-about-open-source" class="nav-link">Учебник с открытым исходным кодом</a></li>
+  <li><a href="#sec-about-living" class="nav-link">Живой учебник</a></li>
+  <li><a href="#sec-about-prerequisites" class="nav-link">Предварительные требования</a></li>
+  </ul></li>
+  </ul>
+</details>
+
+<nav class="offline-pager" aria-label="Переход между главами"><a href="../index.html">← Физический ИИ</a><a href="../../index.html">Оглавление</a><a href="dedication.html">Посвящение →</a></nav></main> <!-- /main -->
+
+  
+</div> <!-- /content -->
+    
+  
+
+
+
+
+</body></html>

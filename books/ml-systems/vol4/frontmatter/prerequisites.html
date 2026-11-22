@@ -1,0 +1,539 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' file: data:; style-src 'self' file: 'unsafe-inline'; font-src 'self' file: data:; script-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>prerequisites – Физический ИИ — Том IV</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-0b983791fd02a84ab17c6cf8e5c4fb5d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+
+
+
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-8f022b0e57e5ed0e7d204115147e731a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+
+
+<link href="../../../../site_libs/quarto-contrib/foldbox/foldbox.css" rel="stylesheet">
+
+<link href="../../../../site_libs/quarto-contrib/pseudocode-2.4.1/pseudocode.min.css" rel="stylesheet">
+
+<!-- AUTO-GENERATED NOTATION MACROS FROM MLSYSIM -->
+<link rel="stylesheet" href="../../../../offline.css"></head><body class="nav-sidebar floating quarto-light offline-book"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Перейти к основному тексту</a>
+
+<style type="text/css">
+/* Фокус-рисунок главы вверху правого поля: отодвигаем «Содержание» вниз,
+   чтобы оно не наезжало на рисунок (только на страницах с фокусом). */
+body:has(.column-margin img[src*="margin_stack"]) div.sidebar.margin-sidebar {
+  margin-top: 210px;
+}
+</style>
+<style>
+.callout-case-study {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-quiz-answer {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-perspective {
+  --color1: #F7F8FA;
+  --color2: #4A5568;
+  --border-color: #4A5568;
+  --background-color: rgba(74, 85, 104, 0.04);
+  --title-background-color: rgba(74, 85, 104, 0.04);
+  --dark-background-color: rgba(74, 85, 104, 0.12);
+  --dark-title-background-color: rgba(74, 85, 104, 0.12);
+}
+.callout-quiz-question {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-resource-videos {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-research-questions {
+  --color1: #F0F0F8;
+  --color2: #5B4B8A;
+  --border-color: #5B4B8A;
+  --background-color: rgba(91, 75, 138, 0.04);
+  --title-background-color: rgba(91, 75, 138, 0.04);
+  --dark-background-color: rgba(91, 75, 138, 0.12);
+  --dark-title-background-color: rgba(91, 75, 138, 0.12);
+}
+.callout-chapter-connection {
+  --color1: #F1F5F9;
+  --color2: #64748B;
+  --border-color: #64748B;
+  --background-color: rgba(100, 116, 139, 0.04);
+  --title-background-color: rgba(100, 116, 139, 0.04);
+  --dark-background-color: rgba(100, 116, 139, 0.12);
+  --dark-title-background-color: rgba(100, 116, 139, 0.12);
+}
+.callout-definition {
+  --color1: #F2F7FA;
+  --color2: #4F7396;
+  --border-color: #4F7396;
+  --background-color: rgba(79, 115, 150, 0.04);
+  --title-background-color: rgba(79, 115, 150, 0.04);
+  --dark-background-color: rgba(79, 115, 150, 0.12);
+  --dark-title-background-color: rgba(79, 115, 150, 0.12);
+}
+.callout-theorem {
+  --color1: #F5F0FA;
+  --color2: #6B46C1;
+  --border-color: #6B46C1;
+  --background-color: rgba(107, 70, 193, 0.04);
+  --title-background-color: rgba(107, 70, 193, 0.04);
+  --dark-background-color: rgba(107, 70, 193, 0.12);
+  --dark-title-background-color: rgba(107, 70, 193, 0.12);
+}
+.callout-lighthouse {
+  --color1: #FDF8E6;
+  --color2: #B8860B;
+  --border-color: #B8860B;
+  --background-color: rgba(184, 134, 11, 0.04);
+  --title-background-color: rgba(184, 134, 11, 0.04);
+  --dark-background-color: rgba(184, 134, 11, 0.12);
+  --dark-title-background-color: rgba(184, 134, 11, 0.12);
+}
+.callout-principle {
+  --color1: #F3F2FA;
+  --color2: #3D3B8E;
+  --border-color: #3D3B8E;
+  --background-color: rgba(61, 59, 142, 0.04);
+  --title-background-color: rgba(61, 59, 142, 0.04);
+  --dark-background-color: rgba(61, 59, 142, 0.12);
+  --dark-title-background-color: rgba(61, 59, 142, 0.12);
+}
+.callout-war-story {
+  --color1: #FEF2F2;
+  --color2: #C53030;
+  --border-color: #C53030;
+  --background-color: rgba(197, 48, 48, 0.04);
+  --title-background-color: rgba(197, 48, 48, 0.04);
+  --dark-background-color: rgba(197, 48, 48, 0.12);
+  --dark-title-background-color: rgba(197, 48, 48, 0.12);
+}
+.callout-checkpoint {
+  --color1: #F7FEE7;
+  --color2: #4D7C0F;
+  --border-color: #4D7C0F;
+  --background-color: rgba(77, 124, 15, 0.04);
+  --title-background-color: rgba(77, 124, 15, 0.04);
+  --dark-background-color: rgba(77, 124, 15, 0.12);
+  --dark-title-background-color: rgba(77, 124, 15, 0.12);
+}
+.callout-learning-objectives {
+  --color1: #E8F2EA;
+  --color2: #4A7C59;
+  --border-color: #4A7C59;
+  --background-color: rgba(74, 124, 89, 0.04);
+  --title-background-color: rgba(74, 124, 89, 0.04);
+  --dark-background-color: rgba(74, 124, 89, 0.12);
+  --dark-title-background-color: rgba(74, 124, 89, 0.12);
+}
+.callout-takeaways {
+  --color1: #FCF4F8;
+  --color2: #9D3C72;
+  --border-color: #9D3C72;
+  --background-color: rgba(157, 60, 114, 0.04);
+  --title-background-color: rgba(157, 60, 114, 0.04);
+  --dark-background-color: rgba(157, 60, 114, 0.12);
+  --dark-title-background-color: rgba(157, 60, 114, 0.12);
+}
+.callout-caution {
+  --color1: #FFFBEB;
+  --color2: #D97706;
+  --border-color: #D97706;
+  --background-color: rgba(217, 119, 6, 0.04);
+  --title-background-color: rgba(217, 119, 6, 0.04);
+  --dark-background-color: rgba(217, 119, 6, 0.12);
+  --dark-title-background-color: rgba(217, 119, 6, 0.12);
+}
+.callout-notebook {
+  --color1: #F4F7FA;
+  --color2: #3F6077;
+  --border-color: #3F6077;
+  --background-color: rgba(63, 96, 119, 0.04);
+  --title-background-color: rgba(63, 96, 119, 0.04);
+  --dark-background-color: rgba(63, 96, 119, 0.12);
+  --dark-title-background-color: rgba(63, 96, 119, 0.12);
+}
+.callout-resource-exercises {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-warning {
+  --color1: #FEF2F2;
+  --color2: #DC2626;
+  --border-color: #DC2626;
+  --background-color: rgba(220, 38, 38, 0.04);
+  --title-background-color: rgba(220, 38, 38, 0.04);
+  --dark-background-color: rgba(220, 38, 38, 0.12);
+  --dark-title-background-color: rgba(220, 38, 38, 0.12);
+}
+.callout-code {
+  --color1: #F2F4F8;
+  --color2: #3C4858;
+  --border-color: #3C4858;
+  --background-color: rgba(60, 72, 88, 0.04);
+  --title-background-color: rgba(60, 72, 88, 0.04);
+  --dark-background-color: rgba(60, 72, 88, 0.12);
+  --dark-title-background-color: rgba(60, 72, 88, 0.12);
+}
+.callout-example {
+  --color1: #F0F8F6;
+  --color2: #148F77;
+  --border-color: #148F77;
+  --background-color: rgba(20, 143, 119, 0.04);
+  --title-background-color: rgba(20, 143, 119, 0.04);
+  --dark-background-color: rgba(20, 143, 119, 0.12);
+  --dark-title-background-color: rgba(20, 143, 119, 0.12);
+}
+.callout-resource-slides {
+  --color1: #E0F2F1;
+  --color2: #20B2AA;
+  --border-color: #20B2AA;
+  --background-color: rgba(32, 178, 170, 0.04);
+  --title-background-color: rgba(32, 178, 170, 0.04);
+  --dark-background-color: rgba(32, 178, 170, 0.12);
+  --dark-title-background-color: rgba(32, 178, 170, 0.12);
+}
+.callout-colab {
+  --color1: #FFF5E6;
+  --color2: #FF6B35;
+  --border-color: #FF6B35;
+  --background-color: rgba(255, 107, 53, 0.04);
+  --title-background-color: rgba(255, 107, 53, 0.04);
+  --dark-background-color: rgba(255, 107, 53, 0.12);
+  --dark-title-background-color: rgba(255, 107, 53, 0.12);
+}
+</style>
+
+<style>
+details.callout-case-study > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_case_study.png");
+}
+details.callout-quiz-answer > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_quiz_answer.png");
+}
+details.callout-perspective > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_perspective.png");
+}
+details.callout-quiz-question > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_quiz_question.png");
+}
+details.callout-resource-videos > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_videos.png");
+}
+details.callout-research-questions > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_research_questions.png");
+}
+details.callout-chapter-connection > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_chapter_connection.png");
+}
+details.callout-definition > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_definition.png");
+}
+details.callout-theorem > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_theorem.png");
+}
+details.callout-lighthouse > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_lighthouse.png");
+}
+details.callout-principle > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_principle.png");
+}
+details.callout-war-story > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_case_study.png");
+}
+details.callout-checkpoint > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_checkpoint.png");
+}
+details.callout-learning-objectives > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_learning_objectives.png");
+}
+details.callout-takeaways > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_takeaways.png");
+}
+details.callout-caution > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_caution.png");
+}
+details.callout-notebook > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_notebook.png");
+}
+details.callout-resource-exercises > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_exercises.png");
+}
+details.callout-warning > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_warning.png");
+}
+details.callout-code > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_code.png");
+}
+details.callout-example > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_example.png");
+}
+details.callout-resource-slides > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_resource_slides.png");
+}
+details.callout-colab > summary::before {
+  background-image: url("../../../../shared/assets/images/icons/callouts/icon_callout_colab.png");
+}
+</style>
+    <style type="text/css">
+    .ps-root .ps-algorithm {
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+    }
+    .pseudocode-container {
+      text-align: left;
+    }
+    </style>
+  
+      <style type="text/css">
+      .ps-algorithm > .ps-line {
+        text-align: left;
+      }
+      </style>
+    
+
+
+
+
+
+
+
+  <header id="quarto-header"><nav aria-label="Сайт" class="offline-navbar"><a class="offline-brand" href="../../../../index.html">Библиотека HCL</a><div class="offline-top-links"><a href="../../index.html">Оглавление</a><a href="../../vol1/01_introduction/01_introduction.html">Том 1</a><a href="../../vol2/01_introduction/01_introduction.html">Том 2</a><a href="../../vol3/01_introduction/01_introduction.html">Том 3</a><a href="../index.html">Том 4</a></div></nav></header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="offline-sidebar" aria-label="Сайт"><p class="offline-volume">Том 4</p><p class="offline-volume-title">Системы физического ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../index.html">Физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="about.html">Предисловие</a></li><li class="sidebar-item"><a class="sidebar-link" href="dedication.html">Посвящение</a></li><li class="sidebar-item"><a class="sidebar-link" href="author_note.html">Примечание автора</a></li><li class="sidebar-item"><a class="sidebar-link" href="about_author.html">Об авторе</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="prerequisites.html">Руководство для читателя и необходимая подготовка</a></li><li class="sidebar-item"><a class="sidebar-link" href="acknowledgements.html">Благодарности</a></li><li class="sidebar-item"><a class="sidebar-link" href="ai_use.html">Об использовании ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="notation.html">Обозначения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../01_boundary/01_boundary.html">Причинная граница</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/anatomy_principles.html">Анатомия машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_body/02_body.html">Физическое тело</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_brain/03_brain.html">Когнитивный мозг</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_nervous/04_nervous.html">Нервная система</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/teaching_principles.html">Обучение машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_data/05_data.html">Физические данные</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_training/06_training.html">Обучение политики управления</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_evaluation/07_evaluation.html">Оценка в замкнутом контуре</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/running_principles.html">Работа машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_perception/08_perception.html">Восприятие с помощью датчиков</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_memory/09_memory.html">Пространственная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_intent/10_intent.html">Намерение с физической привязкой</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_planning/11_planning.html">Планирование траектории</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_enforcement/12_enforcement.html">Принудительное обеспечение безопасности</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_placement/13_placement.html">Размещение рабочей нагрузки</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/governing_principles.html">Надзор за машиной</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_intervention/14_intervention.html">Вмешательство оператора</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_verification/15_verification.html">Верификация в неблагоприятных условиях</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_release/16_release.html">Допуск к эксплуатации</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_responsibility/17_responsibility.html">Ответственный физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_frontier/18_frontier.html">Инженерия физического ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/references.html">Литература</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_ml.html">Основы машинного обучения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_control.html">Управление и динамика</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_systems.html">Системы и аппаратное обеспечение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_spa.html">Парадигма «Восприятие — планирование — действие»</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/glossary/glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#руководство-для-читателя-и-необходимая-подготовка" id="toc-руководство-для-читателя-и-необходимая-подготовка" class="nav-link active">Руководство для читателя и необходимая подготовка</a>
+  <ul class="collapse show">
+  <li><a href="#sec-prereq-baseline" id="toc-sec-prereq-baseline" class="nav-link">Техническая отправная точка</a>
+  <ul class="collapse show">
+  <li><a href="#sec-prereq-disciplinary-boundaries" id="toc-sec-prereq-disciplinary-boundaries" class="nav-link">Обучение через дисциплинарные границы</a></li>
+  </ul></li>
+  <li><a href="#sec-prereq-tracks" id="toc-sec-prereq-tracks" class="nav-link">Учебные программы по чтению</a></li>
+  <li><a href="#что-представляет-собой-книга" id="toc-что-представляет-собой-книга" class="nav-link">Что представляет собой книга</a></li>
+  <li><a href="#sec-reader-numbers" id="toc-sec-reader-numbers" class="nav-link">Как читать цифры</a></li>
+  <li><a href="#что-мы-намеренно-опускаем" id="toc-что-мы-намеренно-опускаем" class="nav-link">Что мы намеренно опускаем</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1"><details class="offline-mobile-nav"><summary>Главы тома 4</summary><p class="offline-volume">Том 4</p><p class="offline-volume-title">Системы физического ИИ</p><ul class="list-unstyled"><li class="sidebar-item"><a class="sidebar-link" href="../index.html">Физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="about.html">Предисловие</a></li><li class="sidebar-item"><a class="sidebar-link" href="dedication.html">Посвящение</a></li><li class="sidebar-item"><a class="sidebar-link" href="author_note.html">Примечание автора</a></li><li class="sidebar-item"><a class="sidebar-link" href="about_author.html">Об авторе</a></li><li class="sidebar-item"><a class="sidebar-link active" aria-current="page" href="prerequisites.html">Руководство для читателя и необходимая подготовка</a></li><li class="sidebar-item"><a class="sidebar-link" href="acknowledgements.html">Благодарности</a></li><li class="sidebar-item"><a class="sidebar-link" href="ai_use.html">Об использовании ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="notation.html">Обозначения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../01_boundary/01_boundary.html">Причинная граница</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/anatomy_principles.html">Анатомия машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../02_body/02_body.html">Физическое тело</a></li><li class="sidebar-item"><a class="sidebar-link" href="../03_brain/03_brain.html">Когнитивный мозг</a></li><li class="sidebar-item"><a class="sidebar-link" href="../04_nervous/04_nervous.html">Нервная система</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/teaching_principles.html">Обучение машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../05_data/05_data.html">Физические данные</a></li><li class="sidebar-item"><a class="sidebar-link" href="../06_training/06_training.html">Обучение политики управления</a></li><li class="sidebar-item"><a class="sidebar-link" href="../07_evaluation/07_evaluation.html">Оценка в замкнутом контуре</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/running_principles.html">Работа машины</a></li><li class="sidebar-item"><a class="sidebar-link" href="../08_perception/08_perception.html">Восприятие с помощью датчиков</a></li><li class="sidebar-item"><a class="sidebar-link" href="../09_memory/09_memory.html">Пространственная память</a></li><li class="sidebar-item"><a class="sidebar-link" href="../10_intent/10_intent.html">Намерение с физической привязкой</a></li><li class="sidebar-item"><a class="sidebar-link" href="../11_planning/11_planning.html">Планирование траектории</a></li><li class="sidebar-item"><a class="sidebar-link" href="../12_enforcement/12_enforcement.html">Принудительное обеспечение безопасности</a></li><li class="sidebar-item"><a class="sidebar-link" href="../13_placement/13_placement.html">Размещение рабочей нагрузки</a></li><li class="sidebar-item"><a class="sidebar-link" href="../parts/governing_principles.html">Надзор за машиной</a></li><li class="sidebar-item"><a class="sidebar-link" href="../14_intervention/14_intervention.html">Вмешательство оператора</a></li><li class="sidebar-item"><a class="sidebar-link" href="../15_verification/15_verification.html">Верификация в неблагоприятных условиях</a></li><li class="sidebar-item"><a class="sidebar-link" href="../16_release/16_release.html">Допуск к эксплуатации</a></li><li class="sidebar-item"><a class="sidebar-link" href="../17_responsibility/17_responsibility.html">Ответственный физический ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../18_frontier/18_frontier.html">Инженерия физического ИИ</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/references.html">Литература</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_ml.html">Основы машинного обучения</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_control.html">Управление и динамика</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_systems.html">Системы и аппаратное обеспечение</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/appendix_spa.html">Парадигма «Восприятие — планирование — действие»</a></li><li class="sidebar-item"><a class="sidebar-link" href="../backmatter/glossary/glossary.html">Глоссарий</a></li></ul><a class="offline-all-volumes" href="../../index.html">Все четыре тома →</a></details>
+
+
+
+
+
+<section id="руководство-для-читателя-и-необходимая-подготовка" class="level1 unnumbered">
+<h1 class="unnumbered">Руководство для читателя и необходимая подготовка</h1>
+<p><em>физический ИИ: системы машинного обучения, которые чувствуют и действуют</em> — это независимый учебник для студентов старших курсов, аспирантов и практикующих инженеров, которые хотят создавать машины, которые чувствуют и действуют. Читатели могут прийти из области машинного обучения, программных систем, электротехники или робототехники. Общая цель — связать усвоенное поведение с физическим исполнением и объяснить условия, при которых этой связи можно доверять.</p>
+<section id="sec-prereq-baseline" class="level2">
+<h2 class="anchored">Техническая отправная точка</h2>
+<p>Инженер систем физического ИИ должен рассуждать в разных дисциплинах, но ему не обязательно иметь специальную подготовку во всех из них. Отправной точкой является опыт программирования, базовая интуиция машинного обучения и вводная механика, подкрепленная математикой бакалавриата. Предварительного изучения другого тома этой серии не требуется.</p>
+<p>Следующие компетенции подтверждают проработанные примеры. Каждая область дает практические навыки, на которых основываются главы, а не является обязательным условием углубленной теории:</p>
+<ul>
+<li><strong>Программирование</strong>: Прочтите и измените короткую программу, проследите за ее потоком данных и интерпретируйте результаты эксперимента. Исполняемые вычисления используют Python; Знакомство с C или C++ помогает с примерами реализации, но не является обязательным требованием.</li>
+<li><strong>Интуиция машинного обучения</strong>: отличайте обучение от вывода, понимайте изученную модель как сопоставление, составленное на основе данных, и поймите, почему производительность на устоявшихся примерах может отличаться от развертывания. Опыт построения большой модели или использования определенного фреймворка не требуется.</li>
+<li><strong>Математика</strong>: Работа с алгеброй, векторами, матрицами, производными и элементарной вероятностью. Эти инструменты поддерживают преобразования координат, скорости изменения и оценки неопределенности. Более специализированные обозначения вводятся вместе с механизмом, который в них нуждается.</li>
+<li><strong>Физическое мышление</strong>: Свяжите силу с ускорением, скорость с пройденным расстоянием, а электрическую мощность с потреблением энергии. Вводная ньютоновская механика дает начальное представление об ограничениях остановки, контакта и привода.</li>
+<li><strong>Экспериментальная практика</strong>: Интерпретируйте измерение с его единицами и условиями, отличайте предположение от наблюдения и сравнивайте расчет с тестом. Книга развивает эту практику в доказательство управления машиной.</li>
+</ul>
+<p>Специализированная теория управления, кинематика роботов, планирование в реальном времени и архитектура ускорителей являются здесь предметами изучения, а не вторым набором вступительных требований. Некоторые выводы требуют более медленного прохождения или фонового чтения. Локальные приложения содержат информацию о машинном обучении (<a class="quarto-xref" href="../backmatter/appendix_ml.html#sec-appendix-ml">Основы машинного обучения</a>), управлении и динамике (<a class="quarto-xref" href="../backmatter/appendix_control.html#sec-appendix-control">Управление и динамика</a>), а также системах и аппаратном обеспечении (<a class="quarto-xref" href="../backmatter/appendix_systems.html#sec-appendix-systems">Системы и аппаратное обеспечение</a>). Когда сбой охватывает восприятие, планирование и действие, <a class="quarto-xref" href="../backmatter/appendix_spa.html#sec-appendix-spa-troubleshooting">физический ИИ. Матрица устранения производственных неполадок</a> сопоставляет симптом с измерениями, которые различают конкурирующие причины.</p>
+<section id="sec-prereq-disciplinary-boundaries" class="level3">
+<h3 class="anchored">Обучение через дисциплинарные границы</h3>
+<p>Читатели разного происхождения входят в этот цикл с разных сторон. Специалист по машинному обучению начинает с последствий предлагаемого действия и работает над механизмами и сроками, ограничивающими его. Инженер по встраиваемым системам начинает с предельного срока, установленного для оборудования, и изучает, как данные обучения и поведение политики формируют рабочую нагрузку, которая должна соответствовать этому сроку. Специалист по робототехнике начинает с модели объекта управления и исследует, что меняется, когда обученный предлагающий указывает цели и траектории. Каждый читатель приносит одну часть основы и знакомится с остальными там, где система их соединяет.</p>
+<p>При первом проходе через плотный вывод определите ограничиваемую физическую величину, предположения, в которых нуждается эта граница, и решение, которое она меняет. Затем проработайте пример, прежде чем вернуться к выводу. Формальная гарантия может потребовать более глубокой математической обработки; понимание системного решения по-прежнему начинается с конкретного сбоя, который механизм призван предотвратить.</p>
+</section>
+</section>
+<section id="sec-prereq-tracks" class="level2">
+<h2 class="anchored">Учебные программы по чтению</h2>
+<p>Последовательный путь используется по умолчанию для изучения всей дисциплины. Специализированные треки выбирают акцент на этом пути. Они не делают общую физическую модель или пределы доказательств необязательными.</p>
+<p>Все треки начинаются с <a class="quarto-xref" href="../01_boundary/01_boundary.html#sec-boundary">Глава 1</a>, а анатомия машины — с <a class="quarto-xref" href="../02_body/02_body.html#sec-body">Глава 2</a>, <a class="quarto-xref" href="../03_brain/03_brain.html#sec-brain">Глава 3</a> и <a class="quarto-xref" href="../04_nervous/04_nervous.html#sec-nervous">Глава 4</a>.. Они устанавливают физические бюджеты, изученные предложения и независимый путь, который решает, может ли предложение действовать. В последующих главах эти основы неоднократно используются. После этого общего начала читатели могут сосредоточить свое более глубокое изучение на одном из четырех направлений, посвященных конкретным ролям (<a href="#tbl-prereq-tracks" class="quarto-xref">таблица&nbsp;1</a>).</p>
+<div id="tbl-prereq-tracks" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-prereq-tracks-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;1: <strong>Учебные программы чтения</strong>: в этой книге четыре структурированных трека чтения.
+</figcaption>
+<div aria-describedby="tbl-prereq-tracks-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 16%">
+<col style="width: 41%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Трек</th>
+<th style="text-align: left;">Основная аудитория</th>
+<th style="text-align: left;">Прогресс основной главы</th>
+<th style="text-align: left;">Первичные системные компетенции</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Учебная программа по базовым системам</strong></td>
+<td style="text-align: left;">Студенты и инженеры изучают всю дисциплину</td>
+<td style="text-align: left;">Полная последовательность от <a class="quarto-xref" href="../01_boundary/01_boundary.html#sec-boundary">Глава 1</a> до <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a></td>
+<td style="text-align: left;">Интегрируйте физические ограничения, обучение, проектирование среды выполнения и эксплуатационные данные</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Системы машинного обучения и изученные среды выполнения</strong></td>
+<td style="text-align: left;">Инженеры и исследователи машинного обучения</td>
+<td style="text-align: left;">Общий старт; от <a class="quarto-xref" href="../05_data/05_data.html#sec-data">Глава 5</a> до <a class="quarto-xref" href="../07_evaluation/07_evaluation.html#sec-evaluation">Глава 7</a>; от <a class="quarto-xref" href="../08_perception/08_perception.html#sec-perception">Глава 8</a> до <a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement">Глава 13</a>; <a class="quarto-xref" href="../16_release/16_release.html#sec-release">Глава 16</a> и <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a></td>
+<td style="text-align: left;">Развивать и оценивать усвоенное поведение в физических и вычислительных пределах</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Встраиваемые системы и кремний</strong></td>
+<td style="text-align: left;">Инженеры по встраиваемым системам и компьютерные архитекторы</td>
+<td style="text-align: left;">Общий старт; пределы оценки в <a class="quarto-xref" href="../07_evaluation/07_evaluation.html#sec-evaluation">Глава 7</a>; от <a class="quarto-xref" href="../08_perception/08_perception.html#sec-perception">Глава 8</a> до <a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement">Глава 13</a>; от <a class="quarto-xref" href="../14_intervention/14_intervention.html#sec-intervention">Глава 14</a> до <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a></td>
+<td style="text-align: left;">Своевременное обнаружение, разрешение и срабатывание при помехах и неисправностях</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Робототехника, контроль и обеспечение</strong></td>
+<td style="text-align: left;">Робототехники и инженеры по управлению</td>
+<td style="text-align: left;">Общий старт; от <a class="quarto-xref" href="../05_data/05_data.html#sec-data">Глава 5</a> до <a class="quarto-xref" href="../07_evaluation/07_evaluation.html#sec-evaluation">Глава 7</a>; от <a class="quarto-xref" href="../09_memory/09_memory.html#sec-memory">Глава 9</a> до <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a></td>
+<td style="text-align: left;">Интеграция изученного поведения с оценкой состояния, допустимым движением и условными гарантиями</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Когда в треке отсутствует глава из детального изучения, ее начало, проработанная передача и краткое содержание обеспечивают контекст, необходимый для последующего изучения. Например, при планировании по-прежнему необходимы датированные наблюдения и оценка текущего состояния; решение о выпуске по-прежнему требует подтверждения полномочий человека и реагирования на ошибки. Преподаватели могут выбирать техническую глубину, сохраняя при этом эти зависимости. Полная последовательность содержит больше деталей, чем каждый курс может быть рассмотрен с одинаковой глубиной.</p>
+</section>
+<section id="что-представляет-собой-книга" class="level2">
+<h2 class="anchored">Что представляет собой книга</h2>
+<p>Учебная программа построена на комплексном инженерном суждении о машине, выполняющей определенную задачу. Его части обладают различными возможностями:</p>
+<ol type="1">
+<li>В части I определите, какой физический бюджет связывает, оцените, что может предоставить обученный предлагающий, и выведите требования к времени, которые связывают вычисления с срабатыванием.</li>
+<li>В части II соберите демонстрации с условиями их эксплуатации, выберите режим обучения и оцените поведение в петле обратной связи, где действия меняют последующие наблюдения. Используйте неудачи, чтобы накопить новый опыт и проверить, расширяет ли изменившийся кандидат компетентность, не теряя при этом устоявшегося поведения.</li>
+<li>В части III превратите измерения в датированные оценки состояния, обоснованные цели и возможные траектории; затем проверяйте предложения на соответствие физическим ограничениям и размещайте среду выполнения на ресурсах, которые могут уложиться в сроки.</li>
+<li>В Части IV спланируйте вмешательство человека, проверьте интегрированную систему на наличие неисправностей и обоснуйте полезность обслуживания в условиях, охватываемых доказательствами, отдельно оценивая выполнение задач и физическое сдерживание.</li>
+</ol>
+<p>В заключении синтезируются эти инженерные возможности и проверяется, передаются ли они на незнакомую машину. Записи, накопленные на этом пути, сохраняют обоснование проекта: что было измерено, что предполагалось, какое решение последовало и что могло сделать его недействительным. Заполнение записи полезно только в том случае, если лежащий в ее основе инженерный аргумент обоснован.</p>
+</section>
+<section id="sec-reader-numbers" class="level2">
+<h2 class="anchored">Как читать цифры</h2>
+<p>Доказательства, лежащие в основе числа, определяют, что оно может поддерживать. Четыре категории отличают наблюдения и расчеты от оценок и иллюстративных данных; пятая этикетка обозначает выбор дизайна:</p>
+<ul>
+<li><strong>Измерено</strong>: Калиброванное наблюдение за конкретной машиной. Он называет свой инструмент, условия его работы, количество образцов и, в случае распределения, процентиль, о котором он сообщает. Только измеренное число или число, полученное из измеренных, может поддерживать запас прочности.</li>
+<li><strong>Производное</strong>: вычисляется на основе указанных входных данных с помощью физической или статистической модели. Он несет в себе предположения этой модели, происхождение входных данных и распространяемую неопределенность. Результат, полученный на основе иллюстративных данных, остается иллюстративным доказательством.</li>
+<li><strong>Технический паспорт</strong>: Рейтинг производителя в соответствии с условиями производителя. В нем говорится, чего ожидать и что тестировать, а не доказательства наличия устройства на стенде.</li>
+<li><strong>Иллюстративное</strong>: выбрано для отображения арифметических операций или масштабирования. Он не поддерживает никаких запасов, тайм-аутов или решений о выпуске.</li>
+</ul>
+<p>Бюджет или требования, такие как продолжительность срока действия запаса расстояния или запас расстояния для очистки, не относятся ни к одному из четырех. Это проектное решение, помеченное как <strong>chosen</strong>, и оно что-то значит только тогда, когда оно сверяется с измеренным или производным числом, которому оно должно соответствовать, поскольку выбранный период действия запаса расстояния сверяется с полученным пределом задержки перед торможением.</p>
+<p>Проработанный проект в этой книге демонстрирует процедуру принятия решения. Когда его входные данные носят иллюстративный характер, решение, которое он принимает, также является показательным. Он показывает, как будут установлены скорость машины, период действия разрешения или вердикт, и он будет связывать реальную машину только после того, как будут проверены ее физические и временные предпосылки. В некоторых примерах предусмотрен пакет подтверждающих доказательств, показывающий, как можно оправдать успешное обучение или ограниченное обслуживание. Такие ответвления полностью гипотетические; их предполагаемое количество попыток и результаты не являются измерениями машины книги.</p>
+<p>Когда число решает что-то, например ограничение скорости, тайм-аут или выпуск, книга сохраняет его как <strong>ограничить запись</strong> с шестью элементами. В записи номинальное значение (или распределение) и неопределенность его измерения сопоставляются с условиями эксплуатации, при которых сохраняется это значение (полезная нагрузка, температура, напряжение питания, поверхность, параллельная рабочая нагрузка и встроенное ПО). Наряду с инженерным запасом между рабочей целью и порогом отказа он называет детектор времени выполнения, который улавливает отклонение во время работы машины и записывает происхождение значения, то есть его метку и инструмент или модель, которая его произвела. Ограничение действует только при установленных условиях. Если износ, нагрев, новая полезная нагрузка или новая сборка изменяют их, предел необходимо установить заново, прежде чем его повторно использовать.</p>
+<p>Прежде чем использовать обработанное значение для обоснования решения, установите его категорию и условия, связанные с ним, поскольку немаркированное значение не становится измеренным пределом, просто появляясь в расчете. Каждый результат справедлив только при предположениях, изложенных в его примере. Статистическая оценка конечного числа испытаний зависит от допущений о выборке и не доказывает ничего, кроме них. Измеренный процентиль описывает только тестируемую рабочую нагрузку, а не настоящий худший случай. Таким образом, в аргументе освобождения (<a class="quarto-xref" href="../16_release/16_release.html#sec-release">Глава 16</a> и <a class="quarto-xref" href="../18_frontier/18_frontier.html#sec-frontier">Глава 18</a>) каждая предпосылка имеет явный статус: установлена ​​с помощью квалифицированных измерений или выводов, предполагается, решена на основе ответственного суждения, не подтверждена или находится вне модели угроз.</p>
+</section>
+<section id="что-мы-намеренно-опускаем" class="level2">
+<h2 class="anchored">Что мы намеренно опускаем</h2>
+<p>Книга развивает специальные механизмы на глубину, необходимую для системных решений, представляя каждую тему из первых принципов внутри главы, решение которой от нее зависит, и останавливаясь на этом. В главах анатомии и обучения представлено квантование модели, где оно устанавливает задержку модели намерения (<a class="quarto-xref" href="../03_brain/03_brain.html#sec-brain-quantization">Раздел 3.4.2</a>), а основы обучения с подкреплением и рецепт «до тренировки, затем после тренировки» появляются, когда рука изучает задачу с пружинной защелкой двери (<a class="quarto-xref" href="../06_training/06_training.html#sec-training-rl-primer">Раздел 6.2.1</a>, <a class="quarto-xref" href="../06_training/06_training.html#sec-training-pretrain-post-train">Раздел 6.2.8</a>). В главах выполнения восприятие останавливается на квалифицированном измерении и передает оценку состояния в пространственную память (<a class="quarto-xref" href="../09_memory/09_memory.html#sec-memory">Глава 9</a>). Пространственная память строится из дискретных и расширенных фильтров Калмана, отслеживания нескольких целей и отложенных обновлений (<a class="quarto-xref" href="../09_memory/09_memory.html#sec-perception-state-estimation">Раздел 9.2</a>) до локализации и SLAM на карте планирования (<a class="quarto-xref" href="../09_memory/09_memory.html#sec-memory-localization-slam">Раздел 9.5.1</a>). Планирование задач и движений основывает абстрактные цели на допустимой геометрии (<a class="quarto-xref" href="../10_intent/10_intent.html#sec-intent-task-motion">Раздел 10.2</a>), в то время как кинематика манипулятора, временная параметризация и планирование мобильной базы создают запись траектории (<a class="quarto-xref" href="../11_planning/11_planning.html#sec-planning-handoff">Раздел 11.2</a>, <a class="quarto-xref" href="../11_planning/11_planning.html#sec-planning-time-parameterization">Раздел 11.4.5</a>, <a class="quarto-xref" href="../11_planning/11_planning.html#sec-planning-mobile-base">Раздел 11.6.1</a>), а анализ времени выполнения в худшем случае проверяет изоляцию оборудования. (<a class="quarto-xref" href="../13_placement/13_placement.html#sec-placement-testing-separation">Раздел 13.7</a>). Наконец, главы управления представляют выборку по важности, где необходимо оценить частоту редких отказов (<a class="quarto-xref" href="../15_verification/15_verification.html#sec-verification-importance-sampling">Раздел 15.10.2</a>) и стандарты функциональной безопасности, в которых собраны аргументы в пользу выпуска (<a class="quarto-xref" href="../16_release/16_release.html#sec-release-standards-map">Раздел 16.3.4</a>).</p>
+<p>В книге опущена оставшаяся часть каждого из этих полей. Он не предоставляет исчерпывающего каталога геометрических форм манипуляторов, анализа захвата или полного курса нелинейного или оптимального управления. В нем отсутствует теория конвергенции обучения с подкреплением и построение крупномасштабных серверных частей SLAM. В нем также не учитываются внутренности инструментов статического временного анализа и комплексная теория оптимизации глубокого обучения, и он не заменяет текст стандарта безопасности. Специализированные выводы появляются там, где объясняются границы или компромиссы, а приложения предоставляют дополнительную информацию.</p>
+<p>Примеры реализации раскрывают механизмы синхронизации, памяти, связи и срабатывания. Они не являются учебными пособиями по конкретному пакету промежуточного программного обеспечения робототехники или продукту моделирования. Предполагаемый результат — способность рассуждать о новой машине и понимать, когда ее конструкция требует дополнительного специального анализа или измерений.</p>
+
+
+</section>
+</section><details class="offline-mobile-toc"><summary>Содержание главы</summary>
+    <h2>Содержание</h2>
+   
+  <ul>
+  <li><a href="#руководство-для-читателя-и-необходимая-подготовка" class="nav-link active">Руководство для читателя и необходимая подготовка</a>
+  <ul class="collapse show">
+  <li><a href="#sec-prereq-baseline" class="nav-link">Техническая отправная точка</a>
+  <ul class="collapse show">
+  <li><a href="#sec-prereq-disciplinary-boundaries" class="nav-link">Обучение через дисциплинарные границы</a></li>
+  </ul></li>
+  <li><a href="#sec-prereq-tracks" class="nav-link">Учебные программы по чтению</a></li>
+  <li><a href="#что-представляет-собой-книга" class="nav-link">Что представляет собой книга</a></li>
+  <li><a href="#sec-reader-numbers" class="nav-link">Как читать цифры</a></li>
+  <li><a href="#что-мы-намеренно-опускаем" class="nav-link">Что мы намеренно опускаем</a></li>
+  </ul></li>
+  </ul>
+</details>
+
+<nav class="offline-pager" aria-label="Переход между главами"><a href="about_author.html">← Об авторе</a><a href="../../index.html">Оглавление</a><a href="acknowledgements.html">Благодарности →</a></nav></main> <!-- /main -->
+
+  
+</div> <!-- /content -->
+    
+  
+
+
+
+
+</body></html>
