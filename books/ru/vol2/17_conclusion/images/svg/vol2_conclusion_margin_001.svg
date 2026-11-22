@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="360" height="270" fill="#ffffff"/>
+  <path d="M40 38 V228 H340" fill="none" stroke="#555555" stroke-width="2"/>
+  <path d="M40 214 L200 84" fill="none" stroke="#1F407A" stroke-width="5"/>
+  <path d="M200 84 H336" fill="none" stroke="#e67817" stroke-width="5"/>
+  <circle cx="96" cy="168" r="8" fill="#1F407A" stroke="#ffffff" stroke-width="2"/>
+  <g fill="#333333" font-size="26">
+    <text x="52" y="28" transform=" translate(52 0) scale(0.88769319969842 1) translate(-52 0)" data-ru-fit="0.8877">Достижимо FLOP/с</text>
+    <text x="336" y="72" text-anchor="end" transform=" translate(336 0) scale(0.7892376681614349 1) translate(-336 0)" data-ru-fit="0.7892">Вычислить потолок</text>
+    <text x="112" y="192" transform=" translate(112 0) scale(0.7021060842433697 1) translate(-112 0)" data-ru-fit="0.7021">Мелкосерийный</text>
+    <text x="112" y="220" transform=" translate(112 0) scale(0.46256596306068604 1) translate(-112 0)" data-ru-fit="0.4626">декодирование</text>
+    <text x="336" y="258" text-anchor="end" transform=" translate(336.00000762939453 0) scale(0.5911751758449231 1) translate(-336.00000762939453 0)" data-ru-fit="0.5912">Арифметическая интенсивность →</text>
+  </g>
+<metadata id="original-source-labels">Attainable FLOP/s
+Compute ceiling
+Small-batch
+decode
+Arithmetic intensity →</metadata></svg>

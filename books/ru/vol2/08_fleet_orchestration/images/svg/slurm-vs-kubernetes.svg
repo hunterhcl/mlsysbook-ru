@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 356" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Left: Slurm, a straight line. An imperative request flows once, top to bottom, from job script to slurmctld to slurmd, which launches one atomic allocation of four nodes (dashed violet outline). Right: Kubernetes, a closed loop. etcd holds desired and observed state; controllers watch the gap and recreate the failed pod; pod status returns to observed state as a peer edge of the cycle. Violet = control plane, blue = compute, red = a failed pod, slate = user input. -->
+  <defs>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/></marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="680" height="356" fill="#ffffff"/>
+  <line x1="340" y1="20" x2="340" y2="336" stroke="#cbd5e1" stroke-dasharray="4 3"/>
+  <!-- ===== Slurm: one-way line ===== -->
+  <text x="170" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(169.99999237060547 0) scale(0.828820135191812 1) translate(-169.99999237060547 0)" data-ru-fit="0.8288">Слерм (обязательно)</text>
+  <rect x="60" y="44" width="220" height="46" rx="3" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="170" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Скрипт задания</text>
+  <text x="170" y="80" text-anchor="middle" font-size="11.5" font-family="Courier New, monospace" fill="#475569">выборка --gres=gpu:8 --nodes=4</text>
+  <path d="M170,90 V110" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+  <rect x="60" y="112" width="220" height="46" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="170" y="131" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">слёрмктлд</text>
+  <text x="170" y="148" text-anchor="middle" font-size="11.5" fill="#475569">один глобальный планировщик</text>
+  <path d="M170,158 V178" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+  <rect x="60" y="180" width="220" height="46" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="170" y="199" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">slurmd на каждом узле</text>
+  <text x="170" y="216" text-anchor="middle" font-size="11.5" fill="#475569">запуск по распределению</text>
+  <path d="M170,226 V236 M62,236 H278 M62,236 V248 M134,236 V248 M206,236 V248 M278,236 V248" fill="none" stroke="#64748b" stroke-width="1.4"/>
+  <rect x="24" y="248" width="292" height="48" rx="3" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 2"/>
+  <rect x="32" y="256" width="60" height="32" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="62" y="276.5" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E">Узел 0</text>
+  <rect x="104" y="256" width="60" height="32" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="134" y="276.5" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E">Узел 1</text>
+  <rect x="176" y="256" width="60" height="32" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="206" y="276.5" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E">Узел 2</text>
+  <rect x="248" y="256" width="60" height="32" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="278" y="276.5" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E">Узел 3</text>
+  <text x="170" y="330" text-anchor="middle" font-size="13" fill="#475569" transform=" translate(169.99999237060547 0) scale(0.6346880285265178 1) translate(-169.99999237060547 0)" data-ru-fit="0.6347">все узлы предоставлены одновременно, или задание ожидает</text>
+  <!-- ===== Kubernetes: closed reconcile loop ===== -->
+  <text x="510" y="32" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(509.9999465942383 0) scale(0.8220913405015596 1) translate(-509.9999465942383 0)" data-ru-fit="0.8221">Kubernetes (декларативный)</text>
+  <rect x="400" y="44" width="220" height="46" rx="3" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="510" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Желаемое состояние</text>
+  <text x="510" y="80" text-anchor="middle" font-size="11.5" font-family="Courier New, monospace" fill="#475569">kubectl apply -f job.yaml</text>
+  <path d="M510,90 V110" stroke="#64748b" stroke-width="1.4" marker-end="url(#arr-gray)"/>
+  <!-- etcd: top of the cycle -->
+  <rect x="410" y="112" width="200" height="52" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="510" y="129" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">API сервер +etcd</text>
+  <rect x="416" y="139" width="92" height="18" rx="2" fill="#ffffff" stroke="#c4b5fd" stroke-width="0.8"/>
+  <text x="462" y="152" text-anchor="middle" font-size="11" fill="#334155" transform=" translate(462.00000381469727 0) scale(0.7067854529377398 1) translate(-462.00000381469727 0)" data-ru-fit="0.7068">желательно: 4 капсулы</text>
+  <rect x="512" y="139" width="92" height="18" rx="2" fill="#ffffff" stroke="#c4b5fd" stroke-width="0.8"/>
+  <text x="558" y="152" text-anchor="middle" font-size="11" fill="#334155">наблюдалось: 3</text>
+  <!-- controllers: lower right of the cycle -->
+  <rect x="540" y="236" width="110" height="46" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="595" y="255" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">Контроллеры</text>
+  <text x="595" y="272" text-anchor="middle" font-size="11.5" fill="#475569" transform=" translate(594.9999618530273 0) scale(0.8148411767039072 1) translate(-594.9999618530273 0)" data-ru-fit="0.8148">действовать на разрыв</text>
+  <!-- pods: lower left of the cycle -->
+  <rect x="360" y="226" width="128" height="66" rx="3" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="368" y="232" width="52" height="24" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="394" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E" transform=" translate(393.99997901916504 0) scale(0.8116903925341922 1) translate(-393.99997901916504 0)" data-ru-fit="0.8117">Модуль 0</text>
+  <rect x="428" y="232" width="52" height="24" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="454" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E" transform=" translate(453.99997901916504 0) scale(0.8116903925341922 1) translate(-453.99997901916504 0)" data-ru-fit="0.8117">Модуль 1</text>
+  <rect x="368" y="262" width="52" height="24" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="394" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#14294E" transform=" translate(393.99997901916504 0) scale(0.8116903925341922 1) translate(-393.99997901916504 0)" data-ru-fit="0.8117">Модуль 2</text>
+  <rect x="428" y="262" width="52" height="24" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4 2"/>
+  <text x="454" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c" transform=" translate(453.99997901916504 0) scale(0.8116903925341922 1) translate(-453.99997901916504 0)" data-ru-fit="0.8117">Модуль 3</text>
+  <text x="454" y="306" text-anchor="middle" font-size="11" fill="#b91c1c" transform=" translate(453.99999809265137 0) scale(0.4625850174771791 1) translate(-453.99999809265137 0)" data-ru-fit="0.4626">не удалось</text>
+  <!-- the three edges of the loop -->
+  <path d="M580,164 C580,200 595,200 595,234" fill="none" stroke="#7c3aed" stroke-width="1.4" marker-end="url(#arr-purple)"/>
+  <text x="599" y="203" font-size="11" fill="#6d28d9" transform=" translate(599 0) scale(0.6162875927069957 1) translate(-599 0)" data-ru-fit="0.6163">смотреть</text>
+  <path d="M540,259 H490" fill="none" stroke="#7c3aed" stroke-width="1.4" marker-end="url(#arr-purple)"/>
+  <text x="514" y="251" text-anchor="middle" font-size="11" fill="#6d28d9" transform=" translate(513.9999980926514 0) scale(0.6732377197959084 1) translate(-513.9999980926514 0)" data-ru-fit="0.6732">воссоздать</text>
+  <path d="M424,226 C424,196 440,196 440,166" fill="none" stroke="#7c3aed" stroke-width="1.4" marker-end="url(#arr-purple)"/>
+  <text x="422" y="203" text-anchor="end" font-size="11" fill="#6d28d9" transform=" translate(421.9999694824219 0) scale(0.8971368453509353 1) translate(-421.9999694824219 0)" data-ru-fit="0.8971">статус</text>
+  <text x="510" y="200" text-anchor="middle" font-size="12" font-style="italic" fill="#6d28d9" transform=" translate(509.9999465942383 0) scale(0.7668906291514493 1) translate(-509.9999465942383 0)" data-ru-fit="0.7669">согласовать цикл</text>
+  <text x="510" y="330" text-anchor="middle" font-size="13" fill="#475569" transform=" translate(509.9999237060547 0) scale(0.7325920415792286 1) translate(-509.9999237060547 0)" data-ru-fit="0.7326">наблюдаемое состояние постоянно согласовывается</text>
+<metadata id="original-source-labels">Slurm (imperative)
+Job script
+sbatch --gres=gpu:8 --nodes=4
+slurmctld
+one global scheduler
+slurmd on each node
+launch on the allocation
+Node 0
+Node 1
+Node 2
+Node 3
+all nodes granted at once, or the job waits
+Kubernetes (declarative)
+Desired state
+kubectl apply -f job.yaml
+API server + etcd
+desired: 4 pods
+observed: 3
+Controllers
+act on the gap
+Pod 0
+Pod 1
+Pod 2
+Pod 3
+failed
+watch
+recreate
+status
+reconcile loop
+observed state is reconciled continuously</metadata></svg>

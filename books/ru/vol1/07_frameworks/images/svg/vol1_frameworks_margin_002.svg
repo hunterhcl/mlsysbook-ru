@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90pt" height="70pt" viewBox="0 0 180 140" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Stream overlap, schematic (copy:compute = 1:2). Serial pays copy + compute;
+       overlap pays only the longer stage, with the next batch's copy running beneath it. -->
+  <rect width="180" height="140" fill="#FFFFFF"/>
+  <text x="4" y="15" font-size="13" fill="#333333" transform=" translate(4 0) scale(0.29787234712339367 1) translate(-4 0)" data-ru-fit="0.2979">Последовательно</text>
+  <rect x="4" y="21" width="57.3" height="26" fill="#7E317B"/>
+  <rect x="61.3" y="21" width="114.7" height="26" fill="#E67817"/>
+  <line x1="61.3" y1="21" x2="61.3" y2="47" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="32.7" y="38.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform=" translate(32.70000505447388 0) scale(0.6428197389199891 1) translate(-32.70000505447388 0)" data-ru-fit="0.6428">Копировать</text>
+  <text x="118.7" y="38.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Вычисления</text>
+  <text x="4" y="73" font-size="13" fill="#333333" transform=" translate(4 0) scale(0.6031250495883002 1) translate(-4 0)" data-ru-fit="0.6031">Перекрытие</text>
+  <rect x="4" y="79" width="114.7" height="26" fill="#E67817"/>
+  <text x="61.3" y="96.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Вычисления</text>
+  <rect x="4" y="108" width="57.3" height="26" fill="#7E317B"/>
+  <text x="32.7" y="125.5" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform=" translate(32.70000505447388 0) scale(0.6428197389199891 1) translate(-32.70000505447388 0)" data-ru-fit="0.6428">Копировать</text>
+  <text x="66" y="125.5" font-size="13" fill="#333333" transform=" translate(66 0) scale(0.5387051412408335 1) translate(-66 0)" data-ru-fit="0.5387">Следующая партия</text>
+<metadata id="original-source-labels">Serial
+Copy
+Compute
+Overlap
+Compute
+Copy
+Next batch</metadata></svg>

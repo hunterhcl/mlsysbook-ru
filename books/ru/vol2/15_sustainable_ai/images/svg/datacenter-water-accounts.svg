@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="760" height="352" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-water" markerWidth="11" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#006395"/>
+    </marker>
+    <marker id="arr-loss" markerWidth="11" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#78492A"/>
+    </marker>
+    <marker id="arr-energy" markerWidth="11" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#E67817"/>
+    </marker>
+    <marker id="arr-energy-wide" markerWidth="15" markerHeight="16" refX="14" refY="8" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L15,8 L0,16 Z" fill="#E67817"/>
+    </marker>
+    <marker id="arr-gray" markerWidth="11" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- panel divider -->
+  <line x1="380" y1="14" x2="380" y2="338" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- ================= Panel (a): evaporative heat rejection ================= -->
+  <text x="20" y="28" font-size="15" font-weight="700" fill="#333333" transform=" translate(20 0) scale(0.990416759527524 1) translate(-20 0)" data-ru-fit="0.9904">(a) Испарительная градирня</text>
+
+  <!-- off-site: power plant and its own watershed -->
+  <rect x="20" y="48" width="120" height="50" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="80" y="69" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(80 0) scale(0.9673308933170666 1) translate(-80 0)" data-ru-fit="0.9673">Электростанция</text>
+  <text x="80" y="88" text-anchor="middle" font-size="13" fill="#334155" transform=" translate(80 0) scale(0.6175486748434685 1) translate(-80 0)" data-ru-fit="0.6175">вода за пределами площадки</text>
+
+  <!-- electricity -->
+  <line x1="80" y1="98" x2="80" y2="146" stroke="#E67817" stroke-width="2.5" marker-end="url(#arr-energy)"/>
+  <text x="90" y="127" font-size="13" fill="#a3530f" transform=" translate(90 0) scale(0.6146804835924007 1) translate(-90 0)" data-ru-fit="0.6147">электричество</text>
+
+  <!-- data center -->
+  <rect x="20" y="148" width="120" height="50" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="80" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Дата-центр</text>
+
+  <!-- heat to tower -->
+  <line x1="140" y1="173" x2="196" y2="173" stroke="#64748b" stroke-width="1.8" marker-end="url(#arr-gray)"/>
+  <text x="168" y="165" text-anchor="middle" font-size="13" fill="#475569" transform=" translate(168 0) scale(0.7240608228980322 1) translate(-168 0)" data-ru-fit="0.7241">тепло</text>
+
+  <!-- cooling tower -->
+  <rect x="198" y="148" width="130" height="50" rx="3" fill="#D1E6F3" stroke="#006395" stroke-width="1.5"/>
+  <text x="263" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#00476b">Градирня</text>
+
+  <!-- consumed: evaporation leaves the local account -->
+  <rect x="213" y="48" width="100" height="50" rx="3" fill="#E3D3C8" stroke="#78492A" stroke-width="2.2"/>
+  <text x="263" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#4a2c18" transform=" translate(263 0) scale(0.8390886946553947 1) translate(-263 0)" data-ru-fit="0.8391">Израсходовано</text>
+  <line x1="263" y1="148" x2="263" y2="100" stroke="#78492A" stroke-width="1.8" marker-end="url(#arr-loss)"/>
+  <text x="271" y="128" font-size="13" fill="#5a3520">испарение</text>
+
+  <!-- local watershed -->
+  <rect x="20" y="276" width="340" height="44" rx="4" fill="#D1E6F3" stroke="#006395" stroke-width="1.5"/>
+  <text x="190" y="303" text-anchor="middle" font-size="14" font-weight="700" fill="#00476b">Местный водораздел</text>
+
+  <!-- withdrawal up, blowdown down -->
+  <line x1="228" y1="276" x2="228" y2="200" stroke="#006395" stroke-width="2.5" marker-end="url(#arr-water)"/>
+  <text x="220" y="243" text-anchor="end" font-size="13" font-weight="700" fill="#00476b">вывод</text>
+  <line x1="298" y1="198" x2="298" y2="274" stroke="#006395" stroke-width="1.5" marker-end="url(#arr-water)"/>
+  <text x="306" y="243" font-size="13" fill="#00476b">продувка</text>
+
+  <!-- ================= Panel (b): dry heat rejection ================= -->
+  <text x="400" y="28" font-size="15" font-weight="700" fill="#333333" transform=" translate(400 0) scale(0.6100890207715134 1) translate(-400 0)" data-ru-fit="0.6101">(б) Сухой охладитель</text>
+
+  <rect x="400" y="48" width="120" height="50" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="460" y="69" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(460 0) scale(0.9673308933170666 1) translate(-460 0)" data-ru-fit="0.9673">Электростанция</text>
+  <text x="460" y="88" text-anchor="middle" font-size="13" fill="#334155" transform=" translate(460 0) scale(0.4804484185239557 1) translate(-460 0)" data-ru-fit="0.4804">больше воды за пределами площадки</text>
+
+  <!-- more electricity: fans -->
+  <line x1="460" y1="98" x2="460" y2="146" stroke="#E67817" stroke-width="5" marker-end="url(#arr-energy-wide)"/>
+  <text x="474" y="120" font-size="13" fill="#a3530f" transform=" translate(474 0) scale(0.6146804835924007 1) translate(-474 0)" data-ru-fit="0.6147">электричество</text>
+  <text x="474" y="136" font-size="13" fill="#a3530f" transform=" translate(474 0) scale(0.45065422456638604 1) translate(-474 0)" data-ru-fit="0.4507">+ мощность вентилятора</text>
+
+  <rect x="400" y="148" width="120" height="50" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="460" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Дата-центр</text>
+
+  <line x1="520" y1="173" x2="576" y2="173" stroke="#64748b" stroke-width="1.8" marker-end="url(#arr-gray)"/>
+  <text x="548" y="165" text-anchor="middle" font-size="13" fill="#475569" transform=" translate(548 0) scale(0.7240608228980322 1) translate(-548 0)" data-ru-fit="0.7241">тепло</text>
+
+  <rect x="578" y="148" width="130" height="50" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="643" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(643 0) scale(0.9584617280907186 1) translate(-643 0)" data-ru-fit="0.9585">Сухой охладитель</text>
+
+  <!-- heat to ambient air, no water -->
+  <rect x="593" y="48" width="100" height="50" rx="3" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="643" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#334155" transform=" translate(643 0) scale(0.6260700909577314 1) translate(-643 0)" data-ru-fit="0.6261">Окружающий воздух</text>
+  <line x1="643" y1="148" x2="643" y2="100" stroke="#64748b" stroke-width="1.8" marker-end="url(#arr-gray)"/>
+  <text x="651" y="128" font-size="13" fill="#475569" transform=" translate(651 0) scale(0.5588491717523976 1) translate(-651 0)" data-ru-fit="0.5588">теплый воздух</text>
+
+  <rect x="400" y="276" width="340" height="44" rx="4" fill="#D1E6F3" stroke="#006395" stroke-width="1.5"/>
+  <text x="570" y="303" text-anchor="middle" font-size="14" font-weight="700" fill="#00476b">Местный водораздел</text>
+
+  <!-- no direct draw -->
+  <line x1="643" y1="276" x2="643" y2="200" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="651" y="243" font-size="13" fill="#475569" transform=" translate(651 0) scale(0.7213004181842709 1) translate(-651 0)" data-ru-fit="0.7213">нет прямой ничьей</text>
+<metadata id="original-source-labels">(a) Evaporative cooling tower
+Power plant
+off-site water
+electricity
+Data center
+heat
+Cooling tower
+Consumed
+evaporation
+Local watershed
+withdrawal
+blowdown
+(b) Dry cooler
+Power plant
+more off-site water
+electricity
++ fan power
+Data center
+heat
+Dry cooler
+Ambient air
+warm air
+Local watershed
+no direct draw</metadata></svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.150838pt" height="47.232pt" viewBox="0 0 79.150838 47.232" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 47.232 L 79.150838 47.232 L 79.150838 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 45.792 L 76.77 45.792 L 76.77 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <defs>
+     <path id="me2e44dfbd6" d="M 0 4 C 1.060812 4 2.078319 3.578535 2.828427 2.828427 C 3.578535 2.078319 4 1.060812 4 0 C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 C 2.078319 -3.578535 1.060812 -4 0 -4 C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 C -3.578535 -2.078319 -4 -1.060812 -4 0 C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 C -2.078319 3.578535 -1.060812 4 0 4 z " style="stroke: #e67817"/>
+    </defs>
+    <g clip-path="url(#p75ff6dbfb1)">
+     <use xlink:href="#me2e44dfbd6" x="10.4796" y="18.29376" style="fill: #e67817; stroke: #e67817"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="md531943670" d="M 0 4 C 1.060812 4 2.078319 3.578535 2.828427 2.828427 C 3.578535 2.078319 4 1.060812 4 0 C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 C 2.078319 -3.578535 1.060812 -4 0 -4 C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 C -3.578535 -2.078319 -4 -1.060812 -4 0 C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 C -2.078319 3.578535 -1.060812 4 0 4 z " style="stroke: #4a5568"/>
+    </defs>
+    <g clip-path="url(#p75ff6dbfb1)">
+     <use xlink:href="#md531943670" x="39.105" y="18.29376" style="fill: #4a5568; stroke: #4a5568"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <defs>
+     <path id="me0760a5fba" d="M 0 4 C 1.060812 4 2.078319 3.578535 2.828427 2.828427 C 3.578535 2.078319 4 1.060812 4 0 C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 C 2.078319 -3.578535 1.060812 -4 0 -4 C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 C -3.578535 -2.078319 -4 -1.060812 -4 0 C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 C -2.078319 3.578535 -1.060812 4 0 4 z " style="stroke: #cb202d"/>
+    </defs>
+    <g clip-path="url(#p75ff6dbfb1)">
+     <use xlink:href="#me0760a5fba" x="67.7304" y="18.29376" style="fill: #cb202d; stroke: #cb202d"/>
+    </g>
+   </g>
+   <g id="text_1" data-original-label="confident"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#333333" x="1.6888810396194458" y="41.749141693115234" data-original-label="confident" transform="translate(1.6888810396194458 27.000478744506836) scale(0.7900892546516994 3.154481023714149) translate(-1.6888810396194458 -37.99871063232422)">уверенный</text></g>
+   <g id="patch_3">
+    <path d="M 16.623887 18.29376 Q 24.79225 18.29376 32.122087 18.29376 " style="fill: none; stroke: #cccccc; stroke-width: 0.75; stroke-linecap: round"/>
+    <path d="M 30.362087 17.41376 L 32.122087 18.29376 L 30.362087 19.17376 " style="fill: none; stroke: #cccccc; stroke-width: 0.75; stroke-linecap: round"/>
+   </g>
+   <g id="text_2" data-original-label="passes"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#333333" x="29.597562789916992" y="40.864742279052734" data-original-label="passes" transform="translate(29.597562789916992 27.84954071044922) scale(1.0154396048470158 2.8147340425806178) translate(-29.597562789916992 -37.11431121826172)">проходит</text></g>
+   <g id="patch_4">
+    <path d="M 45.249287 18.29376 Q 53.41765 18.29376 60.747487 18.29376 " style="fill: none; stroke: #cccccc; stroke-width: 0.75; stroke-linecap: round"/>
+    <path d="M 58.987487 17.41376 L 60.747487 18.29376 L 58.987487 19.17376 " style="fill: none; stroke: #cccccc; stroke-width: 0.75; stroke-linecap: round"/>
+   </g>
+   <g id="text_3" data-original-label="mug-rated"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#333333" x="58.06208801269531" y="39.1091423034668" data-original-label="mug-rated" transform="translate(58.06208801269531 29.653539657592773) scale(0.38872190075571983 2.0223880102301246) translate(-58.06208801269531 -35.35871124267578)">рассчитанный на кружку</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p75ff6dbfb1">
+   <rect x="1.44" y="1.44" width="75.33" height="44.352"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+confident
+passes
+mug-rated</metadata></svg>

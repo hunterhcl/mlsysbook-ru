@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.65266pt" height="58.32pt" viewBox="0 0 77.65266 58.32" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Regular-68" transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-63" d="M 2938 941 C 2938 1440 2656 1690 1990 1850 L 1478 1971 C 1043 2074 858 2214 858 2451 C 858 2758 1133 2957 1568 2957 C 1997 2957 2227 2771 2240 2419 L 2803 2419 C 2797 3078 2362 3450 1587 3450 C 806 3450 301 3046 301 2426 C 301 1901 570 1651 1363 1459 L 1862 1338 C 2234 1248 2381 1139 2381 896 C 2381 582 2067 397 1600 397 C 1120 397 851 512 781 1024 L 218 1024 C 243 250 678 -96 1555 -96 C 2400 -96 2938 294 2938 941 z " transform="scale(0.015625)" />
+     <path id="TeXGyreHeros-Regular-4e" d="M 3117 0 L 3117 2534 C 3117 3091 2701 3450 2054 3450 C 1555 3450 1235 3258 941 2790 L 941 3354 L 448 3354 L 448 0 L 979 0 L 979 1850 C 979 2534 1350 2982 1894 2982 C 2317 2982 2586 2726 2586 2323 L 2586 0 L 3117 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-33" d="M 3283 1523 C 3283 2010 3245 2317 3149 2566 C 2931 3117 2419 3450 1792 3450 C 858 3450 256 2758 256 1658 C 256 557 838 -96 1779 -96 C 2547 -96 3078 339 3213 1018 L 2675 1018 C 2528 576 2227 397 1798 397 C 1242 397 826 755 813 1523 L 3283 1523 z M 2714 1997 C 2714 1997 2714 1971 2707 1958 L 826 1958 C 870 2554 1248 2957 1786 2957 C 2310 2957 2714 2522 2714 1997 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-30" d="M 3168 0 L 3168 4666 L 2637 4666 L 2637 2931 C 2413 3270 2054 3450 1606 3450 C 736 3450 166 2778 166 1709 C 166 576 723 -96 1626 -96 C 2086 -96 2406 77 2694 493 L 2694 0 L 3168 0 z M 2637 1664 C 2637 890 2266 403 1702 403 C 1114 403 723 896 723 1677 C 723 2458 1114 2950 1696 2950 C 2272 2950 2637 2438 2637 1664 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 58.32 L 77.65266 58.32 L 77.65266 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 2.55666 56.88 L 76.21266 56.88 L 76.21266 1.44 L 2.55666 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 33.49218 18.4878 L 61.551609 18.4878 L 61.551609 13.221 L 33.49218 13.221 z " clip-path="url(#p0545bb780c)" style="fill: #d97706; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 33.49218 26.2494 L 47.130224 26.2494 L 47.130224 20.9826 L 33.49218 20.9826 z " clip-path="url(#p0545bb780c)" style="fill: #d97706; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 33.49218 34.011 L 40.376093 34.011 L 40.376093 28.7442 L 33.49218 28.7442 z " clip-path="url(#p0545bb780c)" style="fill: #cb202d; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_6">
+    <path d="M 33.49218 41.7726 L 38.038195 41.7726 L 38.038195 36.5058 L 33.49218 36.5058 z " clip-path="url(#p0545bb780c)" style="fill: #cb202d; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="line2d_1">
+    <path d="M 45.191576 51.336 L 45.191576 11.4192 " clip-path="url(#p0545bb780c)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #333333; stroke-width: 0.7" />
+   </g>
+   <g id="text_1" data-original-label="dry floor"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="14.672905921936035" y="18.1589298248291" data-original-label="dry floor" transform="translate(14.672905921936035 13.788928985595703) scale(0.7926194811039545 0.7991597995036336) translate(-14.672905921936035 -13.658350944519043)">сухой пол</text></g>
+   <g id="text_2">
+    
+    <g style="fill: #d97706" transform="translate(66.720084 17.1324) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-3a" d="M 3328 1088 L 3328 1594 L 2656 1594 L 2656 4538 L 2240 4538 L 179 1683 L 179 1088 L 2093 1088 L 2093 0 L 2656 0 L 2656 1088 L 3328 1088 z M 2093 1594 L 672 1594 L 2093 3578 L 2093 1594 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-59" d="M 1222 0 L 1222 666 L 557 666 L 557 0 L 1222 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-34" d="M 3283 1280 C 3283 1786 3027 2138 2502 2387 C 2970 2669 3123 2899 3123 3328 C 3123 4038 2566 4538 1760 4538 C 960 4538 397 4038 397 3328 C 397 2906 550 2675 1011 2387 C 493 2138 237 1786 237 1286 C 237 454 864 -96 1760 -96 C 2656 -96 3283 454 3283 1280 z M 2547 3315 C 2547 2893 2234 2611 1760 2611 C 1286 2611 973 2893 973 3322 C 973 3757 1286 4038 1760 4038 C 2240 4038 2547 3757 2547 3315 z M 2707 1274 C 2707 736 2323 403 1747 403 C 1197 403 813 742 813 1274 C 813 1805 1197 2138 1760 2138 C 2323 2138 2707 1805 2707 1274 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-7a" d="M 3245 2182 C 3245 3757 2746 4538 1760 4538 C 781 4538 275 3744 275 2221 C 275 691 787 -96 1760 -96 C 2720 -96 3245 691 3245 2182 z M 2669 2234 C 2669 947 2374 371 1747 371 C 1152 371 851 973 851 2214 C 851 3456 1152 4038 1760 4038 C 2368 4038 2669 3450 2669 2234 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-3a" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-34" transform="translate(83.390625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(138.984375 0)" />
+    </g>
+   </g>
+   <g id="text_3" data-original-label="peak current"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="6.017000198364258" y="25.920528411865234" data-original-label="peak current" transform="translate(6.017000198364258 21.564184188842773) scale(0.9700726520479934 0.8296730725657303) translate(-6.017000198364258 -21.419950485229492)">пиковый ток</text></g>
+   <g id="text_4">
+    
+    <g style="fill: #d97706" transform="translate(66.720084 24.894) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-6c" d="M 3270 3206 C 3270 3974 2675 4538 1818 4538 C 890 4538 352 4064 320 2963 L 883 2963 C 928 3725 1242 4045 1798 4045 C 2310 4045 2694 3680 2694 3194 C 2694 2835 2483 2528 2080 2298 L 1491 1965 C 544 1427 269 998 218 0 L 3238 0 L 3238 557 L 851 557 C 909 928 1114 1165 1670 1491 L 2310 1837 C 2944 2176 3270 2650 3270 3206 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-6b" d="M 3238 1318 C 3238 1869 3014 2189 2470 2374 C 2893 2541 3104 2835 3104 3290 C 3104 4070 2586 4538 1722 4538 C 806 4538 320 4038 301 3072 L 864 3072 C 877 3744 1152 4045 1728 4045 C 2227 4045 2528 3750 2528 3270 C 2528 2784 2317 2586 1414 2586 L 1414 2112 L 1722 2112 C 2342 2112 2662 1818 2662 1312 C 2662 742 2310 403 1722 403 C 1107 403 806 710 768 1370 L 205 1370 C 275 358 774 -96 1702 -96 C 2637 -96 3238 461 3238 1318 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-6c" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-6b" transform="translate(83.390625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-6b" transform="translate(138.984375 0)" />
+    </g>
+   </g>
+   <g id="text_5" data-original-label="inspected floor"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="1.7160000801086426" y="33.68212890625" data-original-label="inspected floor" transform="translate(1.7160000801086426 29.312129974365234) scale(0.7863715095127879 0.8071125192749917) translate(-1.715999960899353 -29.181550979614258)">проверенный пол</text></g>
+   <g id="text_6">
+    
+    <g style="fill: #cb202d" transform="translate(66.720084 32.6556) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-53" d="M 2221 0 L 2221 4538 L 1850 4538 C 1651 3840 1523 3744 653 3635 L 653 3232 L 1658 3232 L 1658 0 L 2221 0 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-53" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-53" transform="translate(83.390625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-34" transform="translate(138.984375 0)" />
+    </g>
+   </g>
+   <g id="text_7" data-original-label="rated current"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="5.667687892913818" y="40.51459884643555" data-original-label="rated current" transform="translate(5.667687892913818 37.09191131591797) scale(0.6828524319194509 0.6518565876565925) translate(-5.667688369750977 -36.01401901245117)">номинальный ток</text></g>
+   <g id="text_8">
+    
+    <g style="fill: #cb202d" transform="translate(66.720084 40.4172) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-65" d="M 3328 3968 L 3328 4442 L 294 4442 L 294 3885 L 2746 3885 C 1843 2746 1203 1421 883 0 L 1485 0 C 1734 1466 2374 2835 3328 3968 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-65" transform="translate(83.390625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-34" transform="translate(138.984375 0)" />
+    </g>
+   </g>
+   <g id="text_9" data-original-label="tip-over"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="16.195938110351562" y="49.205326080322266" data-original-label="tip-over" transform="translate(16.195938110351562 44.9503288269043) scale(0.450790501964028 0.7858728162080078) translate(-16.195938110351562 -44.704750061035156)">опрокидывание</text></g>
+   <g id="text_10" data-original-label="? unmeasured"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#cb202d" x="47.964317321777344" y="48.216400146484375" data-original-label="? unmeasured" transform="translate(47.964317321777344 44.89027404785156) scale(0.9396660526282912 0.7193157654842708) translate(-47.96432113647461 -44.465919494628906)">? не измерено</text></g>
+   <g id="text_11">
+    <g id="patch_7">
+     <path d="M 29.52067 8.0808 L 60.862483 8.0808 L 60.862483 2.5608 L 29.52067 2.5608 z " style="fill: #ffffff" />
+    </g>
+    
+    <g style="fill: #333333" transform="translate(29.98067 6.6272) scale(0.046 -0.046)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-4c" d="M 4864 0 L 4864 2515 C 4864 3117 4531 3450 3904 3450 C 3456 3450 3187 3315 2874 2938 C 2675 3296 2406 3450 1971 3450 C 1523 3450 1229 3283 941 2880 L 941 3354 L 454 3354 L 454 0 L 986 0 L 986 2106 C 986 2592 1338 2982 1773 2982 C 2170 2982 2394 2739 2394 2310 L 2394 0 L 2925 0 L 2925 2106 C 2925 2592 3283 2982 3718 2982 C 4109 2982 4333 2733 4333 2310 L 4333 0 L 4864 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-67" d="M 1818 4666 L 1466 4666 L -51 -128 L 301 -128 L 1818 4666 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-25f" d="M 1914 3827 C 1914 4243 1574 4538 1088 4538 C 531 4538 256 4262 243 3680 L 589 3680 C 614 4090 781 4237 1082 4237 C 1350 4237 1555 4058 1555 3814 C 1555 3642 1446 3488 1229 3373 L 896 3194 C 358 2912 211 2688 186 2144 L 1894 2144 L 1894 2470 L 608 2470 C 672 2682 768 2797 1018 2918 L 1370 3104 C 1722 3283 1914 3526 1914 3827 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-4e" />
+     <use xlink:href="#TeXGyreHeros-Regular-33" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-33" transform="translate(111.1875 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-30" transform="translate(166.78125 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-63" transform="translate(222.375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-68" transform="translate(272.375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-6c" transform="translate(300.171875 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(355.765625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(383.5625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-68" transform="translate(439.15625 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-4c" transform="translate(466.953125 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-67" transform="translate(550.25 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-63" transform="translate(578.046875 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-25f" transform="translate(628.046875 0)" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0545bb780c">
+   <rect x="2.55666" y="1.44" width="73.656" height="55.44" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+dry floor
+4.80
+peak current
+2.33
+inspected floor
+1.18
+rated current
+0.78
+tip-over
+? unmeasured</metadata></svg>

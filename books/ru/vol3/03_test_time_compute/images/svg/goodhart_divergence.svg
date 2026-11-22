@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 320" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-axis" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+    <marker id="tick-red-end" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="tick-red-start" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <rect width="740" height="320" fill="#ffffff"/>
+
+  <!-- ===== Gap between the curves: the selected candidate's scoring error ===== -->
+  <path d="M70,240 C 190,160 380,82 630,58 L630,172 C 540,152 450,128 380,124 C 300,120 180,166 70,240 Z" fill="#fee2e2" fill-opacity="0.6" stroke="none"/>
+
+  <!-- ===== Axes ===== -->
+  <path d="M70,260 H660" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arr-axis)"/>
+  <path d="M70,260 V24" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arr-axis)"/>
+  <text x="360" y="292" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform=" translate(360 0) scale(0.6397730076486553 1) translate(-360 0)" data-ru-fit="0.6398">Кандидаты, выбранные из, <tspan font-style="italic">N</tspan> (логарифмический масштаб)</text>
+  <text x="44" y="142" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform="rotate(-90 44 142) translate(44 0) scale(0.9758896038452594 1) translate(-44 0)" data-ru-fit="0.9759">Оценка выбранного кандидата</text>
+
+  <!-- ===== Knee: where the reference score turns down ===== -->
+  <path d="M366,130 V196" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="366" y="214" font-size="12" fill="#475569" text-anchor="middle">где начинается спад</text>
+  <text x="366" y="230" font-size="12" fill="#475569" text-anchor="middle">зависит от задачи</text>
+
+  <!-- ===== Curves ===== -->
+  <!-- proxy score: keeps rising -->
+  <path d="M70,240 C 190,160 380,82 630,58" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-dasharray="7,4"/>
+  <!-- held-out reference score: rises, then declines -->
+  <path d="M70,240 C 180,166 300,120 380,124 C 450,128 540,152 630,172" fill="none" stroke="#16a34a" stroke-width="2.2"/>
+  <circle cx="366" cy="123" r="4" fill="#16a34a"/>
+
+  <!-- direct labels at the curve ends -->
+  <text x="642" y="56" font-size="13" font-weight="700" fill="#0369a1" transform=" translate(642 0) scale(0.7470277096719649 1) translate(-642 0)" data-ru-fit="0.7470">прокси</text>
+  <text x="642" y="72" font-size="13" font-weight="700" fill="#0369a1" transform=" translate(642 0) scale(0.7555328566564522 1) translate(-642 0)" data-ru-fit="0.7555">оценка</text>
+  <text x="642" y="170" font-size="13" font-weight="700" fill="#15803d" transform=" translate(642 0) scale(0.5618774269795712 1) translate(-642 0)" data-ru-fit="0.5619">выдержанный</text>
+  <text x="642" y="186" font-size="13" font-weight="700" fill="#15803d">ссылка</text>
+
+  <!-- ===== Gap marker ===== -->
+  <path d="M600,68 V158" fill="none" stroke="#dc2626" stroke-width="1.5" marker-start="url(#tick-red-start)" marker-end="url(#tick-red-end)"/>
+  <text x="588" y="108" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="end" transform=" translate(588 0) scale(0.5193782801776342 1) translate(-588 0)" data-ru-fit="0.5194">ошибка подсчета очков</text>
+  <text x="588" y="124" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="end">победителя</text>
+<metadata id="original-source-labels">Candidates selected from,
+N
+(log scale)
+Score of the selected candidate
+where the decline begins
+depends on the task
+proxy
+score
+held-out
+reference
+scoring error
+of the winner</metadata></svg>

@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 444" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="736" height="444" fill="#ffffff"/>
+  <g transform="translate(8,8)">
+  <!-- ===== Chapter 1 ===== -->
+  <rect x="206" y="16" width="494" height="36" rx="3" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+  <text x="453" y="39" text-anchor="middle" font-size="12.5" fill="#14294E"><tspan fill="#475569">Глава 1</tspan><tspan dx="8" font-weight="700">Введение</tspan></text>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="44" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="35" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="26" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="17" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+  </g>
+  <!-- ===== Part I: The Fleet ===== -->
+  <rect x="12" y="64" width="696" height="70" rx="4" fill="#F1F4F9"/>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="109" width="24" height="7" rx="0" fill="#1F407A" stroke="#1F407A" stroke-width="0.8"/>
+    <rect x="22" y="100" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="91" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="82" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+  </g>
+  <text x="58" y="96" font-size="12.5" font-weight="700" fill="#1F407A">Часть I</text>
+  <text x="58" y="112" font-size="12.5" fill="#14294E">Флот</text>
+  <rect x="206" y="70" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="264" y="87" text-anchor="middle" font-size="12" fill="#475569">Глава 2</text>
+  <text x="264" y="104" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Вычисления</text>
+  <text x="264" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Инфраструктура</text>
+  <rect x="332" y="70" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390" y="87" text-anchor="middle" font-size="12" fill="#475569">Глава 3</text>
+  <text x="390" y="104" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Сеть</text>
+  <text x="390" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">fabric</text>
+  <rect x="458" y="70" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="516" y="87" text-anchor="middle" font-size="12" fill="#475569">Глава 4</text>
+  <text x="516" y="104" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Данные</text>
+  <text x="516" y="119" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Хранилище</text>
+  <!-- ===== Part II: Distributed ML ===== -->
+  <rect x="12" y="140" width="696" height="70" rx="4" fill="#F1F4F9"/>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="185" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="176" width="24" height="7" rx="0" fill="#1F407A" stroke="#1F407A" stroke-width="0.8"/>
+    <rect x="22" y="167" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="158" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+  </g>
+  <text x="58" y="172" font-size="12.5" font-weight="700" fill="#1F407A">Часть II</text>
+  <text x="58" y="188" font-size="12.5" fill="#14294E">Распространено ML</text>
+  <rect x="206" y="146" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="264" y="163" text-anchor="middle" font-size="12" fill="#475569">Глава 5</text>
+  <text x="264" y="180" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Коллектив</text>
+  <text x="264" y="195" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Связь</text>
+  <rect x="332" y="146" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390" y="163" text-anchor="middle" font-size="12" fill="#475569">Глава 6</text>
+  <text x="390" y="180" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Распространено</text>
+  <text x="390" y="195" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Обучение</text>
+  <rect x="458" y="146" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="516" y="163" text-anchor="middle" font-size="12" fill="#475569">Глава 7</text>
+  <text x="516" y="180" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Неисправность</text>
+  <text x="516" y="195" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Толерантность</text>
+  <rect x="584" y="146" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="642" y="163" text-anchor="middle" font-size="12" fill="#475569">Глава 8</text>
+  <text x="642" y="180" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Флот</text>
+  <text x="642" y="195" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Оркестровка</text>
+  <!-- ===== Part III: The Fleet in Production ===== -->
+  <rect x="12" y="216" width="696" height="70" rx="4" fill="#F1F4F9"/>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="261" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="252" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="243" width="24" height="7" rx="0" fill="#1F407A" stroke="#1F407A" stroke-width="0.8"/>
+    <rect x="22" y="234" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+  </g>
+  <text x="58" y="248" font-size="12.5" font-weight="700" fill="#1F407A">Часть III</text>
+  <text x="58" y="264" font-size="12.5" fill="#14294E">Флот в производстве</text>
+  <rect x="206" y="222" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="264" y="239" text-anchor="middle" font-size="12" fill="#475569">Глава 9</text>
+  <text x="264" y="256" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Флот</text>
+  <text x="264" y="271" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Эффективность</text>
+  <rect x="332" y="222" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390" y="239" text-anchor="middle" font-size="12" fill="#475569">Глава 10</text>
+  <text x="390" y="256" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Обслуживание</text>
+  <text x="390" y="271" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">в масштабе</text>
+  <rect x="458" y="222" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="516" y="239" text-anchor="middle" font-size="12" fill="#475569">Глава 11</text>
+  <text x="516" y="256" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Край</text>
+  <text x="516" y="271" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Интеллект</text>
+  <rect x="584" y="222" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="642" y="239" text-anchor="middle" font-size="12" fill="#475569">Глава 12</text>
+  <text x="642" y="256" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">ML Операции</text>
+  <text x="642" y="271" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">в масштабе</text>
+  <!-- ===== Part IV: The Responsible Fleet ===== -->
+  <rect x="12" y="292" width="696" height="70" rx="4" fill="#F1F4F9"/>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="337" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="328" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="319" width="24" height="7" rx="0" fill="#ffffff" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="310" width="24" height="7" rx="0" fill="#1F407A" stroke="#1F407A" stroke-width="0.8"/>
+  </g>
+  <text x="58" y="324" font-size="12.5" font-weight="700" fill="#1F407A">Часть IV</text>
+  <text x="58" y="340" font-size="12.5" fill="#14294E">Ответственный флот</text>
+  <rect x="206" y="298" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="264" y="315" text-anchor="middle" font-size="12" fill="#475569">Глава 13</text>
+  <text x="264" y="332" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Безопасность и</text>
+  <text x="264" y="347" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E" transform=" translate(264 0) scale(0.7939819615274599 1) translate(-264 0)" data-ru-fit="0.7940">Конфиденциальность</text>
+  <rect x="332" y="298" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390" y="321" text-anchor="middle" font-size="12" fill="#475569">Глава 14</text>
+  <text x="390" y="339" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Прочный AI</text>
+  <rect x="458" y="298" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="516" y="321" text-anchor="middle" font-size="12" fill="#475569">Глава 15</text>
+  <text x="516" y="339" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E">Устойчивое AI</text>
+  <rect x="584" y="298" width="116" height="58" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="642" y="321" text-anchor="middle" font-size="12" fill="#475569">Глава 16</text>
+  <text x="642" y="339" text-anchor="middle" font-size="12.5" font-weight="700" fill="#14294E" transform=" translate(642 0) scale(0.9655172413793104 1) translate(-642 0)" data-ru-fit="0.9655">Ответственный AI</text>
+  <!-- ===== Chapter 17 ===== -->
+  <rect x="206" y="374" width="494" height="36" rx="3" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+  <text x="453" y="397" text-anchor="middle" font-size="12.5" fill="#14294E"><tspan fill="#475569">Глава 17</tspan><tspan dx="8" font-weight="700">Заключение</tspan></text>
+  <g>  <!-- stack locator -->
+    <rect x="22" y="402" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="393" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="384" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+    <rect x="22" y="375" width="24" height="7" rx="0" fill="#9FB0C9" stroke="#9FB0C9" stroke-width="0.8"/>
+  </g>
+  </g>
+<metadata id="original-source-labels">Chapter 1
+Introduction
+Part I
+The Fleet
+Chapter 2
+Compute
+Infrastructure
+Chapter 3
+Network
+Fabrics
+Chapter 4
+Data
+Storage
+Part II
+Distributed ML
+Chapter 5
+Collective
+Communication
+Chapter 6
+Distributed
+Training
+Chapter 7
+Fault
+Tolerance
+Chapter 8
+Fleet
+Orchestration
+Part III
+The Fleet in Production
+Chapter 9
+Fleet
+Efficiency
+Chapter 10
+Serving
+at Scale
+Chapter 11
+Edge
+Intelligence
+Chapter 12
+ML Operations
+at Scale
+Part IV
+The Responsible Fleet
+Chapter 13
+Security &amp;
+Privacy
+Chapter 14
+Robust AI
+Chapter 15
+Sustainable AI
+Chapter 16
+Responsible AI
+Chapter 17
+Conclusion</metadata></svg>

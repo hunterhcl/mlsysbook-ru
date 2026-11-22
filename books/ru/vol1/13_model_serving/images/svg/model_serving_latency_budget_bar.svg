@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="72.6pt" height="22.3pt" viewBox="0 0 72.6 22.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="72.6" height="22.3" fill="#ffffff"/>
+  <!-- ===== Request latency budget, to scale (LatencyTableCalc) =====
+       pre  = JPEG 3.0 + resize 1.0 + norm 0.5 + transfer 0.5 = 5.0 ms
+       infer = 5.0 ms, post = 0.1 ms; total 10.1 ms over 52.5 units -->
+  <rect x="2" y="7.6" width="25.8" height="7" fill="#cccccc"/>
+  <rect x="28.2" y="7.6" width="25.8" height="7" fill="#e67817"/>
+  <rect x="54.3" y="7.6" width="0.5" height="7" fill="#999999"/>
+  <!-- ===== Labels ===== -->
+  <text x="14.9" y="13" text-anchor="middle" font-size="5.4" fill="#666666" transform=" translate(14.900001525878906 0) scale(0.5222905204006038 1) translate(-14.900001525878906 0)" data-ru-fit="0.5223">предварительно</text>
+  <text x="41.1" y="13" text-anchor="middle" font-size="5.4" fill="#ffffff" transform=" translate(41.10000038146973 0) scale(0.5779777097747827 1) translate(-41.10000038146973 0)" data-ru-fit="0.5780">сделать вывод</text>
+  <text x="56.6" y="13" font-size="5.4" fill="#666666" transform=" translate(56.59999465942383 0) scale(0.37510271133873024 1) translate(-56.59999465942383 0)" data-ru-fit="0.3751">сообщение</text>
+<metadata id="original-source-labels">pre
+infer
+post</metadata></svg>

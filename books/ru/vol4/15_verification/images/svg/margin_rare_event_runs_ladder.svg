@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="74.952pt" viewBox="0 0 72.63 74.952" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 74.952 L 72.63 74.952 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 73.512 L 71.19 73.512 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 22.06368 L 68.227006 22.06368 L 68.227006 7.42752 L 1.44 7.42752 z " clip-path="url(#pc78c27d3d9)" style="fill: #008f45; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 44.23968 L 55.044139 44.23968 L 55.044139 29.60352 L 1.44 29.60352 z " clip-path="url(#pc78c27d3d9)" style="fill: #008f45; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 66.41568 L 4.883387 66.41568 L 4.883387 51.77952 L 1.44 51.77952 z " clip-path="url(#pc78c27d3d9)" style="fill: #008f45; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_6">
+    <path d="M 1.44 73.512 L 71.19 73.512 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Plain MC"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="45.059661865234375" y="19.787160873413086" data-original-label="Plain MC" transform="translate(45.059661865234375 8.812237739562988) scale(0.7132177404688569 1.9832938933619693) translate(-45.059661865234375 -15.286524772644043)">Монте-Карло</text></g>
+   <g id="text_2" data-original-label="Zero-failure"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="28.426105499267578" y="41.95909881591797" data-original-label="Zero-failure" transform="translate(28.426105499267578 31.06623649597168) scale(0.919159519598729 2.0745373563129665) translate(-28.426105499267578 -37.45846176147461)">Без отказов</text></g>
+   <g id="text_3" data-original-label="Importance"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="6.707458972930908" y="64.46408081054688" data-original-label="Importance" transform="translate(6.707458972930908 53.65815353393555) scale(0.7151116033722024 2.0579806433321353) translate(-6.707458972930908 -59.96344757080078)">По значимости</text></g>
+   <g id="text_4" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="70.62911987304688" data-original-label="log scale" transform="translate(56.066532135009766 66.93569946289062) scale(0.7828561051031949 0.8206440014582796) translate(-56.066532135009766 -66.87859344482422)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc78c27d3d9">
+   <rect x="1.44" y="1.44" width="69.75" height="72.072"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Plain MC
+Zero-failure
+Importance
+log scale</metadata></svg>

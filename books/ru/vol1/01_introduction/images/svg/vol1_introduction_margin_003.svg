@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102pt" height="58pt" viewBox="-4 0 204 116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Sparkline, filled gap (schematic): infrastructure health stays flat while recall falls -->
+  <polygon points="36,22 140,22 140,84 36,30" fill="#F5D2D5"/>
+  <line x1="36" y1="22" x2="140" y2="22" stroke="#5E6B73" stroke-width="3" stroke-linecap="round"/>
+  <line x1="36" y1="30" x2="140" y2="84" stroke="#333333" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="36" cy="30" r="3.5" fill="#333333"/>
+  <circle cx="140" cy="84" r="3.5" fill="#333333"/>
+  <text x="146" y="27" font-size="14" fill="#5E6B73" transform=" translate(146 0) scale(0.6290086235836234 1) translate(-146 0)" data-ru-fit="0.6290">Здоровье</text>
+  <text x="30" y="35" font-size="14" fill="#333333" text-anchor="end">95%</text>
+  <text x="146" y="80" font-size="14" fill="#333333" transform=" translate(146 0) scale(0.5314934405112276 1) translate(-146 0)" data-ru-fit="0.5315">Вспомнить</text>
+  <text x="146" y="97" font-size="14" fill="#333333">85%</text>
+  <text x="88" y="110" font-size="14" fill="#666666" text-anchor="middle" transform=" translate(88 0) scale(0.7680578087080098 1) translate(-88 0)" data-ru-fit="0.7681">время →</text>
+<metadata id="original-source-labels">Health
+95%
+Recall
+85%
+time →</metadata></svg>

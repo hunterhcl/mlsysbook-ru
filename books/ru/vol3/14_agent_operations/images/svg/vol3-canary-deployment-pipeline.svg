@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" fill="#ffffff"/>
+
+  <!-- ===== Live exposure: share of eligible live tasks assigned to the candidate ===== -->
+  <text x="20" y="28" font-size="12" font-weight="700" fill="#475569" transform=" translate(19.92799949645996 0) scale(0.8480742348434562 1) translate(-19.92799949645996 0)" data-ru-fit="0.8481">Живые задачи, поставленные кандидату</text>
+  <rect x="20" y="40" width="156" height="22" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="98" y="55" text-anchor="middle" font-size="12" fill="#475569">нет</text>
+  <rect x="208" y="40" width="156" height="22" rx="0" fill="#ffffff" stroke="#d97706" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="286" y="55" text-anchor="middle" font-size="12" fill="#b45309">только копии</text>
+  <rect x="396" y="40" width="156" height="22" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="396" y="40" width="36" height="22" rx="0" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="442" y="56" font-size="14" font-style="italic" fill="#b45309">ρ</text>
+  <rect x="584" y="40" width="156" height="22" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="584" y="40" width="110" height="22" rx="0" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="639" y="55" text-anchor="middle" font-size="12" fill="#b45309" transform=" translate(639 0) scale(0.8584451100403698 1) translate(-639 0)" data-ru-fit="0.8584">в области видимости</text>
+
+  <!-- ===== Stage cards ===== -->
+  <!-- 1 Offline -->
+  <rect x="20" y="80" width="156" height="160" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M20,106 V84 Q20,80 24,80 H172 Q176,80 176,84 V106 Z" fill="#e2e8f0"/>
+  <line x1="20" y1="106" x2="176" y2="106" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="32" y="98" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(32 0) scale(0.8161778101657862 1) translate(-32 0)" data-ru-fit="0.8162">1 Офлайн-пробная версия</text>
+  <rect x="30" y="130" width="136" height="44" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="98" y="157" text-anchor="middle" font-size="16" fill="#0f172a"><tspan font-style="italic">L</tspan><tspan dy="4" font-size="12">Δ</tspan><tspan dx="4" dy="-4">&gt; −</tspan><tspan font-style="italic">δ</tspan><tspan dy="4" font-size="12">tol</tspan></text>
+  <text x="98" y="198" text-anchor="middle" font-size="12" fill="#475569">парный интервал</text>
+
+  <!-- 2 Shadow -->
+  <rect x="208" y="80" width="156" height="160" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M208,106 V84 Q208,80 212,80 H360 Q364,80 364,84 V106 Z" fill="#e2e8f0"/>
+  <line x1="208" y1="106" x2="364" y2="106" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="220" y="98" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(220 0) scale(0.9674981103552532 1) translate(-220 0)" data-ru-fit="0.9675">2 Теневое исполнение</text>
+  <rect x="218" y="130" width="136" height="44" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="286" y="157" text-anchor="middle" font-size="16" fill="#0f172a">𝒟<tspan dy="4" font-size="12">JS</tspan><tspan dy="-4">(</tspan><tspan font-style="italic">p</tspan><tspan dy="4" font-size="12">b</tspan><tspan dx="3" dy="-4">‖</tspan><tspan dx="3" font-style="italic">p</tspan><tspan dy="4" font-size="12">c</tspan><tspan dy="-4">)</tspan></text>
+  <text x="286" y="198" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(286 0) scale(0.8412880458756066 1) translate(-286 0)" data-ru-fit="0.8413">смещение вызова инструмента</text>
+
+  <!-- 3 Canary -->
+  <rect x="396" y="80" width="156" height="160" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M396,106 V84 Q396,80 400,80 H548 Q552,80 552,84 V106 Z" fill="#e2e8f0"/>
+  <line x1="396" y1="106" x2="552" y2="106" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="408" y="98" font-size="13" font-weight="700" fill="#0f172a">3 Канарейки</text>
+  <rect x="406" y="130" width="136" height="44" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="474" y="157" text-anchor="middle" font-size="16" fill="#0f172a">Λ<tspan dy="4" font-size="12">n</tspan><tspan dx="4" dy="-4">vs.</tspan><tspan dx="4" font-style="italic">b</tspan><tspan dy="4" font-size="12">low</tspan><tspan dy="-4">,</tspan><tspan dx="4" font-style="italic">u</tspan></text>
+  <text x="474" y="198" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(474 0) scale(0.9385826771653544 1) translate(-474 0)" data-ru-fit="0.9386">последовательный монитор</text>
+  <text x="474" y="222" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">+ жесткие растяжки</text>
+
+  <!-- 4 Release -->
+  <rect x="584" y="80" width="156" height="160" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M584,106 V84 Q584,80 588,80 H736 Q740,80 740,84 V106 Z" fill="#e2e8f0"/>
+  <line x1="584" y1="106" x2="740" y2="106" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="596" y="98" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(596 0) scale(0.7474764328022024 1) translate(-596 0)" data-ru-fit="0.7475">4 Решение об освобождении</text>
+  <rect x="594" y="130" width="136" height="44" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="662" y="157" text-anchor="middle" font-size="16" fill="#0f172a">1<tspan dy="4" font-size="12">ship</tspan><tspan dx="4" dy="-4">= 1</tspan></text>
+  <text x="662" y="198" text-anchor="middle" font-size="12" fill="#475569">каждый критерий ворот</text>
+  <text x="662" y="222" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(662 0) scale(0.9684167766832538 1) translate(-662 0)" data-ru-fit="0.9684">определил следующий шаг</text>
+
+  <!-- ===== met: advance ===== -->
+  <line x1="176" y1="152" x2="206" y2="152" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <text x="192" y="144" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(192 0) scale(0.31966813079551 1) translate(-192 0)" data-ru-fit="0.3197">встретился</text>
+  <line x1="364" y1="152" x2="394" y2="152" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <text x="380" y="144" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(380 0) scale(0.31966813079551 1) translate(-380 0)" data-ru-fit="0.3197">встретился</text>
+  <line x1="552" y1="152" x2="582" y2="152" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <text x="568" y="144" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(568 0) scale(0.31966813079551 1) translate(-568 0)" data-ru-fit="0.3197">встретился</text>
+
+  <!-- ===== Failure routes: every stage drains to the same hold ===== -->
+  <line x1="98" y1="240" x2="98" y2="298" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="106" y="274" font-size="12" fill="#475569" transform=" translate(106 0) scale(0.655327868852459 1) translate(-106 0)" data-ru-fit="0.6553">не выполнено или неубедительно</text>
+  <line x1="286" y1="240" x2="286" y2="298" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="294" y="274" font-size="12" fill="#475569" transform=" translate(294 0) scale(0.7449206584606258 1) translate(-294 0)" data-ru-fit="0.7449">найдена проблема</text>
+  <line x1="474" y1="240" x2="474" y2="298" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="482" y="274" font-size="12" fill="#475569" transform=" translate(482 0) scale(0.5475041843063897 1) translate(-482 0)" data-ru-fit="0.5475">сигнализация или растяжка</text>
+
+  <!-- ===== Hold ===== -->
+  <rect x="20" y="300" width="720" height="100" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <path d="M20,326 V304 Q20,300 24,300 H736 Q740,300 740,304 V326 Z" fill="#fee2e2"/>
+  <line x1="20" y1="326" x2="740" y2="326" stroke="#dc2626" stroke-width="0.8"/>
+  <text x="32" y="318" font-size="13" font-weight="700" fill="#0f172a">Удерживать: маршрутизация кандидатов прекращается.</text>
+  <rect x="36" y="338" width="332" height="48" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="202" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Прекратить прием новых кандидатов.</text>
+  <text x="202" y="376" text-anchor="middle" font-size="12" fill="#475569">применяется на границах допуска</text>
+  <rect x="392" y="338" width="332" height="48" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="558" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Выдающаяся кандидатская работа</text>
+  <text x="558" y="376" text-anchor="middle" font-size="12" fill="#475569">сохраняет владельцев; восстановление, а не откат</text>
+<metadata id="original-source-labels">Live tasks assigned to the candidate
+none
+copies only
+ρ
+scoped
+1  Offline trials
+L
+Δ
+&gt; −
+δ
+tol
+paired interval
+2  Shadow execution
+𝒟
+JS
+(
+p
+b
+‖
+p
+c
+)
+tool-call drift
+3  Canary
+Λ
+n
+vs.
+b
+low
+,
+u
+sequential monitor
++ hard tripwires
+4  Release decision
+1
+ship
+= 1
+every gate criterion
+scoped next step
+met
+met
+met
+not met or inconclusive
+problem found
+alarm or tripwire
+Hold: candidate routing stops
+Stop new candidate admission
+enforced at admission boundaries
+Outstanding candidate work
+keeps owners; recovery, not rollback</metadata></svg>

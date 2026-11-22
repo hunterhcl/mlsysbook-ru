@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.05pt" height="57.2112pt" viewBox="0 0 67.05 57.2112" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 57.2112 L 67.05 57.2112 L 67.05 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 55.7712 L 65.61 55.7712 L 65.61 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 17.4825 16.652736 L 49.5675 16.652736 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 17.4825 16.652736 L 17.4825 40.558464 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 17.4825 16.652736 L 49.5675 40.558464 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 49.5675 16.652736 L 17.4825 40.558464 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 49.5675 16.652736 L 49.5675 40.558464 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 17.4825 40.558464 L 49.5675 40.558464 " clip-path="url(#pf2397a4f03)" style="fill: none; stroke: #7e317b; stroke-opacity: 0.55; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <defs>
+     <path id="m66d0dc6fd9" d="M -5 5 L 5 5 L 5 -5 L -5 -5 z " style="stroke: #006395; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#pf2397a4f03)">
+     <use xlink:href="#m66d0dc6fd9" x="17.4825" y="16.652736" style="fill: #006395; stroke: #006395; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_8">
+    <g clip-path="url(#pf2397a4f03)">
+     <use xlink:href="#m66d0dc6fd9" x="49.5675" y="16.652736" style="fill: #006395; stroke: #006395; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_9">
+    <g clip-path="url(#pf2397a4f03)">
+     <use xlink:href="#m66d0dc6fd9" x="17.4825" y="40.558464" style="fill: #006395; stroke: #006395; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_10">
+    <g clip-path="url(#pf2397a4f03)">
+     <use xlink:href="#m66d0dc6fd9" x="49.5675" y="40.558464" style="fill: #006395; stroke: #006395; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <!-- 1 -->
+    <g style="fill: #ffffff" transform="translate(16.092266 17.925002) scale(0.05 -0.05)">
+     <defs>
+      <path id="Helvetica-31" d="M 613 3169 L 613 3600 Q 1222 3659 1462 3798 Q 1703 3938 1822 4456 L 2266 4456 L 2266 0 L 1666 0 L 1666 3169 L 613 3169 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-31"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 2 -->
+    <g style="fill: #ffffff" transform="translate(48.177266 17.925002) scale(0.05 -0.05)">
+     <defs>
+      <path id="Helvetica-32" d="M 200 0 Q 231 578 439 1006 Q 647 1434 1250 1784 L 1850 2131 Q 2253 2366 2416 2531 Q 2672 2791 2672 3125 Q 2672 3516 2437 3745 Q 2203 3975 1813 3975 Q 1234 3975 1013 3538 Q 894 3303 881 2888 L 309 2888 Q 319 3472 525 3841 Q 891 4491 1816 4491 Q 2584 4491 2939 4075 Q 3294 3659 3294 3150 Q 3294 2613 2916 2231 Q 2697 2009 2131 1694 L 1703 1456 Q 1397 1288 1222 1134 Q 909 863 828 531 L 3272 531 L 3272 0 L 200 0 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-32"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- 3 -->
+    <g style="fill: #ffffff" transform="translate(16.092266 41.83073) scale(0.05 -0.05)">
+     <defs>
+      <path id="Helvetica-33" d="M 1663 -122 Q 869 -122 511 314 Q 153 750 153 1375 L 741 1375 Q 778 941 903 744 Q 1122 391 1694 391 Q 2138 391 2406 628 Q 2675 866 2675 1241 Q 2675 1703 2392 1887 Q 2109 2072 1606 2072 Q 1550 2072 1492 2070 Q 1434 2069 1375 2066 L 1375 2563 Q 1463 2553 1522 2550 Q 1581 2547 1650 2547 Q 1966 2547 2169 2647 Q 2525 2822 2525 3272 Q 2525 3606 2287 3787 Q 2050 3969 1734 3969 Q 1172 3969 956 3594 Q 838 3388 822 3006 L 266 3006 Q 266 3506 466 3856 Q 809 4481 1675 4481 Q 2359 4481 2734 4176 Q 3109 3872 3109 3294 Q 3109 2881 2888 2625 Q 2750 2466 2531 2375 Q 2884 2278 3082 2001 Q 3281 1725 3281 1325 Q 3281 684 2859 281 Q 2438 -122 1663 -122 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-33"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 4 -->
+    <g style="fill: #ffffff" transform="translate(48.177266 41.83073) scale(0.05 -0.05)">
+     <defs>
+      <path id="Helvetica-34" d="M 2116 1584 L 2116 3613 L 681 1584 L 2116 1584 z M 2125 0 L 2125 1094 L 163 1094 L 163 1644 L 2213 4488 L 2688 4488 L 2688 1584 L 3347 1584 L 3347 1094 L 2688 1094 L 2688 0 L 2125 0 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-34"/>
+    </g>
+   </g>
+   <g id="text_5" data-original-label="all-to-all"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="24.630970001220703" y="52.84698486328125" data-original-label="all-to-all" transform="translate(24.630970001220703 49.01767349243164) scale(0.6410042559913315 0.7293160675254041) translate(-24.630971908569336 -48.34651565551758)">все на всех</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf2397a4f03">
+   <rect x="1.44" y="1.44" width="64.17" height="54.3312"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.10.8, https://matplotlib.org/
+1
+2
+3
+4
+all-to-all</metadata></svg>

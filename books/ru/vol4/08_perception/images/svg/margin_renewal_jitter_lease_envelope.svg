@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="180" height="92" fill="#ffffff"/>
+  <!-- lapse region beyond the wall -->
+  <rect x="155" y="20" width="21" height="70" fill="#f2d7d5" opacity="0.34"/>
+  <!-- allowed jitter band, 50 to 55 ms -->
+  <rect x="55" y="28" width="50" height="22" fill="#5e6b73" opacity="0.92"/>
+  <text x="80" y="43.5" font-size="13" fill="#ffffff" text-anchor="middle">+5 ms</text>
+  <!-- renewal-due tick at 50 ms -->
+  <line x1="55" y1="20" x2="55" y2="72" stroke="#5e6b73" stroke-width="1.9"/>
+  <!-- lapse wall at 60 ms -->
+  <line x1="155" y1="20" x2="155" y2="90" stroke="#cb202d" stroke-width="1.9" stroke-dasharray="6.9,3"/>
+  <!-- dimension line: 10 ms late, due to lapse -->
+  <line x1="61" y1="64" x2="149" y2="64" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 56 64 L 62 61 L 62 67 Z" fill="#333333"/>
+  <path d="M 154 64 L 148 61 L 148 67 Z" fill="#333333"/>
+  <!-- labels -->
+  <text x="2" y="14" font-size="13" fill="#5e6b73" transform=" translate(1.9999998807907104 0) scale(0.7601769540167396 1) translate(-1.9999998807907104 0)" data-ru-fit="0.7602">срок продления 50</text>
+  <text x="178" y="14" font-size="13" fill="#cb202d" text-anchor="end" transform=" translate(178 0) scale(0.5819171307154873 1) translate(-178 0)" data-ru-fit="0.5819">60: истечение</text>
+  <text x="105" y="83" font-size="13" fill="#333333" text-anchor="middle" transform=" translate(105 0) scale(0.7267994314841527 1) translate(-105 0)" data-ru-fit="0.7268">10 ms поздно</text>
+<metadata id="original-source-labels">+5 ms
+renewal due 50
+lapse 60
+10 ms late</metadata></svg>

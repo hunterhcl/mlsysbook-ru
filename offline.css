@@ -1,0 +1,178 @@
+/* Reader layout. All assets are local; no JavaScript or web fonts are needed. */
+:root { color-scheme: light; --offline-accent: #b43753; --offline-ink: #222b31; --offline-muted: #626e76; --offline-line: #dce2e5; }
+html { scroll-padding-top: 100px; }
+body { margin: 0; color: var(--offline-ink); background: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+a { color: var(--offline-accent); text-underline-offset: .18em; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #c76530; outline-offset: 4px; }
+#quarto-header { position: sticky !important; top: 0; z-index: 100; background: #22272b; color: white; }
+.offline-navbar { min-height: 68px; padding: 12px 30px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.offline-brand { font-size: 20px; font-weight: 650; color: #fb879f; text-decoration: none; line-height: 1.3; }
+.offline-brand span { white-space: nowrap; }
+.offline-top-links { display: flex; gap: 20px; flex-shrink: 0; font-size: 14px; }
+.offline-top-links a { color: #f2f4f5; text-decoration: none; }
+.offline-top-links a:hover { text-decoration: underline; }
+body.offline-book { padding: 0 !important; }
+#quarto-content { display: block !important; max-width: 1540px; margin: auto; padding: 32px 262px 70px 286px; box-sizing: border-box; }
+#quarto-document-content { display: block !important; width: 100% !important; max-width: none !important; min-width: 0; margin: 0 !important; padding: 0 !important; }
+#quarto-document-content > *, #quarto-document-content .page-columns { grid-column: auto !important; }
+#quarto-document-content .page-columns { display: block; }
+#quarto-sidebar { position: fixed !important; top: 96px !important; bottom: 24px; left: max(24px, calc((100vw - 1540px) / 2 + 24px)); width: 230px !important; overflow: auto; padding: 0 14px 20px 0; font-size: 14px; }
+.offline-volume { margin: 0 0 5px; font-size: 12px; text-transform: uppercase; font-weight: 700; letter-spacing: .12em; color: var(--offline-accent); }
+.offline-volume-title { font-weight: 650; line-height: 1.4; margin: 0 0 18px; }
+#quarto-sidebar ul, .offline-mobile-nav ul { list-style: none; padding: 0; margin: 0; }
+.sidebar-item > .sidebar-link { display: block; padding: 5px 9px; margin: 0 0 3px; line-height: 1.35; text-decoration: none; color: #59656c; border-radius: 4px; }
+.sidebar-item > .sidebar-link:hover { background: #f3f4f5; }
+.sidebar-item > .sidebar-link.active { background: #f7e9ed; color: #a52e49; font-weight: 650; }
+.offline-all-volumes { display: inline-block; margin: 18px 9px 0; }
+#quarto-margin-sidebar { display: block !important; position: fixed !important; top: 96px !important; bottom: 24px; right: max(20px, calc((100vw - 1540px) / 2 + 20px)); width: 210px !important; overflow: auto; margin: 0 !important; padding: 0 8px 12px; font-size: 12px; }
+#quarto-margin-sidebar .column-margin { position: static !important; width: auto !important; padding: 0 !important; margin: 0 0 22px !important; }
+#quarto-margin-sidebar #TOC { position: static !important; max-height: none !important; }
+#quarto-margin-sidebar #TOC ul { padding-left: 12px; }
+#quarto-margin-sidebar #TOC a { color: #56616a; }
+#quarto-document-content .column-margin { position: static !important; width: auto !important; border-left: 2px solid var(--offline-line); padding: 8px 15px; margin: 18px 0; font-size: .88em; color: var(--offline-muted); }
+#quarto-document-content header#title-block-header { display: block !important; margin-bottom: 24px; }
+#quarto-document-content h1.title { display: block !important; font-size: clamp(2rem, 3vw, 2.7rem); line-height: 1.17; margin: 0; color: var(--offline-ink); }
+.offline-book h2, .offline-book h3, .offline-book h4 { scroll-margin-top: 100px; }
+.offline-book img { max-width: 100%; height: auto; }
+.offline-book .collapse { display: block !important; height: auto !important; visibility: visible; }
+.offline-book .callout-header { cursor: default !important; }
+.offline-book details { margin: 20px 0; }
+.offline-book summary { cursor: pointer; }
+.offline-book details.fbx-default { --text-color: #273238 !important; }
+.offline-book details.fbx-default > summary, .offline-book details.fbx-default > summary strong { color: #273238 !important; }
+.offline-book details.fbx-default code { color: #6e324b !important; }
+.offline-book details.fbx-default > summary::before { background-image: none !important; }
+.offline-book table { display: block; max-width: 100%; overflow-x: auto; }
+.offline-book pre { overflow-x: auto; }
+.offline-book .pseudocode-container { overflow-x: auto; }
+.offline-book .ps-root { font-size: .94em; }
+.offline-book .hidden { display: none !important; }
+.math { white-space: normal; }
+mjx-container[jax="SVG"] { display: inline-block; direction: ltr; text-indent: 0; line-height: 0; }
+mjx-container[jax="SVG"] > svg { overflow: visible; min-height: 1px; }
+.math.display { display: block; max-width: 100%; overflow-x: auto; margin: 1.25em 0; padding: 5px 1px; text-align: center; }
+mjx-container[jax="SVG"][display="true"] { display: block; text-align: center; }
+mjx-container[jax="SVG"][display="true"] > svg { max-width: none; }
+.offline-pager { border-top: 1px solid var(--offline-line); margin-top: 50px; padding-top: 22px; display: flex; justify-content: space-between; gap: 20px; font-size: 14px; }
+.offline-pager a { max-width: 42%; }
+.offline-mobile-nav, .offline-mobile-toc { display: none; }
+.offline-home-content { max-width: 1380px; margin: auto; padding: 64px 38px 32px; }
+.offline-eyebrow { color: var(--offline-accent); text-transform: uppercase; letter-spacing: .13em; font-size: 12px; font-weight: 700; margin: 0 0 20px; }
+.offline-home h1 { margin: 0; font-size: clamp(44px, 7.2vw, 92px); letter-spacing: -.055em; line-height: .98; font-weight: 720; }
+.offline-intro { max-width: 620px; font-size: 21px; line-height: 1.55; margin: 30px 0 14px; }
+.offline-home-note, .offline-colophon { color: var(--offline-muted); font-size: 14px; }
+.offline-start { display: inline-block; padding: 12px 21px; border: 1px solid var(--offline-accent); background: var(--offline-accent); color: white; border-radius: 4px; text-decoration: none; margin: 15px 0 36px; }
+.offline-volume-jumps { display: flex; gap: 28px; border-top: 1px solid var(--offline-line); padding: 22px 0; font-size: 14px; }
+.offline-volume-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 38px; }
+.offline-volume-card { border-top: 3px solid var(--offline-accent); padding-top: 23px; scroll-margin-top: 100px; }
+.offline-volume-card h2 { font-size: 24px; line-height: 1.3; min-height: 65px; margin: 12px 0 24px; }
+.offline-volume-card ol { margin: 0; padding-left: 21px; font-size: 15px; }
+.offline-volume-card li { margin-bottom: 11px; padding-left: 3px; }
+.offline-volume-card li::marker { color: #8a9297; font-size: 12px; }
+.offline-volume-card a { color: #34424c; text-decoration-color: #ced4d8; }
+.offline-volume-card a:hover { color: var(--offline-accent); }
+.offline-colophon { border-top: 1px solid var(--offline-line); padding-top: 20px; margin-top: 48px; }
+@media (min-width: 1540px) { #quarto-content { padding-left: 286px; padding-right: 262px; } }
+@media (max-width: 1199px) {
+  #quarto-margin-sidebar { display: none !important; }
+  #quarto-content { padding-right: 32px; padding-left: 270px; }
+  .offline-mobile-toc { display: block; border: 1px solid var(--offline-line); padding: 12px 16px; border-radius: 4px; font-size: 14px; }
+  .offline-mobile-toc ul { padding-left: 20px; }
+  .offline-mobile-toc h2 { display: none; }
+}
+@media (max-width: 899px) {
+  #quarto-sidebar { display: none !important; }
+  #quarto-content { padding: 22px 22px 50px; }
+  .offline-mobile-nav { display: block; border: 1px solid var(--offline-line); padding: 12px 16px; border-radius: 4px; font-size: 14px; }
+  .offline-mobile-nav > summary { color: var(--offline-accent); font-weight: 650; }
+  .offline-mobile-nav .offline-volume { margin-top: 20px; }
+  .offline-navbar { padding: 12px 22px; }
+  .offline-brand { font-size: 17px; }
+  .offline-top-links { gap: 13px; font-size: 13px; }
+  .offline-home-content { padding: 42px 22px 24px; }
+  .offline-volume-grid { grid-template-columns: 1fr; gap: 36px; }
+  .offline-volume-card h2 { min-height: 0; }
+}
+@media (max-width: 560px) {
+  .offline-navbar { flex-wrap: wrap; gap: 9px; }
+  .offline-top-links { width: 100%; justify-content: space-between; }
+  .offline-volume-jumps { flex-direction: column; gap: 10px; }
+  .offline-intro { font-size: 18px; }
+  #quarto-content { padding-left: 16px; padding-right: 16px; }
+  .offline-pager { flex-wrap: wrap; }
+  .offline-pager a { max-width: 100%; }
+}
+@media print {
+  #quarto-header, #quarto-sidebar, #quarto-margin-sidebar, .offline-mobile-nav, .offline-mobile-toc, .offline-pager { display: none !important; }
+  #quarto-content { padding: 0 !important; max-width: none; }
+  .offline-book details { content-visibility: visible; }
+  .math.display { overflow: visible; }
+  .offline-book table { display: table; }
+}
+
+/* Math is saved as inline SVG paths, with no runtime or downloadable fonts. */
+mjx-container[jax="SVG"] { display: inline-block; direction: ltr; text-indent: 0; }
+mjx-container[jax="SVG"] > svg { overflow: visible; min-height: 1px; }
+mjx-container[jax="SVG"][display="true"] { display: block; text-align: center; margin: 1em 0; overflow-x: auto; overflow-y: hidden; padding: .2em 0; }
+.math.display { display: block; max-width: 100%; }
+.math.inline { white-space: nowrap; }
+.offline-brand { color: #f07890; text-decoration: none; font-size: 20px; font-weight: 650; }
+.offline-brand:hover { color: #ff9fb1; }
+.offline-start { display: inline-block; background: #a83756; color: white; padding: 12px 20px; text-decoration: none; border-radius: 4px; margin: 16px 0 36px; }
+.offline-home-note, .offline-colophon { color: #59656c; font-size: 14px; }
+.offline-colophon { border-top: 1px solid #dfe3e6; margin: 40px 0 0; padding-top: 22px; }
+
+/* Override the source theme's deliberately hidden chapter titles. */
+body.offline-book main#quarto-document-content.page-columns.page-full > header#title-block-header.quarto-title-block h1.title { display: block !important; }
+/* Quarto's small-screen rule sets padding with !important. */
+@media (max-width: 899px) {
+  body.offline-book #quarto-content { padding: 22px 22px 50px !important; }
+}
+@media (max-width: 560px) {
+  body.offline-book #quarto-content { padding-left: 16px !important; padding-right: 16px !important; }
+  .offline-brand { font-size: 17px; }
+}
+/* Quarto's mobile rules used padding supplied by its JavaScript layout. */
+@media (max-width: 1199px) {
+  body.offline-book div#quarto-content { padding: 26px 32px 50px 270px !important; }
+}
+@media (max-width: 899px) {
+  body.offline-book div#quarto-content { padding: 22px 22px 50px !important; }
+}
+@media (max-width: 560px) {
+  body.offline-book div#quarto-content { padding: 20px 16px 50px !important; }
+  .offline-navbar .offline-brand { font-size: 17px; }
+}
+mjx-container[jax="SVG"][display="true"] { min-width: 0 !important; max-width: 100%; }
+.offline-anchor { display: block; scroll-margin-top: 100px; }
+/* Native footnote navigation works offline and remains linked in PDF. */
+.offline-book a[role="doc-noteref"], .offline-book .footnotes li[id] { scroll-margin-top: 150px; }
+.offline-book .footnote-back { display: inline-block; max-width: 100%; font-size: .9em; font-weight: 600; white-space: normal; overflow-wrap: anywhere; }
+.offline-book a[role="doc-noteref"]:target, .offline-book .footnotes li[id]:target { background: #fff1c2; outline: 2px solid #a83756; outline-offset: 4px; border-radius: 2px; }
+@media print {
+  .offline-book a[role="doc-noteref"]:target, .offline-book .footnotes li[id]:target { background: transparent; outline: none; }
+}
+/* The complete library contains four volumes. */
+.offline-home:has(#vol4) .offline-volume-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.offline-home h1 { font-size: clamp(34px, 6.1vw, 84px); overflow-wrap: break-word; }
+.offline-top-links { flex-wrap: wrap; }
+@media (max-width: 899px) {
+  .offline-home:has(#vol4) .offline-volume-grid { grid-template-columns: 1fr; }
+}
+
+.offline-pdf-section { border-top: 1px solid #dfe3e6; padding: 22px 0 30px; margin: 0 0 24px; }
+.offline-pdf-section h2 { font-size: 23px; margin: 0 0 8px; }
+.offline-pdf-section p { font-size: 15px; color: #59656c; margin: 0 0 14px; }
+.offline-pdf-links { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+.offline-pdf-links a { font-weight: 600; }
+/* Exported figure wrappers must not put following prose into a gutter track. */
+body.offline-book main figure.quarto-float-fig.page-columns {
+  display: block !important;
+  grid-template-columns: none !important;
+  text-align: start !important;
+}
+/* Repaired references are prose links, even inside inherited math wrappers. */
+.offline-book .book-math-ref {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

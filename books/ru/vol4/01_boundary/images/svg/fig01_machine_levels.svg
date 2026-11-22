@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="680" height="372" fill="#ffffff"/>
+
+  <!-- ===== Governance envelope: surrounds all five levels, no control rate ===== -->
+  <rect x="70" y="20" width="540" height="334" rx="4" fill="none" stroke="#4A5568" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <text x="86" y="40" font-size="9.5" font-weight="700" fill="#1A202C" transform=" translate(85.95249938964844 0) scale(0.7081417057957261 1) translate(-85.95249938964844 0)" data-ru-fit="0.7081">Управление<tspan dx="6" font-weight="400" font-size="8.5" fill="#4A5568">область жизненного цикла (часть IV), без частоты управления</tspan></text>
+
+  <!-- ===== Brain (proposal role) ===== -->
+  <!-- Rates are the running machine's, guarded by the boundary-locator-rates cell in 01_boundary.qmd -->
+  <rect x="90" y="54" width="500" height="46" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1.2"/>
+  <text x="106" y="73" font-size="10.5" font-weight="700" fill="#1A202C">Мозг</text>
+  <text x="106" y="89" font-size="8.5" font-weight="400" fill="#4A5568">обученные генераторы · модель намерений 2 Hz · продление 20 Hz, уставки 40 Hz</text>
+  <text x="574" y="81" font-size="8.5" font-weight="400" fill="#4A5568" text-anchor="end">Гл. 3, 6, 8–11</text>
+
+  <!-- ── proposal boundary: encoded by the wider gap, not by a drawn rule ── -->
+  <text x="340" y="120" font-size="9" font-weight="700" font-style="italic" fill="#4A5568" text-anchor="middle" transform=" translate(339.95050048828125 0) scale(0.8933715107213746 1) translate(-339.95050048828125 0)" data-ru-fit="0.8934">граница предложений<tspan dx="6" font-weight="400">выше — только предложения, ниже — команды</tspan></text>
+
+  <!-- ===== Nervous System (structural role) ===== -->
+  <rect x="90" y="132" width="500" height="46" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="106" y="151" font-size="10.5" font-weight="700" fill="#1A202C">Нервная система</text>
+  <text x="106" y="167" font-size="8.5" font-weight="400" fill="#4A5568">контур допуска · срок допуска · резервный режим · контур 1 kHz в одном варианте</text>
+  <text x="574" y="159" font-size="8.5" font-weight="400" fill="#4A5568" text-anchor="end">Гл. 4, 12, 13</text>
+
+  <!-- ===== Body (structural role) ===== -->
+  <rect x="90" y="186" width="500" height="46" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="106" y="205" font-size="10.5" font-weight="700" fill="#1A202C">Тело</text>
+  <text x="106" y="221" font-size="8.5" font-weight="400" fill="#4A5568">приводы, передача, обмотки, шины · контур тока 10–25 kHz</text>
+  <text x="574" y="213" font-size="8.5" font-weight="400" fill="#4A5568" text-anchor="end">Гл. 2</text>
+
+  <!-- ===== Boundary (structural role) ===== -->
+  <rect x="90" y="240" width="500" height="46" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="106" y="259" font-size="10.5" font-weight="700" fill="#1A202C">Граница</text>
+  <text x="106" y="275" font-size="8.5" font-weight="400" fill="#4A5568">запись в регистр и захват датчика · по событиям</text>
+  <text x="574" y="267" font-size="8.5" font-weight="400" fill="#4A5568" text-anchor="end">Гл. 1, 8</text>
+
+  <!-- ===== World (measured role) ===== -->
+  <rect x="90" y="294" width="500" height="46" rx="3" fill="#E3F3F5" stroke="#007A87" stroke-width="1.2"/>
+  <text x="106" y="313" font-size="10.5" font-weight="700" fill="#1A202C">Мир</text>
+  <text x="106" y="329" font-size="8.5" font-weight="400" fill="#4A5568">контакт, трение, полезная нагрузка, люди · непрерывно</text>
+  <text x="574" y="321" font-size="8.5" font-weight="400" fill="#4A5568" text-anchor="end">Гл. 5, 7</text>
+<metadata id="original-source-labels">Governance
+lifecycle envelope (Part IV), no control rate
+Brain
+learned proposers · intent model 2 Hz · chunk renewal 20 Hz, setpoints 40 Hz
+Ch. 3, 6, 8–11
+proposal boundary
+above may only propose, below may command
+Nervous System
+permission path · lease · fallback · 1 kHz loop in one implementation
+Ch. 4, 12, 13
+Body
+drives, transmission, windings, rails · current loop 10–25 kHz
+Ch. 2
+Boundary
+register write and sensor capture · event-timed
+Ch. 1, 8
+World
+contact, friction, payload, people · continuous
+Ch. 5, 7</metadata></svg>

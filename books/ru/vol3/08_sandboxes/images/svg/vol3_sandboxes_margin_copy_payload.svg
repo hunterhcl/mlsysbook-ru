@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 41.5416 L 61.706637 41.5416 L 61.706637 13.0824 L 1.44 13.0824 z " clip-path="url(#p06f3540476)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 84.6616 L 12.46091 84.6616 L 12.46091 56.2024 L 1.44 56.2024 z " clip-path="url(#p06f3540476)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_5">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Full copy"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="40.627681732177734" y="32.00735855102539" data-original-label="Full copy" transform="translate(40.627681732177734 21.872554779052734) scale(0.598865234298778 1.930202316745096) translate(-40.627681732177734 -27.506807327270508)">Полная копия</text></g>
+   <g id="text_2" data-original-label="Copy-on-write"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="17.981565475463867" y="75.12735748291016" data-original-label="Copy-on-write" transform="translate(17.981565475463867 64.89912414550781) scale(0.5303514177884797 1.8483948383205153) translate(-17.981565475463867 -70.62680053710938)">Копирование при записи</text></g>
+   <g id="text_3" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="92.8543930053711" data-original-label="log scale" transform="translate(56.066532135009766 89.16097259521484) scale(0.782870955686966 0.8206595651353946) translate(-56.066532135009766 -89.10393524169922)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p06f3540476">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.1, https://matplotlib.org/
+Full copy
+Copy-on-write
+log scale</metadata></svg>

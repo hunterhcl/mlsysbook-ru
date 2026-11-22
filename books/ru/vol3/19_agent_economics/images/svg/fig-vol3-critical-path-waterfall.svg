@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -6 680 344" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect y="-6" width="680" height="344" fill="#ffffff"/>
+<defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><rect width="5" height="5" fill="#fef3c7"/><line x1="0" y1="0" x2="0" y2="5" stroke="#d97706" stroke-width="1.1" stroke-opacity="0.4"/></pattern></defs>
+<line x1="190.45" y1="40" x2="190.45" y2="276" stroke="#e2e8f0" stroke-width="0.8"/>
+<line x1="356.91" y1="40" x2="356.91" y2="276" stroke="#e2e8f0" stroke-width="0.8"/>
+<line x1="523.36" y1="40" x2="523.36" y2="276" stroke="#e2e8f0" stroke-width="0.8"/>
+<line x1="494.98" y1="30" x2="494.98" y2="276" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,3"/>
+<text x="488.98" y="26" text-anchor="end" font-size="12" font-weight="700" fill="#b91c1c" transform=" translate(488.98004150390625 0) scale(0.8607780052646973 1) translate(-488.98004150390625 0)" data-ru-fit="0.8608">немодельный пол</text>
+<line x1="544.00" y1="84" x2="544.00" y2="276" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="24.0" y="52" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(24 0) scale(0.9906349206349206 1) translate(-24 0)" data-ru-fit="0.9906">Базовый эпизод</text>
+<rect x="24.00" y="59" width="408.81" height="26" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<rect x="432.81" y="59" width="62.17" height="26" fill="url(#hatch)" stroke="#d97706" stroke-width="1"/>
+<rect x="494.98" y="59" width="48.69" height="26" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.3"/>
+<text x="228.40" y="76.2" text-anchor="middle" font-size="12" fill="#0f172a"><tspan font-weight="700">Необходимые тесты</tspan> · 245.60 s</text>
+<text x="463.89" y="76.2" text-anchor="middle" font-size="11" fill="#0f172a">37.35 s</text>
+<text x="519.32" y="76.2" text-anchor="middle" font-size="11" fill="#0f172a">29.25 s</text>
+<text x="463.89" y="52" text-anchor="middle" font-size="11" fill="#b45309" transform=" translate(463.8900146484375 0) scale(0.7824339839265212 1) translate(-463.8900146484375 0)" data-ru-fit="0.7824">песочница</text>
+<text x="519.32" y="52" text-anchor="middle" font-size="11" fill="#0369a1" transform=" translate(519.3200073242188 0) scale(0.7974735126324368 1) translate(-519.3200073242188 0)" data-ru-fit="0.7975">модель</text>
+<text x="556.00" y="76.2" font-size="12" fill="#0f172a"><tspan font-weight="700">312.40 s</tspan></text>
+<text x="24.0" y="110" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(24 0) scale(0.6065338645418327 1) translate(-24 0)" data-ru-fit="0.6065">Модель звонит в 4 раза быстрее</text>
+<rect x="24.00" y="117" width="408.81" height="26" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<rect x="432.81" y="117" width="62.17" height="26" fill="url(#hatch)" stroke="#d97706" stroke-width="1"/>
+<rect x="507.15" y="117.5" width="35.02" height="25" fill="none" stroke="#0284c7" stroke-width="1" stroke-dasharray="3,2" stroke-opacity="0.7"/>
+<rect x="494.98" y="117" width="12.17" height="26" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.3"/>
+<text x="556.00" y="134.2" font-size="12" fill="#0f172a">290.46 s · <tspan font-weight="700">1.08×</tspan></text>
+<text x="24.0" y="168" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(24 0) scale(0.6516066212268744 1) translate(-24 0)" data-ru-fit="0.6516">Спекулятивное декодирование<tspan dx="5" font-weight="400" fill="#475569">· 3.29× декодирование</tspan></text>
+<rect x="24.00" y="175" width="408.81" height="26" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<rect x="432.81" y="175" width="62.17" height="26" fill="url(#hatch)" stroke="#d97706" stroke-width="1"/>
+<rect x="510.21" y="175.5" width="31.96" height="25" fill="none" stroke="#0284c7" stroke-width="1" stroke-dasharray="3,2" stroke-opacity="0.7"/>
+<rect x="494.98" y="175" width="15.23" height="26" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.3"/>
+<text x="556.00" y="192.2" font-size="12" fill="#0f172a">292.1 s · <tspan font-weight="700">1.07×</tspan></text>
+<text x="24.0" y="226" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(24 0) scale(0.6228900782214903 1) translate(-24 0)" data-ru-fit="0.6229">Мгновенные звонки моделей<tspan dx="5" font-weight="400" fill="#475569">· предел</tspan></text>
+<rect x="24.00" y="233" width="408.81" height="26" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<rect x="432.81" y="233" width="62.17" height="26" fill="url(#hatch)" stroke="#d97706" stroke-width="1"/>
+<rect x="494.98" y="233.5" width="47.19" height="25" fill="none" stroke="#0284c7" stroke-width="1" stroke-dasharray="3,2" stroke-opacity="0.7"/>
+<text x="556.00" y="250.2" font-size="12" fill="#0f172a"><tspan font-weight="700">1.10×</tspan></text>
+<line x1="24.0" y1="276" x2="548.00" y2="276" stroke="#94a3b8" stroke-width="1"/>
+<line x1="24.00" y1="276" x2="24.00" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<text x="24.00" y="294" text-anchor="middle" font-size="11" fill="#475569">0</text>
+<line x1="190.45" y1="276" x2="190.45" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<text x="190.45" y="294" text-anchor="middle" font-size="11" fill="#475569">100</text>
+<line x1="356.91" y1="276" x2="356.91" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<text x="356.91" y="294" text-anchor="middle" font-size="11" fill="#475569">200</text>
+<line x1="523.36" y1="276" x2="523.36" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<text x="523.36" y="294" text-anchor="middle" font-size="11" fill="#475569">300</text>
+<text x="284.00" y="312" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(284 0) scale(0.8292612819775798 1) translate(-284 0)" data-ru-fit="0.8293">Прошедшее время серийного эпизода(ов)</text>
+<metadata id="original-source-labels">non-model floor
+Baseline episode
+Required tests
+· 245.60 s
+37.35 s
+29.25 s
+sandbox
+model
+312.40 s
+Model calls 4× faster
+290.46 s ·
+1.08×
+Speculative decoding
+· 3.29× decode
+292.1 s ·
+1.07×
+Instant model calls
+· limit
+1.10×
+0
+100
+200
+300
+Elapsed time of the serial episode (s)</metadata></svg>

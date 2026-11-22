@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0284c7"/>
+    </marker>
+    <marker id="arr-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <rect width="720" height="380" fill="#ffffff"/>
+
+  <!-- ===== One token sequence: every cell the same size; role markers are ordinary cells ===== -->
+  <text x="104.0" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(103.99998664855957 0) scale(0.5819205471436321 1) translate(-103.99998664855957 0)" data-ru-fit="0.5819">Инструкции к приложению</text>
+  <text x="104.0" y="47" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(103.99999618530273 0) scale(0.7387669226185206 1) translate(-103.99999618530273 0)" data-ru-fit="0.7388">разработчик</text>
+  <line x1="38" y1="55" x2="170" y2="55" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="50.0" y="70" text-anchor="middle" font-size="12" fill="#334155" font-family="Courier New, monospace">сис</text>
+  <rect x="38" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="65" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="92" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="119" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="146" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="239.0" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(239.00000762939453 0) scale(0.5197518373141702 1) translate(-239.00000762939453 0)" data-ru-fit="0.5198">Определения инструментов</text>
+  <text x="239.0" y="47" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(239.00000762939453 0) scale(0.3912095962219487 1) translate(-239.00000762939453 0)" data-ru-fit="0.3912">среда исполнения</text>
+  <line x1="173" y1="55" x2="305" y2="55" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="185.0" y="70" text-anchor="middle" font-size="12" fill="#334155" font-family="Courier New, monospace" transform=" translate(184.9999885559082 0) scale(0.4547178636050026 1) translate(-184.9999885559082 0)" data-ru-fit="0.4547">инструменты</text>
+  <rect x="173" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="200" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="227" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="254" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="281" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="360.5" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(360.5 0) scale(0.5687115086075549 1) translate(-360.5 0)" data-ru-fit="0.5687">Запрос пользователя</text>
+  <text x="360.5" y="47" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(360.49999237060547 0) scale(0.6161100022940125 1) translate(-360.49999237060547 0)" data-ru-fit="0.6161">владелец задачи</text>
+  <line x1="308" y1="55" x2="413" y2="55" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="320.0" y="70" text-anchor="middle" font-size="12" fill="#334155" font-family="Courier New, monospace" transform=" translate(319.99999618530273 0) scale(0.3334782801352184 1) translate(-319.99999618530273 0)" data-ru-fit="0.3335">пользователь</text>
+  <rect x="308" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="335" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="362" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="389" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="482.0" y="30" text-anchor="middle" font-size="13" font-style="italic" fill="#475569" transform=" translate(482 0) scale(0.5141863372936702 1) translate(-482 0)" data-ru-fit="0.5142">«расценивать как данные»</text>
+  <text x="482.0" y="47" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(482.0000114440918 0) scale(0.5524378989114958 1) translate(-482.0000114440918 0)" data-ru-fit="0.5524">рекомендация</text>
+  <line x1="416" y1="55" x2="548" y2="55" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="416" y="76" width="24" height="26" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <rect x="443" y="76" width="24" height="26" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <rect x="470" y="76" width="24" height="26" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <rect x="497" y="76" width="24" height="26" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <rect x="524" y="76" width="24" height="26" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <text x="617.0" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">README</text>
+  <text x="617.0" y="47" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(616.9999847412109 0) scale(0.502243823380708 1) translate(-616.9999847412109 0)" data-ru-fit="0.5022">контролируется злоумышленником</text>
+  <line x1="551" y1="55" x2="683" y2="55" stroke="#fca5a5" stroke-width="1"/>
+  <text x="563.0" y="70" text-anchor="middle" font-size="12" fill="#334155" font-family="Courier New, monospace" transform=" translate(562.9999732971191 0) scale(0.5995828752409956 1) translate(-562.9999732971191 0)" data-ru-fit="0.5996">набл.</text>
+  <rect x="551" y="76" width="24" height="26" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="578" y="76" width="24" height="26" rx="1" fill="#fecaca" stroke="#dc2626" stroke-width="0.8"/>
+  <rect x="605" y="76" width="24" height="26" rx="1" fill="#fecaca" stroke="#dc2626" stroke-width="0.8"/>
+  <rect x="632" y="76" width="24" height="26" rx="1" fill="#fecaca" stroke="#dc2626" stroke-width="0.8"/>
+  <rect x="659" y="76" width="24" height="26" rx="1" fill="#fecaca" stroke="#dc2626" stroke-width="0.8"/>
+
+  <!-- ===== Every position feeds the same model ===== -->
+  <line x1="50.0" y1="102" x2="238.0" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="77.0" y1="102" x2="246.9" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="104.0" y1="102" x2="255.7" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="131.0" y1="102" x2="264.6" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="158.0" y1="102" x2="273.5" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="185.0" y1="102" x2="282.3" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="212.0" y1="102" x2="291.2" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="239.0" y1="102" x2="300.1" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="266.0" y1="102" x2="309.0" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="293.0" y1="102" x2="317.8" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="320.0" y1="102" x2="326.7" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="347.0" y1="102" x2="335.6" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="374.0" y1="102" x2="344.4" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="401.0" y1="102" x2="353.3" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="428.0" y1="102" x2="362.2" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="455.0" y1="102" x2="371.0" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="482.0" y1="102" x2="379.9" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="509.0" y1="102" x2="388.8" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="536.0" y1="102" x2="397.7" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="563.0" y1="102" x2="406.5" y2="196" stroke="#94a3b8" stroke-width="0.7" stroke-opacity="0.7"/>
+  <line x1="590.0" y1="102" x2="415.4" y2="196" stroke="#dc2626" stroke-width="1" stroke-opacity="0.7"/>
+  <line x1="617.0" y1="102" x2="424.3" y2="196" stroke="#dc2626" stroke-width="1" stroke-opacity="0.7"/>
+  <line x1="644.0" y1="102" x2="433.1" y2="196" stroke="#dc2626" stroke-width="1" stroke-opacity="0.7"/>
+  <line x1="671.0" y1="102" x2="442.0" y2="196" stroke="#dc2626" stroke-width="1" stroke-opacity="0.7"/>
+
+  <!-- ===== Model and its proposal ===== -->
+  <rect x="230" y="196" width="220" height="44" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="340" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#0369a1">Модель фундамента</text>
+  <path d="M340,240 V268" fill="none" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <rect x="230" y="270" width="220" height="56" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="340" y="292" text-anchor="middle" font-size="14" font-weight="700" fill="#b45309" transform=" translate(339.99999237060547 0) scale(0.8657138891929753 1) translate(-339.99999237060547 0)" data-ru-fit="0.8657">Предлагаемый вызов инструмента</text>
+  <text x="340" y="312" text-anchor="middle" font-size="12" fill="#0f172a" font-family="Courier New, monospace" transform=" translate(339.99998474121094 0) scale(0.9582892038366368 1) translate(-339.99998474121094 0)" data-ru-fit="0.9583">package_search(приспособление…)</text>
+
+  <!-- ===== Runtime boundary, outside the model ===== -->
+  <line x1="490" y1="200" x2="490" y2="336" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="482" y="352" text-anchor="end" font-size="12" fill="#475569" transform=" translate(482.0000114440918 0) scale(0.7978436716799138 1) translate(-482.0000114440918 0)" data-ru-fit="0.7978">модель</text>
+  <text x="498" y="352" text-anchor="start" font-size="12" fill="#475569" transform=" translate(498 0) scale(0.3912095962219487 1) translate(-498 0)" data-ru-fit="0.3912">среда исполнения</text>
+  <path d="M450,298 H518" fill="none" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <rect x="520" y="216" width="170" height="124" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="605" y="240" text-anchor="middle" font-size="14" font-weight="700" fill="#6d28d9">Проверка политики</text>
+  <line x1="536" y1="252" x2="674" y2="252" stroke="#cbd5e1" stroke-width="0.8"/>
+  <text x="605" y="272" text-anchor="middle" font-size="12" fill="#0f172a">проверка выпуска</text>
+  <text x="605" y="290" text-anchor="middle" font-size="12" fill="#0f172a">проверка доказательств</text>
+  <rect x="532" y="302" width="146" height="26" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="605" y="319" text-anchor="middle" font-size="11.5" font-weight="700" fill="#b91c1c" transform=" translate(604.9999847412109 0) scale(0.8598558450347696 1) translate(-604.9999847412109 0)" data-ru-fit="0.8599">отклонено перед отправкой</text>
+<metadata id="original-source-labels">App instructions
+developer
+sys
+Tool definitions
+runtime
+tools
+User request
+task owner
+user
+“treat as data”
+advisory
+README
+attacker-controlled
+obs
+Foundation model
+Proposed tool call
+package_search(fixture…)
+model
+runtime
+Policy check
+release check
+evidence check
+rejected before dispatch</metadata></svg>

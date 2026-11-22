@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 490" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<!-- Volume IV: petrol sensory data; pine release/permission; bronze transformations; red unsafe reuse/limits. Schematic, not measured timing. -->
+<rect width="680" height="490" fill="#ffffff"/>
+<defs><marker id="a007A87" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#007A87"/></marker><marker id="a1A4D3E" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#1A4D3E"/></marker><marker id="aB87333" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#B87333"/></marker><marker id="aA51C30" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#A51C30"/></marker><marker id="a334155" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#334155"/></marker></defs>
+<text x="30" y="30" text-anchor="start" font-size="15" font-weight="700" fill="#1A202C" transform=" translate(30 0) scale(0.9846185397867104 1) translate(-30 0)" data-ru-fit="0.9846">Сухой пол</text>
+<path d="M40 180 H310" fill="none" stroke="#334155" stroke-width="2"/>
+<rect x="60" y="90" width="70" height="45" rx="0" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+<circle cx="75" cy="140" r="9" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+<circle cx="115" cy="140" r="9" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+<path d="M140 115 H200" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a334155)"/>
+<text x="175" y="95" text-anchor="middle" font-size="11" font-weight="400" fill="#1A202C">подход</text>
+<rect x="275" y="70" width="8" height="110" rx="0" fill="#FBECEF" stroke="#A51C30" stroke-width="1.5"/>
+<text x="279" y="58" text-anchor="middle" font-size="11" font-weight="400" fill="#A51C30" transform=" translate(279 0) scale(0.9919187733112308 1) translate(-279 0)" data-ru-fit="0.9919">граница вреда</text>
+<path d="M140 155 H250" fill="none" stroke="#1A4D3E" stroke-width="1.5" marker-end="url(#a1A4D3E)"/>
+<path d="M250 145 V165" fill="none" stroke="#1A4D3E" stroke-width="2"/>
+<text x="175" y="210" text-anchor="middle" font-size="12" font-weight="400" fill="#1A202C" transform=" translate(175 0) scale(0.7673257439584582 1) translate(-175 0)" data-ru-fit="0.7673">та же команда торможения</text>
+<text x="250" y="232" text-anchor="middle" font-size="12" font-weight="700" fill="#1A4D3E" transform=" translate(250 0) scale(0.4296648738105089 1) translate(-250 0)" data-ru-fit="0.4297">останавливается раньше</text>
+<text x="370" y="30" text-anchor="start" font-size="15" font-weight="700" fill="#1A202C" transform=" translate(370 0) scale(0.7015700761948742 1) translate(-370 0)" data-ru-fit="0.7016">b  Скрытая плёнка</text>
+<path d="M380 180 H650" fill="none" stroke="#334155" stroke-width="2"/>
+<rect x="400" y="90" width="70" height="45" rx="0" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+<circle cx="415" cy="140" r="9" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+<circle cx="455" cy="140" r="9" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+<path d="M480 115 H540" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a334155)"/>
+<text x="515" y="95" text-anchor="middle" font-size="11" font-weight="400" fill="#1A202C">подход</text>
+<rect x="615" y="70" width="8" height="110" rx="0" fill="#FBECEF" stroke="#A51C30" stroke-width="1.5"/>
+<text x="619" y="58" text-anchor="middle" font-size="11" font-weight="400" fill="#A51C30" transform=" translate(619 0) scale(0.9919187733112308 1) translate(-619 0)" data-ru-fit="0.9919">граница вреда</text>
+<rect x="380" y="170" width="225" height="10" rx="0" fill="#F8FAFC" stroke="#334155" stroke-width="1.5" stroke-dasharray="3,2"/>
+<path d="M480 155 H635" fill="none" stroke="#A51C30" stroke-width="1.5" marker-end="url(#aA51C30)"/>
+<text x="515" y="210" text-anchor="middle" font-size="12" font-weight="400" fill="#1A202C" transform=" translate(515 0) scale(0.7673257439584582 1) translate(-515 0)" data-ru-fit="0.7673">та же команда торможения</text>
+<text x="615" y="232" text-anchor="middle" font-size="12" font-weight="700" fill="#A51C30" transform=" translate(615 0) scale(0.5835576723959411 1) translate(-615 0)" data-ru-fit="0.5836">превышение</text>
+<path d="M30 255 H650" fill="none" stroke="#334155" stroke-width="0.8"/>
+<text x="30" y="285" text-anchor="start" font-size="15" font-weight="700" fill="#1A202C" transform=" translate(30 0) scale(0.9555375180375181 1) translate(-30 0)" data-ru-fit="0.9555">c История наблюдений</text>
+<text x="100" y="326" text-anchor="end" font-size="12" font-weight="400" fill="#1A202C" transform=" translate(100 0) scale(0.5294685990338164 1) translate(-100 0)" data-ru-fit="0.5295">сухой</text>
+<text x="100" y="376" text-anchor="end" font-size="12" font-weight="400" fill="#1A202C" transform=" translate(100 0) scale(0.48687350835322196 1) translate(-100 0)" data-ru-fit="0.4869">плёнка</text>
+<rect x="435" y="300" width="175" height="110" rx="0" fill="#FBECEF" stroke="none" stroke-width="1.5"/>
+<path d="M435 300 V425" fill="none" stroke="#A51C30" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="435" y="447" text-anchor="middle" font-size="12" font-weight="700" fill="#A51C30" transform=" translate(435 0) scale(0.5343890107793571 1) translate(-435 0)" data-ru-fit="0.5344">срок выполнения действия</text>
+<text x="530" y="312" text-anchor="middle" font-size="11" font-weight="400" fill="#A51C30">позднее разделение</text>
+<path d="M140 330 H180 V322 H220 V330 H260 V338 H300 V330 H340 V322 H380 V330 H530" fill="none" stroke="#007A87" stroke-width="2"/>
+<path d="M140 380 H180 V372 H220 V380 H260 V388 H300 V380 H340 V372 H380 V380 H530" fill="none" stroke="#007A87" stroke-width="2"/>
+<path d="M530 330 H600" fill="none" stroke="#007A87" stroke-width="2"/>
+<path d="M530 380 V400 H600" fill="none" stroke="#007A87" stroke-width="2"/>
+<text x="285" y="412" text-anchor="middle" font-size="12" font-weight="700" fill="#007A87" transform=" translate(285 0) scale(0.7721116639027087 1) translate(-285 0)" data-ru-fit="0.7721">идентичные входы</text>
+<path d="M140 465 H620" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a334155)"/>
+<text x="625" y="469" text-anchor="start" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(625 0) scale(0.6658488714425908 1) translate(-625 0)" data-ru-fit="0.6658">время</text>
+<metadata id="original-source-labels">a  Dry floor
+approach
+harm boundary
+same brake command
+stops short
+b  Hidden film
+approach
+harm boundary
+same brake command
+overrun
+c  Observation histories
+dry
+film
+action deadline
+late separation
+identical inputs
+time</metadata></svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="533.225716pt" height="193.645161pt" viewBox="0 0 533.225716 193.645161" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:59:32.521848</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 193.645161  L 533.225716 193.645161  L 533.225716 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 186.445161  L 451.728 186.445161  L 451.728 7.2  L 7.2 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7.2 50.218839  L 451.728 50.218839  L 451.728 17.95471  L 7.2 17.95471  z " clip-path="url(#p957488c697)" style="fill: #ededed; stroke: #9a9a9a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 7.2 175.690452  L 193.614968 175.690452  L 193.614968 143.426323  L 7.2 143.426323  z " clip-path="url(#p957488c697)" style="fill: #ededed; stroke: #9a9a9a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 265.313032 175.690452  L 451.728 175.690452  L 451.728 143.426323  L 265.313032 143.426323  z " clip-path="url(#p957488c697)" style="fill: #ededed; stroke: #9a9a9a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_6">
+    <path d="M 229.464 347.765806  C 290.310557 347.765806 348.673188 323.591213 391.6982 280.5662  C 434.723213 237.541188 458.897806 179.178557 458.897806 118.332  C 458.897806 57.485443 434.723213 -0.877188 391.6982 -43.9022  C 348.673188 -86.927213 290.310557 -111.101806 229.464 -111.101806  C 168.617443 -111.101806 110.254812 -86.927213 67.2298 -43.9022  C 24.204787 -0.877188 0.030194 57.485443 0.030194 118.332  C 0.030194 179.178557 24.204787 237.541188 67.2298 280.5662  C 110.254812 323.591213 168.617443 347.765806 229.464 347.765806  z " clip-path="url(#pc811fa2293)" style="fill: #007a87; opacity: 0.08"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6b6b6b" x="14.369806" y="36.642774" transform="rotate(-0 14.369806 36.642774) translate(14.369806289672852 0) scale(0.4675910710077526 1) translate(-14.369806289672852 0)" data-ru-fit="0.4676">стеллаж</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6b6b6b" x="14.369806" y="162.114387" transform="rotate(-0 14.369806 162.114387) translate(14.369806289672852 0) scale(0.4675910710077526 1) translate(-14.369806289672852 0)" data-ru-fit="0.4676">стеллаж</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #6b6b6b" x="229.464" y="174.661548" transform="rotate(-0 229.464 174.661548)">поперечный проход</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 229.464 143.465214  C 236.129406 143.465214 242.522712 140.81702 247.235866 136.103866  C 251.94902 131.390712 254.597214 124.997406 254.597214 118.332  C 254.597214 111.666594 251.94902 105.273288 247.235866 100.560134  C 242.522712 95.84698 236.129406 93.198786 229.464 93.198786  C 222.798594 93.198786 216.405288 95.84698 211.692134 100.560134  C 206.97898 105.273288 204.330786 111.666594 204.330786 118.332  C 204.330786 124.997406 206.97898 131.390712 211.692134 136.103866  C 216.405288 140.81702 222.798594 143.465214 229.464 143.465214  z " clip-path="url(#p957488c697)" style="fill: #e6f2f3; stroke: #007a87; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 229.464 125.215014  C 231.289397 125.215014 233.040276 124.489776 234.331026 123.199026  C 235.621776 121.908276 236.347014 120.157397 236.347014 118.332  C 236.347014 116.506603 235.621776 114.755724 234.331026 113.464974  C 233.040276 112.174224 231.289397 111.448986 229.464 111.448986  C 227.638603 111.448986 225.887724 112.174224 224.596974 113.464974  C 223.306224 114.755724 222.580986 116.506603 222.580986 118.332  C 222.580986 120.157397 223.306224 121.908276 224.596974 123.199026  C 225.887724 124.489776 227.638603 125.215014 229.464 125.215014  z " clip-path="url(#p957488c697)" style="fill: #dceef0; stroke-dasharray: 3.3,2.2; stroke-dashoffset: 0; stroke: #007a87; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 39.464129 96.822581  L 216.463102 96.822581  " clip-path="url(#p957488c697)" style="fill: none; stroke: #b87333; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 216.463102 96.822581  L 242.464898 96.822581  " clip-path="url(#p957488c697)" style="fill: none; stroke: #a51c30; stroke-width: 3.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 244.462695 96.822581  Q 329.170362 96.822581 411.641962 96.822581  " style="fill: none; stroke-dasharray: 8,4; stroke-dashoffset: 0; stroke: #b87333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 407.641962 94.822581  L 411.641962 96.822581  L 407.641962 98.822581  z " style="fill: #b87333; stroke-dasharray: 8,4; stroke-dashoffset: 0; stroke: #b87333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 229.464 118.332  " clip-path="url(#p957488c697)" style="fill: none; stroke: #007a87; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m70b140e042" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #007a87"/>
+    </defs>
+    <g clip-path="url(#p957488c697)">
+     <use xlink:href="#m70b140e042" x="229.464" y="118.332" style="fill: #007a87; stroke: #007a87"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #007a87" x="260.333059" y="124.472903" transform="rotate(-0 260.333059 124.472903)">коллега, последнее измерение</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 227.466719 118.332  Q 216.899935 118.332 207.339382 118.332  " style="fill: none; stroke: #007a87; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 211.339382 120.332  L 207.339382 118.332  L 211.339382 116.332  " style="fill: none; stroke: #007a87; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #007a87" transform="translate(167.523433 116.921961)">351 mm</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #007a87" transform="translate(160.513277 127.721961)">at 219 ms</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 21.539613 111.162194  L 43.049032 111.162194  L 43.049032 82.482968  L 21.539613 82.482968  z " clip-path="url(#p957488c697)" style="fill: #ffffff; stroke: #333333; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #333333" x="32.294323" y="74.803123" transform="rotate(-0 32.294323 74.803123)">робот</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #333333" x="415.878968" y="87.708774" transform="rotate(-0 415.878968 87.708774)">цель</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #007a87" x="326.256387" y="64.444645" transform="rotate(-0 326.256387 64.444645)">3.2 м установлено на 2 с пересекает проход</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 229.464 152.133804  Q 229.464 139.674992 229.464 127.216179  " style="fill: none; stroke: #007a87; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #007a87" x="229.464" y="163.189858" transform="rotate(-0 229.464 163.189858)">96 mm at 60 ms</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_13">
+     <path d="M 96.617672 91.002774  L 362.310328 91.002774  Q 363.660328 91.002774 363.660328 89.652774  L 363.660328 80.652774  Q 363.660328 79.302774 362.310328 79.302774  L 96.617672 79.302774  Q 95.267672 79.302774 95.267672 80.652774  L 95.267672 89.652774  Q 95.267672 91.002774 96.617672 91.002774  z " style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #a51c30" x="229.464" y="87.708774" transform="rotate(-0 229.464 87.708774)">входит в отслеживаемый набор</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p957488c697">
+   <rect x="7.2" y="7.2" width="444.528" height="179.245161"/>
+  </clipPath>
+  <clipPath id="pc811fa2293">
+   <rect x="7.2" y="50.218839" width="444.528" height="93.207484"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+rack
+rack
+поперечный проход
+коллега, последнее измерение
+351 mm
+at 219 ms
+robot
+цель
+3.2 м установлено на 2 с пересекает проход
+96 mm at 60 ms
+входит в отслеживаемый набор</metadata></svg>

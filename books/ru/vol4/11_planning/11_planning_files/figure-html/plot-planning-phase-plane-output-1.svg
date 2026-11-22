@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="514.871919pt" height="254.108pt" viewBox="0 0 514.871919 254.108" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:59:41.020426</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 254.108  L 514.871919 254.108  L 514.871919 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.698594 217.872  L 420.138594 217.872  L 420.138594 7.2  L 40.698594 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mb96bf76caa" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb96bf76caa" x="40.698594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="40.698594" y="231.928" transform="rotate(-0 40.698594 231.928)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mb96bf76caa" x="116.586594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="116.586594" y="231.928" transform="rotate(-0 116.586594 231.928)">0.1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mb96bf76caa" x="192.474594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="192.474594" y="231.928" transform="rotate(-0 192.474594 231.928)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mb96bf76caa" x="268.362594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="268.362594" y="231.928" transform="rotate(-0 268.362594 231.928)">0.3</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mb96bf76caa" x="344.250594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="344.250594" y="231.928" transform="rotate(-0 344.250594 231.928)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mb96bf76caa" x="420.138594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="420.138594" y="231.928" transform="rotate(-0 420.138594 231.928)">0.5</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <!-- позиция пути $s = q$ (рад) -->
+     <g transform="translate(181.41358947753906 244.92799377441406) rotate(0)" data-rich-parent="text_7" data-rich-position="1" data-original-label="позиция пути $s = q$ (рад)"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="18.948141399182774" fill="rgb(0, 0, 0)" x="-0.1978430598974228" y="3.3126535415649414" data-original-label="позиция пути $s = q$ (рад)" transform="translate(-0.1978430598974228 -14.688080787658691) scale(0.4259577700639277 0.8475789012727556) translate(0.19784300029277802 13.938050270080566)">Координата пути s = q (rad)</text></g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m3610f1bfce" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="217.872" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="221.4" transform="rotate(-0 33.698594 221.4)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="178.122566" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="181.650566" transform="rotate(-0 33.698594 181.650566)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="138.373132" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="141.901132" transform="rotate(-0 33.698594 141.901132)">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="98.623698" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="102.151698" transform="rotate(-0 33.698594 102.151698)">1.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="58.874264" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="62.402264" transform="rotate(-0 33.698594 62.402264)">2.0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m3610f1bfce" x="40.698594" y="19.12483" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="33.698594" y="22.65283" transform="rotate(-0 33.698594 22.65283)">2.5</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <!-- скорость по траектории $\dot s$ (рад/с) -->
+     <g transform="translate(15.21000003814697 178.14599609375) rotate(-90)" data-rich-parent="text_14" data-rich-position="1" data-original-label="скорость по траектории $\dot s$ (рад/с)"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="20.13235192549856" fill="rgb(0, 0, 0)" x="-0.1978430598974228" y="3.7189035415649414" data-original-label="скорость по траектории $\dot s$ (рад/с)" transform="translate(-0.1978430598974228 -15.406830787658691) scale(0.4938406777057643 0.849997978292884) translate(0.19784300029277802 14.281830787658691)">Скорость вдоль пути ṡ (rad/s)</text></g>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 40.698594 44.961962  L 420.138594 44.961962  " clip-path="url(#p1f415e6a5d)" style="fill: none; stroke-dasharray: 3.33,1.44; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 0.9"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 40.698594 217.872  L 41.172894 200.059797  L 42.121494 187.02036  L 43.070094 178.042704  L 44.492994 167.491483  L 45.915894 158.795607  L 47.813094 148.885636  L 49.710294 140.230409  L 52.081794 130.610385  L 54.453294 121.950353  L 57.299094 112.493588  L 60.144894 103.818254  L 63.464994 94.46544  L 66.785094 85.77317  L 70.579494 76.492025  L 74.373894 67.783713  L 78.642594 58.554817  L 82.911294 49.832017  L 87.654294 40.642822  L 92.871594 31.056043  L 98.088894 21.937771  L 103.780494 12.451659  L 109.472094 3.384678  L 110.420694 1.910521  L 110.420694 1.910521  " clip-path="url(#p1f415e6a5d)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #a0aec0"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 377.451594 2.777621  L 377.925894 3.975927  L 378.400194 5.180985  L 378.874494 6.39291  L 379.348794 7.61182  L 379.823094 8.837837  L 380.297394 10.071088  L 380.771694 11.311701  L 381.245994 12.559811  L 381.720294 13.815555  L 382.194594 15.079074  L 382.668894 16.350516  L 383.143194 17.63003  L 383.617494 18.917773  L 384.091794 20.213906  L 384.566094 21.518594  L 385.040394 22.832009  L 385.514694 24.15433  L 385.988994 25.485738  L 386.463294 26.826426  L 386.937594 28.176588  L 387.411894 29.536429  L 387.886194 30.906161  L 388.360494 32.286001  L 388.834794 33.676178  L 389.309094 35.076927  L 389.783394 36.488493  L 390.257694 37.911131  L 390.731994 39.345105  L 391.206294 40.790691  L 391.680594 42.248175  L 392.154894 43.717856  L 392.629194 45.200046  L 393.103494 46.695069  L 393.577794 48.203265  L 394.052094 49.724989  L 394.526394 51.26061  L 395.000694 52.810517  L 395.474994 54.375116  L 395.949294 55.954833  L 396.423594 57.550115  L 396.897894 59.161432  L 397.372194 60.789275  L 397.846494 62.434166  L 398.320794 64.09665  L 398.795094 65.777306  L 399.269394 67.476741  L 399.743694 69.195601  L 400.217994 70.934566  L 400.692294 72.694359  L 401.166594 74.475747  L 401.640894 76.279545  L 402.115194 78.106621  L 402.589494 79.9579  L 403.063794 81.83437  L 403.538094 83.737088  L 404.012394 85.667187  L 404.486694 87.625885  L 404.960994 89.614492  L 405.435294 91.634422  L 405.909594 93.687202  L 406.383894 95.77449  L 406.858194 97.898087  L 407.332494 100.059956  L 407.806794 102.262245  L 408.281094 104.507308  L 408.755394 106.79774  L 409.229694 109.136408  L 409.703994 111.526493  L 410.178294 113.971544  L 410.652594 116.475537  L 411.126894 119.042953  L 411.601194 121.678869  L 412.075494 124.38908  L 412.549794 127.180247  L 413.024094 130.060087  L 413.498394 133.037633  L 413.972694 136.123558  L 414.446994 139.330638  L 414.921294 142.674371  L 415.395594 146.173874  L 415.869894 149.853185  L 416.344194 153.743246  L 416.818494 157.885044  L 417.292794 162.33487  L 417.767094 167.173769  L 418.241394 172.526123  L 418.715694 178.601319  L 419.189994 185.807623  L 419.664294 195.199062  L 420.138594 217.872  " clip-path="url(#p1f415e6a5d)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #a0aec0"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 40.698594 217.872  L 41.172894 210.174555  L 42.121494 204.539635  L 43.070094 200.65999  L 44.492994 196.100338  L 45.915894 192.342464  L 47.813094 188.059925  L 49.710294 184.319616  L 52.081794 180.162376  L 54.453294 176.419991  L 57.299094 172.333303  L 60.619194 167.986856  L 63.939294 163.989886  L 67.733694 159.757566  L 72.002394 155.337663  L 76.745394 150.767232  L 81.962694 146.075015  L 87.654294 141.283391  L 93.820194 136.409901  L 100.460394 131.468397  L 107.574894 126.469907  L 115.163694 121.423293  L 123.226794 116.33573  L 131.764194 111.213076  L 140.775894 106.060156  L 150.736194 100.628014  L 161.170794 95.194917  L 172.079694 89.760986  L 183.937194 84.104671  L 196.268994 78.465346  L 209.549394 72.636902  L 223.778394 66.641205  L 230.418594 63.923104  L 245.121894 70.008914  L 258.876594 75.938131  L 272.156994 81.908017  L 284.488794 87.696397  L 295.871994 93.277971  L 306.780894 98.872391  L 316.741194 104.22059  L 326.227194 109.559351  L 335.238894 114.887208  L 343.776294 120.202375  L 351.365094 125.182491  L 358.479594 130.107626  L 365.119794 134.967982  L 371.285694 139.751468  L 376.977294 144.443057  L 382.194594 149.023961  L 386.937594 153.470556  L 391.206294 157.753034  L 395.474994 162.364936  L 399.269394 166.812928  L 402.589494 171.050271  L 405.435294 175.014441  L 408.281094 179.384776  L 410.652594 183.44798  L 412.549794 187.082221  L 414.446994 191.207269  L 415.869894 194.779666  L 417.292794 199.017188  L 418.241394 202.47711  L 419.189994 206.986169  L 419.664294 210.174555  L 420.138594 217.872  L 420.138594 217.872  " clip-path="url(#p1f415e6a5d)" style="fill: none; stroke: #b87333; stroke-width: 1.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 40.698594 217.871966  L 40.810315 214.784595  L 41.139151 210.774459  L 41.676123 207.03642  L 42.440437 203.282609  L 43.434936 199.513026  L 44.668072 195.711899  L 46.1456 191.879226  L 47.880869 187.999237  L 49.882694 184.071931  L 52.159999 180.097308  L 54.721815 176.075368  L 57.588864 171.990338  L 60.773521 167.84222  L 64.288353 163.631012  L 68.160895 159.340942  L 72.407394 154.972011  L 77.027391 150.539991  L 82.052451 146.029109  L 87.518956 141.423594  L 93.427349 136.739216  L 99.795369 131.975978  L 106.663966 127.118105  L 114.055215 122.165598  L 121.991622 117.118458  L 130.469388 111.992456  L 139.535975 106.77182  L 149.215105 101.45655  L 159.561693 96.030874  L 170.572347 90.510564  L 182.272153 84.89562  L 194.686626 79.186042  L 207.878195 73.366059  L 215.477916 70.200532  L 218.545706 69.214678  L 221.631536 68.45495  L 224.730724 67.921348  L 227.800656 67.61626  L 230.874542 67.531816  L 233.947872 67.668016  L 237.016132 68.02486  L 240.074811 68.602349  L 243.156877 69.411714  L 246.219819 70.447205  L 249.59096 71.834832  L 263.207363 77.768317  L 276.055733 83.607368  L 288.130158 89.33625  L 299.492038 94.970699  L 310.166978 100.510715  L 320.151899 105.940562  L 329.5025 111.275976  L 338.243026 116.516957  L 346.397295 121.663507  L 353.988694 126.715625  L 361.04018 131.673311  L 367.574284 136.536564  L 373.613106 141.305385  L 379.196462 145.995513  L 384.325132 150.591209  L 389.035845 155.108212  L 393.345707 159.546521  L 397.271526 163.906136  L 400.829811 168.187058  L 404.036773 172.389287  L 406.918765 176.528561  L 409.488325 180.60488  L 411.757803 184.618245  L 413.746752 188.584393  L 415.464183 192.503326  L 416.919002 196.375042  L 418.120004 200.199542  L 419.079385 203.992565  L 419.802889 207.754111  L 420.139088 210.099175  L 420.139088 210.099175  " clip-path="url(#p1f415e6a5d)" style="fill: none; stroke: #1a4d3e; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 40.698594 217.872  L 40.698594 7.2  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 40.698594 217.872  L 420.138594 217.872  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #cb202d" x="230.418594" y="38.24803" transform="rotate(-0 230.418594 38.24803)">ограничение скорости сустава 2.175 rad/s</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #4a5568" transform="translate(74.848194 86.239834)">предел момента</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #4a5568" transform="translate(74.848194 97.039834)">+40.2 rad/s²</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #4a5568" transform="translate(109.731856 86.239834)">предел момента</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #4a5568" transform="translate(321.499044 97.039834)">−65.1 rad/s²</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 256.776277 63.330353  Q 244.596466 63.604262 232.416655 63.87817  " style="fill: none; stroke: #b87333; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #b87333" x="260.773794" y="63.020242" transform="rotate(-0 260.773794 63.020242)">точка переключения, 1.94 rad/s</text>
+   </g>
+   <g id="line2d_18">
+    <defs>
+     <path id="mdc5980c574" d="M 0 2  C 0.530406 2 1.03916 1.789267 1.414214 1.414214  C 1.789267 1.03916 2 0.530406 2 0  C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214  C 1.03916 -1.789267 0.530406 -2 0 -2  C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214  C -1.789267 -1.03916 -2 -0.530406 -2 0  C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214  C -1.03916 1.789267 -0.530406 2 0 2  z " style="stroke: #b87333"/>
+    </defs>
+    <g clip-path="url(#p1f415e6a5d)">
+     <use xlink:href="#mdc5980c574" x="230.418594" y="63.923104" style="fill: #b87333; stroke: #b87333"/>
+    </g>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_19">
+     <path d="M 96.196953 191.178  L 105.196953 191.178  L 114.196953 191.178  " style="fill: none; stroke: #b87333; stroke-width: 1.8; stroke-linecap: square"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="121.396953" y="194.328" transform="rotate(-0 121.396953 194.328) translate(121.3969497680664 0) scale(0.9542307315404944 1) translate(-121.3969497680664 0)" data-ru-fit="0.9542">релейное, ±7.5 rad/s², 516.4 ms</text>
+    </g>
+    <g id="line2d_20">
+     <path d="M 96.196953 204.678  L 105.196953 204.678  L 114.196953 204.678  " style="fill: none; stroke: #1a4d3e; stroke-width: 1.6; stroke-linecap: square"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="121.396953" y="207.828" transform="rotate(-0 121.396953 207.828)">с ограничением рывка, 528.9 ms</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1f415e6a5d">
+   <rect x="40.698594" y="7.2" width="379.44" height="210.672"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+(
+)
+s
+q
+=
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+(
+/
+)
+̇
+s
+ограничение скорости сустава 2.175 рад/с
+ограничение крутящего момента
++40.2 рад/с²
+ограничение крутящего момента
+−65.1 рад/с²
+точка переключения, 1.94 рад/с
+бах-бах, ±7.5 рад/с², 516.4 ms
+с ограничением рывков, 528.9 ms</metadata></svg>

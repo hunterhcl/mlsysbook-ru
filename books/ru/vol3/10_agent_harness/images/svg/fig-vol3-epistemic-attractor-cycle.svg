@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 26 760 420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="0" y="26" width="760" height="420" fill="#ffffff"/>
+  <defs>
+    <style>
+      .lbl { font-size: 13px; fill: #0f172a; }
+      .sub { font-size: 12.5px; fill: #475569; }
+      .head { font-size: 13px; font-weight: 700; fill: #334155; }
+      .name { font-size: 13px; font-weight: 700; text-anchor: middle; }
+    </style>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <!-- ===== The runaway loop ===== -->
+  <g fill="none" stroke="#dc2626" stroke-width="1.8">
+    <path d="M208.7,87 A90,90 0 0 1 278,156.3" marker-end="url(#arr-red)"/>
+    <path d="M278,193.7 A90,90 0 0 1 208.7,263" marker-end="url(#arr-red)"/>
+    <path d="M171.3,263 A90,90 0 0 1 102,193.7" marker-end="url(#arr-red)"/>
+    <path d="M102,156.3 A90,90 0 0 1 171.3,87" marker-end="url(#arr-red)"/>
+  </g>
+  <!-- stations on the loop -->
+  <circle cx="190" cy="85" r="7" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <circle cx="280" cy="175" r="7" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <circle cx="190" cy="265" r="7" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="190" y="66" class="lbl" text-anchor="middle" transform=" translate(190 0) scale(0.8609767229575537 1) translate(-190 0)" data-ru-fit="0.8610">модель предлагает вариант</text>
+  <text x="294" y="180" class="lbl" transform=" translate(294 0) scale(0.48833175654367705 1) translate(-294 0)" data-ru-fit="0.4883">тест не пройден</text>
+  <text x="190" y="290" class="lbl" text-anchor="middle" transform=" translate(190 0) scale(0.7821768707482993 1) translate(-190 0)" data-ru-fit="0.7822">ошибка добавлена</text>
+  <text x="96" y="106" class="lbl" text-anchor="end" transform=" translate(96 0) scale(0.2220739356732951 1) translate(-96 0)" data-ru-fit="0.2221">повторить попытку</text>
+  <text x="190" y="171" class="sub" text-anchor="middle" transform=" translate(190 0) scale(0.5323022173555981 1) translate(-190 0)" data-ru-fit="0.5323">каждый звонок хорошо сформирован,</text>
+  <text x="190" y="187" class="sub" text-anchor="middle" transform=" translate(190 0) scale(0.6581005586592179 1) translate(-190 0)" data-ru-fit="0.6581">в пределах лимита на вызов</text>
+
+  <!-- rare exit: ending the turn -->
+  <line x1="254" y1="111" x2="282" y2="83" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4,2" marker-end="url(#arr-gray)"/>
+  <text x="288" y="82" class="sub" transform=" translate(288 0) scale(0.608772595120718 1) translate(-288 0)" data-ru-fit="0.6088">конечный ход: редко</text>
+
+  <!-- admission gate on the loop, and the refusal -->
+  <rect x="94" y="163" width="12" height="24" rx="0" fill="#7c3aed"/>
+  <g stroke="#dc2626" stroke-width="2.4" stroke-linecap="round">
+    <line x1="108" y1="115" x2="124" y2="131"/><line x1="124" y1="115" x2="108" y2="131"/>
+  </g>
+  <polyline points="94,175 50,175 50,318" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="58" y="310" class="sub" fill="#6d28d9" style="fill:#6d28d9" transform=" translate(58 0) scale(0.6943406300053391 1) translate(-58 0)" data-ru-fit="0.6943">вступительный тест</text>
+
+  <!-- ===== Context per turn: errors dilute the task ===== -->
+  <text x="400" y="60" class="head" transform=" translate(400 0) scale(0.9305210918114144 1) translate(-400 0)" data-ru-fit="0.9305">контекст, ход за ходом</text>
+  <text x="400" y="98" class="sub" transform=" translate(400 0) scale(0.9403973509933775 1) translate(-400 0)" data-ru-fit="0.9404">рано</text>
+  <text x="400" y="136" class="sub" transform=" translate(400 0) scale(0.6593220338983051 1) translate(-400 0)" data-ru-fit="0.6593">позже</text>
+  <text x="400" y="174" class="sub" transform=" translate(400 0) scale(0.6613016095171449 1) translate(-400 0)" data-ru-fit="0.6613">намного позже</text>
+  <!-- task blocks -->
+  <g fill="#dcfce7" stroke="#16a34a" stroke-width="1">
+    <rect x="480" y="80" width="60" height="26" rx="0"/>
+    <rect x="480" y="118" width="60" height="26" rx="0"/>
+    <rect x="480" y="156" width="60" height="26" rx="0"/>
+  </g>
+  <g class="sub" text-anchor="middle" style="fill:#15803d">
+    <text x="510" y="98">задание</text>
+    <text x="510" y="136">задание</text>
+    <text x="510" y="174">задание</text>
+  </g>
+  <!-- error observations -->
+  <g fill="#fee2e2" stroke="#dc2626" stroke-width="0.8">
+    <rect x="542" y="80" width="20" height="26" rx="0"/>
+
+    <rect x="542" y="118" width="20" height="26" rx="0"/>
+    <rect x="564" y="118" width="20" height="26" rx="0"/>
+    <rect x="586" y="118" width="20" height="26" rx="0"/>
+    <rect x="608" y="118" width="20" height="26" rx="0"/>
+
+    <rect x="542" y="156" width="20" height="26" rx="0"/>
+    <rect x="564" y="156" width="20" height="26" rx="0"/>
+    <rect x="586" y="156" width="20" height="26" rx="0"/>
+    <rect x="608" y="156" width="20" height="26" rx="0"/>
+    <rect x="630" y="156" width="20" height="26" rx="0"/>
+    <rect x="652" y="156" width="20" height="26" rx="0"/>
+    <rect x="674" y="156" width="20" height="26" rx="0"/>
+    <rect x="696" y="156" width="20" height="26" rx="0"/>
+    <rect x="718" y="156" width="20" height="26" rx="0"/>
+  </g>
+  <polyline points="542,190 542,196 738,196 738,190" fill="none" stroke="#b91c1c" stroke-width="1"/>
+  <text x="640" y="214" class="sub" text-anchor="middle" style="fill:#b91c1c" transform=" translate(640 0) scale(0.6651973347001537 1) translate(-640 0)" data-ru-fit="0.6652">наблюдения за ошибками</text>
+
+  <!-- ===== Harness budget, outside the context ===== -->
+  <rect x="20" y="320" width="720" height="104" rx="4" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="36" y="342" class="head" style="fill:#6d28d9">Бюджет обвязки вне контекста</text>
+
+  <!-- the reservation test as a stacked bar -->
+  <rect x="40" y="360" width="120" height="30" rx="0" fill="#c4b5fd" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="160" y="360" width="80" height="30" rx="0" fill="#e9d5ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="240" y="360" width="80" height="30" rx="0" fill="#fef3c7" stroke="#d97706" stroke-width="1" stroke-dasharray="4,2"/>
+  <rect x="320" y="360" width="116" height="30" rx="0" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+  <text x="100" y="412" class="sub" text-anchor="middle">актуальный +</text>
+  <text x="200" y="412" class="sub" text-anchor="middle" transform=" translate(200 0) scale(0.7678887828812866 1) translate(-200 0)" data-ru-fit="0.7679">зарезервировано +</text>
+  <text x="280" y="412" class="sub" text-anchor="middle">предложено +</text>
+  <text x="378" y="412" class="sub" text-anchor="middle">резерв доработки</text>
+
+  <!-- allowance: the limit -->
+  <line x1="396" y1="350" x2="396" y2="398" stroke="#dc2626" stroke-width="2"/>
+  <text x="390" y="354" class="sub" text-anchor="end" style="fill:#b91c1c">≤ надбавка</text>
+
+  <!-- does not fit or deadline passed: refused, finalize -->
+  <line x1="442" y1="378" x2="612" y2="378" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+  <text x="523" y="352" class="sub" text-anchor="middle" style="fill:#6d28d9">отклонено:</text>
+  <text x="523" y="369" class="sub" text-anchor="middle" transform=" translate(523 0) scale(0.8530865686038099 1) translate(-523 0)" data-ru-fit="0.8531">превышение бюджета или просрочка срока</text>
+  <rect x="616" y="355" width="116" height="46" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="674" y="374" class="name" fill="#6d28d9">FINALIZING</text>
+  <text x="674" y="391" class="sub" text-anchor="middle" transform=" translate(674 0) scale(0.8816658202133062 1) translate(-674 0)" data-ru-fit="0.8817">расчет или передача</text>
+<metadata id="original-source-labels">model proposes a variant
+test fails
+error appended
+retry
+each call well formed,
+within per-call limits
+end turn: rare
+admission test
+context, turn after turn
+early
+later
+much later
+task
+task
+task
+error observations
+Harness budget, kept outside the context
+actual +
+reserved +
+proposed +
+finalization reserve
+≤ allowance
+refused:
+over budget or past deadline
+FINALIZING
+settle or transfer</metadata></svg>

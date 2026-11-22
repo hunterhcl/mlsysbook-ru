@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="740" height="392" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1F407A"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Assurance case for one stated use ===== -->
+  <rect x="20" y="20" width="700" height="244" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="36" y="42" font-size="12.5" font-weight="700" fill="#334155" transform=" translate(36 0) scale(0.7365882971513812 1) translate(-36 0)" data-ru-fit="0.7366">Гарантийный случай</text>
+  <text x="704" y="42" text-anchor="end" font-size="12.5" fill="#475569" transform=" translate(704 0) scale(0.6254878212891939 1) translate(-704 0)" data-ru-fit="0.6255">один заявленный диапазон использования и эксплуатации</text>
+
+  <!-- Evidence tiles -->
+  <text x="40" y="70" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(40 0) scale(0.5372627680913439 1) translate(-40 0)" data-ru-fit="0.5373">Доказательства</text>
+  <rect x="40" y="80" width="150" height="26" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="115" y="97" text-anchor="middle" font-size="12.5" fill="#0f172a" transform=" translate(115 0) scale(0.7527236711786068 1) translate(-115 0)" data-ru-fit="0.7527">Дезагрегированные результаты</text>
+  <rect x="40" y="112" width="150" height="26" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="115" y="129" text-anchor="middle" font-size="12.5" fill="#0f172a">Аудиторские отчеты</text>
+  <rect x="40" y="144" width="150" height="26" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="115" y="161" text-anchor="middle" font-size="12.5" fill="#0f172a">Журналы решений</text>
+  <rect x="40" y="176" width="150" height="26" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="115" y="193" text-anchor="middle" font-size="12.5" fill="#0f172a">Документация</text>
+
+  <!-- Evidence bus into the argument -->
+  <line x1="190" y1="93" x2="206" y2="93" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="190" y1="125" x2="206" y2="125" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="190" y1="157" x2="206" y2="157" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="190" y1="189" x2="206" y2="189" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="206" y1="93" x2="206" y2="189" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="206" y1="141" x2="231" y2="141" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arr-green)"/>
+
+  <!-- Argument -->
+  <rect x="232" y="108" width="132" height="66" rx="3" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="298" y="131" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Аргумент</text>
+  <text x="298" y="148" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(298 0) scale(0.8978028169014084 1) translate(-298 0)" data-ru-fit="0.8978">почему доказательства</text>
+  <text x="298" y="164" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(298 0) scale(0.7465567319404104 1) translate(-298 0)" data-ru-fit="0.7466">поддерживает утверждение</text>
+  <line x1="364" y1="141" x2="389" y2="141" stroke="#1F407A" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+
+  <!-- Claim -->
+  <rect x="390" y="108" width="132" height="66" rx="3" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.6"/>
+  <text x="456" y="131" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Заявка</text>
+  <text x="456" y="148" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(456 0) scale(0.9137614678899083 1) translate(-456 0)" data-ru-fit="0.9138">необходимое свойство</text>
+  <text x="456" y="164" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(456 0) scale(0.6782431052093973 1) translate(-456 0)" data-ru-fit="0.6782">для указанного использования</text>
+  <line x1="522" y1="141" x2="551" y2="141" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+
+  <!-- Accountable owner -->
+  <rect x="552" y="108" width="150" height="66" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.6"/>
+  <text x="627" y="131" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(627 0) scale(0.8944361906338927 1) translate(-627 0)" data-ru-fit="0.8944">Ответственный владелец</text>
+  <text x="627" y="148" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(627 0) scale(0.6860237701218594 1) translate(-627 0)" data-ru-fit="0.6860">может блокировать, ограничивать,</text>
+  <text x="627" y="164" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(627 0) scale(0.8718095784341842 1) translate(-627 0)" data-ru-fit="0.8718">или требуется исправление</text>
+  <line x1="627" y1="174" x2="627" y2="191" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+
+  <!-- Launch decision -->
+  <rect x="552" y="192" width="150" height="50" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="627" y="213" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Решение о запуске</text>
+  <text x="627" y="230" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(627 0) scale(0.7155747351902707 1) translate(-627 0)" data-ru-fit="0.7156">запустить, ограничить, отклонить</text>
+
+  <!-- Assumptions strip: the claim holds only inside these bounds -->
+  <rect x="232" y="212" width="290" height="30" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="377" y="232" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(377 0) scale(0.8847381397607684 1) translate(-377 0)" data-ru-fit="0.8847"><tspan font-weight="700" fill="#0f172a">Предположения</tspan> население, обстановка, поставщики</text>
+  <line x1="456" y1="212" x2="456" y2="175" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="298" y1="212" x2="298" y2="175" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ===== Expiry path ===== -->
+  <rect x="40" y="298" width="200" height="64" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="140" y="320" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Изменение материала</text>
+  <text x="140" y="337" text-anchor="middle" font-size="12.5" fill="#334155">модель, данные или корпус;</text>
+  <text x="140" y="353" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(140 0) scale(0.745041122399613 1) translate(-140 0)" data-ru-fit="0.7450">регион, пользователи или рабочий процесс</text>
+  <line x1="240" y1="330" x2="289" y2="330" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <rect x="290" y="298" width="200" height="64" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="390" y="320" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b91c1c">Правило аннулирования</text>
+  <text x="390" y="337" text-anchor="middle" font-size="12.5" fill="#334155">состояния, которые меняются</text>
+  <text x="390" y="353" text-anchor="middle" font-size="12.5" fill="#334155">повторная проверка сил</text>
+
+  <path d="M490,330 H627 V243" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-red)"/>
+  <text x="637" y="300" font-size="12.5" fill="#b91c1c" transform=" translate(637 0) scale(0.7585108988488857 1) translate(-637 0)" data-ru-fit="0.7585">одобрение</text>
+  <text x="637" y="316" font-size="12.5" fill="#b91c1c" transform=" translate(637 0) scale(0.7734773477347735 1) translate(-637 0)" data-ru-fit="0.7735">истекает</text>
+<metadata id="original-source-labels">Assurance case
+one stated use and operating envelope
+Evidence
+Disaggregated results
+Audit reports
+Decision logs
+Documentation
+Argument
+why the evidence
+supports the claim
+Claim
+required property
+for the stated use
+Accountable owner
+can block, restrict,
+or require remedy
+Launch decision
+launch, restrict, reject
+Assumptions
+population, setting, suppliers
+Material change
+model, data, or corpus;
+region, users, or workflow
+Invalidation rule
+states which change
+forces revalidation
+approval
+expires</metadata></svg>

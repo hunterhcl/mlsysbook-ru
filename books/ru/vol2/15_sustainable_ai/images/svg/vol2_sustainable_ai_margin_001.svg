@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 41.5416 L 61.040194 41.5416 L 61.040194 13.0824 L 1.44 13.0824 z " clip-path="url(#p879ee31a35)" style="fill: #e67817; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 84.6616 L 13.235405 84.6616 L 13.235405 56.2024 L 1.44 56.2024 z " clip-path="url(#p879ee31a35)" style="fill: #e67817; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_5">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Poland 8,200 t CO$\mathregular{_2}$"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.969721900092231" fill="#333333" x="15.407697677612305" y="29.553529739379883" data-original-label="Poland 8,200 t CO$\mathregular{_2}$" transform="translate(15.407697677612305 25.080780029296875) scale(0.9777956885541284 0.7216695214049205) translate(-15.407696723937988 -25.052976608276367)">Польша 8,200 t CO₂</text></g>
+   <g id="text_2" data-original-label="Quebec 200 t CO$\mathregular{_2}$"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.918280707465278" fill="#333333" x="19.074493408203125" y="72.67291259765625" data-original-label="Quebec 200 t CO$\mathregular{_2}$" transform="translate(19.074493408203125 68.2464599609375) scale(1.1053856094010581 0.7162736692723146) translate(-19.074493408203125 -68.17236328125)">Квебек 200 t CO₂</text></g>
+   <g id="text_3" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.2641957600911455" fill="#333333" x="56.066532135009766" y="93.00637817382812" data-original-label="log scale" transform="translate(56.066532135009766 89.1686019897461) scale(0.7151599230777581 0.8527346969912082) translate(-56.066532135009766 -89.25592041015625)">лог. шкала</text></g>
+   <g id="patch_6">
+    <path d="M 13.850323 48.872 Q 37.137799 48.872 60.425275 48.872 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round"/>
+    <path d="M 15.850323 49.872 L 13.850323 48.872 L 15.850323 47.872 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round"/>
+    <path d="M 58.425275 47.872 L 60.425275 48.872 L 58.425275 49.872 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_7">
+     <path d="M 32.897955 52.272 L 41.377643 52.272 Q 42.277643 52.272 42.277643 51.372 L 42.277643 46.372 Q 42.277643 45.472 41.377643 45.472 L 32.897955 45.472 Q 31.997955 45.472 31.997955 46.372 L 31.997955 51.372 Q 31.997955 52.272 32.897955 52.272 z " style="fill: #ffffff; opacity: 0.94"/>
+    </g>
+    <!-- 41× -->
+    <g style="fill: #333333" transform="translate(32.897955 50.292) scale(0.05 -0.05)">
+     <defs>
+      <path id="TeXGyreHeros-Bold-3a" d="M 3341 1005 L 3341 1747 L 2867 1747 L 2867 4538 L 1811 4538 L 154 1760 L 154 1005 L 1971 1005 L 1971 0 L 2867 0 L 2867 1005 L 3341 1005 z M 1971 1747 L 787 1747 L 1971 3686 L 1971 1747 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Bold-53" d="M 2419 0 L 2419 4538 L 1824 4538 C 1683 4000 1216 3725 435 3725 L 435 3130 L 1523 3130 L 1523 0 L 2419 0 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Bold-1a8" d="M 3142 774 L 2323 1600 L 3142 2426 L 2694 2874 L 1869 2054 L 1043 2874 L 595 2426 L 1414 1600 L 595 774 L 1043 326 L 1869 1146 L 2694 326 L 3142 774 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Bold-3a"/>
+     <use xlink:href="#TeXGyreHeros-Bold-53" transform="translate(55.59375 0)"/>
+     <use xlink:href="#TeXGyreHeros-Bold-1a8" transform="translate(111.1875 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p879ee31a35">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Poland 8,200 t CO$\mathregular{_2}$
+Quebec 200 t CO$\mathregular{_2}$
+log scale</metadata></svg>

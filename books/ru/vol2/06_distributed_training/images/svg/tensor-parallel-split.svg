@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Megatron-style tensor-parallel layer pair on two GPUs, drawn as matrix shapes.
+       Filled blue = the shard a GPU holds (C1 compute); dashed gray = the part it does not hold.
+       Amber = the one collective (C2 communication). -->
+  <defs>
+    <marker id="arr-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+  </defs>
+  <rect width="748" height="368" fill="#ffffff"/>
+  <text x="200" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(200 0) scale(0.6610565684899485 1) translate(-200 0)" data-ru-fit="0.6611">Слой, параллельный столбцам</text>
+  <text x="200" y="58" text-anchor="middle" font-size="13" font-weight="400" fill="#475569">A = [A<tspan baseline-shift="sub" font-size="12.5">1</tspan> | A<tspan baseline-shift="sub" font-size="12.5">2</tspan>]</text>
+  <text x="420" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(420 0) scale(0.619486560992419 1) translate(-420 0)" data-ru-fit="0.6195">Строко-параллельный слой</text>
+  <text x="420" y="58" text-anchor="middle" font-size="13" font-weight="400" fill="#475569">B = [B<tspan baseline-shift="sub" font-size="12.5">1</tspan> ; B<tspan baseline-shift="sub" font-size="12.5">2</tspan>]</text>
+  <!-- ===== GPU 0 lane (center y=130) ===== -->
+  <text x="20" y="135" text-anchor="start" font-size="13" font-weight="700" fill="#334155">GPU 0</text>
+  <rect x="80" y="100" width="40" height="60" rx="0" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+  <text x="100" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">X</text>
+  <text x="140" y="135" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">×</text>
+  <rect x="200" y="110" width="40" height="40" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="160" y="110" width="40" height="40" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="180" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">A<tspan baseline-shift="sub" font-size="12.5">1</tspan></text>
+  <text x="260" y="135" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">=</text>
+  <rect x="320" y="100" width="40" height="60" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="280" y="100" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="300" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Y<tspan baseline-shift="sub" font-size="12.5">1</tspan></text>
+  <text x="380" y="135" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">×</text>
+  <rect x="400" y="130" width="40" height="40" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="400" y="90" width="40" height="40" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="420" y="115" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">B<tspan baseline-shift="sub" font-size="12.5">1</tspan></text>
+  <text x="460" y="135" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">=</text>
+  <rect x="480" y="100" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="500" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Z<tspan baseline-shift="sub" font-size="12.5">1</tspan></text>
+  <line x1="520" y1="130" x2="568" y2="130" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <line x1="650" y1="130" x2="678" y2="130" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <rect x="680" y="100" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="700" y="135" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Z</text>
+  <!-- ===== GPU 1 lane (center y=270) ===== -->
+  <text x="20" y="275" text-anchor="start" font-size="13" font-weight="700" fill="#334155">GPU 1</text>
+  <rect x="80" y="240" width="40" height="60" rx="0" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+  <text x="100" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">X</text>
+  <text x="140" y="275" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">×</text>
+  <rect x="160" y="250" width="40" height="40" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="200" y="250" width="40" height="40" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="220" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">A<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <text x="260" y="275" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">=</text>
+  <rect x="280" y="240" width="40" height="60" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="320" y="240" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="340" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Y<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <text x="380" y="275" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">×</text>
+  <rect x="400" y="230" width="40" height="40" rx="0" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="400" y="270" width="40" height="40" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="420" y="295" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">B<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <text x="460" y="275" text-anchor="middle" font-size="16" font-weight="400" fill="#64748b">=</text>
+  <rect x="480" y="240" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="500" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Z<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <line x1="520" y1="270" x2="568" y2="270" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <line x1="650" y1="270" x2="678" y2="270" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <rect x="680" y="240" width="40" height="60" rx="0" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="700" y="275" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Z</text>
+  <!-- ===== The one collective ===== -->
+  <rect x="570" y="80" width="80" height="240" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="610" y="196" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b45309">AllReduce</text>
+  <text x="610" y="214" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">Z<tspan baseline-shift="sub" font-size="12.5">1</tspan> + Z<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <text x="400" y="204" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b" font-style="italic">нет связи</text>
+  <text x="100" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(100 0) scale(0.6205137227304715 1) translate(-100 0)" data-ru-fit="0.6205">реплицируется</text>
+  <text x="200" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(200 0) scale(0.9239832763207906 1) translate(-200 0)" data-ru-fit="0.9240">шард столбца</text>
+  <text x="320" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(320 0) scale(0.5787998681173755 1) translate(-320 0)" data-ru-fit="0.5788">локальный срез</text>
+  <text x="420" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(420 0) scale(0.7346473029045644 1) translate(-420 0)" data-ru-fit="0.7346">шард строки</text>
+  <text x="500" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(500 0) scale(0.6175093632958801 1) translate(-500 0)" data-ru-fit="0.6175">частичная сумма</text>
+  <text x="700" y="342" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(700 0) scale(0.47321954090641555 1) translate(-700 0)" data-ru-fit="0.4732">полный результат</text>
+<metadata id="original-source-labels">Column-parallel layer
+A = [A
+1
+| A
+2
+]
+Row-parallel layer
+B = [B
+1
+; B
+2
+]
+GPU 0
+X
+×
+A
+1
+=
+Y
+1
+×
+B
+1
+=
+Z
+1
+Z
+GPU 1
+X
+×
+A
+2
+=
+Y
+2
+×
+B
+2
+=
+Z
+2
+Z
+AllReduce
+Z
+1
++ Z
+2
+no communication
+replicated
+column shard
+local slice
+row shard
+partial sum
+full result</metadata></svg>

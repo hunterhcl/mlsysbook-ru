@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 524" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0284c7"/>
+    </marker>
+  </defs>
+  <rect width="760" height="524" fill="#ffffff"/>
+
+  <!-- ===== Panel A ===== -->
+  <rect x="20" y="20" width="720" height="232" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="20" y="20" width="720" height="26" rx="2" fill="#e2e8f0"/>
+  <text x="34" y="38" font-size="13" font-weight="700" fill="#0f172a">A · Новое наблюдение удаляет поддержку</text>
+  <rect x="392" y="74" width="332" height="80" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="559" y="145" font-size="12" fill="#b91c1c" text-anchor="middle">Описание(диагноз)</text>
+  <rect x="40" y="62" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="83.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform=" translate(115 0) scale(0.9636305800021207 1) translate(-115 0)" data-ru-fit="0.9636">Отрывок из источника</text>
+  <rect x="40" y="108" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="129.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform=" translate(115 0) scale(0.668235294117647 1) translate(-115 0)" data-ru-fit="0.6682">Наблюдение за неисправностью</text>
+  <rect x="40" y="154" width="150" height="34" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+  <text x="115" y="175.5" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle" transform=" translate(115 0) scale(0.8463401005773887 1) translate(-115 0)" data-ru-fit="0.8463">Тест возврата официанта</text>
+  <rect x="40" y="200" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="221.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">API декларация</text>
+  <path d="M190,66 H474 V78" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,86 H210 V94 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,118 H210 V110 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,171 H300 V126" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,2" marker-end="url(#arr-red)"/>
+  <text x="308" y="162" font-size="12" font-weight="700" fill="#b91c1c">противоречит</text>
+  <path d="M190,217 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <rect x="236" y="80" width="134" height="44" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="303" y="99" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">Диагностика</text>
+  <text x="303" y="116" font-size="12" fill="#b91c1c" text-anchor="middle" transform=" translate(303 0) scale(0.9880865548261609 1) translate(-303 0)" data-ru-fit="0.9881">тайм-аут слишком мал</text>
+  <path d="M370,102 H402" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,2" marker-end="url(#arr-red)"/>
+  <rect x="404" y="80" width="140" height="44" rx="2" fill="#ffffff" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="474" y="99" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">Кандидат на патч</text>
+  <text x="474" y="116" font-size="12" fill="#b91c1c" text-anchor="middle">требует проверки</text>
+  <path d="M544,102 H572" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,2" marker-end="url(#arr-red)"/>
+  <rect x="574" y="80" width="140" height="44" rx="2" fill="#ffffff" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="4,2"/>
+  <text x="644" y="99" font-size="13" font-weight="700" fill="#b91c1c" text-anchor="middle">Проверить выбор</text>
+  <text x="644" y="116" font-size="12" fill="#b91c1c" text-anchor="middle">требует проверки</text>
+  <rect x="236" y="200" width="134" height="34" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="303" y="221.5" font-size="13" font-weight="700" fill="#0369a1" text-anchor="middle">API примечания</text>
+  <text x="382" y="221.5" font-size="12" fill="#15803d">поддержка сохранена</text>
+
+  <!-- ===== Panel B ===== -->
+  <rect x="20" y="272" width="720" height="232" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="20" y="272" width="720" height="26" rx="2" fill="#e2e8f0"/>
+  <text x="34" y="290" font-size="13" font-weight="700" fill="#0f172a">B · Ограниченная регенерация от поддерживаемой границы</text>
+  <rect x="222" y="326" width="502" height="80" rx="3" fill="#f0f9ff" stroke="#0284c7" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="473" y="397" font-size="12" font-weight="700" fill="#0369a1" text-anchor="middle">регенерировал</text>
+  <rect x="40" y="314" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="335.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform=" translate(115 0) scale(0.9636305800021207 1) translate(-115 0)" data-ru-fit="0.9636">Отрывок из источника</text>
+  <rect x="40" y="360" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="381.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle" transform=" translate(115 0) scale(0.668235294117647 1) translate(-115 0)" data-ru-fit="0.6682">Наблюдение за неисправностью</text>
+  <rect x="40" y="406" width="150" height="34" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+  <text x="115" y="427.5" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle" transform=" translate(115 0) scale(0.8463401005773887 1) translate(-115 0)" data-ru-fit="0.8463">Тест возврата официанта</text>
+  <rect x="40" y="452" width="150" height="34" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="115" y="473.5" font-size="13" font-weight="700" fill="#0f172a" text-anchor="middle">API декларация</text>
+  <path d="M190,318 H474 V330" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,338 H210 V346 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,370 H210 V362 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,423 H300 V378" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M190,469 H234" fill="none" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <rect x="236" y="332" width="134" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="303" y="351" font-size="13" font-weight="700" fill="#0369a1" text-anchor="middle">Диагноз'</text>
+  <text x="303" y="368" font-size="12" fill="#475569" text-anchor="middle" transform=" translate(303 0) scale(0.8245080137959018 1) translate(-303 0)" data-ru-fit="0.8245">пропущенное уведомление</text>
+  <path d="M370,354 H402" fill="none" stroke="#0284c7" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+  <rect x="404" y="332" width="140" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="474" y="351" font-size="13" font-weight="700" fill="#0369a1" text-anchor="middle" transform=" translate(474 0) scale(0.7646992679007876 1) translate(-474 0)" data-ru-fit="0.7647">Кандидат на исправление'</text>
+  <text x="474" y="368" font-size="12" fill="#475569" text-anchor="middle">уведомить о возврате</text>
+  <path d="M544,354 H572" fill="none" stroke="#0284c7" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+  <rect x="574" y="332" width="140" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="644" y="351" font-size="13" font-weight="700" fill="#0369a1" text-anchor="middle">Проверить выбор'</text>
+  <text x="644" y="368" font-size="12" fill="#475569" text-anchor="middle">заказ теста</text>
+  <rect x="236" y="452" width="134" height="34" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="303" y="473.5" font-size="13" font-weight="700" fill="#0369a1" text-anchor="middle">API примечания</text>
+  <text x="382" y="473.5" font-size="12" fill="#15803d">сохранено</text>
+<metadata id="original-source-labels">A · A new observation removes support
+Desc(diagnosis)
+Source excerpt
+Failure observation
+Waiter-return test
+API declaration
+contradicts
+Diagnosis
+timeout too short
+Patch candidate
+needs review
+Check selection
+needs review
+API notes
+support kept
+B · Scoped regeneration from the supported frontier
+regenerated
+Source excerpt
+Failure observation
+Waiter-return test
+API declaration
+Diagnosis′
+missed notification
+Patch candidate′
+notify on return
+Check selection′
+ordering test
+API notes
+retained</metadata></svg>

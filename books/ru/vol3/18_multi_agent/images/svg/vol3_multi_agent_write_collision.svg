@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.42pt" height="67.974824pt" viewBox="0 0 75.42 67.974824" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 67.974824 L 75.42 67.974824 L 75.42 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 59.652 L 73.98 59.652 L 73.98 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 3.706875 59.652 L 8.240625 54.171423 L 12.774375 44.695264 L 17.308125 33.593711 L 21.841875 23.160527 L 26.375625 14.873549 L 30.909375 9.183028 L 35.443125 5.765602 L 39.976875 3.95915 L 44.510625 3.115527 L 49.044375 2.766711 L 53.578125 2.638869 L 58.111875 2.597315 L 62.645625 2.585336 L 67.179375 2.582274 L 71.713125 2.58158 " clip-path="url(#pff43fde2a6)" style="fill: none; stroke: #333333; stroke-width: 1.35; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 1.44 31.116706 L 73.98 31.116706 " clip-path="url(#pff43fde2a6)" style="fill: none; stroke-dasharray: 2.405,1.04; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 0.65"/>
+   </g>
+   <g id="line2d_3">
+    <defs>
+     <path id="m8b595126ea" d="M 0 1.65 C 0.437585 1.65 0.857307 1.476146 1.166726 1.166726 C 1.476146 0.857307 1.65 0.437585 1.65 0 C 1.65 -0.437585 1.476146 -0.857307 1.166726 -1.166726 C 0.857307 -1.476146 0.437585 -1.65 0 -1.65 C -0.437585 -1.65 -0.857307 -1.476146 -1.166726 -1.166726 C -1.476146 -0.857307 -1.65 -0.437585 -1.65 0 C -1.65 0.437585 -1.476146 0.857307 -1.166726 1.166726 C -0.857307 1.476146 -0.437585 1.65 0 1.65 z " style="stroke: #cb202d"/>
+    </defs>
+    <g clip-path="url(#pff43fde2a6)">
+     <use xlink:href="#m8b595126ea" x="21.841875" y="23.160527" style="fill: #cb202d; stroke: #cb202d"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 59.652 L 1.44 1.44 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 59.652 L 73.98 59.652 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="5 workers"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#cb202d" x="26.06281280517578" y="24.684452056884766" data-original-label="5 workers" transform="translate(26.06281280517578 20.846200942993164) scale(0.9900723559754341 0.6936235614632781) translate(-26.06281089782715 -20.183862686157227)">5 рабочих</text></g>
+   <g id="text_2" data-original-label="even odds"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#cb202d" x="50.835594177246094" y="37.074928283691406" data-original-label="even odds" transform="translate(50.835594177246094 33.65224075317383) scale(0.6540383314380258 0.6321486319393805) translate(-50.835594177246094 -32.5743408203125)">равные шансы</text></g>
+   <g id="text_3">
+    <!-- 1 -->
+    <g style="fill: #333333" transform="translate(2.428219 65.541224) scale(0.046 -0.046)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-53" d="M 2221 0 L 2221 4538 L 1850 4538 C 1651 3840 1523 3744 653 3635 L 653 3232 L 1658 3232 L 1658 0 L 2221 0 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-53"/>
+    </g>
+   </g>
+   <g id="text_4" data-original-label="16 workers"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="49.78190994262695" y="65.61022186279297" data-original-label="16 workers" transform="translate(49.78190994262695 62.18753433227539) scale(0.911175258272522 0.6321482979041576) translate(-49.78190994262695 -61.10963439941406)">16 рабочих</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pff43fde2a6">
+   <rect x="1.44" y="1.44" width="72.54" height="58.212"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.1, https://matplotlib.org/
+5 workers
+even odds
+1
+16 workers</metadata></svg>

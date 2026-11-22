@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="83.268pt" viewBox="0 0 72.63 83.268" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 83.268 L 72.63 83.268 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 81.828 L 71.19 81.828 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 19.030786 L 66.151571 19.030786 L 66.151571 6.547002 L 1.44 6.547002 z " clip-path="url(#p30843964bb)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 37.945609 L 51.437507 37.945609 L 51.437507 25.461826 L 1.44 25.461826 z " clip-path="url(#p30843964bb)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 56.860433 L 26.438753 56.860433 L 26.438753 44.376649 L 1.44 44.376649 z " clip-path="url(#p30843964bb)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 1.44 75.775256 L 7.295315 75.775256 L 7.295315 63.291473 L 1.44 63.291473 z " clip-path="url(#p30843964bb)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_7">
+    <path d="M 1.44 81.828 L 71.19 81.828 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Intent"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="48.751243591308594" y="17.463693618774414" data-original-label="Intent" transform="translate(48.751243591308594 7.3545684814453125) scale(0.6073881268232624 1.826868787193254) translate(-48.75123977661133 -12.963142395019531)">Намерение</text></g>
+   <g id="text_2" data-original-label="Chunk"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="36.126930236816406" y="36.378517150878906" data-original-label="Chunk" transform="translate(36.126930236816406 26.175954818725586) scale(0.6334243111388663 1.8437547502075873) translate(-36.126930236816406 -31.87796401977539)">Фрагмент</text></g>
+   <g id="text_3" data-original-label="Tick"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="15.168737411499023" y="55.293338775634766" data-original-label="Tick" transform="translate(15.168737411499023 45.1842155456543) scale(1.0189212945391344 1.9253113841958474) translate(-15.168737411499023 -50.79278564453125)">Такт</text></g>
+   <g id="text_4" data-original-label="Current"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="10.277868270874023" y="75.26376342773438" data-original-label="Current" transform="translate(10.277868270874023 63.99520492553711) scale(2.128839849408807 2.1461291423785736) translate(-10.277868270874023 -70.7632064819336)">Ток</text></g>
+   <g id="text_5" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="79.36907196044922" data-original-label="log scale" transform="translate(56.066532135009766 75.67565155029297) scale(0.782870955686966 0.8206595651353946) translate(-56.066532135009766 -75.61861419677734)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p30843964bb">
+   <rect x="1.44" y="1.44" width="69.75" height="80.388"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Intent
+Chunk
+Tick
+Current
+log scale</metadata></svg>

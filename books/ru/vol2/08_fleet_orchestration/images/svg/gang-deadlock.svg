@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Both panels: eight GPU rows against time. Left: partial allocation, J1 and J2 each hold four GPUs that sit idle while each waits for the other (red cycle). Right: gang scheduling, J1 gets all eight at once, J2 waits in the queue holding none, then gets all eight. -->
+  <defs>
+    <pattern id="idle" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">
+      <rect width="7" height="7" fill="#fef2f2"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#f3a5a5" stroke-width="2"/>
+    </pattern>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/></marker>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/></marker>
+  </defs>
+  <rect width="680" height="290" fill="#ffffff"/>
+  <g transform="translate(0,16)">
+  <line x1="340" y1="8" x2="340" y2="254" stroke="#cbd5e1" stroke-dasharray="4 3"/>
+  <text x="180" y="18" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(180.00001525878906 0) scale(0.6059735615385377 1) translate(-180.00001525878906 0)" data-ru-fit="0.6060">Частичное распределение</text>
+  <text x="20" y="48" font-size="11" fill="#475569" transform=" translate(20 0) scale(0.7149958511036957 1) translate(-20 0)" data-ru-fit="0.7150">очередь</text>
+  <line x1="70" y1="58" x2="320" y2="58" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="70" y1="70" x2="320" y2="70" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="84" x2="320" y2="84" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="98" x2="320" y2="98" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="112" x2="320" y2="112" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="126" x2="320" y2="126" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="140" x2="320" y2="140" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="154" x2="320" y2="154" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="168" x2="320" y2="168" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="70" y1="182" x2="320" y2="182" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="64" y="80.5" text-anchor="end" font-size="11" fill="#475569">GPU 0</text>
+  <text x="64" y="178.5" text-anchor="end" font-size="11" fill="#475569">GPU 7</text>
+  <text x="64" y="130" text-anchor="end" font-size="11" fill="#475569">⋮</text>
+  <path d="M70,196 H320" stroke="#64748b" stroke-width="1" marker-end="url(#arr-gray)"/>
+  <text x="318" y="212" text-anchor="end" font-size="11" fill="#475569" transform=" translate(317.999963760376 0) scale(0.6662958909784111 1) translate(-317.999963760376 0)" data-ru-fit="0.6663">время</text>
+  <text x="70" y="212" text-anchor="start" font-size="11" fill="#475569">t₀</text>
+  <rect x="76" y="71" width="140" height="54" rx="1" fill="url(#idle)" stroke="#dc2626" stroke-width="1.2"/>
+  <path d="M216,71 H238 M216,125 H238" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <rect x="96" y="88" width="100" height="20" rx="2" fill="#ffffff" stroke="#fca5a5" stroke-width="0.8"/>
+  <text x="146" y="102.5" text-anchor="middle" font-size="12" fill="#b91c1c"><tspan font-weight="700">J1</tspan> имеет 4 из 8</text>
+  <rect x="76" y="127" width="140" height="54" rx="1" fill="url(#idle)" stroke="#dc2626" stroke-width="1.2"/>
+  <path d="M216,127 H238 M216,181 H238" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <rect x="96" y="144" width="100" height="20" rx="2" fill="#ffffff" stroke="#fca5a5" stroke-width="0.8"/>
+  <text x="146" y="158.5" text-anchor="middle" font-size="12" fill="#b91c1c"><tspan font-weight="700">J2</tspan> имеет 4 из 8</text>
+  <path d="M216,90 C296,90 296,164 221,164" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <path d="M216,150 C256,150 256,106 221,106" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="282" y="132" text-anchor="start" font-size="11" fill="#b91c1c" transform=" translate(282 0) scale(0.9823609590415254 1) translate(-282 0)" data-ru-fit="0.9824">ждет</text>
+  <text x="180" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c" transform=" translate(180.0000123977661 0) scale(0.550142971592077 1) translate(-180.0000123977661 0)" data-ru-fit="0.5501">Имеется 8 GPU, ни один не выполняет вычисления.</text>
+  <text x="520" y="18" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(519.9999809265137 0) scale(0.933372664085721 1) translate(-519.9999809265137 0)" data-ru-fit="0.9334">Расписание банд</text>
+  <text x="360" y="48" font-size="11" fill="#475569" transform=" translate(360 0) scale(0.7149958511036957 1) translate(-360 0)" data-ru-fit="0.7150">очередь</text>
+  <line x1="410" y1="58" x2="660" y2="58" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="410" y1="70" x2="660" y2="70" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="84" x2="660" y2="84" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="98" x2="660" y2="98" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="112" x2="660" y2="112" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="126" x2="660" y2="126" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="140" x2="660" y2="140" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="154" x2="660" y2="154" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="168" x2="660" y2="168" stroke="#e2e8f0" stroke-width="0.8"/>
+  <line x1="410" y1="182" x2="660" y2="182" stroke="#e2e8f0" stroke-width="0.8"/>
+  <text x="404" y="80.5" text-anchor="end" font-size="11" fill="#475569">GPU 0</text>
+  <text x="404" y="178.5" text-anchor="end" font-size="11" fill="#475569">GPU 7</text>
+  <text x="404" y="130" text-anchor="end" font-size="11" fill="#475569">⋮</text>
+  <path d="M410,196 H660" stroke="#64748b" stroke-width="1" marker-end="url(#arr-gray)"/>
+  <text x="658" y="212" text-anchor="end" font-size="11" fill="#475569" transform=" translate(657.999963760376 0) scale(0.6662958909784111 1) translate(-657.999963760376 0)" data-ru-fit="0.6663">время</text>
+  <text x="410" y="212" text-anchor="start" font-size="11" fill="#475569">t₀</text>
+  <rect x="417" y="71" width="112" height="110" rx="1" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="473" y="124" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">J1</text>
+  <text x="473" y="140" text-anchor="middle" font-size="11" fill="#334155">все 8 одновременно</text>
+  <rect x="531" y="71" width="108" height="110" rx="1" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="585" y="124" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">J2</text>
+  <text x="585" y="140" text-anchor="middle" font-size="11" fill="#334155" transform=" translate(585.0000267028809 0) scale(0.9574231019224113 1) translate(-585.0000267028809 0)" data-ru-fit="0.9574">все 8 одновременно</text>
+  <rect x="417" y="36" width="108" height="18" rx="2" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="4 2"/>
+  <text x="473" y="49" text-anchor="middle" font-size="11" fill="#6d28d9" transform=" translate(473 0) scale(0.818380227839879 1) translate(-473 0)" data-ru-fit="0.8184"><tspan font-weight="700">J2</tspan> ждет, удерживает 0</text>
+  <path d="M525,45 H542 V68" fill="none" stroke="#7c3aed" stroke-width="1.2" marker-end="url(#arr-purple)"/>
+  <text x="546" y="49" font-size="11" fill="#6d28d9" transform=" translate(546 0) scale(0.5741027909344089 1) translate(-546 0)" data-ru-fit="0.5741">J1 заканчивается</text>
+  <text x="520" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d" transform=" translate(520.0444946289062 0) scale(0.5387012664833011 1) translate(-520.0444946289062 0)" data-ru-fit="0.5387">нет частичных блокировок, нет взаимоблокировок</text>
+  </g>
+<metadata id="original-source-labels">Partial allocation
+queue
+GPU 0
+GPU 7
+⋮
+time
+t₀
+J1
+holds 4 of 8
+J2
+holds 4 of 8
+waits
+8 GPUs held, none computing
+Gang scheduling
+queue
+GPU 0
+GPU 7
+⋮
+time
+t₀
+J1
+all 8 at once
+J2
+all 8 at once
+J2
+waits, holds 0
+J1 finishes
+no partial holds, no deadlock</metadata></svg>

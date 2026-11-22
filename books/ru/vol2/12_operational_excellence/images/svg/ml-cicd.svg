@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 692 332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <rect width="692" height="332" fill="#ffffff"/>
+  <g transform="translate(10,8)">
+
+  <!-- ===== Phase brackets: CI and CT ===== -->
+  <text x="138" y="22" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155" transform=" translate(138 0) scale(0.8746064085941841 1) translate(-138 0)" data-ru-fit="0.8746">Непрерывная интеграция (CI)</text>
+  <path d="M16,40 V32 H260 V40" fill="none" stroke="#94a3b8" stroke-width="1"/>
+  <text x="468" y="22" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155" transform=" translate(468 0) scale(0.8302565099106102 1) translate(-468 0)" data-ru-fit="0.8303">Непрерывное обучение (CT)</text>
+  <path d="M280,40 V32 H656 V40" fill="none" stroke="#94a3b8" stroke-width="1"/>
+
+  <!-- ===== Row 1: CI and CT stages ===== -->
+  <rect x="16" y="50" width="112" height="48" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="72" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Зафиксировать</text>
+  <text x="72" y="87" text-anchor="middle" font-size="11" fill="#14294E">код, конфигурация</text>
+  <path d="M128,74 H146" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="148" y="50" width="112" height="48" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="204" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Модульные тесты</text>
+  <text x="204" y="87" text-anchor="middle" font-size="11" fill="#14294E">ворс, сборка</text>
+  <path d="M260,74 H278" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="280" y="50" width="112" height="48" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="336" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Проверка данных</text>
+  <text x="336" y="87" text-anchor="middle" font-size="11" fill="#14294E">схема, дрейф</text>
+  <path d="M392,74 H410" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="412" y="50" width="112" height="48" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="468" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Обучение</text>
+  <text x="468" y="87" text-anchor="middle" font-size="11" fill="#14294E">с тюнингом</text>
+  <path d="M524,74 H542" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="544" y="50" width="112" height="48" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="600" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Оценить</text>
+  <text x="600" y="87" text-anchor="middle" font-size="11" fill="#14294E" transform=" translate(600 0) scale(0.9947214076246335 1) translate(-600 0)" data-ru-fit="0.9947">возможные метрики</text>
+
+  <!-- ===== Metrics gate: the one decision point ===== -->
+  <path d="M600,98 V110" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <path d="M600,112 L644,146 L600,180 L556,146 Z" fill="#f8fafc" stroke="#0f172a" stroke-width="2.2"/>
+  <text x="600" y="143" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(600 0) scale(0.8551937984496124 1) translate(-600 0)" data-ru-fit="0.8552">метрики</text>
+  <text x="600" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(600 0) scale(0.735934664246824 1) translate(-600 0)" data-ru-fit="0.7359">порог</text>
+  <path d="M556,146 H520" stroke="#dc2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <text x="538" y="139" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c" transform=" translate(538 0) scale(0.5075987841945289 1) translate(-538 0)" data-ru-fit="0.5076">отказ</text>
+  <rect x="404" y="133" width="112" height="26" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="460" y="150" text-anchor="middle" font-size="11" fill="#b91c1c" transform=" translate(460 0) scale(0.807426803142109 1) translate(-460 0)" data-ru-fit="0.8074">блокировка, оповещение</text>
+  <path d="M600,180 V206" stroke="#16a34a" stroke-width="2" marker-end="url(#arr-green)"/>
+  <text x="608" y="197" font-size="11" font-weight="700" fill="#15803d" transform=" translate(608 0) scale(0.647177528275564 1) translate(-608 0)" data-ru-fit="0.6472">допуск</text>
+
+  <!-- ===== Row 2: CD stages (the loop returns right to left) ===== -->
+  <rect x="544" y="208" width="112" height="58" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="600" y="232" text-anchor="middle" font-size="11.5" font-weight="700" fill="#15803d">Реестр</text>
+  <text x="600" y="249" text-anchor="middle" font-size="11" fill="#15803d">версионный тег</text>
+  <path d="M544,237 H526" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="412" y="208" width="112" height="58" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="468" y="232" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Постановка</text>
+  <text x="468" y="249" text-anchor="middle" font-size="11" fill="#14294E" transform=" translate(468 0) scale(0.9568406961731991 1) translate(-468 0)" data-ru-fit="0.9568">интеграционный тест</text>
+  <path d="M412,237 H394" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <!-- Canary: share of live traffic drawn to scale -->
+  <rect x="280" y="208" width="112" height="58" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="336" y="226" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Канарейка</text>
+  <text x="336" y="242" text-anchor="middle" font-size="11" fill="#14294E">5% трафика</text>
+  <rect x="292" y="250" width="88" height="7" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+  <rect x="292" y="250" width="4.4" height="7" rx="0" fill="#1F407A"/>
+  <path d="M280,237 H262" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <!-- Production: all live traffic -->
+  <rect x="148" y="208" width="112" height="58" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="204" y="226" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">Производство</text>
+  <text x="204" y="242" text-anchor="middle" font-size="11" fill="#14294E">100% трафика</text>
+  <rect x="160" y="250" width="88" height="7" rx="0" fill="#1F407A" stroke="#1F407A" stroke-width="0.8"/>
+  <path d="M148,237 H130" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+
+  <rect x="16" y="208" width="112" height="58" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="72" y="232" text-anchor="middle" font-size="11.5" font-weight="700" fill="#6d28d9">Мониторинг</text>
+  <text x="72" y="249" text-anchor="middle" font-size="11" fill="#6d28d9">дрейф, задержка</text>
+
+  <!-- ===== Drift loop back to validation ===== -->
+  <path d="M72,208 V146 H336 V100" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arr-purple)"/>
+  <text x="204" y="139" text-anchor="middle" font-size="11" fill="#6d28d9" transform=" translate(204 0) scale(0.7051356589147287 1) translate(-204 0)" data-ru-fit="0.7051">дрейф подсказывает проверку</text>
+
+  <!-- ===== Phase bracket: CD ===== -->
+  <path d="M148,274 V282 H656 V274" fill="none" stroke="#94a3b8" stroke-width="1"/>
+  <text x="402" y="300" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155" transform=" translate(402 0) scale(0.7997940920250257 1) translate(-402 0)" data-ru-fit="0.7998">Непрерывное развертывание (CD)</text>
+  </g>
+<metadata id="original-source-labels">Continuous integration (CI)
+Continuous training (CT)
+Commit
+code, config
+Unit tests
+lint, build
+Data validation
+schema, drift
+Training
+with tuning
+Evaluate
+candidate metrics
+metrics
+gate
+fail
+block, alert
+pass
+Registry
+versioned tag
+Staging
+integration test
+Canary
+5% of traffic
+Production
+100% of traffic
+Monitoring
+drift, latency
+drift prompts validation
+Continuous deployment (CD)</metadata></svg>

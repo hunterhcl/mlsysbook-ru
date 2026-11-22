@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90pt" height="109pt" viewBox="0 0 90 109" version="1.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="90" height="109" fill="#ffffff"/>
+<line x1="24.41" y1="1.00" x2="24.41" y2="98.00" stroke="#333333" stroke-width="0.6" stroke-dasharray="2,1.5"/>
+<rect x="2.00" y="4.00" width="84.00" height="24.00" fill="#5E6B73" fill-opacity="1.0"/>
+<text x="83.00" y="14.00" font-size="7.0" fill="#ffffff" text-anchor="end" font-weight="bold">90% принимают</text>
+<text x="83.00" y="23.00" font-size="7.0" fill="#ffffff" text-anchor="end" font-weight="bold">в 3.7 раза быстрее</text>
+<rect x="2.00" y="36.00" width="52.73" height="24.00" fill="#5E6B73" fill-opacity="1.0"/>
+<text x="51.73" y="46.00" font-size="7.0" fill="#ffffff" text-anchor="end" font-weight="bold" transform=" translate(51.730008125305176 0) scale(0.8486281636121914 1) translate(-51.730008125305176 0)" data-ru-fit="0.8486">70% принимают</text>
+<text x="51.73" y="55.00" font-size="7.0" fill="#ffffff" text-anchor="end" font-weight="bold" transform=" translate(51.73001003265381 0) scale(0.730377925242431 1) translate(-51.73001003265381 0)" data-ru-fit="0.7304">в 2.4 раза быстрее</text>
+<rect x="2.00" y="68.00" width="35.29" height="24.00" fill="#5E6B73" fill-opacity="1.0"/>
+<text x="39.79" y="78.00" font-size="7.0" fill="#333333" text-anchor="start" font-weight="normal" transform=" translate(39.790000915527344 0) scale(0.7083424500948592 1) translate(-39.790000915527344 0)" data-ru-fit="0.7083">50% принимают</text>
+<text x="39.79" y="87.00" font-size="7.0" fill="#333333" text-anchor="start" font-weight="normal" transform=" translate(39.790000915527344 0) scale(0.538635533773693 1) translate(-39.790000915527344 0)" data-ru-fit="0.5386">в 1.6 раза быстрее</text>
+<line x1="2.00" y1="98.00" x2="88.00" y2="98.00" stroke="#cccccc" stroke-width="0.55"/>
+<text x="24.41" y="106.00" font-size="7.0" fill="#333333" text-anchor="middle" font-weight="normal" transform=" translate(24.410001516342163 0) scale(0.614932509635964 1) translate(-24.410001516342163 0)" data-ru-fit="0.6149">1× без усиления</text>
+<metadata id="original-source-labels">90% accept
+3.7× faster
+70% accept
+2.4× faster
+50% accept
+1.6× faster
+1× no gain</metadata></svg>

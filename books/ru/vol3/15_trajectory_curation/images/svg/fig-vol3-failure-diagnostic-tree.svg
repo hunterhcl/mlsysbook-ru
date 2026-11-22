@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 570" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+    <marker id="arr-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0284c7"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="570" fill="#ffffff"/>
+
+  <!-- ===== Cost / reversibility wedge: narrow and cheap at top, wide and costly at bottom ===== -->
+  <text x="50" y="76" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(50.00000190734863 0) scale(0.7944397111382709 1) translate(-50.00000190734863 0)" data-ru-fit="0.7944">дешево,</text>
+  <text x="50" y="90" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(50.00000286102295 0) scale(0.6488326370269994 1) translate(-50.00000286102295 0)" data-ru-fit="0.6488">двусторонний</text>
+  <polygon points="47,100 53,100 68,504 32,504" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="50" y="524" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(50 0) scale(0.7910714869556019 1) translate(-50 0)" data-ru-fit="0.7911">дорого,</text>
+  <text x="50" y="538" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(50 0) scale(0.4859114629460575 1) translate(-50 0)" data-ru-fit="0.4859">глобальный</text>
+
+  <!-- ===== Column header: below the weights ===== -->
+  <text x="420" y="86" font-size="12" font-weight="700" fill="#0f172a">Ремонт под гирями</text>
+
+  <!-- ===== Measured failure ===== -->
+  <rect x="110" y="20" width="200" height="44" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="210" y="39" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Измеренная ошибка</text>
+  <text x="210" y="55" text-anchor="middle" font-size="11" fill="#475569">записана неудачная трассировка</text>
+  <line x1="210" y1="64" x2="210" y2="99" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+
+  <!-- ===== Rung 1: context ===== -->
+  <rect x="110" y="100" width="200" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="210" y="119" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Проверка контекста</text>
+  <text x="210" y="135" text-anchor="middle" font-size="11" fill="#475569">предоставлен недостающий факт</text>
+  <line x1="310" y1="122" x2="419" y2="122" stroke="#16a34a" stroke-width="1.2" marker-end="url(#arr-green)"/>
+  <text x="364" y="115" text-anchor="middle" font-size="11" fill="#475569">исчезает</text>
+  <rect x="420" y="100" width="240" height="44" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="540" y="119" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Восстановление контекста</text>
+  <text x="540" y="135" text-anchor="middle" font-size="11" fill="#475569">извлечение или сборка</text>
+
+  <line x1="210" y1="144" x2="210" y2="179" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="218" y="166" font-size="11" fill="#475569" transform=" translate(218 0) scale(0.5904399339118059 1) translate(-218 0)" data-ru-fit="0.5904">сохраняется</text>
+
+  <!-- ===== Rung 2: tool or schema ===== -->
+  <rect x="110" y="180" width="200" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="210" y="199" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Зонд схемы</text>
+  <text x="210" y="215" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(209.99999618530273 0) scale(0.6216144010434796 1) translate(-209.99999618530273 0)" data-ru-fit="0.6216">повторный запуск с исправленным описанием инструмента</text>
+  <line x1="310" y1="202" x2="419" y2="202" stroke="#d97706" stroke-width="1.2" marker-end="url(#arr-amber)"/>
+  <text x="364" y="195" text-anchor="middle" font-size="11" fill="#475569">исчезает</text>
+  <rect x="420" y="180" width="240" height="44" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+  <text x="540" y="199" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(540 0) scale(0.8929677781015473 1) translate(-540 0)" data-ru-fit="0.8930">Инструмент или схема восстановления.</text>
+  <text x="540" y="215" text-anchor="middle" font-size="11" fill="#475569">схема, документация или адаптер</text>
+
+  <line x1="210" y1="224" x2="210" y2="259" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="218" y="246" font-size="11" fill="#475569" transform=" translate(218 0) scale(0.5904399339118059 1) translate(-218 0)" data-ru-fit="0.5904">сохраняется</text>
+
+  <!-- ===== Rung 3: runtime ===== -->
+  <rect x="110" y="260" width="200" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="210" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Проверка среды исполнения</text>
+  <text x="210" y="295" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(209.99999237060547 0) scale(0.9915772474965688 1) translate(-209.99999237060547 0)" data-ru-fit="0.9916">чистая песочница, повышены лимиты</text>
+  <line x1="310" y1="282" x2="419" y2="282" stroke="#7c3aed" stroke-width="1.2" marker-end="url(#arr-purple)"/>
+  <text x="364" y="275" text-anchor="middle" font-size="11" fill="#475569">исчезает</text>
+  <rect x="420" y="260" width="240" height="44" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="540" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Среда исполнения восстановления</text>
+  <text x="540" y="295" text-anchor="middle" font-size="11" fill="#475569">границы, пул песочницы, восстановление</text>
+
+  <!-- ===== Weights boundary ===== -->
+  <line x1="84" y1="342" x2="660" y2="342" stroke="#64748b" stroke-width="1.2" stroke-dasharray="6,3"/>
+  <text x="420" y="366" font-size="12" font-weight="700" fill="#0f172a">Измените веса.</text>
+
+  <line x1="210" y1="304" x2="210" y2="379" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+  <text x="218" y="328" font-size="11" fill="#475569" transform=" translate(218 0) scale(0.5227314701708422 1) translate(-218 0)" data-ru-fit="0.5227">выживает при каждом зондировании</text>
+
+  <!-- ===== Residual failure and weight updates ===== -->
+  <rect x="110" y="380" width="200" height="44" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="210" y="399" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Остаточный отказ</text>
+  <text x="210" y="415" text-anchor="middle" font-size="11" fill="#475569">правдоподобное поведение</text>
+  <line x1="310" y1="402" x2="419" y2="402" stroke="#0284c7" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+  <text x="364" y="395" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(363.99998474121094 0) scale(0.5814354731245424 1) translate(-363.99998474121094 0)" data-ru-fit="0.5814">на доказательствах</text>
+  <rect x="420" y="380" width="240" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="540" y="399" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Дообучение с учителем</text>
+  <text x="540" y="415" text-anchor="middle" font-size="11" fill="#475569">кураторский остаточный корпус</text>
+  <line x1="540" y1="424" x2="540" y2="459" stroke="#0284c7" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+  <rect x="420" y="460" width="240" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="540" y="479" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Обучение с подкреплением</text>
+  <text x="540" y="495" text-anchor="middle" font-size="11" fill="#475569" transform=" translate(539.9999847412109 0) scale(0.7967086075702048 1) translate(-539.9999847412109 0)" data-ru-fit="0.7967">развертывание, защищенная проверка вознаграждения</text>
+<metadata id="original-source-labels">cheap,
+reversible
+costly,
+global
+Repair below the weights
+Measured failure
+recorded failing trace
+Context probe
+missing fact supplied
+disappears
+Repair context
+retrieval or assembly
+persists
+Schema probe
+rerun with corrected tool description
+disappears
+Repair tool or schema
+schema, docs, or adapter
+persists
+Runtime probe
+clean sandbox, raised limits
+disappears
+Repair runtime
+bounds, sandbox pool, recovery
+Change the weights
+survives every probe
+Residual failure
+plausibly behavioral
+on evidence
+Supervised fine-tuning
+curated residual corpus
+Reinforcement learning
+rollouts, protected reward check</metadata></svg>

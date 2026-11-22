@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.956pt" height="42.7968pt" viewBox="0 0 70.956 42.7968" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 42.7968 L 70.956 42.7968 L 70.956 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 41.3568 L 69.516 41.3568 L 69.516 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 42.865507 41.3568 L 64.06992 41.3568 L 64.06992 1.44 L 42.865507 1.44 z " clip-path="url(#p489ddbc7dd)" style="fill: #f2d7d5; opacity: 0.34"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 24.58584 19.202976 L 42.865507 19.202976 L 42.865507 14.013792 L 24.58584 14.013792 z " clip-path="url(#p489ddbc7dd)" style="fill: #cccccc; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 24.58584 31.178016 L 61.145173 31.178016 L 61.145173 25.988832 L 24.58584 25.988832 z " clip-path="url(#p489ddbc7dd)" style="fill: #cb202d; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 42.865507 41.3568 L 42.865507 1.44 " clip-path="url(#p489ddbc7dd)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 0.7"/>
+   </g>
+   <g id="text_1" data-original-label="budget"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.7" fill="#333333" x="7.792909622192383" y="18.963010787963867" data-original-label="budget" transform="translate(7.792909622192383 14.511962890625) scale(0.8409031389622318 0.8475880056413104) translate(-7.792909145355225 -14.461786270141602)">бюджет</text></g>
+   <g id="text_2">
+    <!-- 50 -->
+    <g style="fill: #ffffff" transform="translate(31.112767 17.943184) scale(0.047 -0.047)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-39" d="M 3283 1504 C 3283 2400 2688 2989 1818 2989 C 1498 2989 1242 2906 979 2714 L 1158 3885 L 3046 3885 L 3046 4442 L 704 4442 L 365 2067 L 883 2067 C 1146 2381 1363 2490 1715 2490 C 2323 2490 2707 2099 2707 1427 C 2707 774 2330 403 1715 403 C 1222 403 922 653 787 1165 L 224 1165 C 410 262 922 -96 1728 -96 C 2643 -96 3283 544 3283 1504 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-7a" d="M 3245 2182 C 3245 3757 2746 4538 1760 4538 C 781 4538 275 3744 275 2221 C 275 691 787 -96 1760 -96 C 2720 -96 3245 691 3245 2182 z M 2669 2234 C 2669 947 2374 371 1747 371 C 1152 371 851 973 851 2214 C 851 3456 1152 4038 1760 4038 C 2368 4038 2669 3450 2669 2234 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-39"/>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(55.59375 0)"/>
+    </g>
+   </g>
+   <g id="text_3" data-original-label="score all"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.7" fill="#333333" x="4.572674751281738" y="29.988723754882812" data-original-label="score all" transform="translate(4.572674751281738 26.49163055419922) scale(0.7250712953632423 0.6659317805322489) translate(-4.572674751281738 -25.487499237060547)">забить все</text></g>
+   <g id="text_4">
+    <!-- 100 -->
+    <g style="fill: #ffffff" transform="translate(48.085981 29.918224) scale(0.047 -0.047)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-53" d="M 2221 0 L 2221 4538 L 1850 4538 C 1651 3840 1523 3744 653 3635 L 653 3232 L 1658 3232 L 1658 0 L 2221 0 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-53"/>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(55.59375 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(111.1875 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- $50K -->
+    <g style="fill: #cb202d" transform="translate(44.567407 9.988224) scale(0.048 -0.048)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-31" d="M 3315 1248 C 3315 1702 3142 2022 2771 2234 C 2605 2330 2522 2362 1933 2541 L 1933 4134 C 2362 4115 2662 3789 2669 3322 L 3174 3322 C 3174 4051 2707 4525 1933 4582 L 1933 4928 L 1555 4928 L 1555 4582 C 736 4480 294 4032 294 3302 C 294 2899 448 2586 749 2368 C 915 2246 1088 2176 1555 2035 L 1555 294 C 1274 333 1018 461 877 659 C 774 800 762 915 717 1331 L 211 1331 C 211 1293 205 1254 205 1222 C 205 397 691 -96 1555 -147 L 1555 -806 L 1933 -806 L 1933 -147 C 2835 -83 3315 442 3315 1248 z M 1555 2592 C 1050 2726 813 2976 813 3366 C 813 3789 1082 4064 1555 4128 L 1555 2592 z M 2790 1171 C 2790 717 2502 358 1933 294 L 1933 1978 C 2586 1786 2790 1594 2790 1171 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-46" d="M 4211 0 L 2291 2765 L 4192 4666 L 3424 4666 L 1101 2304 L 1101 4666 L 506 4666 L 506 0 L 1101 0 L 1101 1632 L 1862 2394 L 3507 0 L 4211 0 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-31"/>
+     <use xlink:href="#TeXGyreHeros-Regular-39" transform="translate(55.59375 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(111.1875 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-46" transform="translate(166.78125 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p489ddbc7dd">
+   <rect x="1.44" y="1.44" width="68.076" height="39.9168"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.0, https://matplotlib.org/
+budget
+50
+score all
+100
+$50K</metadata></svg>

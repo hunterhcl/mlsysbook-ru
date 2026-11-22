@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="680" height="330" fill="#ffffff"/>
+<defs><marker id="blue" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#1F407A"/></marker><marker id="amber" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#d97706"/></marker><marker id="purple" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#7c3aed"/></marker><marker id="green" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#16a34a"/></marker><marker id="red" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#dc2626"/></marker><marker id="gray" markerWidth="7" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/></marker></defs>
+<text x="150" y="30" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a" transform=" translate(150 0) scale(0.4262365131930349 1) translate(-150 0)" data-ru-fit="0.4262">Необработанный ввод</text>
+<text x="300" y="30" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a" transform=" translate(300 0) scale(0.4776268644279643 1) translate(-300 0)" data-ru-fit="0.4776">Предварительная обработка</text>
+<text x="450" y="30" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a" transform=" translate(450 0) scale(0.766407465007776 1) translate(-450 0)" data-ru-fit="0.7664">Модель</text>
+<text x="600" y="30" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a" transform=" translate(600 0) scale(0.6814665321224352 1) translate(-600 0)" data-ru-fit="0.6815">Предсказание</text>
+<text x="10" y="113" font-size="12" text-anchor="start" font-weight="700" fill="#0f172a" transform=" translate(10 0) scale(0.6359991982361195 1) translate(-10 0)" data-ru-fit="0.6360">Предыдущий</text>
+<rect x="90" y="85" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<rect x="240" y="85" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<rect x="390" y="85" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<rect x="540" y="85" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<text x="150" y="120" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a">Запрос А</text>
+<text x="300" y="109" font-size="12" text-anchor="middle" font-weight="700" fill="#0f172a" transform=" translate(300 0) scale(0.9651956006874581 1) translate(-300 0)" data-ru-fit="0.9652">Старая библиотека</text>
+<text x="300" y="129" font-size="12" text-anchor="middle" font-weight="400" fill="#0f172a">Базовый тензор</text>
+<text x="450" y="109" font-size="12" text-anchor="middle" font-weight="700" fill="#0f172a">Тот же артефакт</text>
+<text x="450" y="129" font-size="12" text-anchor="middle" font-weight="400" fill="#0f172a" transform=" translate(450 0) scale(0.9162549094134043 1) translate(-450 0)" data-ru-fit="0.9163">Закрепленная версия</text>
+<text x="600" y="120" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a">Решение А</text>
+<path d="M210,115 H240" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<path d="M360,115 H390" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<path d="M510,115 H540" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<text x="10" y="233" font-size="12" text-anchor="start" font-weight="700" fill="#0f172a">Ток</text>
+<rect x="90" y="205" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<rect x="390" y="205" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<rect x="540" y="205" width="120" height="60" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+<text x="150" y="240" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a">Запрос А</text>
+<text x="450" y="229" font-size="12" text-anchor="middle" font-weight="700" fill="#0f172a">Тот же артефакт</text>
+<text x="450" y="249" font-size="12" text-anchor="middle" font-weight="400" fill="#0f172a" transform=" translate(450 0) scale(0.9162549094134043 1) translate(-450 0)" data-ru-fit="0.9163">Закрепленная версия</text>
+<text x="600" y="240" font-size="13" text-anchor="middle" font-weight="700" fill="#0f172a">Решение Б</text>
+<path d="M210,235 H240" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<path d="M360,235 H390" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<path d="M510,235 H540" fill="none" stroke="#1F407A" stroke-width="1.5" marker-end="url(#blue)"/>
+<rect x="240" y="205" width="120" height="60" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="300" y="229" font-size="12" text-anchor="middle" font-weight="700" fill="#dc2626" transform=" translate(300 0) scale(0.9874255518489298 1) translate(-300 0)" data-ru-fit="0.9874">Новая библиотека.</text>
+<text x="300" y="249" font-size="12" text-anchor="middle" font-weight="400" fill="#dc2626" transform=" translate(300 0) scale(0.7341386661252665 1) translate(-300 0)" data-ru-fit="0.7341">Изменён масштаб тензора.</text>
+<text x="150" y="305" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b" transform=" translate(150 0) scale(0.6072686293844204 1) translate(-150 0)" data-ru-fit="0.6073">Совпадение байтов</text>
+<text x="300" y="305" font-size="12" text-anchor="middle" font-weight="700" fill="#dc2626" transform=" translate(300 0) scale(0.894173023859763 1) translate(-300 0)" data-ru-fit="0.8942">Первое отличие</text>
+<text x="450" y="305" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b" transform=" translate(449.96400451660156 0) scale(0.5590095116236553 1) translate(-449.96400451660156 0)" data-ru-fit="0.5590">Артефакт исправлен.</text>
+<text x="600" y="305" font-size="12" text-anchor="middle" font-weight="400" fill="#64748b" transform=" translate(600 0) scale(0.8259394926061593 1) translate(-600 0)" data-ru-fit="0.8259">Изменение решения</text>
+<metadata id="original-source-labels">Raw input
+Preprocessing
+Model
+Prediction
+Previous
+Request A
+Old library
+Reference tensor
+Same artifact
+Pinned version
+Decision A
+Current
+Request A
+Same artifact
+Pinned version
+Decision B
+New library
+Rescaled tensor
+Bytes match
+First difference
+Artifact fixed
+Decision changes</metadata></svg>

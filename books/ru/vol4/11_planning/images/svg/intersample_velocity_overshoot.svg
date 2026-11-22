@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<!-- Volume IV: petrol sensory data; pine release/permission; bronze transformations; red unsafe reuse/limits. Schematic, not measured timing. -->
+<rect width="680" height="500" fill="#ffffff"/>
+<defs><marker id="a007A87" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#007A87"/></marker><marker id="a1A4D3E" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#1A4D3E"/></marker><marker id="aB87333" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#B87333"/></marker><marker id="aA51C30" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#A51C30"/></marker><marker id="a334155" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L8 5 L0 9 Z" fill="#334155"/></marker></defs>
+<text x="30" y="30" text-anchor="start" font-size="15" font-weight="700" fill="#1A202C">Ускорение</text>
+<path d="M140 50 V200" fill="none" stroke="#334155" stroke-width="1.5"/>
+<path d="M140 125 H620" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a334155)"/>
+<path d="M140 70 H370 V180 H600" fill="none" stroke="#B87333" stroke-width="2"/>
+<path d="M370 50 V420" fill="none" stroke="#334155" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="125" y="75" text-anchor="end" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(125 0) scale(0.5801869158878504 1) translate(-125 0)" data-ru-fit="0.5802">положительная граница</text>
+<text x="125" y="185" text-anchor="end" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(125 0) scale(0.6249839846252402 1) translate(-125 0)" data-ru-fit="0.6250">отрицательная граница</text>
+<text x="625" y="129" text-anchor="start" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(625 0) scale(0.6658488714425908 1) translate(-625 0)" data-ru-fit="0.6658">время</text>
+<path d="M140 70 H370 V125 H140 Z" fill="none" stroke="#B87333" stroke-width="1.5"/>
+<rect x="140" y="70" width="230" height="55" fill="#F7EDE3"/>
+<path d="M140 70 H370 V180 H600" fill="none" stroke="#B87333" stroke-width="2"/>
+<text x="255" y="104" text-anchor="middle" font-size="12" font-weight="400" fill="#B87333">увеличена скорость</text>
+<text x="30" y="245" text-anchor="start" font-size="15" font-weight="700" fill="#1A202C" transform=" translate(30 0) scale(0.8153369724586017 1) translate(-30 0)" data-ru-fit="0.8153">b Скорость</text>
+<path d="M140 265 V420 H620" fill="none" stroke="#334155" stroke-width="1.5" marker-end="url(#a334155)"/>
+<path d="M140 300 H610" fill="none" stroke="#A51C30" stroke-width="1.5" stroke-dasharray="6,3"/>
+<text x="625" y="305" text-anchor="start" font-size="12" font-weight="400" fill="#A51C30" transform=" translate(625 0) scale(0.544435857805255 1) translate(-625 0)" data-ru-fit="0.5444">предел</text>
+<path d="M140 360 H610" fill="none" stroke="#1A4D3E" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="30" y="355" text-anchor="start" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(30 0) scale(0.5322076297686054 1) translate(-30 0)" data-ru-fit="0.5322">задано контрактом</text>
+<text x="30" y="370" text-anchor="start" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(30 0) scale(0.8270220588235294 1) translate(-30 0)" data-ru-fit="0.8270">предел выборки</text>
+<path d="M140 330 L370 270 L600 330" fill="none" stroke="#B87333" stroke-width="2"/>
+<path d="M140 360 L370 300 L600 360" fill="none" stroke="#1A4D3E" stroke-width="2"/>
+<circle cx="140" cy="330" r="4" fill="#ffffff" stroke="#B87333" stroke-width="2"/>
+<circle cx="600" cy="330" r="4" fill="#ffffff" stroke="#B87333" stroke-width="2"/>
+<circle cx="140" cy="360" r="4" fill="#ffffff" stroke="#1A4D3E" stroke-width="2"/>
+<circle cx="600" cy="360" r="4" fill="#ffffff" stroke="#1A4D3E" stroke-width="2"/>
+<circle cx="370" cy="270" r="4" fill="#A51C30"/>
+<text x="390" y="270" text-anchor="start" font-size="12" font-weight="700" fill="#A51C30" transform=" translate(390 0) scale(0.906487139235343 1) translate(-390 0)" data-ru-fit="0.9065">скрытый пик</text>
+<text x="140" y="440" text-anchor="middle" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(140 0) scale(0.8004908835904628 1) translate(-140 0)" data-ru-fit="0.8005">выборка</text>
+<text x="370" y="440" text-anchor="middle" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(370 0) scale(0.8814531548757171 1) translate(-370 0)" data-ru-fit="0.8815">середина</text>
+<text x="600" y="440" text-anchor="middle" font-size="11" font-weight="400" fill="#1A202C" transform=" translate(600 0) scale(0.6162005785920925 1) translate(-600 0)" data-ru-fit="0.6162">следующий отсчёт</text>
+<path d="M140 475 H180" fill="none" stroke="#B87333" stroke-width="2"/>
+<text x="190" y="479" text-anchor="start" font-size="12" font-weight="400" fill="#B87333" transform=" translate(190 0) scale(0.8218732473359507 1) translate(-190 0)" data-ru-fit="0.8219">проверки только концов</text>
+<path d="M390 475 H430" fill="none" stroke="#1A4D3E" stroke-width="2"/>
+<text x="440" y="479" text-anchor="start" font-size="12" font-weight="400" fill="#1A4D3E" transform=" translate(440 0) scale(0.8143004875166199 1) translate(-440 0)" data-ru-fit="0.8143">выделенный запас</text>
+<metadata id="original-source-labels">a  Acceleration
+positive bound
+negative bound
+time
+velocity gained
+b  Velocity
+limit
+contracted
+sample ceiling
+hidden peak
+sample
+midpoint
+next sample
+endpoint checks only
+reserved margin</metadata></svg>

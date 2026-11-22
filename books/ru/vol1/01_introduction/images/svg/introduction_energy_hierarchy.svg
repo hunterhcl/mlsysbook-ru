@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="Helvetica-20" transform="scale(0.015625)" />
+      <path id="Helvetica-4a" d="M 2741 1369 Q 2741 788 2569 466 Q 2250 -122 1356 -122 Q 841 -122 475 158 Q 109 438 109 1153 L 109 1481 L 694 1481 L 694 1153 Q 694 778 861 589 Q 1028 400 1381 400 Q 1878 400 2031 741 Q 2125 950 2125 1531 L 2125 4591 L 2741 4591 L 2741 1369 z " transform="scale(0.015625)" />
+     <path id="Helvetica-36" d="M 1872 4494 Q 2622 4494 2917 4105 Q 3213 3716 3213 3303 L 2656 3303 Q 2606 3569 2497 3719 Q 2294 4000 1881 4000 Q 1409 4000 1131 3564 Q 853 3128 822 2316 Q 1016 2600 1309 2741 Q 1578 2866 1909 2866 Q 2472 2866 2890 2506 Q 3309 2147 3309 1434 Q 3309 825 2912 354 Q 2516 -116 1781 -116 Q 1153 -116 697 361 Q 241 838 241 1966 Q 241 2800 444 3381 Q 834 4494 1872 4494 z M 1831 384 Q 2275 384 2495 682 Q 2716 981 2716 1388 Q 2716 1731 2519 2042 Q 2322 2353 1803 2353 Q 1441 2353 1167 2112 Q 894 1872 894 1388 Q 894 963 1142 673 Q 1391 384 1831 384 z " transform="scale(0.015625)" />
+      <path id="Helvetica-70" d="M 1825 378 Q 2219 378 2480 708 Q 2741 1038 2741 1694 Q 2741 2094 2625 2381 Q 2406 2934 1825 2934 Q 1241 2934 1025 2350 Q 909 2038 909 1556 Q 909 1169 1025 897 Q 1244 378 1825 378 z M 369 3331 L 916 3331 L 916 2888 Q 1084 3116 1284 3241 Q 1569 3428 1953 3428 Q 2522 3428 2919 2992 Q 3316 2556 3316 1747 Q 3316 653 2744 184 Q 2381 -113 1900 -113 Q 1522 -113 1266 53 Q 1116 147 931 375 L 931 -1334 L 369 -1334 L 369 3331 z " transform="scale(0.015625)" />
+      <path id="Helvetica-31" d="M 613 3169 L 613 3600 Q 1222 3659 1462 3798 Q 1703 3938 1822 4456 L 2266 4456 L 2266 0 L 1666 0 L 1666 3169 L 613 3169 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 31.5162 L 64.634684 31.5162 L 64.634684 10.1718 L 1.44 10.1718 z " clip-path="url(#p879ee31a35)" style="fill: #e67817; opacity: 0.92" />
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 63.8562 L 23.231586 63.8562 L 23.231586 42.5118 L 1.44 42.5118 z " clip-path="url(#p879ee31a35)" style="fill: #e67817; opacity: 0.92" />
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 96.1962 L 9.058135 96.1962 L 9.058135 74.8518 L 1.44 74.8518 z " clip-path="url(#p879ee31a35)" style="fill: #e67817; opacity: 0.92" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1" />
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2" />
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4" />
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5" />
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6" />
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7" />
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8" />
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9" />
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10" />
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11" />
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12" />
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13" />
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14" />
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15" />
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16" />
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17" />
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18" />
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19" />
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20" />
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21" />
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22" />
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23" />
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24" />
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25" />
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26" />
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27" />
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="patch_6">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_1" data-original-label="DRAM 160 pJ"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="31.993942260742188" y="23.25103187561035" data-original-label="DRAM 160 pJ" transform="translate(31.993942260742188 18.436967849731445) scale(0.8605156938505173 0.8967076240750654) translate(-31.993942260742188 -18.750478744506836)">DRAM 160 пДж</text></g>
+   <g id="text_2">
+    
+    <g style="fill: #333333" transform="translate(26.875283 54.507156) scale(0.052 -0.052)">
+     <defs>
+      <path id="Helvetica-46" d="M 547 4591 L 3731 4591 L 3731 4028 L 1169 4028 L 1169 2634 L 3422 2634 L 3422 2088 L 1169 2088 L 1169 0 L 547 0 L 547 4591 z " transform="scale(0.015625)" />
+      <path id="Helvetica-50" d="M 547 4591 L 2613 4591 Q 3225 4591 3600 4245 Q 3975 3900 3975 3275 Q 3975 2738 3640 2339 Q 3306 1941 2613 1941 L 1169 1941 L 1169 0 L 547 0 L 547 4591 z M 3347 3272 Q 3347 3778 2972 3959 Q 2766 4056 2406 4056 L 1169 4056 L 1169 2466 L 2406 2466 Q 2825 2466 3086 2644 Q 3347 2822 3347 3272 z " transform="scale(0.015625)" />
+      <path id="Helvetica-2e" d="M 547 681 L 1200 681 L 1200 0 L 547 0 L 547 681 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#Helvetica-46" />
+     <use xlink:href="#Helvetica-50" transform="translate(61.083984 0)" />
+     <use xlink:href="#Helvetica-31" transform="translate(127.783203 0)" />
+     <use xlink:href="#Helvetica-36" transform="translate(183.398438 0)" />
+     <use xlink:href="#Helvetica-20" transform="translate(239.013672 0)" />
+     <use xlink:href="#Helvetica-31" transform="translate(266.796875 0)" />
+     <use xlink:href="#Helvetica-2e" transform="translate(322.412109 0)" />
+     <use xlink:href="#Helvetica-31" transform="translate(350.195312 0)" />
+     <use xlink:href="#Helvetica-20" transform="translate(405.810547 0)" />
+     <use xlink:href="#Helvetica-70" transform="translate(433.59375 0)" />
+     <use xlink:href="#Helvetica-4a" transform="translate(489.208984 0)" />
+    </g>
+   </g>
+   <g id="text_3" data-original-label="INT8 0.2 pJ"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="13.212081909179688" y="87.9310302734375" data-original-label="INT8 0.2 pJ" transform="translate(13.212081909179688 83.1169662475586) scale(0.8330094981995826 0.8967073851393385) translate(-13.212081909179688 -83.43047332763672)">INT8 0.2 пДж</text></g>
+   <g id="text_4" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.0592155456543" y="95.872802734375" data-original-label="log scale" transform="translate(56.0592155456543 92.21228790283203) scale(0.7831900468323165 0.8133491440433094) translate(-56.05921173095703 -92.1223373413086)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p879ee31a35">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.10.8, https://matplotlib.org/
+DRAM 160 pJ
+FP16 1.1 pJ
+INT8 0.2 pJ
+log scale</metadata></svg>

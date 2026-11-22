@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="51.6672pt" viewBox="0 0 72.63 51.6672" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 51.6672 L 72.63 51.6672 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 50.2272 L 71.19 50.2272 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 19.113854 L 59.487403 19.113854 L 59.487403 11.381543 L 1.44 11.381543 z " clip-path="url(#p2414dd9abc)" style="fill: #1f407a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 59.487403 19.113854 L 66.957377 19.113854 L 66.957377 11.381543 L 59.487403 11.381543 z " clip-path="url(#p2414dd9abc)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 66.957377 19.113854 L 71.19 19.113854 L 71.19 11.381543 L 66.957377 11.381543 z " clip-path="url(#p2414dd9abc)" style="fill: #7c3aed"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 1.44 40.285657 L 41.439244 40.285657 L 41.439244 32.553346 L 1.44 32.553346 z " clip-path="url(#p2414dd9abc)" style="fill: #1f407a"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 41.439244 40.285657 L 47.857108 40.285657 L 47.857108 32.553346 L 41.439244 32.553346 z " clip-path="url(#p2414dd9abc)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 47.857108 40.285657 L 71.19 40.285657 L 71.19 32.553346 L 47.857108 32.553346 z " clip-path="url(#p2414dd9abc)" style="fill: #7c3aed"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 1.44 48.386174 L 5.625 48.386174 L 5.625 44.704121 L 1.44 44.704121 z " clip-path="url(#p2414dd9abc)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 47.475 48.386174 L 51.66 48.386174 L 51.66 44.704121 L 47.475 44.704121 z " clip-path="url(#p2414dd9abc)" style="fill: #7c3aed"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1" data-original-label="1,024 GPUs, 8.7 s step"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="1.9705625772476196" y="9.908720970153809" data-original-label="1,024 GPUs, 8.7 s step" transform="translate(1.9705625772476196 4.890720844268799) scale(1.053078016203104 0.9556070571840912) translate(-1.9705623388290405 -5.407767295837402)">1,024 GPU, шаг 8.7 s</text></g>
+   <g id="text_2" data-original-label="Compute 83%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#ffffff" x="14.154717445373535" y="17.752620697021484" data-original-label="Compute 83%" transform="translate(14.154717445373535 12.958088874816895) scale(0.8886865467317792 0.9130506835896797) translate(-14.154716491699219 -13.251666069030762)">Вычислить 83%</text></g>
+   <g id="text_3" data-original-label="8,192 GPUs, 1.6 s step"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="1.632562518119812" y="31.08052635192871" data-original-label="8,192 GPUs, 1.6 s step" transform="translate(1.632562518119812 26.062524795532227) scale(1.0597998493666054 0.9556073296047422) translate(-1.6325623989105225 -26.579572677612305)">8,192 GPU, шаг 1.6 s</text></g>
+   <g id="text_4" data-original-label="Compute 57%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#ffffff" x="5.1306376457214355" y="38.92442321777344" data-original-label="Compute 57%" transform="translate(5.1306376457214355 34.12989044189453) scale(0.8886864430846867 0.9130508652034469) translate(-5.130637168884277 -34.42346954345703)">Вычислить 57%</text></g>
+   <g id="text_5" data-original-label="Communication"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#333333" x="7.608593940734863" y="48.05499267578125" data-original-label="Communication" transform="translate(7.608593940734863 44.2299919128418) scale(2.4728209349544503 0.728417224213365) translate(-7.608593940734863 -43.55403518676758)">Связь</text></g>
+   <g id="text_6" data-original-label="Bubble"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#333333" x="53.79906463623047" y="48.0401496887207" data-original-label="Bubble" transform="translate(53.79906463623047 44.3198356628418) scale(0.8614423253569422 0.6700410051082264) translate(-53.7990608215332 -43.5391960144043)">Пузырь</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2414dd9abc">
+   <rect x="1.44" y="1.44" width="69.75" height="48.7872"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+1,024 GPUs, 8.7 s step
+Compute 83%
+8,192 GPUs, 1.6 s step
+Compute 57%
+Communication
+Bubble</metadata></svg>

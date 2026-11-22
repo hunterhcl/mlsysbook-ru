@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 190 142" role="img" aria-labelledby="title desc" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title id="title">Сетка точности пересечений</title>
+  <desc id="desc">Сетка два на два с точностью IBM гендерного классификатора в аудите гендерных оттенков: светлокожие мужчины 99.7 процента в самой светлой серой ячейке, светлокожие женщины и темнокожие мужчины в постепенно темнеющих серых ячейках и темнокожие женщины 65.3 процента в красной ячейке.</desc>
+  <rect width="190" height="142" fill="#ffffff"/>
+  <text x="95" y="24" font-size="13" fill="#555555" text-anchor="middle" transform=" translate(95.00000190734863 0) scale(0.4496833127760091 1) translate(-95.00000190734863 0)" data-ru-fit="0.4497">мужчины</text>
+  <text x="155" y="24" font-size="13" fill="#555555" text-anchor="middle" transform=" translate(155.00000190734863 0) scale(0.7212263640134204 1) translate(-155.00000190734863 0)" data-ru-fit="0.7212">женщины</text>
+  <text x="61" y="66" font-size="13" fill="#555555" text-anchor="end" transform=" translate(60.999996185302734 0) scale(0.554213199345939 1) translate(-60.999996185302734 0)" data-ru-fit="0.5542">зажигалка</text>
+  <text x="61" y="116" font-size="13" fill="#555555" text-anchor="end" transform=" translate(61 0) scale(0.8585835232659211 1) translate(-61 0)" data-ru-fit="0.8586">темнее</text>
+  <rect x="67" y="36" width="56" height="46" fill="#f0f0f0"/>
+  <rect x="127" y="36" width="56" height="46" fill="#dadada"/>
+  <rect x="67" y="86" width="56" height="46" fill="#c4c4c4"/>
+  <rect x="127" y="86" width="56" height="46" fill="#DC2626"/>
+  <text x="95" y="64" font-size="14" fill="#555555" text-anchor="middle">99.7%</text>
+  <text x="155" y="114" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">65.3%</text>
+<metadata id="original-source-labels">Intersectional accuracy grid
+Two-by-two grid of IBM gender-classifier accuracy in the Gender Shades audit: lighter-skinned men 99.7 percent in the lightest gray cell, lighter-skinned women and darker-skinned men in progressively darker gray cells, and darker-skinned women 65.3 percent in red.
+men
+women
+lighter
+darker
+99.7%
+65.3%</metadata></svg>

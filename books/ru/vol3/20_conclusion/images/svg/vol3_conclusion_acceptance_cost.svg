@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="164" height="132" fill="#ffffff"/>
+  <!-- generated from calc-vol3-conclusion-fundamentals: cost per accepted task, linear scale from zero -->
+  <text x="4" y="18" font-size="11" fill="#0f172a" transform=" translate(4 0) scale(0.46173777854551734 1) translate(-4 0)" data-ru-fit="0.4617">Базовый уровень</text>
+  <rect x="4" y="23" width="156.0" height="20" rx="2" fill="#64748b"/>
+  <text x="154.0" y="37" text-anchor="end" font-size="11" font-weight="bold" fill="#ffffff">$5.25</text>
+  <text x="4" y="60" font-size="11" fill="#0f172a" transform=" translate(4 0) scale(0.6565349544072948 1) translate(-4 0)" data-ru-fit="0.6565">Половина цены токена</text>
+  <rect x="4" y="65" width="107.7" height="20" rx="2" fill="#d97706"/>
+  <text x="105.7" y="79" text-anchor="end" font-size="11" font-weight="bold" fill="#ffffff">$3.63</text>
+  <text x="4" y="102" font-size="11" fill="#0f172a">60% принятие</text>
+  <rect x="4" y="107" width="104.0" height="20" rx="2" fill="#7c3aed"/>
+  <text x="102.0" y="121" text-anchor="end" font-size="11" font-weight="bold" fill="#ffffff">$3.50</text>
+<metadata id="original-source-labels">Baseline
+$5.25
+Half token price
+$3.63
+60% acceptance
+$3.50</metadata></svg>

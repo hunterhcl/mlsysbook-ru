@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -14 724 364" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect y="-14" width="724" height="364" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#CB202D"/>
+    </marker>
+    <marker id="arr-slate" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <!-- ===== Pipeline rail: software and pipeline defects, under all three walls ===== -->
+  <path d="M20,242 H680 L704,286 L680,330 H20 Z" fill="#f1f5f9" stroke="#64748b" stroke-width="1.2" stroke-dasharray="5,3" stroke-linejoin="round"/>
+  <rect x="89" y="255" width="76" height="20" rx="10" fill="#ffffff" stroke="#1F407A" stroke-width="1"/>
+  <circle cx="102" cy="265" r="3.2" fill="#1F407A"/>
+  <circle cx="112" cy="265" r="3.2" fill="#1F407A"/>
+  <circle cx="122" cy="265" r="3.2" fill="#1F407A"/>
+  <circle cx="132" cy="265" r="3.2" fill="#1F407A"/>
+  <circle cx="142" cy="265" r="3.2" fill="#1F407A"/>
+  <circle cx="152" cy="265" r="3.2" fill="#1F407A"/>
+  <text x="127" y="297" text-anchor="middle" font-size="11.5" fill="#1e293b" transform=" translate(127 0) scale(0.8260869565217391 1) translate(-127 0)" data-ru-fit="0.8261">поток данных</text>
+  <rect x="316" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="326" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="336" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="346" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="356" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="366" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="376" y="252" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="316" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="326" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="336" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="346" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="356" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="366" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="376" y="262" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="316" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="326" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="336" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="346" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="356" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="366" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <rect x="376" y="272" width="8" height="8" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.8"/>
+  <text x="350" y="297" text-anchor="middle" font-size="11.5" fill="#1e293b" transform=" translate(350 0) scale(0.5381509558338826 1) translate(-350 0)" data-ru-fit="0.5382">входные данные, данные обучения</text>
+  <rect x="551" y="253" width="44" height="26" rx="2" fill="#ffffff" stroke="#1F407A" stroke-width="1.2"/>
+  <line x1="559.0" y1="249" x2="559.0" y2="253" stroke="#1F407A" stroke-width="1"/>
+  <line x1="559.0" y1="279" x2="559.0" y2="283" stroke="#1F407A" stroke-width="1"/>
+  <line x1="568.5" y1="249" x2="568.5" y2="253" stroke="#1F407A" stroke-width="1"/>
+  <line x1="568.5" y1="279" x2="568.5" y2="283" stroke="#1F407A" stroke-width="1"/>
+  <line x1="578.0" y1="249" x2="578.0" y2="253" stroke="#1F407A" stroke-width="1"/>
+  <line x1="578.0" y1="279" x2="578.0" y2="283" stroke="#1F407A" stroke-width="1"/>
+  <line x1="587.5" y1="249" x2="587.5" y2="253" stroke="#1F407A" stroke-width="1"/>
+  <line x1="587.5" y1="279" x2="587.5" y2="283" stroke="#1F407A" stroke-width="1"/>
+  <rect x="556" y="257" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="565" y="257" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="574" y="257" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="583" y="257" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="556" y="266" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="565" y="266" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="574" y="266" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <rect x="583" y="266" width="7" height="7" fill="#EAF1F8" stroke="#1F407A" stroke-width="0.7"/>
+  <text x="573" y="297" text-anchor="middle" font-size="11.5" fill="#1e293b">гири, ускорители</text>
+  <text x="30" y="320" font-size="11.5" fill="#334155" transform=" translate(30 0) scale(0.7049180327868853 1) translate(-30 0)" data-ru-fit="0.7049">данные в</text>
+  <text x="350" y="320" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155" transform=" translate(350 0) scale(0.678383960072283 1) translate(-350 0)" data-ru-fit="0.6784">Дефекты программного обеспечения и конвейеров (сквозные)</text>
+  <text x="660" y="320" text-anchor="end" font-size="11.5" fill="#334155" transform=" translate(660 0) scale(0.9861878453038674 1) translate(-660 0)" data-ru-fit="0.9862">вывод</text>
+  <!-- ===== Pillar 1: Environmental shifts ===== -->
+  <rect x="20" y="8" width="214" height="234" rx="3" fill="#f8fafc"/>
+  <text x="127.0" y="27" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Экологические изменения</text>
+  <rect x="26" y="38" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="34" y="54" font-size="11.5" font-weight="700" fill="#0f172a">Ковариатный сдвиг</text>
+  <text x="34" y="69" font-size="11.25" fill="#15803d">Взвешивание важности</text>
+  <rect x="26" y="82" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="34" y="98" font-size="11.5" font-weight="700" fill="#0f172a">Дрейф концепции</text>
+  <text x="34" y="113" font-size="11.25" fill="#15803d">Переобучение на свежие этикетки</text>
+  <rect x="26" y="126" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="34" y="142" font-size="11.5" font-weight="700" fill="#0f172a">Сдвиг метки</text>
+  <text x="34" y="157" font-size="11.25" fill="#15803d" transform=" translate(34 0) scale(0.6652861035422344 1) translate(-34 0)" data-ru-fit="0.6653">Предварительная переоценка, повторная калибровка</text>
+  <rect x="26" y="170" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="34" y="186" font-size="11.5" font-weight="700" fill="#0f172a">Сдвиг домена</text>
+  <text x="34" y="201" font-size="11.25" fill="#15803d" transform=" translate(33.932498931884766 0) scale(0.9584536075831688 1) translate(-33.932498931884766 0)" data-ru-fit="0.9585">Адаптация домена, тонкая настройка</text>
+  <line x1="127.0" y1="212" x2="127.0" y2="236" stroke="#CB202D" stroke-width="1.2" marker-end="url(#arr-red)"/>
+  <rect x="38" y="238.5" width="178" height="3.5" rx="0.5" fill="#D5F5E3" stroke="#008F45" stroke-width="1"/>
+  <!-- ===== Pillar 2: Input-level attacks ===== -->
+  <rect x="243" y="8" width="214" height="234" rx="3" fill="#f8fafc"/>
+  <text x="350.0" y="27" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Атаки на входном уровне</text>
+  <rect x="249" y="38" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="257" y="54" font-size="11.5" font-weight="700" fill="#0f172a">Уклонение (FGSM, PGD)</text>
+  <text x="257" y="69" font-size="11.25" fill="#15803d">Противоборствующая обучение</text>
+  <rect x="249" y="82" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="257" y="98" font-size="11.5" font-weight="700" fill="#0f172a">C&amp;W, пограничные атаки</text>
+  <text x="257" y="113" font-size="11.25" fill="#15803d">Сертифицированная защита</text>
+  <rect x="249" y="126" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="257" y="142" font-size="11.5" font-weight="700" fill="#0f172a">Отравление данных и бэкдор</text>
+  <text x="257" y="157" font-size="11.25" fill="#15803d" transform=" translate(257 0) scale(0.819721878463825 1) translate(-257 0)" data-ru-fit="0.8197">Происхождение, спектральная фильтрация</text>
+  <rect x="249" y="170" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="257" y="186" font-size="11.5" font-weight="700" fill="#0f172a">Физические возмущения</text>
+  <text x="257" y="201" font-size="11.25" fill="#15803d" transform=" translate(257 0) scale(0.7405255421053829 1) translate(-257 0)" data-ru-fit="0.7405">Обучение, ориентированное на трансформацию</text>
+  <line x1="350.0" y1="212" x2="350.0" y2="236" stroke="#CB202D" stroke-width="1.2" marker-end="url(#arr-red)"/>
+  <rect x="261" y="238.5" width="178" height="3.5" rx="0.5" fill="#D5F5E3" stroke="#008F45" stroke-width="1"/>
+  <!-- ===== Pillar 3: System-level faults ===== -->
+  <rect x="466" y="8" width="214" height="234" rx="3" fill="#f8fafc"/>
+  <text x="573.0" y="27" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(573 0) scale(0.9241958041958042 1) translate(-573 0)" data-ru-fit="0.9242">Неисправности системного уровня.</text>
+  <rect x="472" y="38" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="480" y="54" font-size="11.5" font-weight="700" fill="#0f172a">Тихое повреждение данных</text>
+  <text x="480" y="69" font-size="11.25" fill="#15803d" transform=" translate(480 0) scale(0.8904246938764457 1) translate(-480 0)" data-ru-fit="0.8904">Резервное выполнение, проверка парка</text>
+  <rect x="472" y="82" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="480" y="98" font-size="11.5" font-weight="700" fill="#0f172a" transform=" translate(480 0) scale(0.9292713009302663 1) translate(-480 0)" data-ru-fit="0.9293">Перестановка битов памяти и веса.</text>
+  <text x="480" y="113" font-size="11.25" fill="#15803d">ECC, проверка диапазона веса</text>
+  <rect x="472" y="126" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="480" y="142" font-size="11.5" font-weight="700" fill="#0f172a" transform=" translate(480 0) scale(0.947017298890699 1) translate(-480 0)" data-ru-fit="0.9470">Недополнение, переполнение, NaN</text>
+  <text x="480" y="157" font-size="11.25" fill="#15803d" transform=" translate(480 0) scale(0.913899032565346 1) translate(-480 0)" data-ru-fit="0.9139">Масштабирование потерь, защита NaN</text>
+  <rect x="472" y="170" width="202" height="38" rx="2" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="480" y="186" font-size="11.5" font-weight="700" fill="#0f172a" transform=" translate(480 0) scale(0.7085531884107931 1) translate(-480 0)" data-ru-fit="0.7086">Рассинхронизация распределенного обучения</text>
+  <text x="480" y="201" font-size="11.25" fill="#15803d" transform=" translate(480 0) scale(0.7183786722567482 1) translate(-480 0)" data-ru-fit="0.7184">Откат к контрольной точке, сторожевые таймеры</text>
+  <line x1="573.0" y1="212" x2="573.0" y2="236" stroke="#CB202D" stroke-width="1.2" marker-end="url(#arr-red)"/>
+  <rect x="484" y="238.5" width="178" height="3.5" rx="0.5" fill="#D5F5E3" stroke="#008F45" stroke-width="1"/>
+
+<metadata id="original-source-labels">data stream
+inputs, training data
+weights, accelerators
+data in
+Software and pipeline defects (cross-cutting)
+output
+Environmental shifts
+Covariate shift
+Importance weighting
+Concept drift
+Retraining on fresh labels
+Label shift
+Prior re-estimation, recalibration
+Domain shift
+Domain adaptation, fine-tuning
+Input-level attacks
+Evasion (FGSM, PGD)
+Adversarial training
+C&amp;W, boundary attacks
+Certified defenses
+Data and backdoor poisoning
+Provenance, spectral filtering
+Physical perturbations
+Transformation-robust training
+System-level faults
+Silent data corruption
+Redundant execution, fleet screening
+Memory and weight bit flips
+ECC, weight range checks
+Underflow, overflow, NaN
+Loss scaling, NaN guards
+Distributed training desync
+Checkpoint rollback, watchdogs</metadata></svg>

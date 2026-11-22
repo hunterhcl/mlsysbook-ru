@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 158" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="180" height="158" fill="#ffffff"/>
+<rect x="46" y="6" width="58" height="58" fill="#008F45"/>
+<rect x="110" y="6" width="58" height="58" fill="#EEEEEE"/>
+<rect x="46" y="70" width="58" height="58" fill="#EEEEEE"/>
+<rect x="110" y="70" width="58" height="58" fill="#EEEEEE"/>
+<text x="75.0" y="32.0" font-size="15" fill="#ffffff" text-anchor="middle" transform=" translate(75.00000190734863 0) scale(0.8172831273415936 1) translate(-75.00000190734863 0)" data-ru-fit="0.8173">высокий</text>
+<text x="75.0" y="49.0" font-size="15" fill="#ffffff" text-anchor="middle" transform=" translate(75 0) scale(0.7519753212446144 1) translate(-75 0)" data-ru-fit="0.7520">усиление</text>
+<text transform="translate(31 67.0) rotate(-90) translate(0 0) scale(0.7546299493367691 1) translate(0 0)" font-size="15" fill="#333333" text-anchor="middle" data-ru-fit="0.7546">сигнал задачи →</text>
+<text x="107.0" y="150" font-size="15" fill="#333333" text-anchor="middle" transform=" translate(107.0000114440918 0) scale(0.6296497419380264 1) translate(-107.0000114440918 0)" data-ru-fit="0.6296">гравитация данных →</text>
+<metadata id="original-source-labels">high
+gain
+task signal →
+data gravity →</metadata></svg>

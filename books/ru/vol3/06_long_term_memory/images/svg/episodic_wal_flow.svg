@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 472" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Three ways to handle the index after a source edit commits r18, on one shared schematic time axis.
+       The shaded column is the refresh window between r18 committed and r18 entries ready.
+       Durations are the chapter notebook's stipulated values (nbk-06-index-maintenance-cost). -->
+  <defs>
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="720" height="472" fill="#ffffff"/>
+  <!-- ===== Refresh window ===== -->
+  <!-- ===== Synchronous re-index ===== -->
+  <rect x="20" y="20" width="680" height="118" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="240" y="47" width="280" height="90" rx="0" fill="#f1f5f9"/>
+  <path d="M 20 46 V 24 Q 20 20 24 20 H 696 Q 700 20 700 24 V 46 Z" fill="#f1f5f9"/>
+  <line x1="20" y1="46" x2="700" y2="46" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="34" y="38" font-size="14" font-weight="700" fill="#0f172a">Синхронная переиндексация</text>
+  <text x="686" y="38" text-anchor="end" font-size="12" fill="#334155">индексация от +88 ms (локальная) до +1.26 s (удалённая, для каждого файла)</text>
+  <line x1="240" y1="47" x2="240" y2="138" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="520" y1="47" x2="520" y2="138" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="34" y="69" font-size="12" font-weight="700" fill="#475569">агент</text>
+  <rect x="150" y="54" width="86" height="22" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="193" y="69" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(193.0000114440918 0) scale(0.7495644046783496 1) translate(-193.0000114440918 0)" data-ru-fit="0.7496">редактировать r18</text>
+  <rect x="244" y="54" width="272" height="22" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="380" y="69" text-anchor="middle" font-size="12" fill="#0f172a">запись заблокирована</text>
+  <rect x="530" y="54" width="160" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="610" y="69" text-anchor="middle" font-size="12" fill="#0f172a">запрос получает r18</text>
+  <text x="34" y="97" font-size="12" font-weight="700" fill="#475569">рабочий</text>
+  <rect x="244" y="82" width="272" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="380" y="97" text-anchor="middle" font-size="12" fill="#0f172a">парсить, обновлять посты, вставлять r18</text>
+  <text x="34" y="125" font-size="12" font-weight="700" fill="#475569">индекс обслуживает</text>
+  <rect x="150" y="110" width="366" height="22" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="333" y="125" text-anchor="middle" font-size="12" fill="#0f172a">записи r17</text>
+  <rect x="524" y="110" width="166" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="607" y="125" text-anchor="middle" font-size="12" fill="#0f172a">записи r18</text>
+  <!-- ===== Background re-index, no generation check ===== -->
+  <rect x="20" y="152" width="680" height="118" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="240" y="179" width="280" height="90" rx="0" fill="#f1f5f9"/>
+  <path d="M 20 178 V 156 Q 20 152 24 152 H 696 Q 700 152 700 156 V 178 Z" fill="#f1f5f9"/>
+  <line x1="20" y1="178" x2="700" y2="178" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="34" y="170" font-size="14" font-weight="700" fill="#0f172a">Фоновая переиндексация, без проверки генерации</text>
+  <text x="686" y="170" text-anchor="end" font-size="12" fill="#334155">восстановить путь записи</text>
+  <line x1="240" y1="179" x2="240" y2="270" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="520" y1="179" x2="520" y2="270" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="34" y="201" font-size="12" font-weight="700" fill="#475569">агент</text>
+  <rect x="150" y="186" width="86" height="22" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="193" y="201" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(193.0000114440918 0) scale(0.7495644046783496 1) translate(-193.0000114440918 0)" data-ru-fit="0.7496">редактировать r18</text>
+  <rect x="300" y="186" width="200" height="22" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <text x="400" y="201" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c" transform=" translate(400 0) scale(0.9624840081491305 1) translate(-400 0)" data-ru-fit="0.9625">запрос получает r17 как текущую</text>
+  <text x="34" y="229" font-size="12" font-weight="700" fill="#475569">рабочий</text>
+  <rect x="244" y="214" width="272" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="380" y="229" text-anchor="middle" font-size="12" fill="#0f172a">перестроить r18 в фоновом режиме</text>
+  <text x="34" y="257" font-size="12" font-weight="700" fill="#475569">индекс обслуживает</text>
+  <rect x="150" y="242" width="86" height="22" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="193" y="257" text-anchor="middle" font-size="12" fill="#0f172a">r17</text>
+  <rect x="244" y="242" width="272" height="22" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <text x="380" y="257" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">r17 признан текущим</text>
+  <rect x="524" y="242" width="166" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="607" y="257" text-anchor="middle" font-size="12" fill="#0f172a">записи r18</text>
+  <!-- ===== Background re-index with exclusion ===== -->
+  <rect x="20" y="284" width="680" height="118" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="240" y="311" width="280" height="90" rx="0" fill="#f1f5f9"/>
+  <path d="M 20 310 V 288 Q 20 284 24 284 H 696 Q 700 284 700 288 V 310 Z" fill="#f1f5f9"/>
+  <line x1="20" y1="310" x2="700" y2="310" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="34" y="302" font-size="14" font-weight="700" fill="#0f172a">Фоновая переиндексация с исключением</text>
+  <text x="686" y="302" text-anchor="end" font-size="12" fill="#334155">локальные метаданные +0.4 мкс на запись, +1.5 мкс на запрос</text>
+  <line x1="240" y1="311" x2="240" y2="402" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="520" y1="311" x2="520" y2="402" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <text x="34" y="333" font-size="12" font-weight="700" fill="#475569">агент</text>
+  <rect x="150" y="318" width="86" height="22" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="193" y="333" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(193.0000114440918 0) scale(0.7495644046783496 1) translate(-193.0000114440918 0)" data-ru-fit="0.7496">редактировать r18</text>
+  <rect x="290" y="318" width="220" height="22" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+  <text x="400" y="333" text-anchor="middle" font-size="12" font-weight="700" fill="#b45309">: прямое чтение или частичное</text>
+  <text x="34" y="361" font-size="12" font-weight="700" fill="#475569">рабочий</text>
+  <rect x="244" y="346" width="272" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="380" y="361" text-anchor="middle" font-size="12" fill="#0f172a">перестроить r18 в фоновом режиме</text>
+  <text x="34" y="389" font-size="12" font-weight="700" fill="#475569">индекс обслуживает</text>
+  <rect x="150" y="374" width="86" height="22" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="193" y="389" text-anchor="middle" font-size="12" fill="#0f172a">r17</text>
+  <rect x="244" y="374" width="272" height="22" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="380" y="389" text-anchor="middle" font-size="12" fill="#0f172a">r17 исключен</text>
+  <rect x="524" y="374" width="166" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="607" y="389" text-anchor="middle" font-size="12" fill="#0f172a">записи r18</text>
+  <text x="530" y="361" font-size="12" font-weight="700" fill="#15803d" transform=" translate(530 0) scale(0.9147905127793651 1) translate(-530 0)" data-ru-fit="0.9148">опубликовать, если актуально</text>
+  <!-- ===== Time axis ===== -->
+  <line x1="150" y1="424" x2="688" y2="424" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <text x="140" y="428" text-anchor="end" font-size="12" fill="#475569" transform=" translate(140 0) scale(0.6659459790524287 1) translate(-140 0)" data-ru-fit="0.6659">время</text>
+  <line x1="240" y1="419" x2="240" y2="429" stroke="#64748b" stroke-width="1.2"/>
+  <text x="240" y="444" text-anchor="middle" font-size="12" fill="#334155" transform=" translate(240.00000762939453 0) scale(0.9391343474184742 1) translate(-240.00000762939453 0)" data-ru-fit="0.9391">r18 совершено</text>
+  <line x1="520" y1="419" x2="520" y2="429" stroke="#64748b" stroke-width="1.2"/>
+  <text x="520" y="444" text-anchor="middle" font-size="12" fill="#334155" transform=" translate(519.9999923706055 0) scale(0.860641001843192 1) translate(-519.9999923706055 0)" data-ru-fit="0.8606">Записи r18 готовы</text>
+  <text x="380" y="444" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">обновить окно</text>
+<metadata id="original-source-labels">Synchronous re-index
+indexing +88 ms (local) to +1.26 s (remote, per file)
+agent
+edit r18
+write blocked
+query gets r18
+worker
+parse, update postings, embed r18
+index serves
+r17 entries
+r18 entries
+Background re-index, no generation check
+rebuild off write path
+agent
+edit r18
+query gets r17 as current
+worker
+rebuild r18 in background
+index serves
+r17
+r17 admitted as current
+r18 entries
+Background re-index with exclusion
+local metadata +0.4 μs per write, +1.5 μs per query
+agent
+edit r18
+query: direct read or partial
+worker
+rebuild r18 in background
+index serves
+r17
+r17 excluded
+r18 entries
+publish if current
+time
+r18 committed
+r18 entries ready
+refresh window</metadata></svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="180" height="150" fill="#ffffff"/>
+<polygon points="122.6,56.0 174.0,20.0 174.0,56.0" fill="#F2D7D5"/>
+<polyline points="8.0,10.0 8.0,138.0 174.0,138.0" fill="none" stroke="#CCCCCC" stroke-width="1.4"/>
+<line x1="10" y1="56" x2="174" y2="56" stroke="#CB202D" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="11" y1="112" x2="174" y2="112" stroke="#5E6B73" stroke-width="3.4" stroke-linecap="round"/>
+<line x1="11" y1="134" x2="174" y2="20.0" stroke="#006395" stroke-width="3.4" stroke-linecap="round"/>
+<text x="112" y="44.4" font-size="13" font-weight="bold" fill="#006395" text-anchor="end" transform=" translate(111.99999904632568 0) scale(0.5584560401286266 1) translate(-111.99999904632568 0)" data-ru-fit="0.5585">Журнал аудита</text>
+<text x="174" y="73" font-size="13" font-weight="bold" fill="#CB202D" text-anchor="end" transform=" translate(174.00000381469727 0) scale(0.8508818980073883 1) translate(-174.00000381469727 0)" data-ru-fit="0.8509">Бюджет</text>
+<text x="174" y="132" font-size="13" font-weight="bold" fill="#5E6B73" text-anchor="end" transform=" translate(174.00000762939453 0) scale(0.5201580467563575 1) translate(-174.00000762939453 0)" data-ru-fit="0.5202">Набор данных</text>
+<metadata id="original-source-labels">Audit log
+Budget
+Dataset</metadata></svg>

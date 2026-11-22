@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 304" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Elastic training state machine. Blue = active training (compute), violet = membership changes (coordination), red = failure path. Solid arrows leave Active training; dashed arrows return to it. -->
+  <defs>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1F407A"/></marker>
+    <marker id="arr-violet" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/></marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/></marker>
+  </defs>
+  <rect width="680" height="304" fill="#ffffff"/>
+  <g transform="translate(0,-4)">
+  <rect x="240" y="120" width="200" height="60" rx="3" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.6"/>
+  <text x="340.0" y="147.0" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Активное обучение</text>
+  <text x="340.0" y="164.0" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(339.9999694824219 0) scale(0.9354439960536238 1) translate(-339.9999694824219 0)" data-ru-fit="0.9354">N рангов, AllReduce на каждом шаге</text>
+  <rect x="20" y="30" width="180" height="50" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="110.0" y="52.0" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">Увеличение масштаба</text>
+  <text x="110.0" y="69.0" text-anchor="middle" font-size="12" fill="#475569">принимать новых работников</text>
+  <rect x="480" y="30" width="180" height="50" rx="3" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="570.0" y="52.0" text-anchor="middle" font-size="13" font-weight="700" fill="#6d28d9">Уменьшить масштаб</text>
+  <text x="570.0" y="69.0" text-anchor="middle" font-size="12" fill="#475569">освободить рабочих</text>
+  <rect x="240" y="232" width="200" height="50" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="340.0" y="254.0" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">Заменить работника</text>
+  <text x="340.0" y="271.0" text-anchor="middle" font-size="12" fill="#475569">заменить здоровый хост</text>
+  <path d="M325,120 C325,96 355,96 355,117" fill="none" stroke="#1F407A" stroke-width="1.4" marker-end="url(#arr-blue)"/>
+  <text x="340" y="90" text-anchor="middle" font-size="12" fill="#14294E" transform=" translate(339.99997329711914 0) scale(0.679194608624039 1) translate(-339.99997329711914 0)" data-ru-fit="0.6792">шаг выполнен</text>
+  <path d="M240,132 H110 V82" fill="none" stroke="#7c3aed" stroke-width="1.4" marker-end="url(#arr-violet)"/>
+  <text x="175" y="126" text-anchor="middle" font-size="12" fill="#6d28d9" transform=" translate(174.99999237060547 0) scale(0.4477876108443677 1) translate(-174.99999237060547 0)" data-ru-fit="0.4478">простаивающие GPU</text>
+  <path d="M60,80 V168 H238" fill="none" stroke="#1F407A" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arr-blue)"/>
+  <text x="150" y="184" text-anchor="middle" font-size="12" fill="#14294E" transform=" translate(150 0) scale(0.5385697834244372 1) translate(-150 0)" data-ru-fit="0.5386">группа восстановлена</text>
+  <path d="M440,132 H570 V82" fill="none" stroke="#7c3aed" stroke-width="1.4" marker-end="url(#arr-violet)"/>
+  <text x="505" y="126" text-anchor="middle" font-size="12" fill="#6d28d9" transform=" translate(504.9999656677246 0) scale(0.8855236344526782 1) translate(-504.9999656677246 0)" data-ru-fit="0.8855">упреждение</text>
+  <path d="M620,80 V168 H442" fill="none" stroke="#1F407A" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arr-blue)"/>
+  <text x="530" y="184" text-anchor="middle" font-size="12" fill="#14294E" transform=" translate(529.9999618530273 0) scale(0.8237275703107935 1) translate(-529.9999618530273 0)" data-ru-fit="0.8237">выпущены ранги</text>
+  <path d="M320,180 V230" stroke="#dc2626" stroke-width="1.4" marker-end="url(#arr-red)"/>
+  <text x="312" y="210" text-anchor="end" font-size="12" fill="#b91c1c" transform=" translate(311.99998474121094 0) scale(0.8850318295706342 1) translate(-311.99998474121094 0)" data-ru-fit="0.8850">таймаут хоста, ECC</text>
+  <path d="M360,232 V182" stroke="#1F407A" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arr-blue)"/>
+  <text x="368" y="210" text-anchor="start" font-size="12" fill="#14294E" transform=" translate(367.9999694824219 0) scale(0.458374646485712 1) translate(-367.9999694824219 0)" data-ru-fit="0.4584">запасной присоединился</text>
+  <path d="M650,80 V257 H442" fill="none" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arr-red)"/>
+  <text x="545" y="250" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(545.0000190734863 0) scale(0.9714800512437166 1) translate(-545.0000190734863 0)" data-ru-fit="0.9715">срок возврата места</text>
+  </g>
+<metadata id="original-source-labels">Active training
+N ranks, AllReduce each step
+Scale up
+admit new workers
+Scale down
+release workers
+Replace worker
+swap in a healthy host
+step done
+idle GPUs
+group rebuilt
+preemption
+ranks released
+host timeout, ECC
+spare joined
+spot reclaim deadline</metadata></svg>

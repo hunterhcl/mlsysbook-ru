@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="75.42pt" height="66.636pt" viewBox="0 0 75.42 66.636" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 66.636 L 75.42 66.636 L 75.42 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 65.196 L 73.98 65.196 L 73.98 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 22.93488 L 65.544107 22.93488 L 65.544107 10.91232 L 1.44 10.91232 z " clip-path="url(#pb95f9e5162)" style="fill: #d97706; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 41.15088 L 21.466858 41.15088 L 21.466858 29.12832 L 1.44 29.12832 z " clip-path="url(#pb95f9e5162)" style="fill: #d97706; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 59.36688 L 11.243613 59.36688 L 11.243613 47.34432 L 1.44 47.34432 z " clip-path="url(#pb95f9e5162)" style="fill: #d97706; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_25">
+    <path d="M 31.541352 65.196 L 31.541352 1.44 " clip-path="url(#pb95f9e5162)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 0.8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 1.44 65.196 L 73.98 65.196 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="200 ms stall"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="37.1147346496582" y="22.284961700439453" data-original-label="200 ms stall" transform="translate(37.1147346496582 11.489274978637695) scale(0.6232848718653348 2.0560529301906145) translate(-37.1147346496582 -17.784374237060547)">зависание 200 ms</text></g>
+   <g id="text_2" data-original-label="At brake"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="34.43701171875" y="39.81439971923828" data-original-label="At brake" transform="translate(34.43701171875 29.705272674560547) scale(0.4648074972754477 1.8268551212389856) translate(-34.43701171875 -35.313812255859375)">При торможении</text></g>
+   <g id="text_3" data-original-label="Tripwire"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="34.45732498168945" y="58.035518646240234" data-original-label="Tripwire" transform="translate(34.45732498168945 47.91615295410156) scale(0.35217130705689936 1.8287063279276012) translate(-34.45732498168945 -53.53492736816406)">Порог срабатывания</text></g>
+   <g id="text_4" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="58.85653305053711" y="62.827919006347656" data-original-label="log scale" transform="translate(58.85653305053711 59.13449478149414) scale(0.7828647027409171 0.8206538046214534) translate(-58.856529235839844 -59.077430725097656)">лог. шкала</text></g>
+   <g id="text_5" data-original-label="100 N limit"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.7" fill="#cb202d" x="8.696402549743652" y="7.034979820251465" data-original-label="100 N limit" transform="translate(8.696402549743652 3.537885904312134) scale(0.7338426620501949 0.6435876570524347) translate(-8.696402549743652 -2.5343923568725586)">предел 100 N</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb95f9e5162">
+   <rect x="1.44" y="1.44" width="72.54" height="63.756"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+200 ms stall
+At brake
+Tripwire
+log scale
+100 N limit</metadata></svg>

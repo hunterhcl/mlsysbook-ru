@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 340" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="660" height="340" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- ===== ReLU assembly listing ===== -->
+  <rect x="20" y="20" width="300" height="300" rx="3" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <!-- zeroing block tint (lines 7-10) and faulted jump (line 6) -->
+  <rect x="28" y="188" width="284" height="104" rx="0" fill="#fef2f2"/>
+  <rect x="28" y="162" width="284" height="26" rx="0" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+  <g font-family="Courier New, monospace" font-size="14" fill="#0f172a">
+    <text x="40" y="45"><tspan fill="#94a3b8">01</tspan>  лди r1, 0</text>
+    <text x="40" y="71"><tspan fill="#94a3b8">02</tspan>  cp r1, r15</text>
+    <text x="40" y="97"><tspan fill="#94a3b8">03</tspan>  принеси еще</text>
+    <text x="40" y="123"><tspan fill="#94a3b8">04</tspan>  мовв r10, r15</text>
+    <text x="40" y="149"><tspan fill="#94a3b8">05</tspan>  мовв r12, r17</text>
+    <text x="40" y="180" font-weight="700" fill="#b91c1c"><tspan fill="#dc2626">06</tspan>  конец jmp</text>
+    <text x="40" y="206"><tspan fill="#94a3b8">07</tspan>  еще: clr r10</text>
+    <text x="40" y="232"><tspan fill="#94a3b8">08</tspan>  clr r11</text>
+    <text x="40" y="258"><tspan fill="#94a3b8">09</tspan>  clr r12</text>
+    <text x="40" y="284"><tspan fill="#94a3b8">10</tspan>  clr r13</text>
+    <text x="40" y="310"><tspan fill="#94a3b8">11</tspan>  конец: ...</text>
+  </g>
+
+  <!-- ===== Intended control flow: jmp end skips lines 7-10 (suppressed by the fault) ===== -->
+  <path d="M320,175 H350 V305 H322" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4,2" fill="none" marker-end="url(#arr-gray)"/>
+  <path d="M344,234 L356,246 M356,234 L344,246" stroke="#dc2626" stroke-width="1.8" fill="none"/>
+
+  <!-- ===== Annotation brackets ===== -->
+  <!-- lines 2-3: compare and branch -->
+  <path d="M384,56 H390 V102 H384" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+  <text x="404" y="77" font-size="13" font-weight="700" fill="#333333" transform=" translate(404 0) scale(0.6019878021233341 1) translate(-404 0)" data-ru-fit="0.6020">положительный вход</text>
+  <text x="404" y="93" font-size="12" fill="#555555">ветка не занята</text>
+  <!-- lines 4-5: copy -->
+  <path d="M384,108 H390 V154 H384" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+  <text x="404" y="129" font-size="13" font-weight="700" fill="#333333" transform=" translate(404 0) scale(0.6059390048154093 1) translate(-404 0)" data-ru-fit="0.6059">активация копирования</text>
+  <text x="404" y="145" font-size="12" fill="#555555">на выход</text>
+  <!-- line 6: faulted jump -->
+  <path d="M384,164 H390 V186 H384" stroke="#dc2626" stroke-width="1.2" fill="none"/>
+  <text x="404" y="180" font-size="13" font-weight="700" fill="#b91c1c" transform=" translate(404 0) scale(0.5728311368311834 1) translate(-404 0)" data-ru-fit="0.5728">ошибка лазера пропускает прыжок</text>
+  <!-- lines 7-10: zeroing block -->
+  <path d="M384,192 H390 V288 H384" stroke="#dc2626" stroke-width="1.2" fill="none"/>
+  <text x="404" y="236" font-size="13" font-weight="700" fill="#b91c1c">переходит в ноль</text>
+  <text x="404" y="252" font-size="12" fill="#555555" transform=" translate(404 0) scale(0.8719191587249425 1) translate(-404 0)" data-ru-fit="0.8719">выход очищен, нейрон неактивен</text>
+  <!-- line 11: intended target -->
+  <path d="M384,294 H390 V316 H384" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+  <text x="404" y="310" font-size="12" fill="#555555" transform=" translate(404 0) scale(0.6528236156949028 1) translate(-404 0)" data-ru-fit="0.6528">предполагаемая цель прыжка</text>
+<metadata id="original-source-labels">01
+ldi r1, 0
+02
+cp r1, r15
+03
+brge else
+04
+movw r10, r15
+05
+movw r12, r17
+06
+jmp end
+07
+else: clr r10
+08
+clr r11
+09
+clr r12
+10
+clr r13
+11
+end: ...
+positive input
+branch not taken
+copy activation
+to the output
+laser fault skips jump
+falls through to zeroing
+output cleared, neuron inactive
+intended jump target</metadata></svg>

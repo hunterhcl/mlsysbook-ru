@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 8 720 262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="0" y="8" width="720" height="262" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-dark" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#008F45"/>
+    </marker>
+  </defs>
+  <!-- ===== recovery loop: refurbish / recover components ===== -->
+  <path d="M660,78 V40 H240 V76" fill="none" stroke="#008F45" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arr-green)"/>
+  <rect x="388" y="28" width="124" height="22" fill="#ffffff"/>
+  <text x="450" y="44" text-anchor="middle" font-size="12.5" fill="#15803d" transform=" translate(450 0) scale(0.6171674530254118 1) translate(-450 0)" data-ru-fit="0.6172">восстановить или восстановить</text>
+  <!-- ── 1 · Design ── -->
+  <rect x="20" y="80" width="140" height="56" rx="3" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+  <text x="90" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">1 · Дизайн</text>
+  <text x="90" y="123" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(90 0) scale(0.5844648149424495 1) translate(-90 0)" data-ru-fit="0.5845">архитектура, аппаратное обеспечение</text>
+  <line x1="160" y1="108" x2="198" y2="108" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-dark)"/>
+  <!-- ── 2 · Manufacture ── -->
+  <rect x="200" y="80" width="140" height="56" rx="3" fill="#E3D3C8" stroke="#78492A" stroke-width="1.5"/>
+  <text x="270" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">2 · Производство</text>
+  <text x="270" y="123" text-anchor="middle" font-size="12.5" fill="#334155">фабрика, сборка</text>
+  <line x1="340" y1="108" x2="378" y2="108" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-dark)"/>
+  <!-- ── 3 · Use ── -->
+  <rect x="380" y="80" width="140" height="56" rx="3" fill="#FCE4CC" stroke="#E67817" stroke-width="1.5"/>
+  <text x="450" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">3 · Использовать</text>
+  <text x="450" y="123" text-anchor="middle" font-size="12.5" fill="#334155">обучение, вывод</text>
+  <line x1="520" y1="108" x2="558" y2="108" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-dark)"/>
+  <!-- ── 4 · Decommission ── -->
+  <rect x="560" y="80" width="140" height="56" rx="3" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+  <text x="630" y="104" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">4 · Списание</text>
+  <text x="630" y="123" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(630 0) scale(0.7193756362402444 1) translate(-630 0)" data-ru-fit="0.7194">выйти на пенсию, выздороветь</text>
+  <!-- ===== burdens added by each stage ===== -->
+  <line x1="270" y1="136" x2="270" y2="168" stroke="#78492A" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="204" y="170" width="132" height="46" rx="2" fill="#E3D3C8" stroke="#78492A" stroke-width="1.2"/>
+  <text x="270" y="189" text-anchor="middle" font-size="12.5" font-weight="700" fill="#5c3720" transform=" translate(270 0) scale(0.8872063244627547 1) translate(-270 0)" data-ru-fit="0.8872">воплощенный углерод</text>
+  <text x="270" y="206" text-anchor="middle" font-size="12.5" fill="#5c3720">вода, химикаты</text>
+  <line x1="450" y1="136" x2="450" y2="168" stroke="#E67817" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="384" y="170" width="132" height="46" rx="2" fill="#FCE4CC" stroke="#E67817" stroke-width="1.2"/>
+  <text x="450" y="189" text-anchor="middle" font-size="12.5" font-weight="700" fill="#9a4a0b" transform=" translate(450 0) scale(0.9350879502554016 1) translate(-450 0)" data-ru-fit="0.9351">оперативная энергия</text>
+  <text x="450" y="206" text-anchor="middle" font-size="12.5" fill="#9a4a0b" transform=" translate(450 0) scale(0.9237189891027128 1) translate(-450 0)" data-ru-fit="0.9237">× интенсивность сетки</text>
+  <line x1="630" y1="136" x2="630" y2="168" stroke="#475569" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="564" y="170" width="132" height="46" rx="2" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+  <text x="630" y="189" text-anchor="middle" font-size="12.5" font-weight="700" fill="#334155" transform=" translate(630 0) scale(0.9462059137869612 1) translate(-630 0)" data-ru-fit="0.9462">электронные отходы</text>
+  <text x="630" y="206" text-anchor="middle" font-size="12.5" fill="#334155" transform=" translate(630 0) scale(0.8654284783317041 1) translate(-630 0)" data-ru-fit="0.8654">, если не восстановлено</text>
+  <!-- ===== design fixes much of the later load ===== -->
+  <path d="M90,136 V246 H630" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="270" y1="246" x2="270" y2="218" stroke="#475569" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arr-gray)"/>
+  <line x1="450" y1="246" x2="450" y2="218" stroke="#475569" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arr-gray)"/>
+  <line x1="630" y1="246" x2="630" y2="218" stroke="#475569" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arr-gray)"/>
+  <text x="100" y="240" font-size="12.5" fill="#334155" transform=" translate(100 0) scale(0.46029586804965145 1) translate(-100 0)" data-ru-fit="0.4603">нагрузка, установленная во время разработки</text>
+<metadata id="original-source-labels">refurbish or recover
+1 · Design
+architecture, hardware
+2 · Manufacture
+fab, assembly
+3 · Use
+training, inference
+4 · Decommission
+retire, recover
+embodied carbon
+water, chemicals
+operational energy
+× grid intensity
+e-waste
+unless recovered
+load set at design time</metadata></svg>

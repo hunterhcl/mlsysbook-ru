@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 315" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="740" height="315" fill="#ffffff"/>
+  <text x="20" y="26" text-anchor="start" font-size="12" font-weight="700" fill="#64748b">этап</text>
+  <text x="330" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#64748b" transform=" translate(330 0) scale(0.6851990984222389 1) translate(-330 0)" data-ru-fit="0.6852">кандидаты вошли → вышли</text>
+  <text x="540" y="26" text-anchor="start" font-size="12" font-weight="700" fill="#64748b" transform=" translate(540 0) scale(0.773711193392196 1) translate(-540 0)" data-ru-fit="0.7737">бюджет задержки</text>
+  <line x1="20" y1="36" x2="720" y2="36" stroke="#cbd5e1" stroke-width="0.8"/>
+  <!-- ===== funnel: band widths proportional to log10(candidates) ===== -->
+  <path d="M165,50 H495 L440,100 H220 Z" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="330" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">1,000,000 → 10,000</text>
+  <text x="20" y="72" text-anchor="start" font-size="13" font-weight="700" fill="#0f172a">Поиск</text>
+  <text x="20" y="89" text-anchor="start" font-size="12" font-weight="400" fill="#475569" transform=" translate(20 0) scale(0.833060871237619 1) translate(-20 0)" data-ru-fit="0.8331">лексические, ANN вложения</text>
+  <rect x="540" y="67" width="11" height="16" rx="1" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2"/>
+  <text x="559" y="80" text-anchor="start" font-size="13" font-weight="700" fill="#334155">≤ 10 ms</text>
+  <path d="M220,106 H440 L412.5,156 H247.5 Z" fill="#DCE7F3" stroke="#1F407A" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="330" y="136" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">10,000 → 1,000</text>
+  <text x="20" y="128" text-anchor="start" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.7957114186120207 1) translate(-20 0)" data-ru-fit="0.7957">Рейтинг первого этапа</text>
+  <text x="20" y="145" text-anchor="start" font-size="12" font-weight="400" fill="#475569" transform=" translate(20 0) scale(0.7561378959419921 1) translate(-20 0)" data-ru-fit="0.7561">двухбашенный, GBDT</text>
+  <rect x="540" y="123" width="22" height="16" rx="1" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2"/>
+  <text x="570" y="136" text-anchor="start" font-size="13" font-weight="700" fill="#334155">≈ 20 ms</text>
+  <path d="M247.5,162 H412.5 L385,212 H275 Z" fill="#C9D9EC" stroke="#1F407A" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="330" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">1,000 → 100</text>
+  <text x="20" y="184" text-anchor="start" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.6621519370460048 1) translate(-20 0)" data-ru-fit="0.6622">Подсчет очков на втором этапе</text>
+  <text x="20" y="201" text-anchor="start" font-size="12" font-weight="400" fill="#475569" transform=" translate(20 0) scale(0.8422531254389661 1) translate(-20 0)" data-ru-fit="0.8423">глубина MLP, DLRM</text>
+  <rect x="540" y="179" width="55" height="16" rx="1" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2"/>
+  <text x="603" y="192" text-anchor="start" font-size="13" font-weight="700" fill="#334155">≈ 50 ms</text>
+  <path d="M275,218 H385 L357.5,268 H302.5 Z" fill="#B3C8E3" stroke="#1F407A" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="330" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">100 → 10</text>
+  <text x="20" y="240" text-anchor="start" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.41301469614722625 1) translate(-20 0)" data-ru-fit="0.4130">Окончательное изменение рейтинга</text>
+  <text x="20" y="257" text-anchor="start" font-size="12" font-weight="400" fill="#475569" transform=" translate(20 0) scale(0.5996156310057655 1) translate(-20 0)" data-ru-fit="0.5996">преобразователь перекрестного внимания</text>
+  <rect x="540" y="235" width="110" height="16" rx="1" fill="#e2e8f0" stroke="#64748b" stroke-width="1.2"/>
+  <text x="658" y="248" text-anchor="start" font-size="13" font-weight="700" fill="#334155">≈ 100 ms</text>
+  <line x1="540" y1="44" x2="540" y2="268" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="330" y="290" text-anchor="middle" font-size="12" font-weight="400" font-style="italic" fill="#475569" transform=" translate(329.9759979248047 0) scale(0.7566308814796185 1) translate(-329.9759979248047 0)" data-ru-fit="0.7566">ширина полосы ∝ лог количества кандидатов</text>
+  <text x="540" y="290" text-anchor="start" font-size="12" font-weight="400" font-style="italic" fill="#475569" transform=" translate(538.7999877929688 0) scale(0.7656967185534164 1) translate(-538.7999877929688 0)" data-ru-fit="0.7657">длина полосы ∝ бюджет</text>
+<metadata id="original-source-labels">stage
+candidates in → out
+latency budget
+1,000,000 → 10,000
+Retrieval
+lexical, ANN embeddings
+≤ 10 ms
+10,000 → 1,000
+First-stage ranking
+two-tower, GBDT
+≈ 20 ms
+1,000 → 100
+Second-stage scoring
+deep MLP, DLRM
+≈ 50 ms
+100 → 10
+Final re-ranking
+cross-attention transformer
+≈ 100 ms
+band width ∝ log of candidate count
+bar length ∝ budget</metadata></svg>

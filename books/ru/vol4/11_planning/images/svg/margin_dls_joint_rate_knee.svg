@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.474141pt" height="61.092pt" viewBox="0 0 100.474141 61.092" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Regular-59" d="M 1222 0 L 1222 666 L 557 666 L 557 0 L 1222 0 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 61.092 L 100.474141 61.092 L 100.474141 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.378141 59.652 L 99.034141 59.652 L 99.034141 1.44 L 25.378141 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="line2d_1">
+    <path d="M 25.378141 29.063851 L 99.034141 29.063851 " clip-path="url(#p97b6079f0e)" style="fill: none; stroke-dasharray: 2.22,0.96; stroke-dashoffset: 0; stroke: #4a5568; stroke-width: 0.6" />
+   </g>
+   <g id="line2d_2">
+    <path d="M 98.233533 -0.740704 L 97.258879 2.786542 L 96.284224 5.569458 L 95.065907 8.384624 L 93.603926 11.122329 L 92.141945 13.387443 L 90.4363 15.614037 L 88.486992 17.765551 L 86.29402 19.822953 L 83.857385 21.777924 L 81.177086 23.628361 L 78.253124 25.375555 L 74.841835 27.140228 L 71.186882 28.778058 L 67.044603 30.387852 L 62.414996 31.942774 L 57.298062 33.422361 L 51.693801 34.809744 L 45.602213 36.088924 L 39.023298 37.241625 L 32.20072 38.212053 L 25.378141 38.962512 L 25.378141 38.962512 " clip-path="url(#p97b6079f0e)" style="fill: none; stroke: #cb202d; stroke-width: 1.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_3">
+    <path d="M 98.233533 41.037346 L 97.258879 37.905079 L 96.284224 35.604843 L 95.30957 33.867252 L 94.334916 32.538201 L 93.360262 31.519265 L 92.141945 30.580122 L 90.923627 29.926815 L 89.461646 29.427295 L 87.999665 29.160448 L 86.29402 29.063892 L 84.101049 29.177417 L 81.42075 29.549789 L 77.522134 30.341527 L 69.481238 32.275292 L 59.978361 34.475864 L 52.181128 36.048605 L 44.383896 37.389115 L 36.586663 38.500144 L 29.033094 39.356967 L 25.378141 39.690463 L 25.378141 39.690463 " clip-path="url(#p97b6079f0e)" style="fill: none; stroke: #5e6b73; stroke-width: 1.2; stroke-linecap: square" />
+   </g>
+   <g id="patch_3">
+    <path d="M 25.378141 59.652 L 99.034141 59.652 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_1" data-original-label="cap 10 rad/s"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.5" fill="#4a5568" x="1.579218864440918" y="27.55836296081543" data-original-label="cap 10 rad/s" transform="translate(1.579218864440918 23.296722412109375) scale(0.7531623844322723 0.9178188643119816) translate(-1.5792187452316284 -23.808015823364258)">предел 10 rad/s</text></g>
+   <g id="text_2" data-original-label="exact 37.8"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.5" fill="#cb202d" x="69.8262710571289" y="12.758872032165527" data-original-label="exact 37.8" transform="translate(69.8262710571289 9.500590324401855) scale(0.4585744323109724 0.7017279806801525) translate(-69.8262710571289 -9.008523941040039)">точное решение 37.8</text></g>
+   <g id="text_3" data-original-label="damped 8.3"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.5" fill="#5e6b73" x="68.16077423095703" y="41.61201095581055" data-original-label="damped 8.3" transform="translate(68.16077423095703 37.350372314453125) scale(0.4858572829630485 0.9178184535310778) translate(-68.16077423095703 -37.861663818359375)">с демпфированием 8.3</text></g>
+   <g id="text_4">
+    
+    <g style="fill: #cb202d" transform="translate(26.254036 33.590321) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-3a" d="M 3328 1088 L 3328 1594 L 2656 1594 L 2656 4538 L 2240 4538 L 179 1683 L 179 1088 L 2093 1088 L 2093 0 L 2656 0 L 2656 1088 L 3328 1088 z M 2093 1594 L 672 1594 L 2093 3578 L 2093 1594 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-4f" d="M 3258 2374 C 3258 3795 2765 4538 1728 4538 C 864 4538 243 3923 243 3034 C 243 2189 819 1619 1638 1619 C 2067 1619 2381 1773 2675 2125 C 2669 1018 2310 403 1664 403 C 1267 403 992 653 902 1088 L 339 1088 C 448 346 934 -96 1626 -96 C 2688 -96 3258 806 3258 2374 z M 2643 3046 C 2643 2490 2253 2118 1702 2118 C 1158 2118 819 2470 819 3078 C 819 3654 1203 4045 1722 4045 C 2246 4045 2643 3635 2643 3046 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-3a" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-4f" transform="translate(83.390625 0)" />
+    </g>
+   </g>
+   <g id="text_5">
+    
+    <g style="fill: #5e6b73" transform="translate(26.254036 47.2143) scale(0.045 -0.045)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-66" d="M 3283 1408 C 3283 2253 2707 2822 1894 2822 C 1446 2822 1094 2650 851 2317 C 858 3424 1216 4038 1862 4038 C 2259 4038 2534 3789 2624 3354 L 3187 3354 C 3078 4096 2592 4538 1901 4538 C 845 4538 275 3648 275 2067 C 275 653 762 -96 1798 -96 C 2662 -96 3283 518 3283 1408 z M 2707 1363 C 2707 794 2323 403 1805 403 C 1280 403 883 813 883 1395 C 883 1958 1267 2323 1824 2323 C 2368 2323 2707 1971 2707 1363 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-3a" />
+     <use xlink:href="#TeXGyreHeros-Regular-59" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-66" transform="translate(83.390625 0)" />
+    </g>
+   </g>
+   <g id="text_6" data-original-label="elbow 90°"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3" fill="#333333" x="27.15135955810547" y="58.139556884765625" data-original-label="elbow 90°" transform="translate(27.15135955810547 54.94009017944336) scale(0.8769787072387206 0.7109267605687526) translate(-27.151357650756836 -54.38920593261719)">локоть 90°</text></g>
+   <g id="text_7" data-original-label="straight"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3" fill="#333333" x="83.52376556396484" y="59.00386047363281" data-original-label="straight" transform="translate(83.52376556396484 54.93162536621094) scale(0.6110132172349009 0.8844090381031027) translate(-83.52376556396484 -55.253509521484375)">выпрямлен</text></g>
+   <g id="line2d_4">
+    <defs>
+     <path id="m77ef104b7c" d="M 0 1.2 C 0.318244 1.2 0.623496 1.07356 0.848528 0.848528 C 1.07356 0.623496 1.2 0.318244 1.2 0 C 1.2 -0.318244 1.07356 -0.623496 0.848528 -0.848528 C 0.623496 -1.07356 0.318244 -1.2 0 -1.2 C -0.318244 -1.2 -0.623496 -1.07356 -0.848528 -0.848528 C -1.07356 -0.623496 -1.2 -0.318244 -1.2 0 C -1.2 0.318244 -1.07356 0.623496 -0.848528 0.848528 C -0.623496 1.07356 -0.318244 1.2 0 1.2 z " style="stroke: #cb202d" />
+    </defs>
+    <g clip-path="url(#p97b6079f0e)">
+     <use xlink:href="#m77ef104b7c" x="29.381185" y="38.54899" style="fill: #cb202d; stroke: #cb202d" />
+    </g>
+   </g>
+   <g id="line2d_5">
+    <defs>
+     <path id="m67bdcb0725" d="M 0 1.2 C 0.318244 1.2 0.623496 1.07356 0.848528 0.848528 C 1.07356 0.623496 1.2 0.318244 1.2 0 C 1.2 -0.318244 1.07356 -0.623496 0.848528 -0.848528 C 0.623496 -1.07356 0.318244 -1.2 0 -1.2 C -0.318244 -1.2 -0.623496 -1.07356 -0.848528 -0.848528 C -1.07356 -0.623496 -1.2 -0.318244 -1.2 0 C -1.2 0.318244 -1.07356 0.623496 -0.848528 0.848528 C -0.623496 1.07356 -0.318244 1.2 0 1.2 z " style="stroke: #5e6b73" />
+    </defs>
+    <g clip-path="url(#p97b6079f0e)">
+     <use xlink:href="#m67bdcb0725" x="29.381185" y="39.322366" style="fill: #5e6b73; stroke: #5e6b73" />
+    </g>
+   </g>
+   <g id="line2d_6">
+    <g clip-path="url(#p97b6079f0e)">
+     <use xlink:href="#m77ef104b7c" x="93.42988" y="11.413372" style="fill: #cb202d; stroke: #cb202d" />
+    </g>
+   </g>
+   <g id="line2d_7">
+    <g clip-path="url(#p97b6079f0e)">
+     <use xlink:href="#m67bdcb0725" x="93.42988" y="31.583335" style="fill: #5e6b73; stroke: #5e6b73" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p97b6079f0e">
+   <rect x="25.378141" y="1.44" width="73.656" height="58.212" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+cap 10 rad/s
+exact 37.8
+damped 8.3
+4.9
+4.6
+elbow 90°
+straight</metadata></svg>

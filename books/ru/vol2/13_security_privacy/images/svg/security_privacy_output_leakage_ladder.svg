@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Regular-7a" d="M 3245 2182 C 3245 3757 2746 4538 1760 4538 C 781 4538 275 3744 275 2221 C 275 691 787 -96 1760 -96 C 2720 -96 3245 691 3245 2182 z M 2669 2234 C 2669 947 2374 371 1747 371 C 1152 371 851 973 851 2214 C 851 3456 1152 4038 1760 4038 C 2368 4038 2669 3450 2669 2234 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 41.5416 L 63.337025 41.5416 L 63.337025 13.0824 L 1.44 13.0824 z " clip-path="url(#p879ee31a35)" style="fill: #008f45; opacity: 0.92" />
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 84.6616 L 10.566186 84.6616 L 10.566186 56.2024 L 1.44 56.2024 z " clip-path="url(#p879ee31a35)" style="fill: #008f45; opacity: 0.92" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1" />
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2" />
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4" />
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5" />
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6" />
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7" />
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8" />
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9" />
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10" />
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11" />
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12" />
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13" />
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14" />
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15" />
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16" />
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17" />
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18" />
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19" />
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20" />
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21" />
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22" />
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23" />
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24" />
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="patch_5">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_1" data-original-label="Full 1000 scores"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="25.06411361694336" y="28.866798400878906" data-original-label="Full 1000 scores" transform="translate(25.06411361694336 24.99767303466797) scale(0.792548353576279 0.7368859736870808) translate(-25.06411361694336 -24.366247177124023)">Полные 1000 очков</text></g>
+   <g id="text_2" data-original-label="Top-5 scores"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="15.040047645568848" y="73.03711700439453" data-original-label="Top-5 scores" transform="translate(15.040047645568848 68.11255645751953) scale(0.6791253151724448 0.8802511586186276) translate(-15.040047645568848 -68.53656005859375)">Топ-5 результатов</text></g>
+   <g id="text_3" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="92.8543930053711" data-original-label="log scale" transform="translate(56.066532135009766 89.16097259521484) scale(0.782870955686966 0.8206595651353946) translate(-56.066532135009766 -89.10393524169922)">лог. шкала</text></g>
+   <g id="patch_6">
+    <path d="M 13.181269 48.872 Q 36.952326 48.872 60.723382 48.872 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 15.381269 49.972 L 13.181269 48.872 L 15.381269 47.772 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 58.523382 47.772 L 60.723382 48.872 L 58.523382 49.972 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+   </g>
+   <g id="text_4">
+    <g id="patch_7">
+     <path d="M 31.710967 52.062 L 44.97628 52.062 L 44.97628 45.682 L 31.710967 45.682 z " style="fill: #ffffff" />
+    </g>
+    
+    <g style="fill: #333333" transform="translate(32.150967 50.434) scale(0.055 -0.055)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-6c" d="M 3270 3206 C 3270 3974 2675 4538 1818 4538 C 890 4538 352 4064 320 2963 L 883 2963 C 928 3725 1242 4045 1798 4045 C 2310 4045 2694 3680 2694 3194 C 2694 2835 2483 2528 2080 2298 L 1491 1965 C 544 1427 269 998 218 0 L 3238 0 L 3238 557 L 851 557 C 909 928 1114 1165 1670 1491 L 2310 1837 C 2944 2176 3270 2650 3270 3206 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Regular-1a8" d="M 3034 742 L 2176 1600 L 3034 2458 L 2726 2765 L 1869 1907 L 1011 2765 L 704 2458 L 1562 1600 L 704 742 L 1011 435 L 1869 1293 L 2726 435 L 3034 742 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-6c" />
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(111.1875 0)" />
+     <use xlink:href="#TeXGyreHeros-Regular-1a8" transform="translate(166.78125 0)" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p879ee31a35">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Full 1000 scores
+Top-5 scores
+log scale</metadata></svg>

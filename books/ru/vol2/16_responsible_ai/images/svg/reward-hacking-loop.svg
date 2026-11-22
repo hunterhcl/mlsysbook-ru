@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="660" height="440" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1F407A"/>
+    </marker>
+    <marker id="arr-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+  <!-- ===== Optimization loop, closed entirely on the proxy ===== -->
+  <path d="M311.9,151.3 A132,132 0 0 1 368.6,232.2" fill="none" stroke="#1F407A" stroke-width="1.6" marker-end="url(#arr-blue)"/>
+  <text x="361.2" y="181.1" text-anchor="start" font-size="11.5" fill="#334155" transform=" translate(361.20001220703125 0) scale(0.8519108280254777 1) translate(-361.20001220703125 0)" data-ru-fit="0.8519">служит</text>
+  <path d="M369.1,289.5 A132,132 0 0 1 313.8,371.4" fill="none" stroke="#1F407A" stroke-width="1.6" marker-end="url(#arr-blue)"/>
+  <text x="362.7" y="348.8" text-anchor="start" font-size="11.5" fill="#334155" transform=" translate(362.70001220703125 0) scale(0.5630050882969171 1) translate(-362.70001220703125 0)" data-ru-fit="0.5630">вызывает</text>
+  <path d="M168.1,372.7 A132,132 0 0 1 111.4,291.8" fill="none" stroke="#1F407A" stroke-width="1.6" marker-end="url(#arr-blue)"/>
+  <text x="118.8" y="350.9" text-anchor="end" font-size="11.5" fill="#334155" transform=" translate(118.80000305175781 0) scale(0.43929299796057103 1) translate(-118.80000305175781 0)" data-ru-fit="0.4393">зарегистрирован как</text>
+  <path d="M110.9,234.5 A132,132 0 0 1 166.2,152.6" fill="none" stroke="#1F407A" stroke-width="1.6" marker-end="url(#arr-blue)"/>
+  <text x="117.3" y="183.2" text-anchor="end" font-size="11.5" fill="#334155" transform=" translate(117.30000305175781 0) scale(0.47378640776699027 1) translate(-117.30000305175781 0)" data-ru-fit="0.4738">переобучается</text>
+  <rect x="172" y="107" width="136" height="46" rx="3" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="240" y="127" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">ML рекомендатель</text>
+  <text x="240" y="143" text-anchor="middle" font-size="11.5" fill="#334155">оптимизирует прокси</text>
+  <rect x="304" y="239" width="136" height="46" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+  <text x="372" y="259" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b91c1c" transform=" translate(372 0) scale(0.8071449602512514 1) translate(-372 0)" data-ru-fit="0.8071">Представленный контент</text>
+  <text x="372" y="275" text-anchor="middle" font-size="11.5" fill="#334155">кликбейт, возмущение</text>
+  <rect x="172" y="371" width="136" height="46" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+  <text x="240" y="391" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Клики</text>
+  <text x="240" y="407" text-anchor="middle" font-size="11.5" fill="#334155">измеренный ответ</text>
+  <rect x="40" y="239" width="136" height="46" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="108" y="259" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Данные обучения</text>
+  <text x="108" y="275" text-anchor="middle" font-size="11.5" fill="#334155">для следующей модели</text>
+  <text x="240" y="258" text-anchor="middle" font-size="12" font-weight="700" fill="#1F407A" transform=" translate(240 0) scale(0.5989717223650386 1) translate(-240 0)" data-ru-fit="0.5990">цикл закрывается</text>
+  <text x="240" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#1F407A">на прокси</text>
+  <!-- ===== Proxy and true goal, outside the loop ===== -->
+  <rect x="160" y="20" width="160" height="46" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+  <text x="240" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#92400e">Прокси-метрика</text>
+  <text x="240" y="56" text-anchor="middle" font-size="11.5" fill="#334155" transform=" translate(240 0) scale(0.7551694980398186 1) translate(-240 0)" data-ru-fit="0.7552">максимизировать количество кликов</text>
+  <line x1="240" y1="66" x2="240" y2="106" stroke="#d97706" stroke-width="1.5" marker-end="url(#arr-amber)"/>
+  <text x="248" y="90.5" font-size="11.5" fill="#334155" transform=" translate(248 0) scale(0.8089928057553957 1) translate(-248 0)" data-ru-fit="0.8090">награда</text>
+  <rect x="440" y="20" width="170" height="46" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="525" y="40" text-anchor="middle" font-size="12.5" font-weight="700" fill="#15803d">Истинная цель</text>
+  <text x="525" y="56" text-anchor="middle" font-size="11.5" fill="#334155" transform=" translate(525 0) scale(0.7071579870508831 1) translate(-525 0)" data-ru-fit="0.7072">долгосрочная пользовательская ценность</text>
+  <line x1="440" y1="43" x2="321" y2="43" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <text x="380" y="36" text-anchor="middle" font-size="11.5" fill="#334155">измеряется</text>
+  <path d="M440,262 H540 V67" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="5,3" marker-end="url(#arr-red)"/>
+  <text x="550" y="168" font-size="12" font-weight="700" fill="#b91c1c">подрывает</text>
+<metadata id="original-source-labels">serves
+elicits
+logged as
+retrains
+ML recommender
+optimizes the proxy
+Served content
+clickbait, outrage
+Clicks
+measured response
+Training data
+for the next model
+loop closes
+on the proxy
+Proxy metric
+maximize clicks
+reward
+True goal
+long-term user value
+measured by
+undermines</metadata></svg>

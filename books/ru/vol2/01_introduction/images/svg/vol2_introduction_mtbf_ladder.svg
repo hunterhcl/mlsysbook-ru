@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="61.092pt" viewBox="0 0 72.63 61.092" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 61.092 L 72.63 61.092 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 59.652 L 71.19 59.652 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 25.50096 L 66.541776 25.50096 L 66.541776 8.42544 L 1.44 8.42544 z " clip-path="url(#p29ff50f048)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 51.37296 L 6.841845 51.37296 L 6.841845 34.29744 L 1.44 34.29744 z " clip-path="url(#p29ff50f048)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_5">
+    <path d="M 1.44 59.652 L 71.19 59.652 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="One GPU"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="43.70646286010742" y="22.324562072753906" data-original-label="One GPU" transform="translate(43.70646286010742 11.435437202453613) scale(0.8634324918856414 2.0683923626499485) translate(-43.70646286010742 -17.824010848999023)">Один GPU</text></g>
+   <g id="text_2" data-original-label="25,000-GPU job"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="9.602631568908691" y="47.43711853027344" data-original-label="25,000-GPU job" transform="translate(9.602631568908691 37.30231857299805) scale(0.7842783148771277 1.8315090812766766) translate(-9.602631568908691 -42.93656539916992)">25 000-GPU работа</text></g>
+   <g id="text_3" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="56.288639068603516" data-original-label="log scale" transform="translate(56.066532135009766 52.59521484375) scale(0.782870955686966 0.8206604127420711) translate(-56.066532135009766 -52.538177490234375)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p29ff50f048">
+   <rect x="1.44" y="1.44" width="69.75" height="58.212"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.1, https://matplotlib.org/
+One GPU
+25,000-GPU job
+log scale</metadata></svg>

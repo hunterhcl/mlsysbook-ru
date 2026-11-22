@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="83.268pt" viewBox="0 0 72.63 83.268" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 83.268 L 72.63 83.268 L 72.63 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 81.828 L 71.19 81.828 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 15.68016 L 67.112755 15.68016 L 67.112755 5.57424 L 1.44 5.57424 z " clip-path="url(#p30843964bb)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 30.99216 L 60.975265 30.99216 L 60.975265 20.88624 L 1.44 20.88624 z " clip-path="url(#p30843964bb)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 46.30416 L 58.885555 46.30416 L 58.885555 36.19824 L 1.44 36.19824 z " clip-path="url(#p30843964bb)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 1.44 61.61616 L 40.745539 61.61616 L 40.745539 51.51024 L 1.44 51.51024 z " clip-path="url(#p30843964bb)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 1.44 76.92816 L 6.178293 76.92816 L 6.178293 66.82224 L 1.44 66.82224 z " clip-path="url(#p30843964bb)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_8">
+    <path d="M 1.44 81.828 L 71.19 81.828 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Processor"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="43.77638626098633" y="15.317437171936035" data-original-label="Processor" transform="translate(43.77638626098633 5.192874908447266) scale(0.8662216063961495 1.82965850475654) translate(-43.77638626098633 -10.816884994506836)">Процессор</text></g>
+   <g id="text_2" data-original-label="5 s history"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="36.97914505004883" y="30.63455581665039" data-original-label="5 s history" transform="translate(36.97914505004883 20.499753952026367) scale(0.4786731341338088 1.8115669406007548) translate(-36.97914505004883 -26.134002685546875)">История за 5 секунд</text></g>
+   <g id="text_3" data-original-label="Weights"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="39.94318771362305" y="45.946556091308594" data-original-label="Weights" transform="translate(39.94318771362305 35.8117561340332) scale(1.544278097307401 1.9302015902251095) translate(-39.94318771362305 -41.44600296020508)">Веса</text></g>
+   <g id="text_4" data-original-label="One step"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="19.51598358154297" y="61.24311828613281" data-original-label="One step" transform="translate(19.51598358154297 51.03031921386719) scale(0.8911138420383975 1.9399251394295107) translate(-19.515981674194336 -56.7425651550293)">Один шаг</text></g>
+   <g id="text_5" data-original-label="One token"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="8.642019271850586" y="76.55000305175781" data-original-label="One token" transform="translate(8.642019271850586 66.34744262695312) scale(0.8466437377866601 1.9379803043786414) translate(-8.642019271850586 -72.04944610595703)">Один токен</text></g>
+   <g id="text_6" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="79.83744049072266" data-original-label="log scale" transform="translate(56.066532135009766 76.1440200805664) scale(0.782870955686966 0.8206595651353946) translate(-56.066532135009766 -76.08697509765625)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p30843964bb">
+   <rect x="1.44" y="1.44" width="69.75" height="80.388"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Processor
+5 s history
+Weights
+One step
+One token
+log scale</metadata></svg>

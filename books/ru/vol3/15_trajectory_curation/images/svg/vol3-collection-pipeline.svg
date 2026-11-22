@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 290" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <rect width="742" height="290" fill="#ffffff"/>
+  <text x="57" y="36" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(56.999995708465576 0) scale(0.6958398946298453 1) translate(-56.999995708465576 0)" data-ru-fit="0.6958">Кредитный пул</text>
+  <rect x="32" y="50" width="50" height="200" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="37" y="52" width="40" height="16" rx="1" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <rect x="37" y="72" width="40" height="16" rx="1" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <rect x="37" y="92" width="40" height="16" rx="1" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <rect x="37" y="112" width="40" height="16" rx="1" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <rect x="37" y="132" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="37" y="152" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="37" y="172" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="37" y="192" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="37" y="212" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="37" y="232" width="40" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <line x1="24" y1="50" x2="90" y2="50" stroke="#dc2626" stroke-width="2"/>
+  <text x="96" y="54" font-size="12.5" font-weight="700" fill="#b91c1c" transform=" translate(95.93753814697266 0) scale(0.5517259999892756 1) translate(-95.93753814697266 0)" data-ru-fit="0.5517">жесткий предел</text>
+  <text x="96" y="69" font-size="12" fill="#475569" transform=" translate(96 0) scale(0.8920298511973842 1) translate(-96 0)" data-ru-fit="0.8920">прекращает вход</text>
+  <line x1="24" y1="90" x2="90" y2="90" stroke="#334155" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="96" y="94" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(96 0) scale(0.7611589877452044 1) translate(-96 0)" data-ru-fit="0.7612">водяной знак</text>
+  <text x="96" y="109" font-size="12" fill="#475569" transform=" translate(96 0) scale(0.7025380920890029 1) translate(-96 0)" data-ru-fit="0.7025">замедляет отправку</text>
+  <text x="96" y="245" font-size="12" fill="#475569" transform=" translate(96 0) scale(0.802390442570743 1) translate(-96 0)" data-ru-fit="0.8024">в полете</text>
+  <line x1="82" y1="150" x2="193" y2="150" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+  <text x="138" y="143" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(137.99999618530273 0) scale(0.5939674884453651 1) translate(-137.99999618530273 0)" data-ru-fit="0.5940">приобрести</text>
+  <rect x="194" y="128" width="336" height="44" rx="2" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="236" y="155" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(235.99999618530273 0) scale(0.8234756100062216 1) translate(-235.99999618530273 0)" data-ru-fit="0.8235">Развертывание</text>
+  <text x="320" y="155" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Захват</text>
+  <line x1="278" y1="128" x2="278" y2="172" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="404" y="155" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Постановка</text>
+  <line x1="362" y1="128" x2="362" y2="172" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="488" y="155" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Оценка</text>
+  <line x1="446" y1="128" x2="446" y2="172" stroke="#94a3b8" stroke-width="0.8"/>
+  <path d="M194,182 V190 H530 V182" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+  <rect x="252" y="202" width="36" height="16" rx="1" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1"/>
+  <text x="296" y="215" font-size="12" fill="#334155" transform=" translate(296 0) scale(0.5711167496871473 1) translate(-296 0)" data-ru-fit="0.5711">один кредит удерживается за прогон</text>
+  <line x1="530" y1="150" x2="544" y2="150" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="544" y1="86" x2="544" y2="214" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="544" y1="86" x2="559" y2="86" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="560" y="64" width="138" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="629" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(628.9999618530273 0) scale(0.7568083067986189 1) translate(-628.9999618530273 0)" data-ru-fit="0.7568">Публикация набора данных</text>
+  <text x="629" y="99" text-anchor="middle" font-size="12" fill="#475569">производная версия</text>
+  <line x1="698" y1="86" x2="714" y2="86" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <line x1="544" y1="150" x2="559" y2="150" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="560" y="128" width="138" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="629" y="147" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" transform=" translate(628.9999542236328 0) scale(0.9719191957322219 1) translate(-628.9999542236328 0)" data-ru-fit="0.9719">Диагностический пул</text>
+  <text x="629" y="163" text-anchor="middle" font-size="12" fill="#475569">или сравнение</text>
+  <line x1="698" y1="150" x2="714" y2="150" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <line x1="544" y1="214" x2="559" y2="214" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <rect x="560" y="192" width="138" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="629" y="211" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">Очередь просмотра</text>
+  <text x="629" y="227" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(628.9999923706055 0) scale(0.8885827597992184 1) translate(-628.9999923706055 0)" data-ru-fit="0.8886">неразрешенная задержка</text>
+  <line x1="698" y1="214" x2="714" y2="214" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <path d="M714,86 V266 H57 V251" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arr-purple)"/>
+  <text x="394" y="258" text-anchor="middle" font-size="12" fill="#6d28d9" transform=" translate(394.0000457763672 0) scale(0.7075554785174352 1) translate(-394.0000457763672 0)" data-ru-fit="0.7076">кредит возвращается при долгосрочном отчуждении или подтвержденной передаче</text>
+<metadata id="original-source-labels">Credit pool
+hard limit
+stops admission
+watermark
+slows dispatch
+in flight
+acquire
+Rollout
+Capture
+Staging
+Assessment
+one credit held per run
+Dataset publication
+derived version
+Diagnostic pool
+or comparison
+Review queue
+unresolved hold
+credit returned on durable disposition or acknowledged transfer</metadata></svg>

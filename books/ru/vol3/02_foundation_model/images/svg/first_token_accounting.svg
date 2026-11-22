@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="680" height="350" fill="#ffffff"/>
+<defs>
+<marker id="arr-blue" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0284c7"/></marker>
+<marker id="arr-green" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
+<marker id="arr-purple" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker>
+<marker id="arr-amber" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#d97706"/></marker>
+<marker id="arr-red" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+<marker id="arr-gray" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker>
+</defs>
+<text x="20" y="30" font-size="13" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(20 0) scale(0.6924709701585716 1) translate(-20 0)" data-ru-fit="0.6925">Модельный сервис</text>
+<text x="20" y="175" font-size="13" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(20 0) scale(0.7733511884834282 1) translate(-20 0)" data-ru-fit="0.7734">Клиент</text>
+<rect x="140" y="55" width="70" height="45" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="175.0" y="81.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Очередь</text>
+<rect x="210" y="55" width="150" height="45" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+<text x="285.0" y="81.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(285 0) scale(0.7430945978978245 1) translate(-285 0)" data-ru-fit="0.7431">Заполнение контекста запроса</text>
+<rect x="360" y="55" width="70" height="45" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+<text x="395.0" y="81.5" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">Образец 1</text>
+<rect x="450" y="55" width="85" height="45" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+<text x="492.5" y="81.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Пройти 2</text>
+<rect x="555" y="55" width="100" height="45" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
+<text x="605.0" y="81.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">… Пройти K</text>
+<text x="360" y="120" font-size="12" font-weight="400" text-anchor="end" fill="#0f172a" transform=" translate(360 0) scale(0.5703714666272014 1) translate(-360 0)" data-ru-fit="0.5704">Начальные логиты</text>
+<path d="M360,100 V110" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+<text x="550" y="40" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(550 0) scale(0.7803030303030303 1) translate(-550 0)" data-ru-fit="0.7803">K − 1 проходит позже</text>
+<path d="M450,20 V25 H655 V20" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+<path d="M120,185 V40 H140 V55" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+<text x="120" y="210" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(120 0) scale(0.46631989596879064 1) translate(-120 0)" data-ru-fit="0.4663">Отправить</text>
+<path d="M430,100 V185 H440" fill="none" stroke="#0284c7" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+<rect x="440" y="170" width="70" height="30" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="475.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">Токен 1</text>
+<path d="M535,100 V155 H620 V170" fill="none" stroke="#0284c7" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+<path d="M655,100 V155 H620" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+<rect x="540" y="170" width="120" height="30" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="600.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">Токены 2… К</text>
+<text x="600" y="220" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(600 0) scale(0.5191294842492299 1) translate(-600 0)" data-ru-fit="0.5191">Буферизованный фрагмент</text>
+<path d="M120,230 V245 H440 V230" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="280" y="267" font-size="13" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(280 0) scale(0.8707275157532939 1) translate(-280 0)" data-ru-fit="0.8707">Клиент TTFT</text>
+<path d="M210,285 V300 H360 V285" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+<text x="285" y="322" font-size="13" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(285 0) scale(0.3862190541887024 1) translate(-285 0)" data-ru-fit="0.3862">Заполнение контекста сервера</text>
+<metadata id="original-source-labels">Model service
+Client
+Queue
+Prompt prefill
+Sample 1
+Pass 2
+… Pass K
+Initial logits
+K − 1 later passes
+Send
+Token 1
+Tokens 2 … K
+Buffered chunk
+Client TTFT
+Server prefill</metadata></svg>

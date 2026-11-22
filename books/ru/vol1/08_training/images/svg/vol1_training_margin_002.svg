@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.39136pt" height="99.9pt" viewBox="0 0 70.39136 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 70.39136 99.9 L 70.39136 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 68.95136 98.46 L 68.95136 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 29.202646 L 62.192492 29.202646 L 62.192492 9.500123 L 1.44 9.500123 z " clip-path="url(#p4211b79f7f)" style="fill: #7e317b; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 59.054954 L 26.148737 59.054954 L 26.148737 39.352431 L 1.44 39.352431 z " clip-path="url(#p4211b79f7f)" style="fill: #7e317b; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 88.907262 L 9.29469 88.907262 L 9.29469 69.204738 L 1.44 69.204738 z " clip-path="url(#p4211b79f7f)" style="fill: #7e317b; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25"/>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26"/>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27"/>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28"/>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_6">
+    <path d="M 1.44 98.46 L 68.95136 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="H100 HBM 3,350 GB/s"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="9.022722244262695" y="21.59274673461914" data-original-label="H100 HBM 3,350 GB/s" transform="translate(9.022722244262695 16.943620681762695) scale(0.9879108074439712 0.8854402965657817) translate(-9.022723197937012 -17.092201232910156)">H100 HBM 3,350 GB/с</text></g>
+   <g id="text_2" data-original-label="DRAM 50 GB/s"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="30.368701934814453" y="50.78449249267578" data-original-label="DRAM 50 GB/s" transform="translate(30.368701934814453 46.795928955078125) scale(0.981135180482715 0.7596341422990841) translate(-30.368701934814453 -46.2839469909668)">DRAM 50 GB/с</text></g>
+   <g id="text_3" data-original-label="NVMe 7 GB/s"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="13.446403503417969" y="80.63679504394531" data-original-label="NVMe 7 GB/s" transform="translate(13.446403503417969 76.64823913574219) scale(0.9809272389037065 0.7596326892575276) translate(-13.446403503417969 -76.1362533569336)">NVMe 7 GB/с</text></g>
+   <g id="text_4" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="53.8278923034668" y="94.57919311523438" data-original-label="log scale" transform="translate(53.8278923034668 90.88577270507812) scale(0.7828718154748593 0.8206604346319741) translate(-53.8278923034668 -90.82874298095703)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4211b79f7f">
+   <rect x="1.44" y="1.44" width="67.51136" height="97.02"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+H100 HBM 3,350 GB/s
+DRAM 50 GB/s
+NVMe 7 GB/s
+log scale</metadata></svg>

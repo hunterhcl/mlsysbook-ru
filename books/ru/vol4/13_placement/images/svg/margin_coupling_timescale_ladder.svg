@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.562899pt" height="99.9pt" viewBox="0 0 82.562899 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 82.562899 99.9 L 82.562899 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 18.6264 L 68.747097 18.6264 L 68.747097 6.4296 L 1.44 6.4296 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 37.1064 L 44.936414 37.1064 L 44.936414 24.9096 L 1.44 24.9096 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 55.5864 L 25.488798 55.5864 L 25.488798 43.3896 L 1.44 43.3896 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 1.44 74.0664 L 13.360785 74.0664 L 13.360785 61.8696 L 1.44 61.8696 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 1.44 92.5464 L 4.278973 92.5464 L 4.278973 80.3496 L 1.44 80.3496 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_8">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="Thermal recovery"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="28.279752731323242" y="17.207918167114258" data-original-label="Thermal recovery" transform="translate(28.279752731323242 7.088555335998535) scale(0.6314268862186163 1.9273168547211668) translate(-28.27975082397461 -12.707496643066406)">Тепловое восстановление</text></g>
+   <g id="text_2" data-original-label="Permission tick"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="46.767147064208984" y="35.68280029296875" data-original-label="Permission tick" transform="translate(46.767147064208984 25.573673248291016) scale(1.10320437136682 1.8070295441533446) translate(-46.767147064208984 -31.182376861572266)">Такт допуска</text></g>
+   <g id="text_3" data-original-label="DRAM backlog wait"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="27.309782028198242" y="55.22351837158203" data-original-label="DRAM backlog wait" transform="translate(27.309782028198242 44.03815460205078) scale(0.6635534076303163 2.021420636642065) translate(-27.309782028198242 -50.72309875488281)">Ожидание в очереди DRAM</text></g>
+   <g id="text_4" data-original-label="Bank conflict"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="14.885207176208496" y="72.6427993774414" data-original-label="Bank conflict" transform="translate(14.885207176208496 62.51823425292969) scale(0.7007198427169444 1.8297129446485765) translate(-14.88520622253418 -68.14237976074219)">Конфликт банков</text></g>
+   <g id="text_5" data-original-label="Droop rise"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="5.813957214355469" y="91.12792205810547" data-original-label="Droop rise" transform="translate(5.813957214355469 81.00856018066406) scale(0.4474142253023194 1.828770721937288) translate(-5.813957214355469 -86.62750244140625)">Нарастание просадки</text></g>
+   <g id="text_6" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="96.0575942993164" data-original-label="log scale" transform="translate(56.066532135009766 92.36417388916016) scale(0.7828933889528997 0.8206830421897697) translate(-56.066532135009766 -92.30724334716797)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p879ee31a35">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+Thermal recovery
+Permission tick
+DRAM backlog wait
+Bank conflict
+Droop rise
+log scale</metadata></svg>

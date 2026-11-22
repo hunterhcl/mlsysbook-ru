@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 84" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="180" height="84" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#999999"/></marker></defs>
+<line x1="36" y1="44" x2="75" y2="44" stroke="#999999" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="56.0" y="26" font-size="12" text-anchor="middle" fill="#666666">ждет</text>
+<line x1="104" y1="44" x2="143" y2="44" stroke="#999999" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="124.0" y="26" font-size="12" text-anchor="middle" fill="#666666">голодал</text>
+<circle cx="22" cy="44" r="11" fill="#1F407A"/>
+<text x="22" y="71" font-size="13" text-anchor="middle" fill="#333333" transform=" translate(22 0) scale(0.49844020103025644 1) translate(-22 0)" data-ru-fit="0.4984">Высокий</text>
+<circle cx="90" cy="44" r="11" fill="#7e317b"/>
+<text x="90" y="71" font-size="13" text-anchor="middle" fill="#333333" transform=" translate(90.00000381469727 0) scale(0.5470121170807122 1) translate(-90.00000381469727 0)" data-ru-fit="0.5470">Низкий</text>
+<circle cx="158" cy="44" r="11" fill="#64748b"/>
+<text x="158" y="71" font-size="13" text-anchor="middle" fill="#333333">Мед</text>
+<metadata id="original-source-labels">waits on
+starved by
+High
+Low
+Med</metadata></svg>

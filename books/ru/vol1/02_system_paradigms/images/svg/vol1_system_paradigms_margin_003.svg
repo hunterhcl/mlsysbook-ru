@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.724pt" height="39.4704pt" viewBox="0 0 68.724 39.4704" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 39.4704 L 68.724 39.4704 L 68.724 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 38.0304 L 67.284 38.0304 L 67.284 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 9.34128 11.685312 L 30.41136 11.685312 " clip-path="url(#p33738dd3b2)" style="fill: none; stroke: #cb202d; stroke-width: 1.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 30.41136 11.685312 L 36.99576 24.857856 " clip-path="url(#p33738dd3b2)" style="fill: none; stroke: #cb202d; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 36.99576 24.857856 L 60.6996 24.857856 " clip-path="url(#p33738dd3b2)" style="fill: none; stroke: #006395; stroke-width: 1.55; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <defs>
+     <path id="m529bcefb9b" d="M 0 1.6 C 0.424325 1.6 0.831328 1.431414 1.131371 1.131371 C 1.431414 0.831328 1.6 0.424325 1.6 0 C 1.6 -0.424325 1.431414 -0.831328 1.131371 -1.131371 C 0.831328 -1.431414 0.424325 -1.6 0 -1.6 C -0.424325 -1.6 -0.831328 -1.431414 -1.131371 -1.131371 C -1.431414 -0.831328 -1.6 -0.424325 -1.6 0 C -1.6 0.424325 -1.431414 0.831328 -1.131371 1.131371 C -0.831328 1.431414 -0.424325 1.6 0 1.6 z " style="stroke: #cb202d"/>
+    </defs>
+    <g clip-path="url(#p33738dd3b2)">
+     <use xlink:href="#m529bcefb9b" x="30.41136" y="11.685312" style="fill: #cb202d; stroke: #cb202d"/>
+    </g>
+   </g>
+   <g id="line2d_5">
+    <defs>
+     <path id="mf837055079" d="M 0 1.6 C 0.424325 1.6 0.831328 1.431414 1.131371 1.131371 C 1.431414 0.831328 1.6 0.424325 1.6 0 C 1.6 -0.424325 1.431414 -0.831328 1.131371 -1.131371 C 0.831328 -1.431414 0.424325 -1.6 0 -1.6 C -0.424325 -1.6 -0.831328 -1.431414 -1.131371 -1.131371 C -1.431414 -0.831328 -1.6 -0.424325 -1.6 0 C -1.6 0.424325 -1.431414 0.831328 -1.131371 1.131371 C -0.831328 1.431414 -0.424325 1.6 0 1.6 z " style="stroke: #006395"/>
+    </defs>
+    <g clip-path="url(#p33738dd3b2)">
+     <use xlink:href="#mf837055079" x="60.6996" y="24.857856" style="fill: #006395; stroke: #006395"/>
+    </g>
+   </g>
+   <g id="text_1" data-original-label="burst"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#cb202d" x="13.290299415588379" y="9.032634735107422" data-original-label="burst" transform="translate(13.290299415588379 5.3341965675354) scale(0.7698933150832595 0.6732905248015116) translate(-13.290300369262695 -4.532291412353516)">взрыв</text></g>
+   <g id="text_2" data-original-label="sustain"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#006395" x="41.74635696411133" y="30.620969772338867" data-original-label="sustain" transform="translate(41.74635696411133 26.934249877929688) scale(0.8529620871409399 0.664080185608217) translate(-41.74635696411133 -26.12062644958496)">сустейн</text></g>
+   <g id="text_3" data-original-label="throttle"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.7" fill="#333333" x="39.023956298828125" y="18.459396362304688" data-original-label="throttle" transform="translate(39.023956298828125 14.987271308898926) scale(0.2866135475268623 0.6390269442580043) translate(-39.023956298828125 -13.959052085876465)">дроссельная заслонка</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p33738dd3b2">
+   <rect x="1.44" y="1.44" width="65.844" height="36.5904"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.10.8, https://matplotlib.org/
+burst
+sustain
+throttle</metadata></svg>

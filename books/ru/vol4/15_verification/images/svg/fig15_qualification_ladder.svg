@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="680" height="330" fill="#ffffff"/>
+  <defs><marker id="arr-soft" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4A5568"/></marker></defs>
+  <text x="207" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(207 0) scale(0.9242808798646363 1) translate(-207 0)" data-ru-fit="0.9243">решение</text>
+  <text x="207" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(207 0) scale(0.677801724137931 1) translate(-207 0)" data-ru-fit="0.6778">логика</text>
+  <text x="269" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(269 0) scale(0.7907194020554345 1) translate(-269 0)" data-ru-fit="0.7907">исполнение</text>
+  <text x="269" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(269 0) scale(0.9666070363744782 1) translate(-269 0)" data-ru-fit="0.9666">время</text>
+  <text x="331" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(331 0) scale(0.5677821894498015 1) translate(-331 0)" data-ru-fit="0.5678">шина и ввод-вывод</text>
+  <text x="331" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(331 0) scale(0.9666070363744782 1) translate(-331 0)" data-ru-fit="0.9666">время</text>
+  <text x="393" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(393 0) scale(0.7783831583751711 1) translate(-393 0)" data-ru-fit="0.7784">питание</text>
+  <text x="393" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(393 0) scale(0.42317750898986595 1) translate(-393 0)" data-ru-fit="0.4232">переходные процессы</text>
+  <text x="455" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(455 0) scale(0.9392670157068063 1) translate(-455 0)" data-ru-fit="0.9393">приводы и</text>
+  <text x="455" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(455 0) scale(0.7779727950855638 1) translate(-455 0)" data-ru-fit="0.7780">тормоза</text>
+  <text x="517" y="42" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(517 0) scale(0.9237605238540693 1) translate(-517 0)" data-ru-fit="0.9238">контакт</text>
+  <text x="517" y="54" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1A202C">и пол</text>
+  <text x="566" y="54" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(566 0) scale(0.4480106987629555 1) translate(-566 0)" data-ru-fit="0.4480">скорость проведения испытаний</text>
+  <text x="166" y="54" text-anchor="end" font-size="8.5" font-weight="bold" fill="#1A202C" transform=" translate(166 0) scale(0.4338315712723296 1) translate(-166 0)" data-ru-fit="0.4338">ступенька</text>
+  <line x1="30" y1="78" x2="650" y2="78" stroke="#E2E8F0" stroke-width="0.8"/>
+  <text x="166" y="100" text-anchor="end" font-size="9.5" font-weight="bold" fill="#1A202C">ПО</text>
+  <text x="166" y="112" text-anchor="end" font-size="8" fill="#4A5568" transform=" translate(166 0) scale(0.6925948973242066 1) translate(-166 0)" data-ru-fit="0.6926">главный компьютер</text>
+  <rect x="192" y="89" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <text x="269" y="106" text-anchor="middle" font-size="11" fill="#A0AEC0">—</text>
+  <text x="331" y="106" text-anchor="middle" font-size="11" fill="#A0AEC0">—</text>
+  <text x="393" y="106" text-anchor="middle" font-size="11" fill="#A0AEC0">—</text>
+  <rect x="440" y="89" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="455" y="105" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(455 0) scale(0.896358543417367 1) translate(-455 0)" data-ru-fit="0.8964">модель</text>
+  <rect x="502" y="89" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="517" y="105" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(517 0) scale(0.896358543417367 1) translate(-517 0)" data-ru-fit="0.8964">модель</text>
+  <text x="566" y="105" font-size="8.5" fill="#4A5568" transform=" translate(566 0) scale(0.6184362139917695 1) translate(-566 0)" data-ru-fit="0.6184">параллельные проходы</text>
+  <line x1="30" y1="126" x2="650" y2="126" stroke="#E2E8F0" stroke-width="0.8"/>
+  <text x="166" y="148" text-anchor="end" font-size="9.5" font-weight="bold" fill="#1A202C">PIL</text>
+  <text x="166" y="160" text-anchor="end" font-size="8" fill="#4A5568" transform=" translate(166 0) scale(0.6177966101694915 1) translate(-166 0)" data-ru-fit="0.6178">целевой процессор</text>
+  <rect x="192" y="137" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="254" y="137" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="316" y="137" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="331" y="153" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(331 0) scale(0.896358543417367 1) translate(-331 0)" data-ru-fit="0.8964">модель</text>
+  <text x="393" y="154" text-anchor="middle" font-size="11" fill="#A0AEC0">—</text>
+  <rect x="440" y="137" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="455" y="153" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(455 0) scale(0.896358543417367 1) translate(-455 0)" data-ru-fit="0.8964">модель</text>
+  <rect x="502" y="137" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="517" y="153" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(517 0) scale(0.896358543417367 1) translate(-517 0)" data-ru-fit="0.8964">модель</text>
+  <text x="566" y="153" font-size="8.5" fill="#4A5568" transform=" translate(566 0) scale(0.6407414870038284 1) translate(-566 0)" data-ru-fit="0.6407">предел платформы</text>
+  <line x1="30" y1="174" x2="650" y2="174" stroke="#E2E8F0" stroke-width="0.8"/>
+  <text x="166" y="196" text-anchor="end" font-size="9.5" font-weight="bold" fill="#1A202C">HIL</text>
+  <text x="166" y="208" text-anchor="end" font-size="8" fill="#4A5568" transform=" translate(166.0492706298828 0) scale(0.6908053617986667 1) translate(-166.0492706298828 0)" data-ru-fit="0.6908">серийные платы, модель объекта на FPGA</text>
+  <rect x="192" y="185" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="254" y="185" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="316" y="185" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="378" y="185" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="440" y="185" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="502" y="185" width="30" height="26" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="517" y="201" text-anchor="middle" font-size="8" fill="#1A4D3E" transform=" translate(517 0) scale(0.896358543417367 1) translate(-517 0)" data-ru-fit="0.8964">модель</text>
+  <text x="566" y="201" font-size="8.5" fill="#4A5568" transform=" translate(566 0) scale(0.5015704276395264 1) translate(-566 0)" data-ru-fit="0.5016">реальное время</text>
+  <line x1="30" y1="222" x2="650" y2="222" stroke="#E2E8F0" stroke-width="0.8"/>
+  <text x="166" y="244" text-anchor="end" font-size="9.5" font-weight="bold" fill="#1A202C" transform=" translate(166 0) scale(0.47790413127968906 1) translate(-166 0)" data-ru-fit="0.4779">физическая установка</text>
+  <text x="166" y="256" text-anchor="end" font-size="8" fill="#4A5568" transform=" translate(166 0) scale(0.706951871657754 1) translate(-166 0)" data-ru-fit="0.7070">серийная база на испытательном полу</text>
+  <rect x="192" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="254" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="316" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="378" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="440" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <rect x="502" y="233" width="30" height="26" rx="0" fill="#1A4D3E"/>
+  <text x="566" y="249" font-size="8.5" fill="#4A5568" transform=" translate(566 0) scale(0.6536322265295803 1) translate(-566 0)" data-ru-fit="0.6536">реальное время, износ</text>
+  <line x1="30" y1="270" x2="650" y2="270" stroke="#E2E8F0" stroke-width="0.8"/>
+  <path d="M558 92 V256" fill="none" stroke="#4A5568" stroke-width="1.2" marker-end="url(#arr-soft)"/>
+  <rect x="176" y="289" width="18" height="15" rx="0" fill="#1A4D3E"/>
+  <text x="200" y="300" font-size="8.5" fill="#1A202C" transform=" translate(200 0) scale(0.7803161274388738 1) translate(-200 0)" data-ru-fit="0.7803">проверяется серийное изделие</text>
+  <rect x="330" y="289" width="18" height="15" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="354" y="300" font-size="8.5" fill="#1A202C">заменено моделью</text>
+  <text x="484" y="301" font-size="11" fill="#A0AEC0">—</text>
+  <text x="502" y="300" font-size="8.5" fill="#1A202C" transform=" translate(502 0) scale(0.5606541371735416 1) translate(-502 0)" data-ru-fit="0.5607">отсутствует или идеализирован</text>
+<metadata id="original-source-labels">decision
+logic
+execution
+timing
+bus and I/O
+timing
+supply
+transients
+drives and
+brakes
+contact
+and floor
+trial throughput
+rung
+software
+host computer
+—
+—
+—
+model
+model
+parallel sweeps
+PIL
+target silicon
+model
+—
+model
+model
+target-bound
+HIL
+production boards, FPGA plant
+model
+real time
+physical rig
+production base on test floor
+wall clock, wear
+production item exercised
+substituted by a model
+—
+absent or idealized</metadata></svg>

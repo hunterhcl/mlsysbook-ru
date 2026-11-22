@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 262" width="680" height="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-ink" viewBox="0 0 8 6" refX="8" refY="3" markerWidth="8" markerHeight="6" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1A202C"/>
+    </marker>
+    <marker id="arr-soft" viewBox="0 0 8 6" refX="8" refY="3" markerWidth="7" markerHeight="5" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4A5568"/>
+    </marker>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#F1F3F6"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#A0AEC0" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="680" height="262" fill="#ffffff"/>
+
+  <!-- ===== Left panel: closed loop and bound orders ===== -->
+  <text x="130" y="20" font-size="10" font-weight="700" fill="#1A202C" text-anchor="middle" transform=" translate(130 0) scale(0.6505742651352929 1) translate(-130 0)" data-ru-fit="0.6506">(a) Обучаемая модель в контуре</text>
+
+  <rect x="70" y="34" width="120" height="32" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1"/>
+  <text x="130" y="54" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Обученная политика</text>
+
+  <rect x="70" y="150" width="120" height="32" rx="0" fill="#F8FAFC" stroke="#4A5568" stroke-width="1"/>
+  <text x="130" y="170" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Объект управления</text>
+
+  <rect x="70" y="212" width="120" height="26" rx="0" fill="#ffffff" stroke="#A0AEC0" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="130" y="229" font-size="8.5" fill="#4A5568" text-anchor="middle">возмущение</text>
+
+  <!-- loop: policy -> action -> plant -> state -> policy -->
+  <path d="M190,50 H222 V166 H192" fill="none" stroke="#1A202C" stroke-width="1.3" marker-end="url(#arr-ink)"/>
+  <path d="M70,166 H40 V50 H68" fill="none" stroke="#1A202C" stroke-width="1.3" marker-end="url(#arr-ink)"/>
+  <line x1="130" y1="212" x2="130" y2="184" stroke="#4A5568" stroke-width="1" marker-end="url(#arr-soft)"/>
+  <text x="228" y="112" font-size="9" fill="#4A5568" transform=" translate(228 0) scale(0.632358830596716 1) translate(-228 0)" data-ru-fit="0.6324">действие</text>
+  <text x="34" y="112" font-size="9" fill="#4A5568" text-anchor="end" transform=" translate(34 0) scale(0.4513148542999289 1) translate(-34 0)" data-ru-fit="0.4513">состояние</text>
+
+  <!-- bound orders -->
+  <text x="130" y="94" font-size="8.5" fill="#4A5568" text-anchor="middle" transform=" translate(130 0) scale(0.6257106491302503 1) translate(-130 0)" data-ru-fit="0.6257">поведенческое клонирование, худший случай</text>
+  <text x="130" y="108" font-size="10" font-weight="700" fill="#1A202C" text-anchor="middle">𝒪(S²ε)</text>
+  <text x="130" y="126" font-size="8.5" fill="#4A5568" text-anchor="middle" transform=" translate(130 0) scale(0.7312220868859115 1) translate(-130 0)" data-ru-fit="0.7312">агрегация, восстанавливаемая задача</text>
+  <text x="130" y="140" font-size="10" font-weight="700" fill="#1A202C" text-anchor="middle">𝒪(uSε)</text>
+
+  <!-- ===== Right panel: curation timeline ===== -->
+  <text x="478" y="20" font-size="10" font-weight="700" fill="#1A202C" text-anchor="middle" transform=" translate(478 0) scale(0.681906272022551 1) translate(-478 0)" data-ru-fit="0.6819">(b) Отбор данных одного перехвата</text>
+
+  <!-- lookback bracket: 5 s back from takeover, past t_div -->
+  <path d="M330,52 V46 H430 V52" fill="none" stroke="#4A5568" stroke-width="1"/>
+  <text x="346" y="40" font-size="9" fill="#1A202C">Δt<tspan dy="2.5" font-size="7.5">lookback</tspan></text>
+  <text x="390" y="40" font-size="9" fill="#1A202C">= 5 s</text>
+
+  <!-- event markers: t_div 350, t_takeover 430, blend end 470, t_stabilize 550, t_rec 630 -->
+  <g stroke="#A0AEC0" stroke-width="0.8" stroke-dasharray="3,3">
+    <line x1="350" y1="58" x2="350" y2="150"/>
+    <line x1="430" y1="58" x2="430" y2="150"/>
+    <line x1="470" y1="58" x2="470" y2="150"/>
+    <line x1="550" y1="58" x2="550" y2="150"/>
+    <line x1="630" y1="58" x2="630" y2="150"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="296" y1="150" x2="668" y2="150" stroke="#4A5568" stroke-width="1" marker-end="url(#arr-soft)"/>
+  <line x1="296" y1="150" x2="296" y2="60" stroke="#4A5568" stroke-width="1" marker-end="url(#arr-soft)"/>
+  <text x="0" y="0" font-size="8.5" fill="#4A5568" text-anchor="end" transform="translate(290,62) rotate(-90) translate(0 0) scale(0.7062921837578925 1) translate(0 0)" data-ru-fit="0.7063">ошибка слежения</text>
+  <text x="668" y="140" font-size="8.5" fill="#4A5568" text-anchor="end" transform=" translate(668 0) scale(0.6660317460317461 1) translate(-668 0)" data-ru-fit="0.6660">время</text>
+
+  <!-- trajectory: nominal, learner drift, enforcer blend, operator hunting, stabilized recovery -->
+  <path d="M296,149 H350 C380,148 410,118 430,76" fill="none" stroke="#B87333" stroke-width="2"/>
+  <path d="M430,76 C443,70 457,72 470,80" fill="none" stroke="#718096" stroke-width="2" stroke-dasharray="4,2"/>
+  <path d="M470,80 C478,112 486,112 494,92 C502,72 510,86 518,106 C526,124 534,112 542,104 C546,101 548,104 550,108" fill="none" stroke="#718096" stroke-width="1.6"/>
+  <path d="M550,108 C572,130 600,147 630,149 H658" fill="none" stroke="#1A202C" stroke-width="2"/>
+  <circle cx="430" cy="76" r="3" fill="#1A202C"/>
+  <text x="404" y="104" font-size="8.5" fill="#B87333" text-anchor="end" transform=" translate(404 0) scale(0.9565217391304348 1) translate(-404 0)" data-ru-fit="0.9565">ученик</text>
+  <text x="592" y="124" font-size="8.5" fill="#1A202C" transform=" translate(592 0) scale(0.7569955817378498 1) translate(-592 0)" data-ru-fit="0.7570">эксперт</text>
+
+  <text x="350" y="164" font-size="9" fill="#1A202C" text-anchor="middle">t<tspan dy="2.5" font-size="7.5">div</tspan></text>
+  <text x="430" y="164" font-size="9" fill="#1A202C" text-anchor="middle">t<tspan dy="2.5" font-size="7.5">takeover</tspan></text>
+  <text x="550" y="164" font-size="9" fill="#1A202C" text-anchor="middle">t<tspan dy="2.5" font-size="7.5">stabilize</tspan></text>
+  <text x="630" y="164" font-size="9" fill="#1A202C" text-anchor="middle">t<tspan dy="2.5" font-size="7.5">rec</tspan></text>
+
+  <!-- interval names (the four intervals of the authority record) -->
+  <text x="343" y="190" font-size="8.5" fill="#4A5568" text-anchor="end" transform=" translate(343 0) scale(0.7390387858347386 1) translate(-343 0)" data-ru-fit="0.7390">интервал</text>
+  <text x="390" y="190" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(390 0) scale(0.5699821322215605 1) translate(-390 0)" data-ru-fit="0.5700">дрейф</text>
+  <text x="450" y="190" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(450 0) scale(0.5287490287490287 1) translate(-450 0)" data-ru-fit="0.5287">смешение</text>
+  <text x="510" y="190" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(510 0) scale(0.4899904671115348 1) translate(-510 0)" data-ru-fit="0.4900">переориентация</text>
+  <text x="590" y="190" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(590 0) scale(0.6481376975169301 1) translate(-590 0)" data-ru-fit="0.6481">стабилизация</text>
+
+  <!-- states row -->
+  <text x="343" y="210" font-size="8.5" fill="#4A5568" text-anchor="end" transform=" translate(343 0) scale(0.5536319156943922 1) translate(-343 0)" data-ru-fit="0.5536">состояния</text>
+  <rect x="350" y="198" width="80" height="18" rx="0" fill="#E3F3F5" stroke="#007A87" stroke-width="1"/>
+  <text x="390" y="210" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(390 0) scale(0.7423445716053202 1) translate(-390 0)" data-ru-fit="0.7423">допустима переразметка</text>
+  <rect x="430" y="198" width="120" height="18" rx="0" fill="url(#hatch)" stroke="#4A5568" stroke-width="1"/>
+  <line x1="470" y1="198" x2="470" y2="216" stroke="#4A5568" stroke-width="0.8"/>
+  <rect x="484" y="201" width="52" height="12" rx="2" fill="#ffffff"/>
+  <text x="510" y="210" font-size="8.5" fill="#1A202C" text-anchor="middle">исключено</text>
+  <rect x="550" y="198" width="80" height="18" rx="0" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1"/>
+  <text x="590" y="210" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(590 0) scale(0.6835659356308744 1) translate(-590 0)" data-ru-fit="0.6836">восстановление экспертом</text>
+
+  <!-- commands row -->
+  <text x="343" y="234" font-size="8.5" fill="#4A5568" text-anchor="end">команды</text>
+  <rect x="350" y="222" width="200" height="18" rx="0" fill="url(#hatch)" stroke="#4A5568" stroke-width="1"/>
+  <line x1="430" y1="222" x2="430" y2="240" stroke="#4A5568" stroke-width="0.8"/>
+  <line x1="470" y1="222" x2="470" y2="240" stroke="#4A5568" stroke-width="0.8"/>
+  <rect x="366" y="225" width="48" height="12" rx="2" fill="#ffffff"/>
+  <text x="390" y="234" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(390 0) scale(0.8115600117959304 1) translate(-390 0)" data-ru-fit="0.8116">маскировано</text>
+  <rect x="486" y="225" width="48" height="12" rx="2" fill="#ffffff"/>
+  <text x="510" y="234" font-size="8.5" fill="#1A202C" text-anchor="middle" transform=" translate(510 0) scale(0.8115600117959304 1) translate(-510 0)" data-ru-fit="0.8116">маскировано</text>
+  <rect x="550" y="222" width="80" height="18" rx="0" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1"/>
+  <text x="590" y="234" font-size="8.5" fill="#1A202C" text-anchor="middle">метки эксперта</text>
+<metadata id="original-source-labels">(a) Learner in the loop
+Learned policy
+Plant
+disturbance
+action
+state
+behavioral cloning, worst case
+𝒪(S²ε)
+aggregation, recoverable task
+𝒪(uSε)
+(b) Curating one takeover
+Δt
+lookback
+= 5 s
+tracking error
+time
+learner
+expert
+t
+div
+t
+takeover
+t
+stabilize
+t
+rec
+interval
+drift
+blend
+re-orient
+stabilized
+states
+relabel-eligible
+excluded
+expert recovery
+commands
+masked
+masked
+expert labels</metadata></svg>

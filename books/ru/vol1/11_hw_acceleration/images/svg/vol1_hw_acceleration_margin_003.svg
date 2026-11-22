@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Per-memory-level factors of the toy mapping search space, log scale from 1
+       (bar length = 40 px per decade = 40*log10(count)):
+       placement P^D = 4^5 = 1,024 -> 120.4; ordering 7! = 5,040 -> 148.1;
+       parallelization 6!/3! = 120 -> 83.2. These are the section's separate toy counts
+       (order from the seven-loop example, parallelization from the six-loop example);
+       the mapping formula raises their product to the number of memory levels. -->
+  <rect x="0" y="0" width="180" height="252" fill="#ffffff"/>
+  <text x="3.6" y="15" font-size="12" fill="#777777" transform=" translate(3.5999999046325684 0) scale(0.8704882725827905 1) translate(-3.5999999046325684 0)" data-ru-fit="0.8705">на уровень памяти</text>
+  <rect x="3.6" y="29" width="120.4" height="53" fill="#666666"/>
+  <rect x="3.6" y="109" width="148.1" height="53" fill="#666666"/>
+  <rect x="3.6" y="189" width="83.2" height="53" fill="#666666"/>
+  <text x="118" y="51" font-size="13" fill="#ffffff" text-anchor="end">Размещение</text>
+  <text x="118" y="69" font-size="13" fill="#ffffff" text-anchor="end" font-weight="bold">1,024</text>
+  <text x="145.7" y="131" font-size="13" fill="#ffffff" text-anchor="end">Заказать</text>
+  <text x="145.7" y="149" font-size="13" fill="#ffffff" text-anchor="end" font-weight="bold">5,040</text>
+  <text x="80.8" y="211" font-size="13" fill="#ffffff" text-anchor="end" transform=" translate(80.79999542236328 0) scale(0.8991107696353379 1) translate(-80.79999542236328 0)" data-ru-fit="0.8991">Параллельно</text>
+  <text x="80.8" y="229" font-size="13" fill="#ffffff" text-anchor="end" font-weight="bold">120</text>
+  <text x="176" y="240" font-size="12" fill="#777777" text-anchor="end" transform=" translate(175.99999618530273 0) scale(0.7884883333735219 1) translate(-175.99999618530273 0)" data-ru-fit="0.7885">лог. шкала</text>
+  <line x1="3.6" y1="248" x2="176.4" y2="248" stroke="#cccccc" stroke-width="1.4"/>
+<metadata id="original-source-labels">per memory level
+Placement
+1,024
+Order
+5,040
+Parallel
+120
+log scale</metadata></svg>

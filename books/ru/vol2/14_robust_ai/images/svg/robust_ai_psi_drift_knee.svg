@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180pt" height="158pt" viewBox="0 0 180 158" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="180" height="158" fill="#ffffff"/>
+<rect x="42" y="6" width="62" height="62" fill="#A51C30"/>
+<rect x="110" y="6" width="62" height="62" fill="#EEEEEE"/>
+<rect x="42" y="74" width="62" height="62" fill="#F7F7F7"/>
+<rect x="110" y="74" width="62" height="62" fill="#EEEEEE"/>
+<text x="73" y="34" text-anchor="middle" font-size="13" fill="#ffffff">зонд</text>
+<text x="73" y="50" text-anchor="middle" font-size="13" fill="#ffffff">глубже</text>
+<text x="141" y="34" text-anchor="middle" font-size="13" fill="#333333" transform=" translate(140.9999885559082 0) scale(0.6968985954956155 1) translate(-140.9999885559082 0)" data-ru-fit="0.6969">изолировать</text>
+<text x="141" y="50" text-anchor="middle" font-size="13" fill="#333333">ломтики</text>
+<text x="141" y="110" text-anchor="middle" font-size="13" fill="#333333">монитор</text>
+<text transform="translate(30 71) rotate(-90)" text-anchor="middle" font-size="14" fill="#333333">→</text>
+<text x="107" y="150" text-anchor="middle" font-size="14" fill="#333333" transform=" translate(107.0000057220459 0) scale(0.6960276614698135 1) translate(-107.0000057220459 0)" data-ru-fit="0.6960">дрейф →</text>
+<metadata id="original-source-labels">probe
+deeper
+isolate
+slices
+monitor
+error →
+drift →</metadata></svg>

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 30 1080 402" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="20" y="30" width="1080" height="402" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
+  </defs>
+  <!-- ===== Part bands: each part is led by one law (one grid: boxes 108x52, column pitch 128) ===== -->
+  <rect x="30" y="40" width="258" height="236" rx="4" fill="#F2F4F6"/>
+  <rect x="298" y="40" width="388" height="102" rx="4" fill="#F2F4F6"/>
+  <rect x="298" y="152" width="772" height="124" rx="4" fill="#F2F4F6"/>
+  <rect x="426" y="304" width="516" height="118" rx="4" fill="#F2F4F6"/>
+  <text x="38" y="57" font-size="11.5" font-weight="700" fill="#1A4D3E">I · Необратимость</text>
+  <text x="306" y="57" font-size="11.5" font-weight="700" fill="#1A4D3E">II · Эндогенные данные</text>
+  <text x="306" y="268" font-size="11.5" font-weight="700" fill="#1A4D3E">III · Предложение ещё не допуск</text>
+  <text x="434" y="414" font-size="11.5" font-weight="700" fill="#1A4D3E">IV · Допуск необходимо заслужить</text>
+  <!-- ===== Records, one per chapter ===== -->
+  <rect x="40" y="131" width="108" height="52" rx="3" fill="#E3F3F5" stroke="#007A87" stroke-width="1.2"/>
+  <text x="94" y="149" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">предел</text>
+  <text x="94" y="162" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="94" y="176" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 2</text>
+  <rect x="168" y="131" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="222" y="149" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">передача</text>
+  <text x="222" y="162" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="222" y="176" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 4</text>
+  <rect x="310" y="78" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="364" y="96" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">происхождение</text>
+  <text x="364" y="109" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="364" y="123" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 5</text>
+  <rect x="438" y="78" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="492" y="96" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">политика</text>
+  <text x="492" y="109" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">манифест</text>
+  <text x="492" y="123" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 6</text>
+  <rect x="566" y="78" width="108" height="52" rx="3" fill="#E3F3F5" stroke="#007A87" stroke-width="1.2"/>
+  <text x="620" y="96" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">оценка</text>
+  <text x="620" y="109" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="620" y="123" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 7</text>
+  <rect x="310" y="184" width="108" height="52" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1.2"/>
+  <text x="364" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">наблюдение</text>
+  <text x="364" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">контракт</text>
+  <text x="364" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 8</text>
+  <rect x="438" y="184" width="108" height="52" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1.2"/>
+  <text x="492" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">оценка состояния</text>
+  <text x="492" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="492" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 9</text>
+  <rect x="566" y="184" width="108" height="52" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1.2"/>
+  <text x="620" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">намерение</text>
+  <text x="620" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">срок допуска</text>
+  <text x="620" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 10</text>
+  <rect x="694" y="184" width="108" height="52" rx="3" fill="#F7EDE3" stroke="#B87333" stroke-width="1.2"/>
+  <text x="748" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">траектория</text>
+  <text x="748" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="748" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 11</text>
+  <rect x="822" y="184" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="876" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">контроль допуска</text>
+  <text x="876" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="876" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 12</text>
+  <rect x="950" y="184" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="1004" y="202" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">размещение</text>
+  <text x="1004" y="215" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="1004" y="229" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 13</text>
+  <rect x="438" y="330" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="492" y="348" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">полномочия</text>
+  <text x="492" y="361" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="492" y="375" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 14</text>
+  <rect x="566" y="330" width="108" height="52" rx="3" fill="#E3F3F5" stroke="#007A87" stroke-width="1.2"/>
+  <text x="620" y="348" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">неисправность</text>
+  <text x="620" y="361" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="620" y="375" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 15</text>
+  <rect x="694" y="330" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="748" y="348" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">выпуск</text>
+  <text x="748" y="361" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">манифест</text>
+  <text x="748" y="375" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 16</text>
+  <rect x="822" y="330" width="108" height="52" rx="3" fill="#E8F0EC" stroke="#1A4D3E" stroke-width="1.2"/>
+  <text x="876" y="348" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">одобрение</text>
+  <text x="876" y="361" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">запись</text>
+  <text x="876" y="375" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 17</text>
+  <rect x="950" y="330" width="108" height="52" rx="3" fill="#E3F3F5" stroke="#007A87" stroke-width="1.2"/>
+  <text x="1004" y="348" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle" transform=" translate(1004 0) scale(0.7242724941465046 1) translate(-1004 0)" data-ru-fit="0.7243">остаточные утверждения</text>
+  <text x="1004" y="361" font-size="11" font-weight="700" fill="#1A202C" text-anchor="middle">реестр</text>
+  <text x="1004" y="375" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle">Гл. 18</text>
+  <text x="222" y="93" font-size="10.5" font-weight="400" fill="#4A5568" text-anchor="middle" transform=" translate(222 0) scale(0.6162990677676592 1) translate(-222 0)" data-ru-fit="0.6163">Гл. 3 · пределы генератора предложений</text>
+  <path d="M222,100 L222,130" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <!-- ===== Arrows ===== -->
+  <path d="M148,157 L167,157" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M276,157 L293,157 L293,104 L309,104" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M293,157 L293,210 L309,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M418,104 L437,104" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M546,104 L565,104" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M418,210 L437,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M546,210 L565,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M674,210 L693,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M802,210 L821,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M930,210 L949,210" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M546,356 L565,356" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M674,356 L693,356" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M802,356 L821,356" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M930,356 L949,356" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M674,104 L876,104 L876,183" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M1004,236 L1004,290 L414,290 L414,356 L437,356" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+  <path d="M620,78 L620,66 L1086,66 L1086,316 L748,316 L748,329" fill="none" stroke="#334155" stroke-width="1.2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<metadata id="original-source-labels">I · Irreversibility
+II · Endogenous data
+III · Proposal is not permission
+IV · Permission must be earned
+limit
+record
+Ch. 2
+handoff
+record
+Ch. 4
+provenance
+record
+Ch. 5
+policy
+manifest
+Ch. 6
+evaluation
+record
+Ch. 7
+observation
+contract
+Ch. 8
+belief
+record
+Ch. 9
+intent
+lease
+Ch. 10
+trajectory
+record
+Ch. 11
+enforcement
+record
+Ch. 12
+placement
+record
+Ch. 13
+authority
+record
+Ch. 14
+fault
+record
+Ch. 15
+release
+manifest
+Ch. 16
+approval
+record
+Ch. 17
+residual-claims
+register
+Ch. 18
+Ch. 3 · proposer limits</metadata></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 112" role="img" aria-labelledby="title desc" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title id="title">Панель стоимости представления</title>
+  <desc id="desc">Одна горизонтальная полоса на линейной долларовой шкале от нуля. Сплошной оранжевый сегмент сбора данных отмечен 125 миллионами долларов; более легкий сегмент с пометкой «плюс от 30 до 50 процентов» расширяет его, а скобка под частью от 30 до 50 процентов обозначает общую сумму от 162.5 до 187.5 миллионов долларов.</desc>
+  <rect width="180" height="112" fill="#ffffff"/>
+  <!-- ===== Linear scale: 0 to $187.5M over x 14 to 166 (0.81 px per $1M) ===== -->
+  <text x="166" y="22" text-anchor="end" font-size="13" fill="#555555">+30–50%</text>
+  <rect x="14" y="32" width="101.3" height="36" fill="#e67817"/>
+  <rect x="115.3" y="32" width="30.4" height="36" fill="#f3b47a"/>
+  <rect x="145.7" y="32" width="20.3" height="36" fill="#fadcc0"/>
+  <text x="64.6" y="55" text-anchor="middle" font-size="14" fill="#ffffff">$125M</text>
+  <!-- ===== Total range bracket ===== -->
+  <path d="M145.7,74 V80 H166 V74" fill="none" stroke="#777777" stroke-width="1.2"/>
+  <text x="166" y="98" text-anchor="end" font-size="13" fill="#333333" transform=" translate(166.0960922241211 0) scale(0.50658893578527 1) translate(-166.0960922241211 0)" data-ru-fit="0.5066">Всего 162.5–187.5 млн долларов США</text>
+<metadata id="original-source-labels">Representation cost bar
+One horizontal bar on a linear dollar scale from zero. A solid orange segment for data acquisition is labeled 125 million dollars; a lighter segment labeled plus 30 to 50 percent extends it, with a bracket under the 30 to 50 percent part marking a total of 162.5 to 187.5 million dollars.
++30–50%
+$125M
+$162.5–187.5M total</metadata></svg>

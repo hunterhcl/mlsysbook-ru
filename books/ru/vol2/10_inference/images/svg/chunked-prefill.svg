@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 430" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="630" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker>
+    <marker id="arr-gray-s" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto"><path d="M8,0 L0,3 L8,6 Z" fill="#64748b"/></marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/></marker>
+    <marker id="arr-red-s" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto"><path d="M8,0 L0,3 L8,6 Z" fill="#dc2626"/></marker>
+    <pattern id="hatch-stall" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#fef2f2"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#f87171" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <text x="20" y="24" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.7534365086994136 1) translate(-20 0)" data-ru-fit="0.7534">(a) Монолитная заправка</text>
+  <text x="100" y="55.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток А</text>
+  <text x="100" y="83.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток Б</text>
+  <text x="100" y="111.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток C</text>
+  <text x="100" y="139.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(100 0) scale(0.7057854642783611 1) translate(-100 0)" data-ru-fit="0.7058">Подсказка P</text>
+  <rect x="111" y="40" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="55.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="111" y="68" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="83.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="111" y="96" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="111.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="151" y="40" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="55.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="151" y="68" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="83.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="151" y="96" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="111.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="191" y="40" width="198" height="22" rx="2" fill="url(#hatch-stall)" stroke="#f87171" stroke-width="1"/>
+  <rect x="191" y="68" width="198" height="22" rx="2" fill="url(#hatch-stall)" stroke="#f87171" stroke-width="1"/>
+  <rect x="191" y="96" width="198" height="22" rx="2" fill="url(#hatch-stall)" stroke="#f87171" stroke-width="1"/>
+  <rect x="191" y="124" width="198" height="22" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="290.0" y="139.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff" transform=" translate(290 0) scale(0.7341316931186718 1) translate(-290 0)" data-ru-fit="0.7341">предварительное заполнение, вся подсказка</text>
+  <rect x="391" y="40" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="410.0" y="55.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="391" y="68" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="410.0" y="83.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="391" y="96" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="410.0" y="111.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="391" y="124" width="38" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="410.0" y="139.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">P</text>
+  <rect x="431" y="40" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="450.0" y="55.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="431" y="68" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="450.0" y="83.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="431" y="96" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="450.0" y="111.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="431" y="124" width="38" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="450.0" y="139.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">P</text>
+  <rect x="471" y="40" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="490.0" y="55.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="471" y="68" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="490.0" y="83.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="471" y="96" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="490.0" y="111.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="471" y="124" width="38" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="490.0" y="139.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">P</text>
+  <line x1="191" y1="162" x2="389" y2="162" stroke="#dc2626" stroke-width="1.4" marker-start="url(#arr-red-s)" marker-end="url(#arr-red)"/>
+  <text x="290" y="179" text-anchor="middle" font-size="11.5" fill="#b91c1c" transform=" translate(290 0) scale(0.7979733560090703 1) translate(-290 0)" data-ru-fit="0.7980">разрыв потока охватывает всю загрузку</text>
+  <text x="20" y="210" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.676865671641791 1) translate(-20 0)" data-ru-fit="0.6769">(b) Частичное заполнение</text>
+  <text x="100" y="241.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток А</text>
+  <text x="100" y="269.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток Б</text>
+  <text x="100" y="297.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a">Поток C</text>
+  <text x="100" y="325.0" text-anchor="end" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(100 0) scale(0.7057854642783611 1) translate(-100 0)" data-ru-fit="0.7058">Подсказка P</text>
+  <rect x="111" y="226" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="111" y="254" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="111" y="282" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="130.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="151" y="226" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="151" y="254" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="151" y="282" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="170.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="191" y="226" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="230.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="191" y="254" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="230.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="191" y="282" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="230.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="191" y="310" width="78" height="22" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="230.0" y="325.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">фрагмент 1</text>
+  <rect x="271" y="226" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="310.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="271" y="254" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="310.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="271" y="282" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="310.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="271" y="310" width="78" height="22" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="310.0" y="325.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">фрагмент 2</text>
+  <rect x="351" y="226" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="351" y="254" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="351" y="282" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="351" y="310" width="78" height="22" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="390.0" y="325.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">фрагмент 3</text>
+  <rect x="431" y="226" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="470.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="431" y="254" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="470.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="431" y="282" width="78" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="470.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="431" y="310" width="78" height="22" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="470.0" y="325.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">фрагмент 4</text>
+  <rect x="511" y="226" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="530.0" y="241.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">A</text>
+  <rect x="511" y="254" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="530.0" y="269.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">B</text>
+  <rect x="511" y="282" width="38" height="22" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="530.0" y="297.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#14294E">C</text>
+  <rect x="511" y="310" width="38" height="22" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="530.0" y="325.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">P</text>
+  <line x1="191" y1="348" x2="269" y2="348" stroke="#64748b" stroke-width="1.4" marker-start="url(#arr-gray-s)" marker-end="url(#arr-gray)"/>
+  <text x="230" y="365" text-anchor="middle" font-size="11.5" fill="#475569" transform=" translate(230 0) scale(0.6707497777338733 1) translate(-230 0)" data-ru-fit="0.6707">разрыв: один гибридный шаг</text>
+  <line x1="390" y1="336" x2="390" y2="354" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="510" y1="336" x2="510" y2="354" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="391" y1="348" x2="509" y2="348" stroke="#64748b" stroke-width="1.4" marker-start="url(#arr-gray-s)" marker-end="url(#arr-gray)"/>
+  <text x="450" y="365" text-anchor="middle" font-size="11.5" fill="#475569" transform=" translate(450 0) scale(0.8552278820375335 1) translate(-450 0)" data-ru-fit="0.8552">Первый токен P позже, чем в (a)</text>
+  <line x1="110" y1="384" x2="566" y2="384" stroke="#64748b" stroke-width="1.2" marker-end="url(#arr-gray)"/>
+  <text x="572" y="388" font-size="11.5" fill="#475569" transform=" translate(572 0) scale(0.6661971830985915 1) translate(-572 0)" data-ru-fit="0.6662">время</text>
+  <rect x="110" y="404" width="22" height="14" rx="2" fill="#D6E4F2" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="140" y="415" font-size="11.5" fill="#475569" transform=" translate(140 0) scale(0.6018707980122772 1) translate(-140 0)" data-ru-fit="0.6019">шаг декодирования</text>
+  <rect x="230" y="404" width="22" height="14" rx="2" fill="#1F407A" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="260" y="415" font-size="11.5" fill="#475569" transform=" translate(260 0) scale(0.24485891917742708 1) translate(-260 0)" data-ru-fit="0.2449">работа по предварительному заполнению</text>
+  <rect x="350" y="404" width="22" height="14" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="380" y="415" font-size="11.5" fill="#475569" transform=" translate(380 0) scale(0.6223949718822361 1) translate(-380 0)" data-ru-fit="0.6224">P декодирование</text>
+  <rect x="470" y="404" width="22" height="14" rx="2" fill="url(#hatch-stall)" stroke="#f87171" stroke-width="1"/>
+  <text x="500" y="415" font-size="11.5" fill="#475569" transform=" translate(500 0) scale(0.6112732095490716 1) translate(-500 0)" data-ru-fit="0.6113">остановленный поток</text>
+<metadata id="original-source-labels">(a) Monolithic prefill
+Stream A
+Stream B
+Stream C
+Prompt P
+A
+B
+C
+A
+B
+C
+prefill, whole prompt
+A
+B
+C
+P
+A
+B
+C
+P
+A
+B
+C
+P
+stream gap spans the whole prefill
+(b) Chunked prefill
+Stream A
+Stream B
+Stream C
+Prompt P
+A
+B
+C
+A
+B
+C
+A
+B
+C
+chunk 1
+A
+B
+C
+chunk 2
+A
+B
+C
+chunk 3
+A
+B
+C
+chunk 4
+A
+B
+C
+P
+gap: one hybrid step
+P's first token later than in (a)
+time
+decode step
+prefill work
+P decoding
+stalled stream</metadata></svg>

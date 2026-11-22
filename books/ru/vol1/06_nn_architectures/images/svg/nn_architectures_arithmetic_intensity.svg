@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 168" width="90pt" height="84pt" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <line x1="4" y1="40" x2="102.31" y2="40" stroke="#cccccc" stroke-width="1.6"/>
+  <circle cx="102.31" cy="40" r="7" fill="#e67817"/>
+  <text x="100.312" y="22" font-size="13" fill="#333333" text-anchor="middle" font-weight="normal">Реснет 80</text>
+  <line x1="4" y1="104" x2="19.04" y2="104" stroke="#cccccc" stroke-width="1.6"/>
+  <circle cx="19.04" cy="104" r="7" fill="#e67817"/>
+  <text x="33.0351" y="109" font-size="13" fill="#333333" text-anchor="start" font-weight="normal" transform=" translate(33.035099029541016 0) scale(0.6773405698778833 1) translate(-33.035099029541016 0)" data-ru-fit="0.6773">Плотность 0.5</text>
+  <text x="176" y="146" font-size="12" fill="#777777" text-anchor="end" font-weight="normal" transform=" translate(175.99999237060547 0) scale(0.7406136022312808 1) translate(-175.99999237060547 0)" data-ru-fit="0.7406">FLOP/байт, журнал</text>
+  <line x1="4" y1="160" x2="176" y2="160" stroke="#cccccc" stroke-width="1.4"/>
+<metadata id="original-source-labels">ResNet 80
+Dense 0.5
+FLOP/byte, log</metadata></svg>

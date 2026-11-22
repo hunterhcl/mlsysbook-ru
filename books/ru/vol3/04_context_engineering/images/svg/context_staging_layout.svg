@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#ffffff"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#cbd5e1" stroke-width="2"/>
+    </pattern>
+    <!-- token ruler: one tick per token slot, 10 px pitch -->
+    <pattern id="tick-blue" width="10" height="6" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dd3fc" stroke-width="1"/>
+    </pattern>
+    <pattern id="tick-green" width="10" height="6" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#86efac" stroke-width="1"/>
+    </pattern>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="392" fill="#ffffff"/>
+
+  <!-- ===== Zone headers, ordered by change rate ===== -->
+  <text x="185" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(185 0) scale(0.6276303751143641 1) translate(-185 0)" data-ru-fit="0.6276">Корень</text>
+  <text x="185" y="52" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(185 0) scale(0.6527986274930302 1) translate(-185 0)" data-ru-fit="0.6528">инструкция, инструменты</text>
+  <text x="340" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(340.0432891845703 0) scale(0.5465328064411279 1) translate(-340.0432891845703 0)" data-ru-fit="0.5465">Багажник</text>
+  <text x="340" y="52" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(340 0) scale(0.8244729226953287 1) translate(-340 0)" data-ru-fit="0.8245">ограничения, прогресс, источник</text>
+  <text x="490" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a" transform=" translate(490 0) scale(0.8574723247232472 1) translate(-490 0)" data-ru-fit="0.8575">Лист</text>
+  <text x="490" y="52" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(490 0) scale(0.5141037306642402 1) translate(-490 0)" data-ru-fit="0.5141">последний результат</text>
+  <text x="590" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Выход</text>
+  <text x="590" y="52" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(590 0) scale(0.9854330708661417 1) translate(-590 0)" data-ru-fit="0.9854">резерв</text>
+  <path d="M130,70 H538" fill="none" stroke="#94a3b8" stroke-width="1" marker-end="url(#arr-gray)"/>
+  <text x="130" y="88" font-size="12" fill="#64748b" transform=" translate(130 0) scale(0.870177267987487 1) translate(-130 0)" data-ru-fit="0.8702">меняется редко</text>
+  <text x="540" y="88" text-anchor="end" font-size="12" fill="#64748b" transform=" translate(540 0) scale(0.5965471945956089 1) translate(-540 0)" data-ru-fit="0.5965">меняется при каждом звонке</text>
+  <!-- ===== Row 1: call n ===== -->
+  <text x="120" y="131" text-anchor="end" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(120 0) scale(0.5801255801255801 1) translate(-120 0)" data-ru-fit="0.5801">звонок <tspan font-style="italic">n</tspan></text>
+  <text x="120" y="147" text-anchor="end" font-size="12" fill="#475569" transform=" translate(120 0) scale(0.5588438906195915 1) translate(-120 0)" data-ru-fit="0.5588">холодный старт</text>
+  <rect x="130" y="116" width="110" height="34" fill="#e0f2fe"/>
+  <rect x="130" y="116" width="110" height="6" fill="url(#tick-blue)"/>
+  <rect x="130" y="144" width="110" height="6" fill="url(#tick-blue)"/>
+  <rect x="130" y="116" width="110" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="185" y="138" text-anchor="middle" font-size="13" fill="#0f172a">корень</text>
+  <rect x="240" y="116" width="200" height="34" fill="#e0f2fe"/>
+  <rect x="240" y="116" width="200" height="6" fill="url(#tick-blue)"/>
+  <rect x="240" y="144" width="200" height="6" fill="url(#tick-blue)"/>
+  <rect x="240" y="116" width="200" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="340" y="138" text-anchor="middle" font-size="13" fill="#0f172a">багажник @ r17</text>
+  <rect x="440" y="116" width="100" height="34" fill="#e0f2fe"/>
+  <rect x="440" y="116" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="144" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="116" width="100" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="490" y="138" text-anchor="middle" font-size="13" fill="#0f172a">лист <tspan font-style="italic">n</tspan></text>
+  <rect x="540" y="116" width="100" height="34" fill="url(#hatch)" stroke="#94a3b8" stroke-width="1"/>
+  <!-- ===== Row 2: call n+1 ===== -->
+  <text x="120" y="211" text-anchor="end" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(120 0) scale(0.6674594594594595 1) translate(-120 0)" data-ru-fit="0.6675">звонок <tspan font-style="italic">n</tspan>+1</text>
+  <text x="120" y="227" text-anchor="end" font-size="12" fill="#475569" transform=" translate(120 0) scale(0.832010582010582 1) translate(-120 0)" data-ru-fit="0.8320">новое наблюдение</text>
+  <rect x="130" y="196" width="110" height="34" fill="#dcfce7"/>
+  <rect x="130" y="196" width="110" height="6" fill="url(#tick-green)"/>
+  <rect x="130" y="224" width="110" height="6" fill="url(#tick-green)"/>
+  <rect x="130" y="196" width="110" height="34" fill="none" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="185" y="218" text-anchor="middle" font-size="13" fill="#0f172a">корень</text>
+  <rect x="240" y="196" width="200" height="34" fill="#dcfce7"/>
+  <rect x="240" y="196" width="200" height="6" fill="url(#tick-green)"/>
+  <rect x="240" y="224" width="200" height="6" fill="url(#tick-green)"/>
+  <rect x="240" y="196" width="200" height="34" fill="none" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="340" y="218" text-anchor="middle" font-size="13" fill="#0f172a">багажник @ r17</text>
+  <rect x="440" y="196" width="100" height="34" fill="#e0f2fe"/>
+  <rect x="440" y="196" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="224" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="196" width="100" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="490" y="218" text-anchor="middle" font-size="13" fill="#0f172a">лист <tspan font-style="italic">n</tspan>+1</text>
+  <rect x="540" y="196" width="100" height="34" fill="url(#hatch)" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="440" y="196" width="10" height="34" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="438" y1="186" x2="438" y2="240" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="432" y="182" text-anchor="end" font-size="12" fill="#b91c1c" transform=" translate(432 0) scale(0.6891342848213355 1) translate(-432 0)" data-ru-fit="0.6891">первый измененный токен</text>
+  <!-- ===== Row 3: call n+2 ===== -->
+  <text x="120" y="291" text-anchor="end" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(120 0) scale(0.6674594594594595 1) translate(-120 0)" data-ru-fit="0.6675">звонок <tspan font-style="italic">n</tspan>+2</text>
+  <text x="120" y="307" text-anchor="end" font-size="12" fill="#475569" transform=" translate(120 0) scale(0.7277965148960089 1) translate(-120 0)" data-ru-fit="0.7278">багажник обновлен</text>
+  <rect x="130" y="276" width="110" height="34" fill="#dcfce7"/>
+  <rect x="130" y="276" width="110" height="6" fill="url(#tick-green)"/>
+  <rect x="130" y="304" width="110" height="6" fill="url(#tick-green)"/>
+  <rect x="130" y="276" width="110" height="34" fill="none" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="185" y="298" text-anchor="middle" font-size="13" fill="#0f172a">корень</text>
+  <rect x="240" y="276" width="200" height="34" fill="#e0f2fe"/>
+  <rect x="240" y="276" width="200" height="6" fill="url(#tick-blue)"/>
+  <rect x="240" y="304" width="200" height="6" fill="url(#tick-blue)"/>
+  <rect x="240" y="276" width="200" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="340" y="298" text-anchor="middle" font-size="13" fill="#0f172a">багажник @ r18</text>
+  <rect x="440" y="276" width="100" height="34" fill="#e0f2fe"/>
+  <rect x="440" y="276" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="304" width="100" height="6" fill="url(#tick-blue)"/>
+  <rect x="440" y="276" width="100" height="34" fill="none" stroke="#0284c7" stroke-width="1.2"/>
+  <text x="490" y="298" text-anchor="middle" font-size="13" fill="#0f172a">лист <tspan font-style="italic">n</tspan>+2</text>
+  <rect x="540" y="276" width="100" height="34" fill="url(#hatch)" stroke="#94a3b8" stroke-width="1"/>
+  <rect x="240" y="276" width="10" height="34" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="238" y1="266" x2="238" y2="320" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="232" y="262" text-anchor="end" font-size="12" fill="#b91c1c" transform=" translate(232 0) scale(0.6891342848213355 1) translate(-232 0)" data-ru-fit="0.6891">первый измененный токен</text>
+  <!-- ===== Input limit ===== -->
+  <line x1="540" y1="104" x2="540" y2="322" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2"/>
+  <text xml:space="preserve" x="540" y="340" text-anchor="middle" font-size="12" fill="#475569"><tspan font-style="italic">S</tspan><tspan font-size="11" dy="3">max</tspan><tspan dy="-3"> − </tspan><tspan font-style="italic">K</tspan><tspan font-size="11" dy="3">max</tspan></text>
+  <!-- ===== Key ===== -->
+  <rect x="130" y="358" width="16" height="12" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+  <text x="152" y="368" font-size="12" fill="#0f172a" transform=" translate(152 0) scale(0.5219174871073605 1) translate(-152 0)" data-ru-fit="0.5219">используется повторно</text>
+  <rect x="260" y="358" width="16" height="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="282" y="368" font-size="12" fill="#0f172a" transform=" translate(282 0) scale(0.8430545795268213 1) translate(-282 0)" data-ru-fit="0.8431">обработано</text>
+  <rect x="380" y="358" width="16" height="12" fill="url(#hatch)" stroke="#94a3b8" stroke-width="1"/>
+  <text xml:space="preserve" x="402" y="368" font-size="12" fill="#0f172a" transform=" translate(402 0) scale(0.8380474997016351 1) translate(-402 0)" data-ru-fit="0.8380">выходной резерв <tspan font-style="italic">K</tspan><tspan font-size="11" dy="3">max</tspan></text>
+<metadata id="original-source-labels">Root
+instructions, tools
+Trunk
+constraints, progress, source
+Leaf
+latest result
+Output
+reserve
+changes rarely
+changes every call
+call
+n
+cold start
+root
+trunk @ r17
+leaf
+n
+call
+n
++1
+new observation
+root
+trunk @ r17
+leaf
+n
++1
+first changed token
+call
+n
++2
+trunk refreshed
+root
+trunk @ r18
+leaf
+n
++2
+first changed token
+S
+max
+−
+K
+max
+prefix reused
+processed
+output reserve
+K
+max</metadata></svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Bold-4b" d="M 4966 0 L 4966 4666 L 3520 4666 L 2701 954 L 1856 4666 L 422 4666 L 422 0 L 1382 0 L 1382 3635 L 2221 0 L 3181 0 L 4006 3635 L 4006 0 L 4966 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-60" d="M 4333 0 L 4333 173 C 4186 256 4128 352 4128 557 C 4102 1933 4077 1997 3482 2253 C 4006 2458 4269 2835 4269 3405 C 4269 4128 3840 4666 3014 4666 L 512 4666 L 512 0 L 1472 0 L 1472 1850 L 2573 1850 C 2989 1850 3168 1683 3168 1293 L 3155 800 C 3155 365 3181 224 3302 0 L 4333 0 z M 3309 3270 C 3309 2854 3174 2650 2630 2650 L 1472 2650 L 1472 3866 L 2630 3866 C 3155 3866 3309 3674 3309 3270 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-1c" d="M 4499 0 L 2886 4666 L 1824 4666 L 166 0 L 1146 0 L 1459 941 L 3206 941 L 3514 0 L 4499 0 z M 2944 1741 L 1728 1741 L 2336 3565 L 2944 1741 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 31.5162 L 67.551845 31.5162 L 67.551845 10.1718 L 1.44 10.1718 z " clip-path="url(#p5550fa9f61)" style="fill: #006395; opacity: 0.92" />
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 63.8562 L 50.116865 63.8562 L 50.116865 42.5118 L 1.44 42.5118 z " clip-path="url(#p5550fa9f61)" style="fill: #006395; opacity: 0.92" />
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 96.1962 L 5.668013 96.1962 L 5.668013 74.8518 L 1.44 74.8518 z " clip-path="url(#p5550fa9f61)" style="fill: #006395; opacity: 0.92" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="patch_6">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_1">
+    
+    <g style="fill: #ffffff" transform="translate(21.503787 22.3208) scale(0.052 -0.052)">
+     <defs>
+      <path id="TeXGyreHeros-Bold-53" d="M 2419 0 L 2419 4538 L 1824 4538 C 1683 4000 1216 3725 435 3725 L 435 3130 L 1523 3130 L 1523 0 L 2419 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-65" d="M 3379 3834 L 3379 4538 L 186 4538 L 186 3738 L 2445 3738 C 2170 3443 1632 2618 1446 2221 C 1139 1562 966 966 851 0 L 1754 0 C 1837 1434 2304 2534 3379 3834 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-39" d="M 3309 1542 C 3309 2470 2733 3066 1894 3066 C 1594 3066 1370 2989 1107 2790 L 1254 3738 L 3130 3738 L 3130 4538 L 704 4538 L 301 2010 L 1107 2010 C 1203 2234 1408 2355 1683 2355 C 2138 2355 2413 2074 2413 1523 C 2413 992 2131 710 1683 710 C 1293 710 1056 909 1056 1274 L 173 1274 C 173 480 787 -58 1670 -58 C 2643 -58 3309 563 3309 1542 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-23" d="M 4262 1344 C 4262 1805 4013 2170 3488 2477 C 3949 2771 4128 3040 4128 3437 C 4128 4096 3578 4666 2605 4666 L 525 4666 L 525 0 L 2624 0 C 3712 0 4262 576 4262 1344 z M 3206 3334 C 3206 2995 2970 2810 2528 2810 L 1485 2810 L 1485 3866 L 2528 3866 C 2970 3866 3206 3680 3206 3334 z M 3341 1402 C 3341 1011 3098 800 2630 800 L 1485 800 L 1485 2010 L 2630 2010 C 3098 2010 3341 1798 3341 1402 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-68" transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-37" d="M 3750 3866 L 3750 4666 L 474 4666 L 474 0 L 1434 0 L 1434 2010 L 3475 2010 L 3475 2810 L 1434 2810 L 1434 3866 L 3750 3866 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-54" d="M 4051 3219 C 4051 4154 3520 4666 2547 4666 L 486 4666 L 486 0 L 1446 0 L 1446 1664 L 2643 1664 C 3501 1664 4051 2272 4051 3219 z M 3091 3162 C 3091 2688 2854 2464 2342 2464 L 1446 2464 L 1446 3866 L 2342 3866 C 2854 3866 3091 3642 3091 3162 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-66" d="M 3322 1562 C 3322 2432 2784 2989 2003 2989 C 1632 2989 1382 2880 1101 2586 C 1139 3501 1299 3910 1856 3910 C 2144 3910 2298 3795 2413 3507 L 3245 3507 C 3130 4256 2624 4634 1882 4634 C 787 4634 205 3789 205 2157 C 205 1376 301 934 531 570 C 794 147 1267 -58 1805 -58 C 2707 -58 3322 576 3322 1562 z M 2470 1504 C 2470 1018 2176 710 1779 710 C 1370 710 1088 1005 1088 1485 C 1088 1984 1370 2285 1786 2285 C 2202 2285 2470 2003 2470 1504 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-6b" d="M 3302 1395 C 3302 1926 3072 2227 2560 2477 C 2982 2739 3155 2982 3155 3398 C 3155 4154 2592 4634 1715 4634 C 838 4634 243 4173 243 3187 L 243 3110 L 1075 3110 C 1075 3674 1254 3910 1696 3910 C 2054 3910 2259 3693 2259 3315 C 2259 2861 1997 2675 1466 2675 L 1389 2675 L 1389 2074 C 2061 2074 2406 1882 2406 1395 C 2406 998 2125 710 1734 710 C 1312 710 1056 954 1056 1421 L 186 1421 C 186 512 787 -58 1715 -58 C 2682 -58 3302 512 3302 1395 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-7a" d="M 3309 2259 C 3309 3546 3078 4634 1747 4634 C 448 4634 186 3590 186 2285 C 186 1018 435 -58 1747 -58 C 2669 -58 3309 467 3309 2259 z M 2413 2278 C 2413 1005 2227 710 1747 710 C 1293 710 1082 941 1082 2291 C 1082 3610 1267 3910 1747 3910 C 2189 3910 2413 3686 2413 2278 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-3b" d="M 4550 0 L 4550 2509 L 2682 2509 L 2682 1709 L 3744 1709 C 3680 1126 3130 742 2560 742 C 1786 742 1229 1389 1229 2349 C 1229 3354 1722 3923 2534 3923 C 3059 3923 3462 3718 3648 3174 L 4550 3174 C 4435 4134 3654 4742 2528 4742 C 1184 4742 269 3789 269 2336 C 269 922 1190 -77 2451 -77 C 3078 -77 3501 147 3859 640 L 3974 0 L 4550 0 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Bold-53" />
+     <use xlink:href="#TeXGyreHeros-Bold-65" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-39" transform="translate(111.1875 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-23" transform="translate(166.78125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(238.984375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-37" transform="translate(266.78125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-54" transform="translate(327.875 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-53" transform="translate(394.578125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-66" transform="translate(450.171875 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(505.765625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-6b" transform="translate(533.5625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-39" transform="translate(589.15625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-7a" transform="translate(644.75 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(700.34375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-3b" transform="translate(728.140625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-23" transform="translate(805.9375 0)" />
+    </g>
+   </g>
+   <g id="text_2" data-original-label="Phone RAM 8 GB"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="7.369182109832764" y="54.72336196899414" data-original-label="Phone RAM 8 GB" transform="translate(7.369182109832764 50.807926177978516) scale(0.8791674096874068 0.7075771136021575) translate(-7.369182109832764 -50.22281265258789)">Телефон RAM 8 GB</text></g>
+   <g id="text_3">
+    
+    <g style="fill: #333333" transform="translate(7.690239 87.0008) scale(0.052 -0.052)">
+     <defs>
+      <path id="TeXGyreHeros-Bold-2b" d="M 4384 1594 L 3450 1594 C 3392 998 3014 730 2419 730 C 1677 730 1242 1299 1242 2317 C 1242 3347 1696 3923 2451 3923 C 2970 3923 3309 3686 3450 3085 L 4365 3085 C 4282 4160 3469 4742 2419 4742 C 1101 4742 282 3840 282 2330 C 282 832 1094 -77 2394 -77 C 3552 -77 4326 525 4384 1594 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-6d" d="M 4186 1574 L 4186 4666 L 3226 4666 L 3226 1574 C 3226 1011 2938 742 2336 742 C 1734 742 1446 1011 1446 1574 L 1446 4666 L 486 4666 L 486 1574 C 486 474 1267 -77 2336 -77 C 3405 -77 4186 474 4186 1574 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-6c" d="M 3296 3194 C 3296 4070 2694 4634 1741 4634 C 800 4634 250 4077 250 3117 C 250 3078 250 3027 256 2957 L 1114 2957 L 1114 3104 C 1114 3610 1350 3904 1760 3904 C 2157 3904 2400 3629 2400 3174 C 2400 2675 2240 2477 1242 1766 C 474 1242 237 838 192 0 L 3277 0 L 3277 800 L 1357 800 C 1472 1043 1613 1171 2278 1658 C 3066 2234 3296 2579 3296 3194 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-46" d="M 4589 0 L 2528 2656 L 4390 4666 L 3258 4666 L 1434 2618 L 1434 4666 L 474 4666 L 474 0 L 1434 0 L 1434 1562 L 1914 2061 L 3443 0 L 4589 0 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Bold-4b" />
+     <use xlink:href="#TeXGyreHeros-Bold-2b" transform="translate(83.296875 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-6d" transform="translate(155.5 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(227.703125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-60" transform="translate(255.5 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-1c" transform="translate(327.703125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-4b" transform="translate(399.90625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(483.203125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-39" transform="translate(511 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-53" transform="translate(566.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-6c" transform="translate(622.1875 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(677.78125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-46" transform="translate(705.578125 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-23" transform="translate(777.78125 0)" />
+    </g>
+   </g>
+   <g id="text_4" data-original-label="log scale"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="56.066532135009766" y="95.87279510498047" data-original-label="log scale" transform="translate(56.066532135009766 92.17937469482422) scale(0.782870955686966 0.8206595651353946) translate(-56.066532135009766 -92.1223373413086)">лог. шкала</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5550fa9f61">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.0, https://matplotlib.org/
+175B FP16 350 GB
+Phone RAM 8 GB
+MCU RAM 512 KB
+log scale</metadata></svg>

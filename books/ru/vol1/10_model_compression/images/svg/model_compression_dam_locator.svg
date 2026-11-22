@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.47pt" height="66.636pt" viewBox="0 0 61.47 66.636" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 66.636 L 61.47 66.636 L 61.47 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 65.196 L 60.03 65.196 L 60.03 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 22.006452 L 56.583529 22.006452 L 56.583529 5.141961 L 1.44 5.141961 z " clip-path="url(#pa84189c55a)" style="fill: #dddddd"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 42.572903 L 56.583529 42.572903 L 56.583529 25.708413 L 1.44 25.708413 z " clip-path="url(#pa84189c55a)" style="fill: #dddddd"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 63.139355 L 56.583529 63.139355 L 56.583529 46.274865 L 1.44 46.274865 z " clip-path="url(#pa84189c55a)" style="fill: #006395"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <!-- D -->
+    <g style="fill: #999999" transform="translate(5.772392 15.864285) scale(0.09 -0.09)">
+     <defs>
+      <path id="Helvetica-44" d="M 2250 531 Q 2566 531 2769 597 Q 3131 719 3363 1066 Q 3547 1344 3628 1778 Q 3675 2038 3675 2259 Q 3675 3113 3336 3584 Q 2997 4056 2244 4056 L 1141 4056 L 1141 531 L 2250 531 z M 516 4591 L 2375 4591 Q 3322 4591 3844 3919 Q 4309 3313 4309 2366 Q 4309 1634 4034 1044 Q 3550 0 2369 0 L 516 0 L 516 4591 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-44"/>
+    </g>
+   </g>
+   <g id="text_2" data-original-label="Data"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#999999" x="19.07547950744629" y="14.93475341796875" data-original-label="Data" transform="translate(19.07547950744629 11.25975227355957) scale(0.556895950078594 0.6889023683221163) translate(-19.07547950744629 -10.434375762939453)">Данные</text></g>
+   <g id="text_3">
+    <!-- A -->
+    <g style="fill: #999999" transform="translate(6.020595 36.430736) scale(0.09 -0.09)">
+     <defs>
+      <path id="Helvetica-41" d="M 2844 1881 L 2147 3909 L 1406 1881 L 2844 1881 z M 1822 4591 L 2525 4591 L 4191 0 L 3509 0 L 3044 1375 L 1228 1375 L 731 0 L 94 0 L 1822 4591 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-41"/>
+    </g>
+   </g>
+   <g id="text_4" data-original-label="Algorithm"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#999999" x="18.745790481567383" y="36.493003845214844" data-original-label="Algorithm" transform="translate(18.745790481567383 31.788314819335938) scale(0.9401054525774075 0.8564695629000413) translate(-18.738473892211914 -31.992626190185547)">Алгоритм</text></g>
+   <g id="text_5">
+    <!-- M -->
+    <g style="fill: #ffffff" transform="translate(5.273876 56.997188) scale(0.09 -0.09)">
+     <defs>
+      <path id="Helvetica-4d" d="M 472 4591 L 1363 4591 L 2681 709 L 3991 4591 L 4872 4591 L 4872 0 L 4281 0 L 4281 2709 Q 4281 2850 4287 3175 Q 4294 3500 4294 3872 L 2984 0 L 2369 0 L 1050 3872 L 1050 3731 Q 1050 3563 1058 3217 Q 1066 2872 1066 2709 L 1066 0 L 472 0 L 472 4591 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Helvetica-4d"/>
+    </g>
+   </g>
+   <g id="text_6" data-original-label="Machine"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#ffffff" x="19.04110336303711" y="56.07234191894531" data-original-label="Machine" transform="translate(19.04110336303711 52.38093566894531) scale(0.9470013765415075 0.7030659963534555) translate(-19.04110336303711 -51.571964263916016)">Машина</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa84189c55a">
+   <rect x="1.44" y="1.44" width="58.59" height="63.756"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.10.8, https://matplotlib.org/
+D
+Data
+A
+Algorithm
+M
+Machine</metadata></svg>

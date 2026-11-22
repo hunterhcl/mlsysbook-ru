@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 790 350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- GPipe schedule, 4 stages x 4 microbatches, 14 equal slots. Forward light C1 tint, backward deeper C1 tint
+       (matches layer-wise-partitioning.svg). Idle slots are the bubble, hatched red as in the chapter's bubble-tax
+       margin bar. Right: per-stage busy/idle bar, one segment per slot. -->
+  <defs>
+    <pattern id="bubble" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#fef2f2"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#dc2626" stroke-width="1.2" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect y="-8" width="790" height="350" fill="#ffffff"/>
+  <text x="118.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">1</tspan></text>
+  <text x="159.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">2</tspan></text>
+  <text x="200.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">3</tspan></text>
+  <text x="241.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">4</tspan></text>
+  <text x="282.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">5</tspan></text>
+  <text x="323.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">6</tspan></text>
+  <text x="364.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">7</tspan></text>
+  <text x="405.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">8</tspan></text>
+  <text x="446.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">9</tspan></text>
+  <text x="487.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">10</tspan></text>
+  <text x="528.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">11</tspan></text>
+  <text x="569.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">12</tspan></text>
+  <text x="610.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">13</tspan></text>
+  <text x="651.5" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b">t<tspan baseline-shift="sub" font-size="12.5">14</tspan></text>
+  <text x="84" y="63" text-anchor="end" font-size="13.5" font-weight="700" fill="#0f172a">GPU 0</text>
+  <text x="84" y="79" text-anchor="end" font-size="12.5" font-weight="400" fill="#64748b">этап 0</text>
+  <rect x="100" y="44" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="118.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="118.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="141" y="44" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="159.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="159.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="182" y="44" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="200.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="200.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="223" y="44" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="241.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="241.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="264" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="305" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="346" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="387" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="428" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="469" y="44" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="510" y="44" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="528.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="528.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="551" y="44" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="569.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="569.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="592" y="44" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="610.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="610.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="633" y="44" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="651.5" y="62" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="651.5" y="78" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="696" y="57" width="40" height="16" fill="#C7D7EB" stroke="#1F407A" stroke-width="1"/>
+  <rect x="736" y="57" width="30" height="16" fill="url(#bubble)" stroke="#dc2626" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="84" y="113" text-anchor="end" font-size="13.5" font-weight="700" fill="#0f172a">GPU 1</text>
+  <text x="84" y="129" text-anchor="end" font-size="12.5" font-weight="400" fill="#64748b">этап 1</text>
+  <rect x="100" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="141" y="94" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="159.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="159.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="182" y="94" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="200.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="200.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="223" y="94" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="241.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="241.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="264" y="94" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="282.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="282.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="305" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="346" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="387" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="428" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="469" y="94" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="487.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="487.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="510" y="94" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="528.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="528.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="551" y="94" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="569.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="569.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="592" y="94" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="610.5" y="112" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="610.5" y="128" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="633" y="94" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="696" y="107" width="40" height="16" fill="#C7D7EB" stroke="#1F407A" stroke-width="1"/>
+  <rect x="736" y="107" width="30" height="16" fill="url(#bubble)" stroke="#dc2626" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="84" y="163" text-anchor="end" font-size="13.5" font-weight="700" fill="#0f172a">GPU 2</text>
+  <text x="84" y="179" text-anchor="end" font-size="12.5" font-weight="400" fill="#64748b">этап 2</text>
+  <rect x="100" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="141" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="182" y="144" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="200.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="200.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="223" y="144" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="241.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="241.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="264" y="144" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="282.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="282.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="305" y="144" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="323.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="323.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="346" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="387" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="428" y="144" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="446.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="446.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="469" y="144" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="487.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="487.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="510" y="144" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="528.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="528.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="551" y="144" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="569.5" y="162" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="569.5" y="178" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="592" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="633" y="144" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="696" y="157" width="40" height="16" fill="#C7D7EB" stroke="#1F407A" stroke-width="1"/>
+  <rect x="736" y="157" width="30" height="16" fill="url(#bubble)" stroke="#dc2626" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="84" y="213" text-anchor="end" font-size="13.5" font-weight="700" fill="#0f172a">GPU 3</text>
+  <text x="84" y="229" text-anchor="end" font-size="12.5" font-weight="400" fill="#64748b">этап 3</text>
+  <rect x="100" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="141" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="182" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="223" y="194" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="241.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="241.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="264" y="194" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="282.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="282.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="305" y="194" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="323.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="323.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="346" y="194" width="37" height="42" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="364.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">F</text>
+  <text x="364.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="387" y="194" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="405.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="405.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m4</text>
+  <rect x="428" y="194" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="446.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="446.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m3</text>
+  <rect x="469" y="194" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="487.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="487.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m2</text>
+  <rect x="510" y="194" width="37" height="42" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="528.5" y="212" text-anchor="middle" font-size="13.5" font-weight="700" fill="#14294E">B</text>
+  <text x="528.5" y="228" text-anchor="middle" font-size="12.5" font-weight="400" fill="#334155">m1</text>
+  <rect x="551" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="592" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="633" y="194" width="37" height="42" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.45"/>
+  <rect x="696" y="207" width="40" height="16" fill="#C7D7EB" stroke="#1F407A" stroke-width="1"/>
+  <rect x="736" y="207" width="30" height="16" fill="url(#bubble)" stroke="#dc2626" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="731" y="28" text-anchor="middle" font-size="12.5" font-weight="400" fill="#64748b" transform=" translate(731 0) scale(0.563360450563204 1) translate(-731 0)" data-ru-fit="0.5634">занят | праздный</text>
+  <text x="731" y="256" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b91c1c" transform=" translate(731 0) scale(0.6653740507351753 1) translate(-731 0)" data-ru-fit="0.6654">6 из 14 простой</text>
+  <path d="M100,244 V250 H219 V244" fill="none" stroke="#64748b" stroke-width="1.2"/>
+  <text x="159.5" y="267" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569" transform=" translate(159.5 0) scale(0.6679737176769818 1) translate(-159.5 0)" data-ru-fit="0.6680">заполнить (<tspan font-style="italic">N</tspan><tspan baseline-shift="sub" font-size="12.5">PP</tspan> − 1 слот)</text>
+  <path d="M551,244 V250 H670 V244" fill="none" stroke="#64748b" stroke-width="1.2"/>
+  <text x="610.5" y="267" text-anchor="middle" font-size="12.5" font-weight="400" fill="#475569">слив (<tspan font-style="italic">N</tspan><tspan baseline-shift="sub" font-size="12.5">PP</tspan> − 1 слот)</text>
+  <rect x="170" y="302" width="16" height="16" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="194" y="314.5" text-anchor="start" font-size="12.5" font-weight="400" fill="#334155">пас вперед (F)</text>
+  <rect x="330" y="302" width="16" height="16" rx="2" fill="#C7D7EB" stroke="#1F407A" stroke-width="1.5"/>
+  <text x="354" y="314.5" text-anchor="start" font-size="12.5" font-weight="400" fill="#334155">пас назад (B)</text>
+  <rect x="500" y="302" width="16" height="16" rx="2" fill="url(#bubble)" stroke="#dc2626" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="524" y="314.5" text-anchor="start" font-size="12.5" font-weight="400" fill="#334155" transform=" translate(524 0) scale(0.519733713742273 1) translate(-524 0)" data-ru-fit="0.5197">холостой ход (пузырь)</text>
+<metadata id="original-source-labels">t
+1
+t
+2
+t
+3
+t
+4
+t
+5
+t
+6
+t
+7
+t
+8
+t
+9
+t
+10
+t
+11
+t
+12
+t
+13
+t
+14
+GPU 0
+stage 0
+F
+m1
+F
+m2
+F
+m3
+F
+m4
+B
+m4
+B
+m3
+B
+m2
+B
+m1
+GPU 1
+stage 1
+F
+m1
+F
+m2
+F
+m3
+F
+m4
+B
+m4
+B
+m3
+B
+m2
+B
+m1
+GPU 2
+stage 2
+F
+m1
+F
+m2
+F
+m3
+F
+m4
+B
+m4
+B
+m3
+B
+m2
+B
+m1
+GPU 3
+stage 3
+F
+m1
+F
+m2
+F
+m3
+F
+m4
+B
+m4
+B
+m3
+B
+m2
+B
+m1
+busy | idle
+6 of 14 idle
+fill (
+N
+PP
+− 1 slots)
+drain (
+N
+PP
+− 1 slots)
+forward pass (F)
+backward pass (B)
+idle (bubble)</metadata></svg>

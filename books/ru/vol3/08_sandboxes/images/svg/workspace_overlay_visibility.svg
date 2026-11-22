@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="680" height="420" fill="#ffffff"/>
+<defs>
+<marker id="arr-blue" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0284c7"/></marker>
+<marker id="arr-green" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
+<marker id="arr-purple" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker>
+<marker id="arr-amber" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#d97706"/></marker>
+<marker id="arr-red" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+<marker id="arr-gray" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker>
+</defs>
+<text x="20" y="25" font-size="14" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(19.916000366210938 0) scale(0.6292779526976917 1) translate(-19.916000366210938 0)" data-ru-fit="0.6293">A · Чтение базовой линии</text>
+<text x="70" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(70.03446197509766 0) scale(0.6953932932870371 1) translate(-70.03446197509766 0)" data-ru-fit="0.6954">Задача А</text>
+<text x="170" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(170 0) scale(0.6965359290008588 1) translate(-170 0)" data-ru-fit="0.6965">Задача Б</text>
+<text x="20" y="80" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(20 0) scale(0.4286997933327343 1) translate(-20 0)" data-ru-fit="0.4287">Объединенные представления</text>
+<rect x="20" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="65" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="65" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<rect x="120" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="165" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="165" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<text x="20" y="190" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a">Частный верх</text>
+<rect x="20" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="65" y="242" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">пусто</text>
+<rect x="120" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="165" y="242" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">пусто</text>
+<text x="20" y="397" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(20 0) scale(0.6356760886172651 1) translate(-20 0)" data-ru-fit="0.6357">Общий доступ ниже · только чтение</text>
+<rect x="20" y="315" width="190" height="60" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="115" y="339" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="115" y="360" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<text x="240" y="25" font-size="14" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(240 0) scale(0.6452126449852172 1) translate(-240 0)" data-ru-fit="0.6452">B · Сначала напиши</text>
+<text x="290" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(290.0344696044922 0) scale(0.6953933786579627 1) translate(-290.0344696044922 0)" data-ru-fit="0.6954">Задача А</text>
+<text x="390" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(390 0) scale(0.6965359290008588 1) translate(-390 0)" data-ru-fit="0.6965">Задача Б</text>
+<text x="240" y="80" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(240 0) scale(0.4286997933327343 1) translate(-240 0)" data-ru-fit="0.4287">Объединенные представления</text>
+<rect x="240" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="285" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">код: новый</text>
+<text x="285" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<rect x="340" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="385" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="385" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<text x="240" y="190" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a">Частный верх</text>
+<rect x="240" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="285" y="225" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">код: новый</text>
+<rect x="340" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="385" y="242" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">пусто</text>
+<text x="240" y="397" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(240 0) scale(0.6356760886172651 1) translate(-240 0)" data-ru-fit="0.6357">Общий доступ ниже · только чтение</text>
+<rect x="240" y="315" width="190" height="60" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="335" y="339" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="335" y="360" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<path d="M285,315 V275" fill="none" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+<text x="305" y="295" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a">копия</text>
+<text x="460" y="25" font-size="14" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(460 0) scale(0.7268326417704011 1) translate(-460 0)" data-ru-fit="0.7268">C · Удалить данные</text>
+<text x="510" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(510.03448486328125 0) scale(0.6953924283360052 1) translate(-510.03448486328125 0)" data-ru-fit="0.6954">Задача А</text>
+<text x="610" y="57" font-size="12" font-weight="700" text-anchor="middle" fill="#0f172a" transform=" translate(610 0) scale(0.6965359290008588 1) translate(-610 0)" data-ru-fit="0.6965">Задача Б</text>
+<text x="460" y="80" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(460 0) scale(0.4286997933327343 1) translate(-460 0)" data-ru-fit="0.4287">Объединенные представления</text>
+<rect x="460" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="505" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">код: новый</text>
+<text x="505" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(505 0) scale(0.9122445474841148 1) translate(-505 0)" data-ru-fit="0.9122">данные: скрыты</text>
+<rect x="560" y="90" width="90" height="70" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="605" y="115" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="605" y="140" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<text x="460" y="190" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a">Частный верх</text>
+<rect x="460" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="505" y="225" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">код: новый</text>
+<text x="505" y="246" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">белая мгла</text>
+<text x="505" y="264" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные</text>
+<rect x="560" y="200" width="90" height="75" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="605" y="242" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">пусто</text>
+<text x="460" y="397" font-size="12" font-weight="400" text-anchor="start" fill="#0f172a" transform=" translate(460 0) scale(0.6356760886172651 1) translate(-460 0)" data-ru-fit="0.6357">Общий доступ ниже · только чтение</text>
+<rect x="460" y="315" width="190" height="60" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="555" y="339" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">: старый</text>
+<text x="555" y="360" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">данные: база</text>
+<metadata id="original-source-labels">A · Baseline read
+Task A
+Task B
+Merged views
+code: old
+data: base
+code: old
+data: base
+Private uppers
+empty
+empty
+Shared lower · read only
+code: old
+data: base
+B · First write
+Task A
+Task B
+Merged views
+code: new
+data: base
+code: old
+data: base
+Private uppers
+code: new
+empty
+Shared lower · read only
+code: old
+data: base
+copy-up
+C · Delete data
+Task A
+Task B
+Merged views
+code: new
+data: hidden
+code: old
+data: base
+Private uppers
+code: new
+whiteout
+data
+empty
+Shared lower · read only
+code: old
+data: base</metadata></svg>

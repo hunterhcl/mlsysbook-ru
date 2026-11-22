@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 336" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="336" fill="#ffffff"/>
+
+  <!-- ===== Author lanes: one row per author, columns in serialized order ===== -->
+  <!-- columns: x = 136 + 80 i, width 74 -->
+  <g stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="4,3">
+    <line x1="20" y1="82" x2="700" y2="82"/>
+    <line x1="20" y1="148" x2="700" y2="148"/>
+    <line x1="20" y1="214" x2="700" y2="214"/>
+  </g>
+
+  <!-- lane labels -->
+  <g fill="#0f172a">
+    <text x="20" y="54" font-size="13" font-weight="700" transform=" translate(20 0) scale(0.5970211040552982 1) translate(-20 0)" data-ru-fit="0.5970">Поставляется</text>
+    <text x="20" y="110" font-size="13" font-weight="700" fill="#0369a1" transform=" translate(20 0) scale(0.6034148432465921 1) translate(-20 0)" data-ru-fit="0.6034">Политика</text>
+    <text x="20" y="128" font-size="14"><tspan font-style="italic">π</tspan><tspan font-size="11.5" dy="3">θ</tspan><tspan dy="-3">(</tspan><tspan font-style="italic">a</tspan><tspan font-size="11.5" font-style="italic" dy="3">t</tspan><tspan dy="-3"> | </tspan><tspan font-style="italic">s</tspan><tspan font-size="11.5" font-style="italic" dy="3">t</tspan><tspan dy="-3">)</tspan></text>
+    <text x="20" y="176" font-size="13" font-weight="700" fill="#b45309" transform=" translate(20 0) scale(0.606633634718683 1) translate(-20 0)" data-ru-fit="0.6066">Окружающая среда</text>
+    <text x="20" y="196" font-size="14"><tspan font-style="italic">p</tspan>(<tspan font-style="italic">s</tspan><tspan font-size="11.5" font-style="italic" dy="3">t</tspan><tspan font-size="11.5" dy="0">+1</tspan><tspan dy="-3"> | </tspan><tspan font-style="italic">s</tspan><tspan font-size="11.5" font-style="italic" dy="3">t</tspan><tspan dy="-3">, </tspan><tspan font-style="italic">a</tspan><tspan font-size="11.5" font-style="italic" dy="3">t</tspan><tspan dy="-3">)</tspan></text>
+  </g>
+
+  <!-- ===== Segments ===== -->
+  <g font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">
+    <!-- 0 prompt and contracts: supplied -->
+    <rect x="136" y="26" width="74" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="173" y="44" transform=" translate(172.99999237060547 0) scale(0.8906639881216591 1) translate(-172.99999237060547 0)" data-ru-fit="0.8907">Подсказка и</text>
+    <text x="173" y="60">контракты</text>
+    <!-- 1 task statement: supplied -->
+    <rect x="216" y="26" width="74" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+    <text x="253" y="44">Задача</text>
+    <text x="253" y="60" transform=" translate(252.9700164794922 0) scale(0.8472042790308378 1) translate(-252.9700164794922 0)" data-ru-fit="0.8472">утверждение</text>
+    <!-- 2 refused proposal: policy, not selected -->
+    <rect x="296" y="92" width="74" height="44" rx="2" fill="#ffffff" stroke="#0284c7" stroke-width="1.2" stroke-dasharray="4,2"/>
+    <text x="333" y="110" font-weight="400" fill="#0369a1">Отказался</text>
+    <text x="333" y="126" font-weight="400" fill="#0369a1" transform=" translate(333 0) scale(0.8710672927271961 1) translate(-333 0)" data-ru-fit="0.8711">предложение</text>
+    <!-- 3 rejection message: environment -->
+    <rect x="376" y="158" width="74" height="44" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+    <text x="413" y="176">Отказ</text>
+    <text x="413" y="192">сообщение</text>
+    <!-- 4 corrected tool call: policy, selected -->
+    <rect x="456" y="92" width="74" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="493" y="110" transform=" translate(493 0) scale(0.9205852248974652 1) translate(-493 0)" data-ru-fit="0.9206">Исправлено</text>
+    <text x="493" y="126" transform=" translate(492.99998474121094 0) scale(0.5707570733438764 1) translate(-492.99998474121094 0)" data-ru-fit="0.5708">вызов инструмента</text>
+    <!-- 5 tool result: environment -->
+    <rect x="536" y="158" width="74" height="44" rx="2" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+    <text x="573" y="176" transform=" translate(573 0) scale(0.9350817222294845 1) translate(-573 0)" data-ru-fit="0.9351">Инструмент</text>
+    <text x="573" y="192">результат</text>
+    <!-- 6 final response: policy, selected -->
+    <rect x="616" y="92" width="74" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="653" y="110">Финал</text>
+    <text x="653" y="126">реакция</text>
+  </g>
+
+  <!-- ===== Loss mask strip ===== -->
+  <text x="20" y="245" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.7835471252393659 1) translate(-20 0)" data-ru-fit="0.7835">Маска потери <tspan font-weight="400" font-style="italic">m</tspan><tspan font-weight="400" font-size="11.5" font-style="italic" dy="3">t</tspan></text>
+  <g stroke-width="1.2">
+    <rect x="136" y="226" width="74" height="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="216" y="226" width="74" height="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="296" y="226" width="74" height="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="376" y="226" width="74" height="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="456" y="226" width="74" height="28" fill="#0284c7" stroke="#0284c7"/>
+    <rect x="536" y="226" width="74" height="28" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="616" y="226" width="74" height="28" fill="#0284c7" stroke="#0284c7"/>
+  </g>
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <text x="173" y="245" fill="#64748b">0</text>
+    <text x="253" y="245" fill="#64748b">0</text>
+    <text x="333" y="245" fill="#64748b">0</text>
+    <text x="413" y="245" fill="#64748b">0</text>
+    <text x="493" y="245" fill="#ffffff">1</text>
+    <text x="573" y="245" fill="#64748b">0</text>
+    <text x="653" y="245" fill="#ffffff">1</text>
+  </g>
+
+  <!-- ===== Gradient path back through attention ===== -->
+  <text x="20" y="289" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(20 0) scale(0.8799056310803423 1) translate(-20 0)" data-ru-fit="0.8799">Внимание</text>
+  <g stroke="#16a34a" stroke-width="1.5" fill="none">
+    <path d="M493,254 V284"/>
+    <path d="M653,254 V284 H140" marker-end="url(#arr-green)"/>
+  </g>
+  <g fill="#ffffff" stroke="#16a34a" stroke-width="1.2">
+    <circle cx="173" cy="284" r="3.5"/>
+    <circle cx="253" cy="284" r="3.5"/>
+    <circle cx="333" cy="284" r="3.5"/>
+    <circle cx="413" cy="284" r="3.5"/>
+    <circle cx="573" cy="284" r="3.5"/>
+  </g>
+  <text x="413" y="310" font-size="12" fill="#15803d" text-anchor="middle" transform=" translate(413.0000305175781 0) scale(0.7427295488923175 1) translate(-413.0000305175781 0)" data-ru-fit="0.7427">градиенты от выбранных целей достигают каждого предыдущего сегмента</text>
+<metadata id="original-source-labels">Supplied
+Policy
+π
+θ
+(
+a
+t
+|
+s
+t
+)
+Environment
+p
+(
+s
+t
++1
+|
+s
+t
+,
+a
+t
+)
+Prompt and
+contracts
+Task
+statement
+Refused
+proposal
+Rejection
+message
+Corrected
+tool call
+Tool
+result
+Final
+response
+Loss mask
+m
+t
+0
+0
+0
+0
+1
+0
+1
+Attention
+gradients from selected targets reach every earlier segment</metadata></svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="760" height="288" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#dc2626"/></marker>
+  </defs>
+  <!-- column 0: threat -> gate -> stage -->
+  <text x="92.0" y="36" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(92 0) scale(0.4923852306343815 1) translate(-92 0)" data-ru-fit="0.4924">недостатки конструкции,</text>
+  <text x="92.0" y="51" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(92 0) scale(0.7189338871581862 1) translate(-92 0)" data-ru-fit="0.7189">вредоносный IP</text>
+  <circle cx="92.0" cy="70" r="4.5" fill="#dc2626"/>
+  <path d="M92.0,74.5 V98" stroke="#dc2626" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+  <rect x="38" y="100" width="108" height="42" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="38" y="100" width="108" height="4" rx="1" fill="#16a34a"/>
+  <text x="92.0" y="121" text-anchor="middle" font-size="12" fill="#15803d">обзор дизайна,</text>
+  <text x="92.0" y="135" text-anchor="middle" font-size="12" fill="#15803d">проверка</text>
+  <path d="M92.0,142 V152" stroke="#16a34a" stroke-width="1.2" fill="none"/>
+  <rect x="30" y="152" width="124" height="40" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="92.0" y="176.5" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Дизайн</text>
+  <path d="M156,172.0 H172" stroke="#64748b" stroke-width="1.2" fill="none" marker-end="url(#arr-gray)"/>
+  <!-- column 1: threat -> gate -> stage -->
+  <text x="236.0" y="36" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(236 0) scale(0.6175615429346772 1) translate(-236 0)" data-ru-fit="0.6176">оборудование</text>
+  <text x="236.0" y="51" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(236 0) scale(0.8986412045538009 1) translate(-236 0)" data-ru-fit="0.8986">Трояны</text>
+  <circle cx="236.0" cy="70" r="4.5" fill="#dc2626"/>
+  <path d="M236.0,74.5 V98" stroke="#dc2626" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+  <rect x="182" y="100" width="108" height="42" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="182" y="100" width="108" height="4" rx="1" fill="#16a34a"/>
+  <text x="236.0" y="121" text-anchor="middle" font-size="12" fill="#15803d">проверка штампа</text>
+  <text x="236.0" y="135" text-anchor="middle" font-size="12" fill="#15803d" transform=" translate(236 0) scale(0.9019115389981861 1) translate(-236 0)" data-ru-fit="0.9019">(микрофотография)</text>
+  <path d="M236.0,142 V152" stroke="#16a34a" stroke-width="1.2" fill="none"/>
+  <rect x="174" y="152" width="124" height="40" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="236.0" y="176.5" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Изготовление</text>
+  <path d="M300,172.0 H316" stroke="#64748b" stroke-width="1.2" fill="none" marker-end="url(#arr-gray)"/>
+  <!-- column 2: threat -> gate -> stage -->
+  <text x="380.0" y="36" text-anchor="middle" font-size="12" fill="#b91c1c">заменено</text>
+  <text x="380.0" y="51" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(380 0) scale(0.974597414379678 1) translate(-380 0)" data-ru-fit="0.9746">компоненты</text>
+  <circle cx="380.0" cy="70" r="4.5" fill="#dc2626"/>
+  <path d="M380.0,74.5 V98" stroke="#dc2626" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+  <rect x="326" y="100" width="108" height="42" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="326" y="100" width="108" height="4" rx="1" fill="#16a34a"/>
+  <text x="380.0" y="121" text-anchor="middle" font-size="12" fill="#15803d" transform=" translate(380 0) scale(0.7816203143893591 1) translate(-380 0)" data-ru-fit="0.7816">Рентгеновский снимок</text>
+  <text x="380.0" y="135" text-anchor="middle" font-size="12" fill="#15803d">скрининг</text>
+  <path d="M380.0,142 V152" stroke="#16a34a" stroke-width="1.2" fill="none"/>
+  <rect x="318" y="152" width="124" height="40" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="380.0" y="176.5" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Сборка</text>
+  <path d="M444,172.0 H460" stroke="#64748b" stroke-width="1.2" fill="none" marker-end="url(#arr-gray)"/>
+  <!-- column 3: threat -> gate -> stage -->
+  <text x="524.0" y="36" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(524 0) scale(0.4472299168975069 1) translate(-524 0)" data-ru-fit="0.4472">клонированный или</text>
+  <text x="524.0" y="51" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(524 0) scale(0.40146214920210677 1) translate(-524 0)" data-ru-fit="0.4015">детали с измененной маркировкой</text>
+  <circle cx="524.0" cy="70" r="4.5" fill="#dc2626"/>
+  <path d="M524.0,74.5 V98" stroke="#dc2626" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+  <rect x="470" y="100" width="108" height="42" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="470" y="100" width="108" height="4" rx="1" fill="#16a34a"/>
+  <text x="524.0" y="121" text-anchor="middle" font-size="12" fill="#15803d">происхождение,</text>
+  <text x="524.0" y="135" text-anchor="middle" font-size="12" fill="#15803d" transform=" translate(524 0) scale(0.7599341641194451 1) translate(-524 0)" data-ru-fit="0.7599">функциональные тесты</text>
+  <path d="M524.0,142 V152" stroke="#16a34a" stroke-width="1.2" fill="none"/>
+  <rect x="462" y="152" width="124" height="40" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="524.0" y="176.5" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Распространение</text>
+  <path d="M588,172.0 H604" stroke="#64748b" stroke-width="1.2" fill="none" marker-end="url(#arr-gray)"/>
+  <!-- column 4: threat -> gate -> stage -->
+  <text x="668.0" y="36" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(668 0) scale(0.7144582470669427 1) translate(-668 0)" data-ru-fit="0.7145">зондирование и</text>
+  <text x="668.0" y="51" text-anchor="middle" font-size="12" fill="#b91c1c" transform=" translate(668 0) scale(0.722011385199241 1) translate(-668 0)" data-ru-fit="0.7220">внесение ошибок</text>
+  <circle cx="668.0" cy="70" r="4.5" fill="#dc2626"/>
+  <path d="M668.0,74.5 V98" stroke="#dc2626" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+  <rect x="614" y="100" width="108" height="42" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="614" y="100" width="108" height="4" rx="1" fill="#16a34a"/>
+  <text x="668.0" y="121" text-anchor="middle" font-size="12" fill="#15803d" transform=" translate(668 0) scale(0.8306347982523773 1) translate(-668 0)" data-ru-fit="0.8306">безопасная загрузка,</text>
+  <text x="668.0" y="135" text-anchor="middle" font-size="12" fill="#15803d">аттестация</text>
+  <path d="M668.0,142 V152" stroke="#16a34a" stroke-width="1.2" fill="none"/>
+  <rect x="606" y="152" width="124" height="40" rx="2" fill="#EAF1F8" stroke="#1F407A" stroke-width="1.2"/>
+  <text x="668.0" y="176.5" text-anchor="middle" font-size="13" font-weight="700" fill="#14294E">Развёртывание</text>
+  <!-- missed compromises persist downstream -->
+  <path d="M78.0,192 V260 H620" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,3" fill="none" marker-end="url(#arr-red)"/>
+  <text x="85.0" y="255" text-anchor="start" font-size="12" fill="#b91c1c" transform=" translate(85 0) scale(0.5423579244617014 1) translate(-85 0)" data-ru-fit="0.5424">если пропустил</text>
+  <path d="M222.0,192 V244 H620" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,3" fill="none" marker-end="url(#arr-red)"/>
+  <path d="M366.0,192 V228 H620" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,3" fill="none" marker-end="url(#arr-red)"/>
+  <path d="M510.0,192 V212 H620" stroke="#dc2626" stroke-width="1.3" stroke-dasharray="5,3" fill="none" marker-end="url(#arr-red)"/>
+  <path d="M626,206 V266" stroke="#b91c1c" stroke-width="1.6" fill="none"/>
+  <text x="634" y="233.0" text-anchor="start" font-size="12" font-weight="700" fill="#b91c1c" transform=" translate(634 0) scale(0.6438795129245888 1) translate(-634 0)" data-ru-fit="0.6439">физический</text>
+  <text x="634" y="248.0" text-anchor="start" font-size="12" font-weight="700" fill="#b91c1c">замена</text>
+<metadata id="original-source-labels">design flaws,
+malicious IP
+design review,
+verification
+Design
+hardware
+Trojans
+die inspection
+(micrography)
+Fabrication
+substituted
+components
+X-ray
+screening
+Assembly
+cloned or
+relabeled parts
+provenance,
+functional tests
+Distribution
+probing and
+fault injection
+secure boot,
+attestation
+Deployment
+if missed
+physical
+replacement</metadata></svg>

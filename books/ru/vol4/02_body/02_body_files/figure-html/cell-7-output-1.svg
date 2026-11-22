@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="582.285937pt" height="258.323268pt" viewBox="0 0 582.285937 258.323268" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:58:15.376500</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 258.323268  L 582.285937 258.323268  L 582.285937 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 253.696792 179.203793  L 328.589145 179.203793  L 328.589145 7.751633  L 253.696792 7.751633  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 253.696792 179.203793  L 253.696792 7.751633  " clip-path="url(#pef9c4c7999)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m88a7862ef8" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m88a7862ef8" x="253.696792" y="179.203793" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="253.696792" y="194.043793" transform="rotate(-0 253.696792 194.043793)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 297.751118 179.203793  L 297.751118 7.751633  " clip-path="url(#pef9c4c7999)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m88a7862ef8" x="297.751118" y="179.203793" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="297.751118" y="194.043793" transform="rotate(-0 297.751118 194.043793)">1000</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 11px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="291.142969" y="208.827793" transform="rotate(-0 291.142969 208.827793)">Расстояние, пройденное до отдыха (mm)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 253.696792 179.203793  L 328.589145 179.203793  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 253.696792 59.435762  L 255.018422 59.435762  L 255.018422 30.611921  L 253.696792 30.611921  z " clip-path="url(#pef9c4c7999)" style="fill: #d1e6f3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 255.018422 59.435762  L 279.79898 59.435762  L 279.79898 30.611921  L 255.018422 30.611921  z " clip-path="url(#pef9c4c7999)" style="fill: #006395; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 279.79898 59.435762  L 286.407129 59.435762  L 286.407129 30.611921  L 279.79898 30.611921  z " clip-path="url(#pef9c4c7999)" style="fill: #cccccc; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 286.407129 59.435762  L 302.15655 59.435762  L 302.15655 30.611921  L 286.407129 30.611921  z " clip-path="url(#pef9c4c7999)" style="fill: #d5f5e3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(183.125278 34.887591)">Случай 1</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(92.679497 47.487591)">Частичный бюджет:</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(72.024497 60.087591)">только термины тела</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 253.696792 109.13204  L 262.525279 109.13204  L 262.525279 80.308199  L 253.696792 80.308199  z " clip-path="url(#pef9c4c7999)" style="fill: #d1e6f3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 262.525279 109.13204  L 287.305837 109.13204  L 287.305837 80.308199  L 262.525279 80.308199  z " clip-path="url(#pef9c4c7999)" style="fill: #006395; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 287.305837 109.13204  L 293.913986 109.13204  L 293.913986 80.308199  L 287.305837 80.308199  z " clip-path="url(#pef9c4c7999)" style="fill: #cccccc; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 293.913986 109.13204  L 302.15655 109.13204  L 302.15655 80.308199  L 293.913986 80.308199  z " clip-path="url(#pef9c4c7999)" style="fill: #d5f5e3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(183.125278 90.88387)">Случай 2</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(105.508715 103.48387)">Полная задержка</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 253.696792 158.828319  L 265.468108 158.828319  L 265.468108 130.004477  L 253.696792 130.004477  z " clip-path="url(#pef9c4c7999)" style="fill: #d1e6f3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 265.468108 158.828319  L 309.522433 158.828319  L 309.522433 130.004477  L 265.468108 130.004477  z " clip-path="url(#pef9c4c7999)" style="fill: #006395; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 309.522433 158.828319  L 316.130582 158.828319  L 316.130582 130.004477  L 309.522433 130.004477  z " clip-path="url(#pef9c4c7999)" style="fill: #cccccc; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(183.125278 140.580148)">Случай 3</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #333333" transform="translate(28.212778 153.180148)">Полная задержка, быстрее</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #cb202d" x="302.15655" y="14.256" transform="rotate(-0 302.15655 14.256)">  конец стойки в 1.10 m</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 302.15655 158.828319  L 316.130582 158.828319  L 316.130582 130.004477  L 302.15655 130.004477  z " clip-path="url(#pef9c4c7999)" style="fill: url(#hb5a221007b); stroke: #cb202d; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 302.15655 179.203793  L 302.15655 7.751633  " clip-path="url(#pef9c4c7999)" style="fill: none; stroke-dasharray: 7,5.6; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 1.4"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_16">
+     <path d="M 10.8 232.079268  L 28.8 232.079268  L 28.8 225.779268  L 10.8 225.779268  z " style="fill: #d1e6f3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="36" y="232.079268" transform="rotate(-0 36 232.079268)">Путешествие вслепую</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 10.8 245.579268  L 28.8 245.579268  L 28.8 239.279268  L 10.8 239.279268  z " style="fill: #006395; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="36" y="245.579268" transform="rotate(-0 36 245.579268)">Торможение</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 242.396719 232.079268  L 260.396719 232.079268  L 260.396719 225.779268  L 242.396719 225.779268  z " style="fill: #cccccc; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="267.596719" y="232.079268" transform="rotate(-0 267.596719 232.079268)">Накладные расходы</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 242.396719 245.579268  L 260.396719 245.579268  L 260.396719 239.279268  L 242.396719 239.279268  z " style="fill: #d5f5e3; stroke: #ffffff; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="267.596719" y="245.579268" transform="rotate(-0 267.596719 245.579268)">Оставшийся запас</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 453.338437 232.079268  L 471.338437 232.079268  L 471.338437 225.779268  L 453.338437 225.779268  z " style="fill: url(#hb5a221007b); stroke: #cb202d; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="478.538437" y="232.079268" transform="rotate(-0 478.538437 232.079268)">Нарушение</text>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="303.257908" y="47.579841" transform="rotate(-0 303.257908 47.579841)">742.5 mm</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="303.257908" y="97.27612" transform="rotate(-0 303.257908 97.27612)">912.9 mm</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="317.23194" y="146.972398" transform="rotate(-0 317.23194 146.972398)">1,417.2 mm</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pef9c4c7999">
+   <rect x="253.696792" y="7.751633" width="74.892353" height="171.45216"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hb5a221007b" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="none"/>
+   <path d="M -36 36  L 36 -36  M -30 42  L 42 -30  M -24 48  L 48 -24  M -18 54  L 54 -18  M -12 60  L 60 -12  M -6 66  L 66 -6  M 0 72  L 72 0  M 6 78  L 78 6  M 12 84  L 84 12  M 18 90  L 90 18  M 24 96  L 96 24  M 30 102  L 102 30  M 36 108  L 108 36  " style="fill: #cb202d; stroke: #cb202d; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+0
+1000
+Расстояние, пройденное до отдыха (mm)
+Случай 1
+Частичный бюджет:
+только термины тела
+Случай 2
+Полная задержка
+Случай 3
+Полная задержка, быстрее
+конец стойки в 1.10 m
+Путешествие вслепую
+Торможение
+Накладные расходы
+Оставшийся запас
+Нарушение
+742.5 mm
+912.9 mm
+1,417.2 mm</metadata></svg>

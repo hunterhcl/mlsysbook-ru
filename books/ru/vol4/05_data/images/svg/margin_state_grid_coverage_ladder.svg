@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.588212pt" height="70.289999pt" viewBox="0 0 77.588212 70.289999" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 70.289999 L 77.588212 70.289999 L 77.588212 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 62.424 L 73.98 62.424 L 73.98 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 20.34504 L 66.207857 20.34504 L 66.207857 6.92856 L 1.44 6.92856 z " clip-path="url(#p5379644f10)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 40.67304 L 33.823929 40.67304 L 33.823929 27.25656 L 1.44 27.25656 z " clip-path="url(#p5379644f10)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1.44 61.00104 L 28.780112 61.00104 L 28.780112 47.58456 L 1.44 47.58456 z " clip-path="url(#p5379644f10)" style="fill: #006395; opacity: 0.92"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_6">
+    <path d="M 1.44 62.424 L 73.98 62.424 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1" data-original-label="100 bins/axis"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="35.30506896972656" y="18.678361892700195" data-original-label="100 bins/axis" transform="translate(35.30506896972656 7.796875) scale(0.8877656225117195 2.0723946281517107) translate(-35.30506896972656 -14.177777290344238)">100 ячеек/ось</text></g>
+   <g id="text_2" data-original-label="10 bins/axis"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="35.44259262084961" y="39.00636291503906" data-original-label="10 bins/axis" transform="translate(35.44259262084961 28.124874114990234) scale(0.8772275092994087 2.072394991408966) translate(-35.44259262084961 -34.50577926635742)">10 ячеек/ось</text></g>
+   <g id="text_3" data-original-label="Universe-long log"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="30.013648986816406" y="59.339481353759766" data-original-label="Universe-long log" transform="translate(30.013648986816406 48.44775390625) scale(0.6245687487707634 1.9468507941935769) translate(-30.013648986816406 -54.838897705078125)">Журнал за возраст Вселенной</text></g>
+   <g id="text_4" data-original-label="log10 of count"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="3.9" fill="#777777" x="1.7050782442092896" y="68.8499984741211" data-original-label="log10 of count" transform="translate(1.7050782442092896 65.14500427246094) scale(0.8372391086254785 0.7240246110758414) translate(-1.7050782442092896 -65.09951782226562)">log₁₀ количества</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5379644f10">
+   <rect x="1.44" y="1.44" width="72.54" height="60.984"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+100 bins/axis
+10 bins/axis
+Universe-long log
+log10 of count</metadata></svg>

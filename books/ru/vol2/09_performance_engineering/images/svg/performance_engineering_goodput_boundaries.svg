@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 20 690 352" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- ML productivity goodput as a chain of three accounting boundaries.
+       Each row is the capacity-time that crossed the boundaries above it; the dashed ghost at the
+       right end of a row is the capacity-time lost at the boundary just above that row, and the
+       losses beside it are charged there and nowhere else. Widths are schematic, not measured.
+       Neutral slate = capacity-time; green = useful work at the ideal rate; navy chips = the
+       three factors (volume accent, as in the localization ladder). -->
+  <style>
+    .rl { font-size: 13px; font-weight: 700; fill: #0f172a; }
+    .bn { font-size: 13px; font-weight: 700; fill: #0f172a; }
+    .ra { font-size: 12px; font-style: italic; fill: #475569; }
+    .ls { font-size: 12px; fill: #475569; }
+    .ch { font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .ug { font-size: 13px; font-weight: 700; fill: #15803d; }
+    .eq { font-size: 13px; font-weight: 700; fill: #0f172a; }
+  </style>
+  <rect y="20" width="690" height="352" fill="#ffffff"/>
+
+  <!-- ===== Row 0: capacity the fleet offers ===== -->
+  <rect x="190" y="40" width="300" height="32" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="200" y="61" class="rl">мощность, которую предлагает автопарк</text>
+
+  <!-- Boundary S -->
+  <line x1="190" y1="96" x2="490" y2="96" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="14" y="85" width="22" height="22" rx="2" fill="#1F407A"/>
+  <text x="25" y="101" text-anchor="middle" class="ch">S</text>
+  <text x="44" y="93" class="bn" transform=" translate(44 0) scale(0.8164926931106472 1) translate(-44 0)" data-ru-fit="0.8165">полное распределение</text>
+  <text x="44" y="108" class="ra" transform=" translate(43.25600051879883 0) scale(0.4403907649980467 1) translate(-43.25600051879883 0)" data-ru-fit="0.4404">удерживается ÷ предлагается</text>
+
+  <!-- ===== Row 1: held by complete allocations ===== -->
+  <rect x="190" y="120" width="240" height="32" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="430" y="120" width="60" height="32" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="200" y="141" class="rl" transform=" translate(199.93499755859375 0) scale(0.8202727061872285 1) translate(-199.93499755859375 0)" data-ru-fit="0.8203">удерживается полными распределениями</text>
+  <text x="508" y="128" class="ls" transform=" translate(508 0) scale(0.7109375 1) translate(-508 0)" data-ru-fit="0.7109">нераспределенная емкость</text>
+  <text x="508" y="143" class="ls" transform=" translate(508 0) scale(0.7047800539939654 1) translate(-508 0)" data-ru-fit="0.7048">частичные банды</text>
+  <text x="508" y="158" class="ls" transform=" translate(508 0) scale(0.9118040941266501 1) translate(-508 0)" data-ru-fit="0.9118">фрагментация</text>
+
+  <!-- Boundary R -->
+  <line x1="190" y1="176" x2="490" y2="176" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="14" y="165" width="22" height="22" rx="2" fill="#1F407A"/>
+  <text x="25" y="181" text-anchor="middle" class="ch">R</text>
+  <text x="44" y="173" class="bn" transform=" translate(44 0) scale(0.7144032921810699 1) translate(-44 0)" data-ru-fit="0.7144">сохраненный шаг</text>
+  <text x="44" y="188" class="ra" transform=" translate(44 0) scale(0.626468722313027 1) translate(-44 0)" data-ru-fit="0.6265">сохранено ÷ удержано</text>
+
+  <!-- ===== Row 2: time on retained steps ===== -->
+  <rect x="190" y="200" width="200" height="32" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+  <rect x="390" y="200" width="40" height="32" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="200" y="221" class="rl">время на удержанных шагах</text>
+  <text x="448" y="208" class="ls" transform=" translate(448 0) scale(0.7452092073931285 1) translate(-448 0)" data-ru-fit="0.7452">запуск, ожидание ввода</text>
+  <text x="448" y="223" class="ls" transform=" translate(448 0) scale(0.4706565107000363 1) translate(-448 0)" data-ru-fit="0.4707">паузы сохранения контрольных точек</text>
+  <text x="448" y="238" class="ls" transform=" translate(448 0) scale(0.6644511963539689 1) translate(-448 0)" data-ru-fit="0.6645">восстановление и доработка</text>
+
+  <!-- Boundary P -->
+  <line x1="190" y1="256" x2="490" y2="256" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="14" y="245" width="22" height="22" rx="2" fill="#1F407A"/>
+  <text x="25" y="261" text-anchor="middle" class="ch">P</text>
+  <text x="44" y="253" class="bn" transform=" translate(44 0) scale(0.4699300699300699 1) translate(-44 0)" data-ru-fit="0.4699">идеальная частота</text>
+  <text x="44" y="268" class="ra" transform=" translate(43.95199966430664 0) scale(0.6454031625367 1) translate(-43.95199966430664 0)" data-ru-fit="0.6454">идеальный ÷ сохранен</text>
+
+  <!-- ===== Row 3: useful work at the ideal rate ===== -->
+  <rect x="190" y="280" width="110" height="32" rx="1" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="300" y="280" width="90" height="32" rx="1" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="200" y="301" class="ug" transform=" translate(200 0) scale(0.8779651328951129 1) translate(-200 0)" data-ru-fit="0.8780">полезная работа</text>
+  <text x="408" y="288" class="ls">раскрытая связь</text>
+  <text x="408" y="303" class="ls" transform=" translate(408 0) scale(0.9564333430148126 1) translate(-408 0)" data-ru-fit="0.9564">отставшие, пузыри</text>
+  <text x="408" y="318" class="ls" transform=" translate(408 0) scale(0.7947644998053718 1) translate(-408 0)" data-ru-fit="0.7948">зависание памяти, отправка</text>
+
+  <!-- the product -->
+  <text x="190" y="344" class="eq" transform=" translate(190 0) scale(0.7953908122163871 1) translate(-190 0)" data-ru-fit="0.7954">полезная работа = мощность-время × S × R × P</text>
+<metadata id="original-source-labels">capacity-time the fleet offers
+S
+complete allocation
+held ÷ offered
+held by complete allocations
+unallocated capacity
+partial gangs
+fragmentation
+R
+retained step
+retained ÷ held
+time on retained steps
+startup, input waits
+checkpoint pauses
+recovery and rework
+P
+ideal rate
+ideal ÷ retained
+useful work
+exposed communication
+stragglers, bubbles
+memory stalls, dispatch
+useful work = capacity-time × S × R × P</metadata></svg>

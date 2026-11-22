@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.724pt" height="42.7968pt" viewBox="0 0 68.724 42.7968" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Bold-65" d="M 3379 3834 L 3379 4538 L 186 4538 L 186 3738 L 2445 3738 C 2170 3443 1632 2618 1446 2221 C 1139 1562 966 966 851 0 L 1754 0 C 1837 1434 2304 2534 3379 3834 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-68" transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 42.7968 L 68.724 42.7968 L 68.724 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 41.3568 L 67.284 41.3568 L 67.284 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="line2d_1">
+    <path d="M 8.0244 12.253824 L 20.86398 15.302016 L 33.70356 19.366272 L 46.54314 24.446592 L 59.38272 29.526912 " clip-path="url(#p6a2a14889d)" style="fill: none; stroke: #cb202d; stroke-width: 1.45; stroke-linecap: square" />
+    <defs>
+     <path id="m77ef104b7c" d="M 0 1.2 C 0.318244 1.2 0.623496 1.07356 0.848528 0.848528 C 1.07356 0.623496 1.2 0.318244 1.2 0 C 1.2 -0.318244 1.07356 -0.623496 0.848528 -0.848528 C 0.623496 -1.07356 0.318244 -1.2 0 -1.2 C -0.318244 -1.2 -0.623496 -1.07356 -0.848528 -0.848528 C -1.07356 -0.623496 -1.2 -0.318244 -1.2 0 C -1.2 0.318244 -1.07356 0.623496 -0.848528 0.848528 C -0.623496 1.07356 -0.318244 1.2 0 1.2 z " style="stroke: #cb202d" />
+    </defs>
+    <g clip-path="url(#p6a2a14889d)">
+     <use xlink:href="#m77ef104b7c" x="8.0244" y="12.253824" style="fill: #cb202d; stroke: #cb202d" />
+     <use xlink:href="#m77ef104b7c" x="20.86398" y="15.302016" style="fill: #cb202d; stroke: #cb202d" />
+     <use xlink:href="#m77ef104b7c" x="33.70356" y="19.366272" style="fill: #cb202d; stroke: #cb202d" />
+     <use xlink:href="#m77ef104b7c" x="46.54314" y="24.446592" style="fill: #cb202d; stroke: #cb202d" />
+     <use xlink:href="#m77ef104b7c" x="59.38272" y="29.526912" style="fill: #cb202d; stroke: #cb202d" />
+    </g>
+   </g>
+   <g id="text_1" data-original-label="Gen 1  95%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#333333" x="8.227087020874023" y="8.862208366394043" data-original-label="Gen 1  95%" transform="translate(8.227087020874023 5.333864212036133) scale(1.1086237525132492 0.6718827237955283) translate(-8.227087020874023 -4.360983848571777)">Ген 1 95%</text></g>
+   <g id="text_2" data-original-label="Gen 5  78%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.6" fill="#cb202d" x="35.032188415527344" y="35.715328216552734" data-original-label="Gen 5  78%" transform="translate(35.032188415527344 32.21501541137695) scale(1.1215991068005018 0.6665448716994139) translate(-35.032188415527344 -31.21410369873047)">Ген 5 78%</text></g>
+   <g id="text_3">
+    
+    <g style="fill: #cb202d" transform="translate(39.860925 9.185163) scale(0.048 -0.048)">
+     <defs>
+      <path id="TeXGyreHeros-Bold-1a3" d="M 3354 1280 L 3354 1920 L 384 1920 L 384 1280 L 3354 1280 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-53" d="M 2419 0 L 2419 4538 L 1824 4538 C 1683 4000 1216 3725 435 3725 L 435 3130 L 1523 3130 L 1523 0 L 2419 0 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-55" d="M 3674 1728 C 3674 2752 3130 3514 2227 3514 C 1792 3514 1485 3328 1267 2944 L 1267 3456 L 371 3456 L 371 -1395 L 1267 -1395 L 1267 461 C 1485 77 1792 -58 2227 -58 C 3059 -58 3674 678 3674 1728 z M 2778 1715 C 2778 1088 2464 691 2022 691 C 1574 691 1267 1082 1267 1728 C 1267 2374 1574 2765 2022 2765 C 2477 2765 2778 2374 2778 1715 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Bold-1a3" />
+     <use xlink:href="#TeXGyreHeros-Bold-53" transform="translate(58.40625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-65" transform="translate(114 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-68" transform="translate(169.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-55" transform="translate(197.390625 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-55" transform="translate(258.484375 0)" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6a2a14889d">
+   <rect x="1.44" y="1.44" width="65.844" height="39.9168" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.0, https://matplotlib.org/
+Gen 1  95%
+Gen 5  78%
+−17 pp</metadata></svg>

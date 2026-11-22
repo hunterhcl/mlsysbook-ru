@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 248" width="90pt" height="124pt" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="4" y="36" width="158.00" height="80" fill="#006395" fill-opacity="0.92"/>
+  <text x="154" y="81" font-size="13" fill="#ffffff" text-anchor="end" font-weight="normal">Плотный 205М</text>
+  <rect x="4" y="152" width="15.19" height="80" fill="#006395" fill-opacity="0.92"/>
+  <text x="27.1906" y="197" font-size="13" fill="#333333" text-anchor="start" font-weight="normal" transform=" translate(27.190601348876953 0) scale(0.7032797553119214 1) translate(-27.190601348876953 0)" data-ru-fit="0.7033">Конв. 37 тыс.</text>
+  <text x="176" y="226" font-size="12" fill="#777777" text-anchor="end" font-weight="normal" transform=" translate(176.0000114440918 0) scale(0.7885360150259302 1) translate(-176.0000114440918 0)" data-ru-fit="0.7885">лог. шкала</text>
+  <line x1="4" y1="242" x2="176" y2="242" stroke="#cccccc" stroke-width="1.4"/>
+<metadata id="original-source-labels">Dense 205M
+Conv 37K
+log scale</metadata></svg>

@@ -1,0 +1,521 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="439.173188pt" height="266.436pt" viewBox="0 0 439.173188 266.436" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T18:59:23.717746</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 266.436  L 439.173188 266.436  L 439.173188 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 44.748031 230.2  L 424.468031 230.2  L 424.468031 7.2  L 44.748031 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 253.407876 230.2  L 424.468031 230.2  L 424.468031 7.2  L 253.407876 7.2  z " clip-path="url(#pd895df2074)" style="fill: #f2d7d5; opacity: 0.35"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 44.748031 230.2  L 44.748031 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m43c6e6e678" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m43c6e6e678" x="44.748031" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="44.748031" y="244.256" transform="rotate(-0 44.748031 244.256)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 108.034698 230.2  L 108.034698 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="108.034698" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="108.034698" y="244.256" transform="rotate(-0 108.034698 244.256)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 171.321365 230.2  L 171.321365 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="171.321365" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="171.321365" y="244.256" transform="rotate(-0 171.321365 244.256)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 234.608031 230.2  L 234.608031 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="234.608031" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="234.608031" y="244.256" transform="rotate(-0 234.608031 244.256)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 297.894698 230.2  L 297.894698 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="297.894698" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="297.894698" y="244.256" transform="rotate(-0 297.894698 244.256)">80</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 361.181365 230.2  L 361.181365 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="361.181365" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="361.181365" y="244.256" transform="rotate(-0 361.181365 244.256)">100</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 424.468031 230.2  L 424.468031 7.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m43c6e6e678" x="424.468031" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="424.468031" y="244.256" transform="rotate(-0 424.468031 244.256)">120</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <!-- Время, прошедшее с момента последнего наблюдения, $\Delta t$ (ms) -->
+     <g transform="translate(114.99803161621094 257.2560119628906) rotate(0)" data-rich-parent="text_8" data-rich-position="1" data-original-label="Время, прошедшее с момента последнего наблюдения, $\Delta t$ (ms)"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="18.948095221268503" fill="rgb(0, 0, 0)" x="-0.19784259796142578" y="3.312643051147461" data-original-label="Время, прошедшее с момента последнего наблюдения, $\Delta t$ (ms)" transform="translate(-0.19784259796142578 -14.688047409057617) scale(0.6462077288795399 0.8475788909114929) translate(0.19784247875213623 13.938019752502441)">Время от последнего наблюдения, Δ t (ms)</text></g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15">
+      <path d="M 44.748031 230.2  L 424.468031 230.2  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_16">
+      <defs>
+       <path id="mf4722da8f3" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="230.2" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="233.728" transform="rotate(-0 37.748031 233.728)">0.00</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_17">
+      <path d="M 44.748031 203.652381  L 424.468031 203.652381  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="203.652381" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="207.180381" transform="rotate(-0 37.748031 207.180381)">0.25</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_19">
+      <path d="M 44.748031 177.104762  L 424.468031 177.104762  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="177.104762" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="180.632762" transform="rotate(-0 37.748031 180.632762)">0.50</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_21">
+      <path d="M 44.748031 150.557143  L 424.468031 150.557143  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="150.557143" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="154.085143" transform="rotate(-0 37.748031 154.085143)">0.75</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23">
+      <path d="M 44.748031 124.009524  L 424.468031 124.009524  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="124.009524" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="127.537524" transform="rotate(-0 37.748031 127.537524)">1.00</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_25">
+      <path d="M 44.748031 97.461905  L 424.468031 97.461905  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="97.461905" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="100.989905" transform="rotate(-0 37.748031 100.989905)">1.25</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_27">
+      <path d="M 44.748031 70.914286  L 424.468031 70.914286  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="70.914286" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="74.442286" transform="rotate(-0 37.748031 74.442286)">1.50</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_29">
+      <path d="M 44.748031 44.366667  L 424.468031 44.366667  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="44.366667" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="47.894667" transform="rotate(-0 37.748031 47.894667)">1.75</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_31">
+      <path d="M 44.748031 17.819048  L 424.468031 17.819048  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#mf4722da8f3" x="44.748031" y="17.819048" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end" x="37.748031" y="21.347048" transform="rotate(-0 37.748031 21.347048)">2.00</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <!-- Граница пространственной ошибки, $E(\Delta t)$ (mm) -->
+     <g transform="translate(14.255999565124513 211.94000244140628) rotate(-90)" data-rich-parent="text_18" data-rich-position="1" data-original-label="Граница пространственной ошибки, $E(\Delta t)$ (mm)"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="18.948097229003906" fill="rgb(0, 0, 0)" x="-0.19784259796142578" y="3.5782699584960938" data-original-label="Граница пространственной ошибки, $E(\Delta t)$ (mm)" transform="translate(-0.19784259796142578 -14.422422409057617) scale(0.45570540147208205 0.847578980720739) translate(0.19784247875213623 13.672391891479492)">Граница пространственной ошибки, E(Δ t) (mm)</text></g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 44.748031 230.2  L 44.748031 7.2  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 424.468031 230.2  L 424.468031 7.2  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 44.748031 230.2  L 424.468031 230.2  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 44.748031 7.2  L 424.468031 7.2  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #cb202d" x="418.139365" y="219.760762" transform="rotate(-0 418.139365 219.760762)">срок действия веры истек</text>
+   </g>
+   <g id="line2d_33">
+    <path d="M 44.748031 219.580952  L 424.468031 66.666667  L 424.468031 66.666667  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 9.6,4.8; stroke-dashoffset: 0; stroke: #333333; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 44.748031 124.009524  L 424.468031 124.009524  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 7,5.6; stroke-dashoffset: 0; stroke: #cb202d; stroke-width: 1.4"/>
+   </g>
+   <g id="text_20">
+    <!-- task clearance $r_{\mathrm{tol}}$ = 1 mm -->
+    <g style="fill: #cb202d" transform="translate(51.07669830322266 118.8798065185547) rotate(0)" data-rich-parent="text_20" data-rich-position="1" data-original-label="task clearance $r_{\mathrm{tol}}$ = 1 mm"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="20.369144238923727" fill="rgb(203, 32, 45)" x="0" y="4.662639617919922" data-original-label="task clearance $r_{\mathrm{tol}}$ = 1 mm" transform="translate(0 -14.688047409057617) scale(0.7073833801781642 0.653162684382836) translate(0 14.088080406188965)">зазор r<tspan baseline-shift="sub" font-size="70%">tol</tspan> = 1 mm</text></g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 253.407876 230.2  L 253.407876 124.009524  " clip-path="url(#pd895df2074)" style="fill: none; stroke-dasharray: 1,2; stroke-dashoffset: 0; stroke: #006395"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 44.748031 219.580952  L 65.684974 211.033366  L 86.621916 202.253337  L 107.558858 193.240864  L 128.495801 183.995947  L 150.384422 174.082274  L 172.273044 163.914547  L 194.161665 153.492764  L 216.050287 142.816926  L 237.938908 131.887033  L 259.82753 120.703085  L 281.716152 109.265082  L 303.604773 97.573024  L 325.493395 85.62691  L 347.382016 73.426742  L 369.270638 60.972518  L 391.159259 48.26424  L 413.047881 35.301906  L 424.468031 28.438095  L 424.468031 28.438095  " clip-path="url(#pd895df2074)" style="fill: none; stroke: #006395; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_8">
+     <path d="M 51.048031 41.4  L 332.711469 41.4  Q 334.511469 41.4 334.511469 39.6  L 334.511469 13.5  Q 334.511469 11.7 332.711469 11.7  L 51.048031 11.7  Q 49.248031 11.7 49.248031 13.5  L 49.248031 39.6  Q 49.248031 41.4 51.048031 41.4  z " style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="line2d_36">
+     <path d="M 52.848031 19.206  L 61.848031 19.206  L 70.848031 19.206  " style="fill: none; stroke: #006395; stroke-width: 2.4; stroke-linecap: square"/>
+    </g>
+    <g id="text_21">
+     <!-- ограниченный рост $E(\Delta t)$ -->
+     <g style="fill: #333333" transform="translate(78.04803466796876 22.35600090026856) rotate(0)" data-rich-parent="text_21" data-rich-position="1" data-original-label="ограниченный рост $E(\Delta t)$"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="18.948097229003906" fill="rgb(51, 51, 51)" x="-0.19784259796142578" y="3.5782699584960938" data-original-label="ограниченный рост $E(\Delta t)$" transform="translate(-0.19784259796142578 -14.422422409057617) scale(0.445844567525649 0.847578980720739) translate(0.19784247875213623 13.672391891479492)">ограниченный рост E(Δ t)</text></g>
+    </g>
+    <g id="line2d_37">
+     <path d="M 52.848031 32.706  L 61.848031 32.706  L 70.848031 32.706  " style="fill: none; stroke-dasharray: 9.6,4.8; stroke-dashoffset: 0; stroke: #333333; stroke-width: 1.6"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="78.048031" y="35.856" transform="rotate(-0 78.048031 35.856)">оценка постоянной скорости</text>
+    </g>
+   </g>
+   <g id="line2d_38">
+    <defs>
+     <path id="m131999290a" d="M 0 3.5  C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874  C 3.131218 1.81853 3.5 0.928211 3.5 0  C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874  C 1.81853 -3.131218 0.928211 -3.5 0 -3.5  C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874  C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0  C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874  C -1.81853 3.131218 -0.928211 3.5 0 3.5  z " style="stroke: #006395"/>
+    </defs>
+    <g clip-path="url(#pd895df2074)">
+     <use xlink:href="#m131999290a" x="253.407876" y="124.009524" style="fill: #006395; stroke: #006395"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 203.402999 71.891499  Q 227.714147 97.230008 251.328654 121.842437  " style="fill: none; stroke: #006395; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 250.135128 117.998546  L 251.328654 121.842437  L 247.537426 120.490923  " style="fill: none; stroke: #006395; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #006395" transform="translate(151.382272 54.804762) translate(0 0) scale(0.729918855448914 1) translate(0 0)" data-ru-fit="0.7299">горизонт аннулирования</text>
+    <!-- $T_{inv}$ = 66 ms -->
+    <g style="fill: #006395" transform="translate(178.053209 65.604762)">
+     <text>
+      <tspan x="0" y="-0.4375" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'; fill: #006395">T</tspan>
+      <tspan x="5.497559" y="0.912496" style="font-style: oblique; font-size: 6.3px; font-family: 'DejaVu Sans'; fill: #006395">i</tspan>
+      <tspan x="7.2479" y="0.912496" style="font-style: oblique; font-size: 6.3px; font-family: 'DejaVu Sans'; fill: #006395">n</tspan>
+      <tspan x="11.240771" y="0.912496" style="font-style: oblique; font-size: 6.3px; font-family: 'DejaVu Sans'; fill: #006395">v</tspan>
+      <tspan x="15.215186" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395"> </tspan>
+      <tspan x="17.7172" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395">=</tspan>
+      <tspan x="22.973242" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395"> </tspan>
+      <tspan x="25.475256" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395">6</tspan>
+      <tspan x="30.479285" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395">6</tspan>
+      <tspan x="35.483313" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395"> </tspan>
+      <tspan x="37.985327" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395">m</tspan>
+      <tspan x="45.482382" y="-0.4375" style="font-size: 9px; font-family: 'TeX Gyre Heros'; fill: #006395">s</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="line2d_39">
+    <defs>
+     <path id="m9472697b9a" d="M 0 3.5  C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874  C 3.131218 1.81853 3.5 0.928211 3.5 0  C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874  C 1.81853 -3.131218 0.928211 -3.5 0 -3.5  C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874  C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0  C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874  C -1.81853 3.131218 -0.928211 3.5 0 3.5  z " style="stroke: #cb202d"/>
+    </defs>
+    <g clip-path="url(#pd895df2074)">
+     <use xlink:href="#m9472697b9a" x="282.073031" y="109.076488" style="fill: #cb202d; stroke: #cb202d"/>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 294.380097 162.891702  Q 288.449284 136.957985 282.742796 112.005175  " style="fill: none; stroke: #cb202d; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 281.790665 115.915858  L 282.742796 112.005175  L 285.300064 115.11329  " style="fill: none; stroke: #cb202d; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #cb202d" transform="translate(246.867958 174.8)">все еще принят в 75 ms:</text>
+    <text style="font-size: 9px; font-family: 'TeX Gyre Heros', 'Helvetica', 'Helvetica Neue', 'Arial', 'DejaVu Sans', sans-serif; fill: #cb202d" transform="translate(177.368271 185.6)">1.141 mm, 14.1% превышения зазора</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd895df2074">
+   <rect x="44.748031" y="7.2" width="379.72" height="223"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.2, https://matplotlib.org/
+0
+20
+40
+60
+80
+100
+120
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+,
+,
+(
+m
+s
+)
+Δ
+t
+0.00
+0.25
+0.50
+0.75
+1.00
+1.25
+1.50
+1.75
+2.00
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+,
+(
+m
+m
+)
+E
+t
+(
+Δ
+)
+срок действия веры истек
+t
+a
+s
+k
+c
+l
+e
+a
+r
+a
+n
+c
+e
+=
+1
+m
+m
+r
+t
+o
+l
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+¤
+E
+t
+(
+Δ
+)
+оценка постоянной скорости
+invalidation horizon
+T
+i
+n
+v
+=
+6
+6
+m
+s
+все еще принят в 75 ms:
+1.141 mm, 14.1% превышения зазора</metadata></svg>

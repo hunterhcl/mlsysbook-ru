@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="680" height="460" fill="#ffffff"/>
+<defs>
+<marker id="arr-blue" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0284c7"/></marker>
+<marker id="arr-green" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
+<marker id="arr-purple" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker>
+<marker id="arr-amber" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#d97706"/></marker>
+<marker id="arr-red" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#dc2626"/></marker>
+<marker id="arr-gray" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker>
+</defs>
+<text x="20" y="25" font-size="14" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(19.916000366210938 0) scale(0.7847716448964148 1) translate(-19.916000366210938 0)" data-ru-fit="0.7848">A · Совместимый крой</text>
+<text x="460" y="25" font-size="14" font-weight="700" text-anchor="start" fill="#0f172a" transform=" translate(460 0) scale(0.5405320485965647 1) translate(-460 0)" data-ru-fit="0.5405">B · Разорванная пара</text>
+<rect x="20" y="60" width="190" height="60" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="115" y="85" font-size="13" font-weight="700" text-anchor="middle" fill="#0f172a">Записать снимок</text>
+<text x="115" y="106" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">зафиксированная граница</text>
+<rect x="240" y="60" width="190" height="60" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="335" y="85" font-size="13" font-weight="700" text-anchor="middle" fill="#0f172a">Снимок рабочей области</text>
+<text x="335" y="106" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">та же граница</text>
+<path d="M115,120 V145 H225 V170" fill="none" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+<path d="M335,120 V145 H225" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<rect x="90" y="170" width="270" height="45" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="225.0" y="196.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Байты полезной нагрузки долговечны</text>
+<path d="M225,215 V250" fill="none" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+<rect x="90" y="250" width="270" height="45" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="225.0" y="276.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Опубликовать манифест в журнале.</text>
+<path d="M225,295 V330" fill="none" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+<rect x="90" y="330" width="270" height="45" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="225.0" y="356.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Свернуть записанный суффикс</text>
+<path d="M225,375 V400" fill="none" stroke="#7c3aed" stroke-width="1.5" marker-end="url(#arr-purple)"/>
+<rect x="20" y="400" width="410" height="45" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="225.0" y="426.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Ожидается тест + резервирование сохранено</text>
+<rect x="460" y="60" width="200" height="60" rx="2" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="560" y="85" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a">Запись: новая редакция.</text>
+<text x="560" y="106" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a">ссылается на новые байты</text>
+<rect x="460" y="170" width="200" height="60" rx="2" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="560" y="195" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(560 0) scale(0.9664261060558519 1) translate(-560 0)" data-ru-fit="0.9664">Рабочая область: старые байты.</text>
+<text x="560" y="216" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(560 0) scale(0.9084356843421343 1) translate(-560 0)" data-ru-fit="0.9084">отсутствует новая полезная нагрузка</text>
+<path d="M560,120 V170" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+<path d="M560,230 V270" fill="none" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arr-red)"/>
+<rect x="460" y="270" width="200" height="45" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="560.0" y="296.5" font-size="13" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(560 0) scale(0.9634785328849613 1) translate(-560 0)" data-ru-fit="0.9635">Отклонить пару восстановления</text>
+<text x="560" y="350" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(560 0) scale(0.6350054328141977 1) translate(-560 0)" data-ru-fit="0.6350">Ранее опубликованная версия</text>
+<text x="560" y="370" font-size="12" font-weight="400" text-anchor="middle" fill="#0f172a" transform=" translate(560 0) scale(0.6815932123497526 1) translate(-560 0)" data-ru-fit="0.6816">+ записанный суффикс</text>
+<metadata id="original-source-labels">A · Compatible cut
+B · Torn pair
+Record snapshot
+committed boundary
+Workspace snapshot
+same boundary
+Payload bytes durable
+Publish manifest in log
+Fold recorded suffix
+Pending test + reservation retained
+Record: new revision
+references new bytes
+Workspace: old bytes
+new payload absent
+Reject recovery pair
+Earlier published cut
++ recorded suffix</metadata></svg>

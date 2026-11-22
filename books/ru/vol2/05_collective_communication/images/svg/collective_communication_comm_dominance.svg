@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 113" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Compute vs exposed communication share of one training step at the scale of thousands of GPUs (illustrative), drawn to 20 : 65 proportions. Common scale: 65 units = 152 px. -->
+  <rect width="160" height="113" fill="#ffffff"/>
+  <text x="4" y="13" font-size="12" fill="#555555">Тысячи GPU</text>
+  <text x="4" y="27" font-size="12" fill="#555555" transform=" translate(4 0) scale(0.6395736175882745 1) translate(-4 0)" data-ru-fit="0.6396">(иллюстративно)</text>
+  <text x="4" y="47" font-size="13" font-weight="700" fill="#333333" transform=" translate(4 0) scale(0.7107261047303873 1) translate(-4 0)" data-ru-fit="0.7107">Вычисления</text>
+  <rect x="4" y="52" width="46.8" height="17" fill="#1F407A"/>
+  <text x="4" y="87" font-size="13" font-weight="700" fill="#333333">Связь</text>
+  <rect x="4" y="92" width="152" height="17" fill="#d97706"/>
+<metadata id="original-source-labels">Thousands of GPUs
+(illustrative)
+Compute
+Communication</metadata></svg>

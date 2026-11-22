@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="81pt" height="30.6pt" viewBox="0 0 81 30.6" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="TeXGyreHeros-Bold-6a" d="M 1926 0 L 1926 627 C 1837 614 1786 608 1722 608 C 1485 608 1427 678 1427 986 L 1427 2790 L 1926 2790 L 1926 3386 L 1427 3386 L 1427 4314 L 531 4314 L 531 3386 L 90 3386 L 90 2790 L 531 2790 L 531 742 C 531 198 819 -26 1408 -26 C 1606 -26 1766 -6 1926 0 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 30.6 L 81 30.6 L 81 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 29.16 L 79.56 29.16 L 79.56 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 18.072 L 61.708359 18.072 L 61.708359 6.984 L 1.44 6.984 z " clip-path="url(#p58e27c1c37)" style="fill: #008f45; opacity: 0.95" />
+   </g>
+   <g id="patch_4">
+    <path d="M 61.708359 18.072 L 75.745547 18.072 L 75.745547 6.984 L 61.708359 6.984 z " clip-path="url(#p58e27c1c37)" style="fill: #cccccc; opacity: 0.7" />
+   </g>
+   <g id="patch_5">
+    <path d="M 75.745547 18.072 L 79.56 18.072 L 79.56 6.984 L 75.745547 6.984 z " clip-path="url(#p58e27c1c37)" style="fill: #cccccc; opacity: 0.7" />
+   </g>
+   <g id="patch_6">
+    <path d="M 75.745547 18.072 L 79.56 18.072 L 79.56 6.984 L 75.745547 6.984 z " clip-path="url(#p58e27c1c37)" style="fill: #333333" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="text_1" data-original-label="Observations 77.1%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="6" fill="#ffffff" x="3.2893359661102295" y="14.35200023651123" data-original-label="Observations 77.1%" transform="translate(3.2893359661102295 9.76200008392334) scale(1.0476874059896042 0.6799479545605452) translate(-3.2893362045288086 -9.101598739624023)">Наблюдения 77.1%</text></g>
+   <g id="text_2">
+    
+    <g style="fill: #333333" transform="translate(64.392422 14.232) scale(0.06 -0.06)">
+     <defs>
+      <path id="TeXGyreHeros-Bold-2c" d="M 3341 1197 L 2483 1197 C 2368 838 2189 666 1843 666 C 1389 666 1114 1030 1114 1702 C 1114 2336 1280 2790 1843 2790 C 2208 2790 2381 2618 2483 2163 L 3341 2163 C 3277 3008 2714 3514 1850 3514 C 819 3514 218 2880 218 1702 C 218 563 813 -58 1837 -58 C 2675 -58 3258 461 3341 1197 z " transform="scale(0.015625)" />
+      <path id="TeXGyreHeros-Bold-75" d="M 3424 0 L 2272 1741 L 3398 3456 L 2323 3456 L 1766 2413 L 1203 3456 L 128 3456 L 1254 1741 L 102 0 L 1178 0 L 1766 1075 L 2349 0 L 3424 0 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Bold-2c" />
+     <use xlink:href="#TeXGyreHeros-Bold-6a" transform="translate(55.59375 0)" />
+     <use xlink:href="#TeXGyreHeros-Bold-75" transform="translate(88.890625 0)" />
+    </g>
+   </g>
+   <g id="text_3" data-original-label="targets 4.9%"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.7" fill="#333333" x="51.893157958984375" y="24.7770938873291" data-original-label="targets 4.9%" transform="translate(51.893157958984375 20.349546432495117) scale(0.749205870921003 0.843277728997796) translate(-51.893157958984375 -20.276750564575195)">нацелен на 4.9%</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p58e27c1c37">
+   <rect x="1.44" y="1.44" width="78.12" height="27.72" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.1, https://matplotlib.org/
+Observations 77.1%
+ctx
+targets 4.9%</metadata></svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 262" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="680" height="262" fill="#ffffff"/>
+<text x="18" y="48" font-size="9.5" font-weight="700" fill="#0F172A" transform=" translate(18 0) scale(0.4799520592721726 1) translate(-18 0)" data-ru-fit="0.4800">Действующий срок допуска</text>
+<text x="18" y="60" font-size="8" fill="#475569" transform=" translate(18 0) scale(0.584219665726069 1) translate(-18 0)" data-ru-fit="0.5842">начало отсчёта: последний допуск</text>
+<rect x="118.0" y="40" width="52.2" height="20" rx="3" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
+<text x="144.1" y="53.5" font-size="8.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">TRACK</text>
+<rect x="170.2" y="40" width="19.1" height="20" rx="3" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+<rect x="189.3" y="40" width="239.2" height="20" rx="3" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+<text x="309.0" y="53.5" font-size="8.5" font-weight="700" fill="#991B1B" text-anchor="middle">Встроенный S-образный останов</text>
+<line x1="161.5" y1="35" x2="161.5" y2="65" stroke="#334155" stroke-width="1"/>
+<text x="161.5" y="76" font-size="8" fill="#334155" text-anchor="end" transform=" translate(161.5 0) scale(0.7433594496464743 1) translate(-161.5 0)" data-ru-fit="0.7434">50: срок продления</text>
+<line x1="170.2" y1="35" x2="170.2" y2="65" stroke="#334155" stroke-width="1"/>
+<text x="170.2" y="31" font-size="8" fill="#334155" text-anchor="start" transform=" translate(170.1999969482422 0) scale(0.8823660714285714 1) translate(-170.1999969482422 0)" data-ru-fit="0.8824">60: допуск истёк</text>
+<line x1="189.3" y1="35" x2="189.3" y2="65" stroke="#334155" stroke-width="1"/>
+<text x="189.3" y="76" font-size="8" fill="#334155" text-anchor="start" transform=" translate(189.3000030517578 0) scale(0.6478197769099225 1) translate(-189.3000030517578 0)" data-ru-fit="0.6478">82: начало останова</text>
+<line x1="428.6" y1="35" x2="428.6" y2="65" stroke="#334155" stroke-width="1"/>
+<text x="428.6" y="31" font-size="8" fill="#334155" text-anchor="middle" transform=" translate(428.6000061035156 0) scale(0.9739069111424542 1) translate(-428.6000061035156 0)" data-ru-fit="0.9739">357: покой</text>
+<text x="118.0" y="94" font-size="8" fill="#475569" transform=" translate(118 0) scale(0.836762161122861 1) translate(-118 0)" data-ru-fit="0.8368">путь 82 + 137.5 = 219.5 mm из 300 mm свободного расстояния · запас 80.5 mm</text>
+<text x="18" y="148" font-size="9.5" font-weight="700" fill="#0F172A" transform=" translate(18 0) scale(0.6337908288115757 1) translate(-18 0)" data-ru-fit="0.6338">Альтернативное расписание</text>
+<text x="18" y="160" font-size="8" fill="#475569" transform=" translate(18 0) scale(0.5691528642261842 1) translate(-18 0)" data-ru-fit="0.5692">начало отсчёта: начало расписания</text>
+<rect x="118.0" y="140" width="261.0" height="20" rx="3" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
+<text x="248.5" y="153.5" font-size="8.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">TRACK</text>
+<rect x="379.0" y="140" width="239.2" height="20" rx="3" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+<text x="498.6" y="153.5" font-size="8.5" font-weight="700" fill="#991B1B" text-anchor="middle">Согласованный S-образный останов</text>
+<line x1="326.8" y1="135" x2="326.8" y2="165" stroke="#334155" stroke-width="1"/>
+<text x="326.8" y="131" font-size="8" fill="#334155" text-anchor="end" transform=" translate(326.79998779296875 0) scale(0.7489474317334296 1) translate(-326.79998779296875 0)" data-ru-fit="0.7489">240: предпочтительный допуск</text>
+<line x1="359.9" y1="135" x2="359.9" y2="165" stroke="#334155" stroke-width="1"/>
+<text x="359.9" y="176" font-size="8" fill="#334155" text-anchor="end" transform=" translate(359.8999938964844 0) scale(0.7421820708825573 1) translate(-359.8999938964844 0)" data-ru-fit="0.7422">278: крайний срок допуска</text>
+<line x1="379.0" y1="135" x2="379.0" y2="165" stroke="#334155" stroke-width="1"/>
+<text x="379.0" y="131" font-size="8" fill="#334155" text-anchor="start">300: принятие, начало</text>
+<line x1="466.0" y1="135" x2="466.0" y2="165" stroke="#334155" stroke-width="1"/>
+<text x="466.0" y="176" font-size="8" fill="#334155" text-anchor="middle" transform=" translate(466 0) scale(0.6390016538866335 1) translate(-466 0)" data-ru-fit="0.6390">400: номинальный конец</text>
+<line x1="618.2" y1="135" x2="618.2" y2="165" stroke="#334155" stroke-width="1"/>
+<text x="618.2" y="176" font-size="8" fill="#334155" text-anchor="middle" transform=" translate(618.2000122070312 0) scale(0.9686840253342717 1) translate(-618.2000122070312 0)" data-ru-fit="0.9687">575: покой</text>
+<text x="118.0" y="194" font-size="8" fill="#475569" transform=" translate(118 0) scale(0.8831808879421961 1) translate(-118 0)" data-ru-fit="0.8832">путь от 240 ms: 60 + 137.5 = 197.5 mm из 300 mm свободного расстояния · запас 102.5 mm</text>
+<line x1="118.0" y1="222" x2="640.0" y2="222" stroke="#334155" stroke-width="1"/>
+<line x1="118.0" y1="222" x2="118.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="118.0" y="236" font-size="8" fill="#475569" text-anchor="middle">0</text>
+<line x1="205.0" y1="222" x2="205.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="205.0" y="236" font-size="8" fill="#475569" text-anchor="middle">100</text>
+<line x1="292.0" y1="222" x2="292.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="292.0" y="236" font-size="8" fill="#475569" text-anchor="middle">200</text>
+<line x1="379.0" y1="222" x2="379.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="379.0" y="236" font-size="8" fill="#475569" text-anchor="middle">300</text>
+<line x1="466.0" y1="222" x2="466.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="466.0" y="236" font-size="8" fill="#475569" text-anchor="middle">400</text>
+<line x1="553.0" y1="222" x2="553.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="553.0" y="236" font-size="8" fill="#475569" text-anchor="middle">500</text>
+<line x1="640.0" y1="222" x2="640.0" y2="226" stroke="#334155" stroke-width="1"/>
+<text x="640.0" y="236" font-size="8" fill="#475569" text-anchor="middle">600</text>
+<text x="379.0" y="252" font-size="8.5" fill="#334155" text-anchor="middle">Время от начала расписания (ms, монотонные часы МК)</text>
+<metadata id="original-source-labels">Running lease
+origin: last admission
+TRACK
+Resident S-curve stop
+50 renewal due
+60 lease lapses
+82 stop onset
+357 at rest
+travel 82 + 137.5 = 219.5 mm of 300 mm clearance · margin 80.5 mm
+Alternate schedule
+origin: schedule start
+TRACK
+Matched S-curve stop
+240 preferred admission
+278 admission cutoff
+300 commitment, onset
+400 nominal end
+575 at rest
+travel from 240 ms: 60 + 137.5 = 197.5 mm of 300 mm clearance · margin 102.5 mm
+0
+100
+200
+300
+400
+500
+600
+Time from each schedule's origin (ms, MCU monotonic clock)</metadata></svg>

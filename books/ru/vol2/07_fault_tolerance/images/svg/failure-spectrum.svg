@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -11 680 295" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <!-- Fault persistence spectrum. Each column shows the same run of retried attempts over time:
+       a transient fault hits one attempt, an intermittent fault returns whenever load peaks, a permanent fault
+       hits every attempt after onset. Green = attempt completes, red = attempt faults, gray bars = load. -->
+  <defs><marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect x="0" y="-11" width="680" height="295" fill="#ffffff"/>
+  <text x="20" y="20" font-size="12" fill="#475569" transform=" translate(20 0) scale(0.5784712615472977 1) translate(-20 0)" data-ru-fit="0.5785">очищается самостоятельно</text>
+  <text x="340" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(340.0000228881836 0) scale(0.5620178887567354 1) translate(-340.0000228881836 0)" data-ru-fit="0.5620">постоянство неисправности</text>
+  <text x="660" y="20" text-anchor="end" font-size="12" fill="#475569" transform=" translate(660.0000686645508 0) scale(0.7834231796289897 1) translate(-660.0000686645508 0)" data-ru-fit="0.7834">действует до ремонта</text>
+  <line x1="20" y1="32" x2="656" y2="32" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <!-- ===== Transient ===== -->
+  <rect x="20" y="48" width="200" height="214" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="120" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Переходный процесс</text>
+  <text x="120" y="90" text-anchor="middle" font-size="12" fill="#475569">встречается один раз</text>
+  <rect x="37" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="59" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="81" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="103" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="125" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="147" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="169" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="191" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <line x1="37" y1="168" x2="209" y2="168" stroke="#64748b" stroke-width="0.8" marker-end="url(#arr-gray)"/>
+  <text x="37" y="182" font-size="11" fill="#475569">попытки</text>
+  <text x="120" y="206" text-anchor="middle" font-size="12" fill="#334155"><tspan font-style="italic" font-size="11" fill="#64748b">причина:</tspan><tspan dx="4">удар частицы</tspan></text>
+  <rect x="40" y="220" width="160" height="28" rx="2" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+  <text x="120" y="238" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a" transform=" translate(120.000009059906 0) scale(0.6174595114431243 1) translate(-120.000009059906 0)" data-ru-fit="0.6175">повторить попытку или откатиться назад</text>
+  <!-- ===== Intermittent ===== -->
+  <rect x="240" y="48" width="200" height="214" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="340" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Прерывистый</text>
+  <text x="340" y="90" text-anchor="middle" font-size="12" fill="#475569">повторяется под нагрузкой</text>
+  <rect x="262" y="130" width="8" height="6" fill="#cbd5e1"/>
+  <rect x="257" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="284" y="127" width="8" height="9" fill="#cbd5e1"/>
+  <rect x="279" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="306" y="114" width="8" height="22" fill="#94a3b8"/>
+  <rect x="301" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="328" y="128" width="8" height="8" fill="#cbd5e1"/>
+  <rect x="323" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="350" y="130" width="8" height="6" fill="#cbd5e1"/>
+  <rect x="345" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="372" y="114" width="8" height="22" fill="#94a3b8"/>
+  <rect x="367" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="394" y="126" width="8" height="10" fill="#cbd5e1"/>
+  <rect x="389" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="416" y="129" width="8" height="7" fill="#cbd5e1"/>
+  <rect x="411" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <text x="430" y="110" text-anchor="end" font-size="11" fill="#475569">нагрузка</text>
+  <line x1="257" y1="168" x2="429" y2="168" stroke="#64748b" stroke-width="0.8" marker-end="url(#arr-gray)"/>
+  <text x="257" y="182" font-size="11" fill="#475569">попытки</text>
+  <text x="340" y="206" text-anchor="middle" font-size="12" fill="#334155" transform=" translate(339.97803497314453 0) scale(0.8790275880550255 1) translate(-339.97803497314453 0)" data-ru-fit="0.8790"><tspan font-style="italic" font-size="11" fill="#64748b">причина:</tspan><tspan dx="4">треснутое паяное соединение</tspan></text>
+  <rect x="260" y="220" width="160" height="28" rx="2" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+  <text x="340" y="238" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">слив и стресс-тест</text>
+  <!-- ===== Permanent ===== -->
+  <rect x="460" y="48" width="200" height="214" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+  <text x="560" y="72" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Постоянный</text>
+  <text x="560" y="90" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(560 0) scale(0.5982942703556136 1) translate(-560 0)" data-ru-fit="0.5983">завершается с ошибкой при каждой повторной попытке.</text>
+  <rect x="477" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="499" y="140" width="18" height="18" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+  <rect x="521" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="543" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="565" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="587" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="609" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="631" y="140" width="18" height="18" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <line x1="477" y1="168" x2="649" y2="168" stroke="#64748b" stroke-width="0.8" marker-end="url(#arr-gray)"/>
+  <text x="477" y="182" font-size="11" fill="#475569">попытки</text>
+  <text x="560" y="206" text-anchor="middle" font-size="12" fill="#334155" transform=" translate(559.9780426025391 0) scale(0.7670847922502688 1) translate(-559.9780426025391 0)" data-ru-fit="0.7671"><tspan font-style="italic" font-size="11" fill="#64748b">причина:</tspan><tspan dx="4">застревание, неисправность, износ</tspan></text>
+  <rect x="480" y="220" width="160" height="28" rx="2" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+  <text x="560" y="238" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">заменить и восстановить</text>
+<metadata id="original-source-labels">clears on its own
+fault persistence
+lasts until repaired
+Transient
+occurs once
+attempts
+cause:
+particle strike
+retry or roll back
+Intermittent
+recurs under load
+load
+attempts
+cause:
+cracked solder joint
+drain and stress-test
+Permanent
+fails on every retry
+attempts
+cause:
+stuck-at fault, wear-out
+replace and restore</metadata></svg>

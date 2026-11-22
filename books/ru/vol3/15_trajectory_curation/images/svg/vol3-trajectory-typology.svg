@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 410" width="100%" height="100%" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="700" height="410" fill="#ffffff"/>
+  <text x="20" y="30" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(19.999998092651367 0) scale(0.9685853620444925 1) translate(-19.999998092651367 0)" data-ru-fit="0.9686">Прямая демонстрация успеха</text>
+  <line x1="124" y1="66" x2="460" y2="66" stroke="#64748b" stroke-width="1.2"/>
+  <rect x="20" y="44" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="72" y="63" text-anchor="middle" font-size="12" fill="#0f172a">задание и</text>
+  <text x="72" y="78" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(72.00000143051147 0) scale(0.722078308521265 1) translate(-72.00000143051147 0)" data-ru-fit="0.7221">доставленный контекст</text>
+  <rect x="20" y="94" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="130" y="44" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="182" y="63" text-anchor="middle" font-size="12" fill="#0f172a">осмотрите</text>
+  <text x="182" y="78" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(182 0) scale(0.8407972486223552 1) translate(-182 0)" data-ru-fit="0.8408">неудачная проверка</text>
+  <rect x="130" y="94" width="104" height="6" fill="#0284c7"/>
+  <rect x="240" y="44" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="292" y="63" text-anchor="middle" font-size="12" fill="#0f172a">отредактируйте</text>
+  <text x="292" y="78" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(291.9999771118164 0) scale(0.682683170751067 1) translate(-291.9999771118164 0)" data-ru-fit="0.6827">пробуждение в бассейне</text>
+  <rect x="240" y="94" width="104" height="6" fill="#0284c7"/>
+  <rect x="350" y="44" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="402" y="63" text-anchor="middle" font-size="12" fill="#0f172a">требуется</text>
+  <text x="402" y="78" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(402.00000762939453 0) scale(0.8568729785466257 1) translate(-402.00000762939453 0)" data-ru-fit="0.8569">проверки пройдены</text>
+  <rect x="350" y="94" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="460" y="44" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="512" y="63" text-anchor="middle" font-size="12" fill="#0f172a">сообщить</text>
+  <text x="512" y="78" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(511.9999465942383 0) scale(0.6064139713599943 1) translate(-511.9999465942383 0)" data-ru-fit="0.6064">поддерживаемый результат</text>
+  <rect x="460" y="94" width="104" height="6" fill="#0284c7"/>
+  <text x="20" y="136" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(19.999998092651367 0) scale(0.7441239514860094 1) translate(-19.999998092651367 0)" data-ru-fit="0.7441">Демонстрация восстановления</text>
+  <line x1="124" y1="188" x2="570" y2="188" stroke="#64748b" stroke-width="1.2"/>
+  <rect x="20" y="166" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="72" y="185" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(71.99999618530273 0) scale(0.7411916463284388 1) translate(-71.99999618530273 0)" data-ru-fit="0.7412">более ранний контекст</text>
+  <text x="72" y="200" text-anchor="middle" font-size="12" fill="#0f172a">и наблюдения</text>
+  <rect x="20" y="216" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="130" y="166" width="104" height="44" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="182" y="185" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(182 0) scale(0.5417792741925518 1) translate(-182 0)" data-ru-fit="0.5418">неправильное редактирование,</text>
+  <text x="182" y="200" text-anchor="middle" font-size="12" fill="#0f172a">отказался</text>
+  <rect x="130" y="216" width="104" height="6" fill="#e2e8f0"/>
+  <text x="182" y="160" text-anchor="middle" font-size="12" fill="#475569" font-family="Courier New, monospace">e2</text>
+  <rect x="240" y="166" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="292" y="185" text-anchor="middle" font-size="12" fill="#0f172a">проверить</text>
+  <text x="292" y="200" text-anchor="middle" font-size="12" fill="#0f172a">схема</text>
+  <rect x="240" y="216" width="104" height="6" fill="#0284c7"/>
+  <text x="292" y="160" text-anchor="middle" font-size="12" fill="#475569" font-family="Courier New, monospace">e3</text>
+  <rect x="350" y="166" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="402" y="185" text-anchor="middle" font-size="12" fill="#0f172a">исправлено,</text>
+  <text x="402" y="200" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(402 0) scale(0.6124185042553536 1) translate(-402 0)" data-ru-fit="0.6124">разрешено редактирование</text>
+  <rect x="350" y="216" width="104" height="6" fill="#0284c7"/>
+  <text x="402" y="160" text-anchor="middle" font-size="12" fill="#475569" font-family="Courier New, monospace">e4</text>
+  <rect x="460" y="166" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="512" y="185" text-anchor="middle" font-size="12" fill="#0f172a">проверить</text>
+  <text x="512" y="200" text-anchor="middle" font-size="12" fill="#0f172a">резюме</text>
+  <rect x="460" y="216" width="104" height="6" fill="#e2e8f0"/>
+  <text x="512" y="160" text-anchor="middle" font-size="12" fill="#475569" font-family="Courier New, monospace">e5</text>
+  <rect x="570" y="166" width="104" height="44" rx="2" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="622" y="185" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(621.9999694824219 0) scale(0.839827041457303 1) translate(-621.9999694824219 0)" data-ru-fit="0.8398">сообщить результат</text>
+  <text x="622" y="200" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(621.9999580383301 0) scale(0.875199876678026 1) translate(-621.9999580383301 0)" data-ru-fit="0.8752">и область действия</text>
+  <rect x="570" y="216" width="104" height="6" fill="#0284c7"/>
+  <text x="622" y="160" text-anchor="middle" font-size="12" fill="#475569" font-family="Courier New, monospace">e6</text>
+  <text x="20" y="258" font-size="13" font-weight="700" fill="#0f172a" transform=" translate(19.999998092651367 0) scale(0.5747189373265894 1) translate(-19.999998092651367 0)" data-ru-fit="0.5747">Категорически отрицательный кандидат</text>
+  <line x1="124" y1="294" x2="350" y2="294" stroke="#64748b" stroke-width="1.2"/>
+  <rect x="20" y="272" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="72" y="291" text-anchor="middle" font-size="12" fill="#0f172a">задание и</text>
+  <text x="72" y="306" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(72.00000143051147 0) scale(0.722078308521265 1) translate(-72.00000143051147 0)" data-ru-fit="0.7221">доставленный контекст</text>
+  <rect x="20" y="322" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="130" y="272" width="104" height="44" rx="2" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="182" y="291" text-anchor="middle" font-size="12" fill="#0f172a">правдоподобно</text>
+  <text x="182" y="306" text-anchor="middle" font-size="12" fill="#0f172a">редактировать</text>
+  <rect x="130" y="322" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="240" y="272" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="292" y="291" text-anchor="middle" font-size="12" fill="#0f172a">целевой</text>
+  <text x="292" y="306" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(291.9999771118164 0) scale(0.8424876603450961 1) translate(-291.9999771118164 0)" data-ru-fit="0.8425">проверить пропуска</text>
+  <rect x="240" y="322" width="104" height="6" fill="#e2e8f0"/>
+  <rect x="350" y="272" width="104" height="44" rx="2" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="402" y="291" text-anchor="middle" font-size="12" fill="#0f172a">требуется</text>
+  <text x="402" y="306" text-anchor="middle" font-size="12" fill="#0f172a" transform=" translate(402.00000762939453 0) scale(0.8167444378919075 1) translate(-402.00000762939453 0)" data-ru-fit="0.8167">проверка не удалась</text>
+  <rect x="350" y="322" width="104" height="6" fill="#e2e8f0"/>
+  <path d="M130,334 V339 H448 V334" fill="none" stroke="#dc2626" stroke-width="1.2" stroke-dasharray="1,2"/>
+  <text x="289" y="356" text-anchor="middle" font-size="12" fill="#475569" transform=" translate(289 0) scale(0.7444848603632036 1) translate(-289 0)" data-ru-fit="0.7445">первый причинный шаг неизвестен: основа записана</text>
+  <rect x="20" y="374" width="20" height="12" rx="1" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/><text x="48" y="384" font-size="12" fill="#334155" transform=" translate(47.999996185302734 0) scale(0.8711607958742584 1) translate(-47.999996185302734 0)" data-ru-fit="0.8712">выбранная цель</text>
+  <rect x="168" y="374" width="20" height="12" rx="1" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/><text x="196" y="384" font-size="12" fill="#334155" transform=" translate(196 0) scale(0.8221118357770187 1) translate(-196 0)" data-ru-fit="0.8221">контекст или наблюдение</text>
+  <rect x="358" y="374" width="20" height="12" rx="1" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,2"/><text x="386" y="384" font-size="12" fill="#334155" transform=" translate(385.9999694824219 0) scale(0.5474895341966174 1) translate(-385.9999694824219 0)" data-ru-fit="0.5475">несовершенен, никогда не имитировался</text>
+  <rect x="566" y="377" width="20" height="6" fill="#0284c7"/><text x="594" y="384" font-size="12" fill="#334155" transform=" translate(594 0) scale(0.7691983149183124 1) translate(-594 0)" data-ru-fit="0.7692">в маске потери</text>
+<metadata id="original-source-labels">Direct-success demonstration
+task and
+delivered context
+inspect the
+failing check
+edit the
+pool wakeup
+required
+checks pass
+report the
+supported result
+Recovery demonstration
+earlier context
+and observations
+malformed edit,
+refused
+e2
+inspect
+the schema
+e3
+corrected,
+permitted edit
+e4
+check
+summary
+e5
+report result
+and scope
+e6
+Hard-negative candidate
+task and
+delivered context
+plausible
+edit
+targeted
+check passes
+required
+check fails
+first causal step uncertain: basis recorded
+selected target
+context or observation
+deficient, never imitated
+in loss mask</metadata></svg>

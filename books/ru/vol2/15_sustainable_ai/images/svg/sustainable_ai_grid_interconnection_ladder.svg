@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.63pt" height="99.9pt" viewBox="0 0 72.63 99.9" version="1.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="Helvetica-34" d="M 2116 1584 L 2116 3613 L 681 1584 L 2116 1584 z M 2125 0 L 2125 1094 L 163 1094 L 163 1644 L 2213 4488 L 2688 4488 L 2688 1584 L 3347 1584 L 3347 1094 L 2688 1094 L 2688 0 L 2125 0 z " transform="scale(0.015625)" />
+      </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 99.9 L 72.63 99.9 L 72.63 0 L 0 0 z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 98.46 L 71.19 98.46 L 71.19 1.44 L 1.44 1.44 z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_3">
+    <path d="M 1.44 46.5543 L 63.716786 46.5543 L 63.716786 14.5377 L 1.44 14.5377 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92" />
+   </g>
+   <g id="patch_4">
+    <path d="M 1.44 95.0643 L 17.009196 95.0643 L 17.009196 63.0477 L 1.44 63.0477 z " clip-path="url(#p879ee31a35)" style="fill: #5e6b73; opacity: 0.92" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="patch_5">
+    <path d="M 1.44 98.46 L 71.19 98.46 " style="fill: none; stroke: #cccccc; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_1" data-original-label="Substation 24 mo"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#ffffff" x="22.454090118408203" y="31.978031158447266" data-original-label="Substation 24 mo" transform="translate(22.454090118408203 28.037405014038086) scale(0.8316307230236348 0.7485230556392622) translate(-22.454090118408203 -27.47747802734375)">Подстанция 24 мес.</text></g>
+   <g id="text_2" data-original-label="GPU 6 mo"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5.2" fill="#333333" x="18.306509017944336" y="80.47828674316406" data-original-label="GPU 6 mo" transform="translate(18.306509017944336 76.54740905761719) scale(0.8642642683801557 0.7486468792288572) translate(-18.306509017944336 -75.97772979736328)">GPU 6 мес.</text></g>
+   <g id="patch_6">
+    <path d="M 17.624115 54.801 Q 40.362991 54.801 63.101867 54.801 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 19.624115 55.801 L 17.624115 54.801 L 19.624115 53.801 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 61.101867 53.801 L 63.101867 54.801 L 61.101867 55.801 " style="fill: none; stroke: #777777; stroke-width: 0.55; stroke-linecap: round" />
+   </g>
+   <g id="text_3">
+    <g id="patch_7">
+     <path d="M 37.722757 58.015453 L 43.003225 58.015453 Q 43.903225 58.015453 43.903225 57.115453 L 43.903225 52.486547 Q 43.903225 51.586547 43.003225 51.586547 L 37.722757 51.586547 Q 36.822757 51.586547 36.822757 52.486547 L 36.822757 57.115453 Q 36.822757 58.015453 37.722757 58.015453 z " style="fill: #ffffff; opacity: 0.94" />
+    </g>
+    
+    <g style="fill: #333333" transform="translate(37.722757 56.073266) scale(0.05 -0.05)">
+     <defs>
+      <path id="Helvetica-78" d="M 94 3347 L 822 3347 L 1591 2169 L 2369 3347 L 3053 3331 L 1925 1716 L 3103 0 L 2384 0 L 1553 1256 L 747 0 L 34 0 L 1213 1716 L 94 3347 z " transform="scale(0.015625)" />
+     </defs>
+     <use xlink:href="#Helvetica-34" />
+     <path d="M 6 4 L 48 46 M 48 4 L 6 46" transform="translate(55.615234 0)" style="fill: none; stroke: #333333; stroke-width: 4.5; stroke-linecap: round" />
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p879ee31a35">
+   <rect x="1.44" y="1.44" width="69.75" height="97.02" />
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.10.8, https://matplotlib.org/
+Substation 24 mo
+GPU 6 mo</metadata></svg>

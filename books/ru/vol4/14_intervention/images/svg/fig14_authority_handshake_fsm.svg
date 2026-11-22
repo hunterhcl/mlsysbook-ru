@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1A202C"/>
+    </marker>
+    <marker id="arr-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4A5568"/>
+    </marker>
+    <marker id="arr-crimson" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#A51C30"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="392" fill="#ffffff"/>
+
+  <!-- Superstate: every state above can be pre-empted by the protective input -->
+  <rect x="20" y="16" width="640" height="266" rx="4" fill="none" stroke="#A0AEC0" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <text x="650" y="31" font-size="9" font-style="italic" fill="#4A5568" text-anchor="end" transform=" translate(650 0) scale(0.70108811472841 1) translate(-650 0)" data-ru-fit="0.7011">любое из этих состояний</text>
+
+  <!-- ===================== EDGES (drawn before boxes) ===================== -->
+  <g fill="none" stroke-width="1.4">
+    <!-- AUTO -> PEND : request -->
+    <path d="M 190 90 H 263" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- PEND -> BLEND : ACK + commit -->
+    <path d="M 415 90 H 488" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- AUTO -> BLEND : operator-initiated takeover -->
+    <path d="M 115 70 V 46 H 565 V 68" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- BLEND -> MAN -->
+    <path d="M 610 128 V 188" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- BLEND -> FALLBACK -->
+    <path d="M 505 128 V 150 H 395 V 188" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- PEND -> FALLBACK -->
+    <path d="M 300 128 V 188" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- MAN -> FALLBACK -->
+    <path d="M 490 222 H 417" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- AUTO -> FALLBACK -->
+    <path d="M 160 128 V 205 H 263" stroke="#1A202C" marker-end="url(#arr-ink)"/>
+    <!-- FALLBACK -> AUTO : reset from rest (dashed) -->
+    <path d="M 265 238 H 80 V 130" stroke="#4A5568" stroke-dasharray="5,3" marker-end="url(#arr-soft)"/>
+    <!-- superstate -> PROTECTIVE -->
+    <path d="M 340 282 V 316" stroke="#A51C30" stroke-width="1.8" marker-end="url(#arr-crimson)"/>
+  </g>
+
+  <!-- ===================== EDGE LABELS ===================== -->
+  <g font-size="9" fill="#4A5568">
+    <text x="227" y="84" text-anchor="middle">запрос</text>
+    <text x="452" y="84" text-anchor="middle" transform=" translate(451.97300720214844 0) scale(0.865839691151789 1) translate(-451.97300720214844 0)" data-ru-fit="0.8658">ACK + принятие</text>
+    <text x="452" y="104" text-anchor="middle" transform=" translate(452 0) scale(0.7894736842105263 1) translate(-452 0)" data-ru-fit="0.7895">в такте управления</text>
+    <text x="340" y="41" text-anchor="middle" transform=" translate(339.97300720214844 0) scale(0.7582057491128072 1) translate(-339.97300720214844 0)" data-ru-fit="0.7582">ACK оператора + принятие: актуальное состояние, достижимая цель, запас останова</text>
+    <text x="604" y="164" text-anchor="end" transform=" translate(604 0) scale(0.7625830959164293 1) translate(-604 0)" data-ru-fit="0.7626">профиль готов,</text>
+    <text x="604" y="175" text-anchor="end" transform=" translate(604 0) scale(0.6044909415667262 1) translate(-604 0)" data-ru-fit="0.6045">ручной допуск действителен</text>
+    <text x="450" y="144" text-anchor="middle" transform=" translate(450 0) scale(0.4506525883560639 1) translate(-450 0)" data-ru-fit="0.4507">недопустимое состояние</text>
+    <text x="294" y="162" text-anchor="end" transform=" translate(294 0) scale(0.8139924591537495 1) translate(-294 0)" data-ru-fit="0.8140">тайм-аут</text>
+    <text x="453" y="216" text-anchor="middle" transform=" translate(453 0) scale(0.5679897975450343 1) translate(-453 0)" data-ru-fit="0.5680">истечение допуска или</text>
+    <text x="453" y="236" text-anchor="middle" transform=" translate(453 0) scale(0.6336893385797264 1) translate(-453 0)" data-ru-fit="0.6337">потеря разрешения</text>
+    <text x="212" y="199" text-anchor="middle" transform=" translate(212 0) scale(0.5958730776717929 1) translate(-212 0)" data-ru-fit="0.5959">истечение допуска</text>
+    <text x="90" y="256" transform=" translate(90 0) scale(0.71937202130642 1) translate(-90 0)" data-ru-fit="0.7194">сброс из покоя: останов, неисправности устранены,</text>
+    <text x="90" y="268" transform=" translate(90 0) scale(0.6055211148201134 1) translate(-90 0)" data-ru-fit="0.6055">актуальное аутентифицированное согласование повторного допуска</text>
+    <text x="348" y="298" fill="#A51C30" transform=" translate(348 0) scale(0.923605386095081 1) translate(-348 0)" data-ru-fit="0.9236">проводной защитный вход</text>
+    <text x="348" y="309" fill="#A51C30" transform=" translate(348 0) scale(0.44179855051027955 1) translate(-348 0)" data-ru-fit="0.4418">или подтверждённая критическая неисправность</text>
+  </g>
+
+  <!-- ===================== STATES ===================== -->
+  <!-- AUTO (policy proposes) -->
+  <rect x="40" y="70" width="150" height="58" rx="3" fill="#F7EEE6" stroke="#B87333" stroke-width="1.5"/>
+  <text x="115" y="90" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#8A5526" text-anchor="middle">AUTO</text>
+  <text x="115" y="105" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Автономный</text>
+  <text x="115" y="119" font-size="9" fill="#4A5568" text-anchor="middle">политика предлагает</text>
+
+  <!-- PEND -->
+  <rect x="265" y="70" width="150" height="58" rx="3" fill="#F7EEE6" stroke="#B87333" stroke-width="1.5"/>
+  <text x="340" y="90" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#8A5526" text-anchor="middle">PEND</text>
+  <text x="340" y="105" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle" transform=" translate(340 0) scale(0.9366960397042439 1) translate(-340 0)" data-ru-fit="0.9367">Ожидание передачи управления</text>
+  <text x="340" y="119" font-size="9" fill="#4A5568" text-anchor="middle" transform=" translate(340 0) scale(0.8702361908346664 1) translate(-340 0)" data-ru-fit="0.8702">политика предлагает, таймер работает</text>
+
+  <!-- BLEND (enforcer owns) -->
+  <rect x="490" y="70" width="150" height="58" rx="3" fill="#E9F1EE" stroke="#1A4D3E" stroke-width="1.5"/>
+  <text x="565" y="90" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#1A4D3E" text-anchor="middle">BLEND</text>
+  <text x="565" y="105" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Смешение</text>
+  <text x="565" y="119" font-size="9" fill="#4A5568" text-anchor="middle" transform=" translate(565 0) scale(0.7580327868852459 1) translate(-565 0)" data-ru-fit="0.7580">профиль принадлежит контроллеру допуска</text>
+
+  <!-- FALLBACK -->
+  <rect x="265" y="190" width="150" height="58" rx="3" fill="#E9F1EE" stroke="#1A4D3E" stroke-width="1.5"/>
+  <text x="340" y="210" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#1A4D3E" text-anchor="middle">FALLBACK</text>
+  <text x="340" y="225" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Резервный режим</text>
+  <text x="340" y="239" font-size="9" fill="#4A5568" text-anchor="middle">проверено HOLD или STOP</text>
+
+  <!-- MAN (operator proposes) -->
+  <rect x="490" y="190" width="150" height="58" rx="3" fill="#EFEDF5" stroke="#5B4B8A" stroke-width="1.5"/>
+  <text x="565" y="210" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#5B4B8A" text-anchor="middle">MAN</text>
+  <text x="565" y="225" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle" transform=" translate(565 0) scale(0.9916362856530131 1) translate(-565 0)" data-ru-fit="0.9916">Ручное управление человеком</text>
+  <text x="565" y="239" font-size="9" fill="#4A5568" text-anchor="middle">оператор предлагает</text>
+
+  <!-- PROTECTIVE (hazard response) -->
+  <rect x="265" y="318" width="150" height="58" rx="3" fill="#F9E9EB" stroke="#A51C30" stroke-width="1.5"/>
+  <text x="340" y="338" font-family="Menlo, Courier New, monospace" font-size="11" font-weight="700" fill="#A51C30" text-anchor="middle">PROTECTIVE</text>
+  <text x="340" y="353" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">Защитный</text>
+  <text x="340" y="367" font-size="9" fill="#4A5568" text-anchor="middle" transform=" translate(340 0) scale(0.7639187179910788 1) translate(-340 0)" data-ru-fit="0.7639">схема безопасности: тормоз или удержание</text>
+<metadata id="original-source-labels">any of these states
+request
+ACK + commit
+on a control tick
+operator ACK + commit: fresh state, feasible target, stopping reserve
+profile done,
+manual lease valid
+invalid state
+timeout
+lease lapse or
+enabling loss
+lease expiry
+reset from rest: standstill, faults cleared,
+fresh authenticated re-admission handshake
+hardwired protective input
+or qualified critical fault
+AUTO
+Autonomous
+policy proposes
+PEND
+Handover-Pending
+policy proposes, timer runs
+BLEND
+Blend
+enforcer owns the profile
+FALLBACK
+Fallback
+validated HOLD or STOP
+MAN
+Human-Manual
+operator proposes
+PROTECTIVE
+Protective
+safety circuit: brake or hold</metadata></svg>

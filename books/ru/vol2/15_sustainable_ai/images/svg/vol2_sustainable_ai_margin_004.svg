@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90pt" height="120pt" viewBox="0 0 180 240" version="1.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="180" height="240" fill="#ffffff"/>
+  <!-- Log scale: x = 6 + 23.06 * (log10(pJ) + 1.5); 0.1 -> 17.5, 3.7 -> 53.7, 1e5 -> 155.9, 5e5 -> 172 -->
+  <!-- Radio bit: solid to the 100,000 pJ lower bound, lighter band to the 500,000 pJ upper bound -->
+  <rect x="6" y="16" width="149.9" height="56" fill="#e67817"/>
+  <rect x="155.9" y="16" width="16.1" height="56" fill="#f4bb88"/>
+  <text x="150" y="39" font-size="13" fill="#ffffff" text-anchor="end">Радиобит</text>
+  <text x="150" y="57" font-size="13" fill="#ffffff" text-anchor="end">100K–500K pJ</text>
+  <!-- FP32 multiply 3.7 pJ -->
+  <rect x="6" y="92" width="47.7" height="56" fill="#e67817"/>
+  <text x="62" y="116" font-size="13" fill="#333333" transform=" translate(62.000003814697266 0) scale(0.8505553685627735 1) translate(-62.000003814697266 0)" data-ru-fit="0.8506">FP32 мульт</text>
+  <text x="62" y="133" font-size="13" fill="#333333">3.7 pJ</text>
+  <!-- INT32 add 0.1 pJ -->
+  <rect x="6" y="168" width="11.5" height="56" fill="#e67817"/>
+  <text x="26" y="192" font-size="13" fill="#333333" transform=" translate(26 0) scale(0.637752587481518 1) translate(-26 0)" data-ru-fit="0.6378">INT32 добавить</text>
+  <text x="26" y="209" font-size="13" fill="#333333">0.1 pJ</text>
+  <text x="176" y="226" font-size="12" fill="#777777" text-anchor="end" transform=" translate(175.99999237060547 0) scale(0.788476411446249 1) translate(-175.99999237060547 0)" data-ru-fit="0.7885">лог. шкала</text>
+  <line x1="4" y1="232" x2="176" y2="232" stroke="#cccccc" stroke-width="1.4"/>
+<metadata id="original-source-labels">Radio bit
+100K–500K pJ
+FP32 mult
+3.7 pJ
+INT32 add
+0.1 pJ
+log scale</metadata></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 180 112" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="180" height="112" fill="#ffffff"/>
+<circle cx="16" cy="22" r="8.5" fill="#B3B3B3"/>
+<text x="34" y="27.3" font-size="15" fill="#333333" transform=" translate(34 0) scale(0.8848211213264895 1) translate(-34 0)" data-ru-fit="0.8848">ковариата p(x)</text>
+<circle cx="16" cy="56" r="8.5" fill="#808080"/>
+<text x="34" y="61.3" font-size="15" fill="#333333" transform=" translate(34 0) scale(0.8620318097227133 1) translate(-34 0)" data-ru-fit="0.8620">метка p(y)</text>
+<circle cx="16" cy="90" r="8.5" fill="#4D4D4D"/>
+<text x="34" y="95.3" font-size="15" fill="#333333" transform=" translate(34 0) scale(0.8254007006349914 1) translate(-34 0)" data-ru-fit="0.8254">концепция p(y|x)</text>
+<metadata id="original-source-labels">p(x) covariate
+p(y) label
+p(y|x) concept</metadata></svg>

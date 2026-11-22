@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.84pt" height="39.4704pt" viewBox="0 0 69.84 39.4704" version="1.1">
+ <metadata>
+  <rdf:rdf>
+   <ns2:work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </ns2:agent>
+    </dc:creator>
+   </ns2:work>
+  </rdf:rdf>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 39.4704 L 69.84 39.4704 L 69.84 0 L 0 0 z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 1.44 38.0304 L 68.4 38.0304 L 68.4 1.44 L 1.44 1.44 z " style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 26.8848 16.807968 L 36.52704 16.807968 L 36.52704 11.319408 L 26.8848 11.319408 z " clip-path="url(#pd9f0f52ba0)" style="fill: #006395; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 36.52704 16.807968 L 59.0256 16.807968 L 59.0256 11.319408 L 36.52704 11.319408 z " clip-path="url(#pd9f0f52ba0)" style="fill: #cb202d; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 26.8848 27.785088 L 57.739968 27.785088 L 57.739968 22.296528 L 26.8848 22.296528 z " clip-path="url(#pd9f0f52ba0)" style="fill: #006395; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 57.739968 27.785088 L 59.0256 27.785088 L 59.0256 22.296528 L 57.739968 22.296528 z " clip-path="url(#pd9f0f52ba0)" style="fill: #cb202d; stroke: #ffffff; stroke-width: 0.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1" data-original-label="contiguous"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#333333" x="4.0701751708984375" y="16.26801872253418" data-original-label="contiguous" transform="translate(4.0701751708984375 12.198019027709961) scale(1.126922138224955 0.9043412662927277) translate(-4.0701751708984375 -12.517590522766113)">смежный</text></g>
+   <g id="text_2">
+    <!-- ~30% -->
+    <g style="fill: #ffffff" transform="translate(27.18217 15.057688) scale(0.035 -0.035)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-20" d="M 3251 2528 L 3251 2630 L 2912 2630 C 2912 2291 2822 2150 2586 2150 C 2496 2150 2394 2182 2266 2259 L 1517 2701 C 1408 2765 1286 2803 1171 2803 C 755 2803 512 2477 480 1875 L 819 1875 C 851 2227 979 2374 1158 2374 C 1222 2374 1370 2323 1434 2285 L 2061 1882 C 2221 1779 2419 1715 2579 1715 C 2989 1715 3251 2035 3251 2528 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-6b" d="M 3238 1318 C 3238 1869 3014 2189 2470 2374 C 2893 2541 3104 2835 3104 3290 C 3104 4070 2586 4538 1722 4538 C 806 4538 320 4038 301 3072 L 864 3072 C 877 3744 1152 4045 1728 4045 C 2227 4045 2528 3750 2528 3270 C 2528 2784 2317 2586 1414 2586 L 1414 2112 L 1722 2112 C 2342 2112 2662 1818 2662 1312 C 2662 742 2310 403 1722 403 C 1107 403 806 710 768 1370 L 205 1370 C 275 358 774 -96 1702 -96 C 2637 -96 3238 461 3238 1318 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-7a" d="M 3245 2182 C 3245 3757 2746 4538 1760 4538 C 781 4538 275 3744 275 2221 C 275 691 787 -96 1760 -96 C 2720 -96 3245 691 3245 2182 z M 2669 2234 C 2669 947 2374 371 1747 371 C 1152 371 851 973 851 2214 C 851 3456 1152 4038 1760 4038 C 2368 4038 2669 3450 2669 2234 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-58" d="M 2368 3277 C 2368 3898 1888 4384 1274 4384 C 678 4384 186 3891 186 3290 C 186 2688 678 2195 1280 2195 C 1875 2195 2368 2688 2368 3277 z M 1926 3283 C 1926 2931 1632 2643 1280 2643 C 922 2643 627 2938 627 3290 C 627 3648 922 3936 1274 3936 C 1638 3936 1926 3648 1926 3283 z M 4320 4538 L 3898 4538 L 1370 -128 L 1792 -128 L 4320 4538 z M 5498 960 C 5498 1574 5018 2061 4403 2061 C 3808 2061 3315 1568 3315 973 C 3315 371 3808 -122 4410 -122 C 4998 -122 5498 371 5498 960 z M 5056 960 C 5056 614 4762 326 4410 326 C 4051 326 3757 614 3757 973 C 3757 1325 4051 1613 4403 1613 C 4768 1613 5056 1325 5056 960 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-20"/>
+     <use xlink:href="#TeXGyreHeros-Regular-6b" transform="translate(58.40625 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-7a" transform="translate(114 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-58" transform="translate(169.59375 0)"/>
+    </g>
+   </g>
+   <g id="text_3" data-original-label="paged"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.3999999999999995" fill="#333333" x="13.222174644470215" y="27.245140075683594" data-original-label="paged" transform="translate(13.222174644470215 23.078201293945312) scale(0.4688398566010056 0.9011645102197311) translate(-13.222174644470215 -23.494712829589844)">на странице</text></g>
+   <g id="text_4">
+    <!-- &gt;96% -->
+    <g style="fill: #ffffff" transform="translate(37.788634 26.034808) scale(0.035 -0.035)">
+     <defs>
+      <path id="TeXGyreHeros-Regular-3e" d="M 2867 1434 L 2867 1766 L 730 3642 L 730 3066 L 2394 1600 L 730 134 L 730 -442 L 2867 1434 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-4f" d="M 3258 2374 C 3258 3795 2765 4538 1728 4538 C 864 4538 243 3923 243 3034 C 243 2189 819 1619 1638 1619 C 2067 1619 2381 1773 2675 2125 C 2669 1018 2310 403 1664 403 C 1267 403 992 653 902 1088 L 339 1088 C 448 346 934 -96 1626 -96 C 2688 -96 3258 806 3258 2374 z M 2643 3046 C 2643 2490 2253 2118 1702 2118 C 1158 2118 819 2470 819 3078 C 819 3654 1203 4045 1722 4045 C 2246 4045 2643 3635 2643 3046 z " transform="scale(0.015625)"/>
+      <path id="TeXGyreHeros-Regular-66" d="M 3283 1408 C 3283 2253 2707 2822 1894 2822 C 1446 2822 1094 2650 851 2317 C 858 3424 1216 4038 1862 4038 C 2259 4038 2534 3789 2624 3354 L 3187 3354 C 3078 4096 2592 4538 1901 4538 C 845 4538 275 3648 275 2067 C 275 653 762 -96 1798 -96 C 2662 -96 3283 518 3283 1408 z M 2707 1363 C 2707 794 2323 403 1805 403 C 1280 403 883 813 883 1395 C 883 1958 1267 2323 1824 2323 C 2368 2323 2707 1971 2707 1363 z " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#TeXGyreHeros-Regular-3e"/>
+     <use xlink:href="#TeXGyreHeros-Regular-4f" transform="translate(58.40625 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-66" transform="translate(114 0)"/>
+     <use xlink:href="#TeXGyreHeros-Regular-58" transform="translate(169.59375 0)"/>
+    </g>
+   </g>
+   <g id="text_5" data-original-label="usable KV"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="5" fill="#333333" x="31.885669708251953" y="7.325847625732422" data-original-label="usable KV" transform="translate(31.885669708251953 3.6055350303649902) scale(0.4003602047103998 0.7085501408370889) translate(-31.88566780090332 -2.825334072113037)">можно использовать KV</text></g>
+   <g id="text_6" data-original-label="waste"><text font-family="Arial, DejaVu Sans, sans-serif" font-size="4.8" fill="#cb202d" x="46.68510055541992" y="32.87932586669922" data-original-label="waste" transform="translate(46.68510055541992 29.601076126098633) scale(0.792754971695253 0.6011784692561604) translate(-46.68510055541992 -28.378812789916992)">потери</text></g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd9f0f52ba0">
+   <rect x="1.44" y="1.44" width="66.96" height="36.5904"/>
+  </clipPath>
+ </defs>
+<metadata id="original-source-labels">Matplotlib v3.11.0, https://matplotlib.org/
+contiguous
+~30%
+paged
+&gt;96%
+usable KV
+waste</metadata></svg>

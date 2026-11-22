@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" width="680" height="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="680" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arr-slate" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4A5568"/></marker>
+    <marker id="arr-crimson" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A51C30"/></marker>
+    <marker id="arr-bronze" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B87333"/></marker>
+    <marker id="arr-pine" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1A4D3E"/></marker>
+  </defs>
+
+  <!-- ================= (a) mode averaging vs sampling ================= -->
+  <g transform="translate(14,14)">
+    <rect width="210" height="372" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="12" y="22" font-size="10.5" font-weight="700" fill="#1A202C" transform=" translate(12 0) scale(0.9310653536257834 1) translate(-12 0)" data-ru-fit="0.9311">(a) Два продемонстрированных режима</text>
+
+    <rect x="10" y="34" width="190" height="158" rx="3" fill="#ffffff" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="20" y="52" font-size="9.5" font-weight="700" fill="#4A5568">Прямая регрессия (MSE)</text>
+    <path d="M 34 118 Q 90 58 184 70" fill="none" stroke="#007A87" stroke-width="1.6" stroke-dasharray="4,3"/>
+    <path d="M 34 118 Q 90 178 184 166" fill="none" stroke="#007A87" stroke-width="1.6" stroke-dasharray="4,3"/>
+    <text x="186" y="84" font-size="8.5" fill="#007A87" text-anchor="end">режим А</text>
+    <text x="186" y="160" font-size="8.5" fill="#007A87" text-anchor="end">режим Б</text>
+    <circle cx="150" cy="118" r="15" fill="#FBEAEC" stroke="#A51C30" stroke-width="1.2"/>
+    <text x="150" y="146" font-size="8.5" fill="#A51C30" text-anchor="middle">препятствие</text>
+    <line x1="34" y1="118" x2="131" y2="118" stroke="#A51C30" stroke-width="2" marker-end="url(#arr-crimson)"/>
+    <text x="78" y="111" font-size="8.5" font-weight="700" fill="#A51C30" text-anchor="middle">среднее</text>
+    <circle cx="34" cy="118" r="3.5" fill="#1A202C"/>
+    <text x="34" y="134" font-size="8.5" fill="#4A5568" text-anchor="middle">s<tspan font-size="7" dy="2">t</tspan></text>
+
+    <rect x="10" y="202" width="190" height="160" rx="3" fill="#ffffff" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="20" y="220" font-size="9.5" font-weight="700" fill="#4A5568">Условная диффузия</text>
+    <ellipse cx="150" cy="255" rx="38" ry="17" fill="#E6F4F5" stroke="#007A87" stroke-width="1"/>
+    <circle cx="150" cy="255" r="2.6" fill="#007A87"/>
+    <text x="150" y="249" font-size="8.5" fill="#007A87" text-anchor="middle">режим А</text>
+    <ellipse cx="150" cy="330" rx="38" ry="17" fill="#E6F4F5" stroke="#007A87" stroke-width="1"/>
+    <circle cx="150" cy="330" r="2.6" fill="#007A87"/>
+    <text x="150" y="342" font-size="8.5" fill="#007A87" text-anchor="middle">режим Б</text>
+    <line x1="92" y1="292" x2="190" y2="292" stroke="#A0AEC0" stroke-width="1" stroke-dasharray="3,3"/>
+    <circle cx="36" cy="298" r="3.5" fill="#B87333"/>
+    <text x="36" y="315" font-size="8.5" fill="#B87333" text-anchor="middle">шум</text>
+    <path d="M 36 298 Q 72 292 108 264" fill="none" stroke="#B87333" stroke-width="1.8" marker-end="url(#arr-bronze)"/>
+    <text x="62" y="272" font-size="8.5" font-weight="700" fill="#B87333" text-anchor="middle">выборка</text>
+  </g>
+
+  <!-- ================= (b) iterative denoising ================= -->
+  <g transform="translate(235,14)">
+    <rect width="210" height="372" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="12" y="22" font-size="10.5" font-weight="700" fill="#1A202C">(б) Итеративное шумоподавление</text>
+
+    <rect x="10" y="34" width="190" height="92" rx="3" fill="#ffffff" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="20" y="52" font-size="9.5" font-weight="700" fill="#4A5568">шаг N: Гауссов шум</text>
+    <path d="M 24 96 L 44 72 L 64 108 L 88 76 L 112 102 L 138 70 L 162 104 L 184 80" fill="none" stroke="#A0AEC0" stroke-width="1.5"/>
+
+    <line x1="105" y1="128" x2="105" y2="148" stroke="#4A5568" stroke-width="1.2" marker-end="url(#arr-slate)"/>
+
+    <rect x="10" y="152" width="190" height="92" rx="3" fill="#ffffff" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="20" y="170" font-size="9.5" font-weight="700" fill="#4A5568" transform=" translate(20 0) scale(0.8804035700426853 1) translate(-20 0)" data-ru-fit="0.8804">промежуточный шаг: грубое приближение</text>
+    <path d="M 24 214 Q 64 186 104 216 T 184 196" fill="none" stroke="#B87333" stroke-width="1.6" stroke-dasharray="5,3"/>
+
+    <line x1="105" y1="246" x2="105" y2="266" stroke="#4A5568" stroke-width="1.2" marker-end="url(#arr-slate)"/>
+
+    <rect x="10" y="270" width="190" height="92" rx="3" fill="#FBF3EC" stroke="#B87333" stroke-width="1.2"/>
+    <text x="20" y="288" font-size="9.5" font-weight="700" fill="#1A202C">шаг 0: фрагмент-кандидат A<tspan font-size="7" dy="-4">0</tspan></text>
+    <path d="M 24 336 Q 44 318 64 318 Q 86 318 104 330 Q 126 342 146 318 Q 166 298 184 302" fill="none" stroke="#B87333" stroke-width="2"/>
+    <circle cx="24" cy="336" r="2.8" fill="#B87333"/>
+    <circle cx="64" cy="318" r="2.8" fill="#B87333"/>
+    <circle cx="104" cy="330" r="2.8" fill="#B87333"/>
+    <circle cx="146" cy="318" r="2.8" fill="#B87333"/>
+    <circle cx="184" cy="302" r="2.8" fill="#B87333"/>
+  </g>
+
+  <!-- ================= (c) dual-rate decoupling (M1: discrete MCU, no shared memory) ================= -->
+  <g transform="translate(456,14)">
+    <rect width="210" height="372" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="12" y="22" font-size="10.5" font-weight="700" fill="#1A202C">(c) Развязка двух частот</text>
+
+    <rect x="14" y="34" width="182" height="50" rx="0" fill="#FBF3EC" stroke="#B87333" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <text x="105" y="55" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">прикладной процессор</text>
+    <text x="105" y="71" font-size="8.5" fill="#4A5568" text-anchor="middle">генератор выборок, 15 Hz</text>
+
+    <line x1="105" y1="84" x2="105" y2="106" stroke="#B87333" stroke-width="1.4" marker-end="url(#arr-bronze)"/>
+    <text x="113" y="99" font-size="8.5" font-weight="700" fill="#B87333">фрагмент А<tspan font-size="7" dy="-4">0</tspan></text>
+
+    <rect x="14" y="110" width="182" height="46" rx="3" fill="#ffffff" stroke="#4A5568" stroke-width="1.2" stroke-dasharray="6,4"/>
+    <text x="105" y="129" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">канал без доверия</text>
+    <text x="105" y="145" font-size="8.5" fill="#4A5568" text-anchor="middle">CRC, порядковый номер</text>
+
+    <line x1="105" y1="156" x2="105" y2="178" stroke="#4A5568" stroke-width="1.4" marker-end="url(#arr-slate)"/>
+
+    <rect x="14" y="182" width="182" height="126" rx="0" fill="#EEF4F2" stroke="#1A4D3E" stroke-width="1.4"/>
+    <text x="105" y="200" font-size="9.5" font-weight="700" fill="#1A4D3E" text-anchor="middle">МК безопасности, такт 1 kHz</text>
+    <text x="105" y="214" font-size="8.5" fill="#4A5568" text-anchor="middle">собственная память</text>
+    <rect x="26" y="224" width="76" height="30" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1"/>
+    <text x="64" y="237" font-size="8.5" font-weight="700" fill="#1A202C" text-anchor="middle">буфер 0</text>
+    <text x="64" y="249" font-size="8" fill="#4A5568" text-anchor="middle">активен</text>
+    <rect x="108" y="224" width="76" height="30" rx="0" fill="#ffffff" stroke="#1A4D3E" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="146" y="237" font-size="8.5" font-weight="700" fill="#1A202C" text-anchor="middle">буфер 1</text>
+    <text x="146" y="249" font-size="8" fill="#4A5568" text-anchor="middle">заполняется</text>
+    <text x="105" y="276" font-size="8.5" fill="#1A202C" text-anchor="middle">проверка актуальности,</text>
+    <text x="105" y="290" font-size="8.5" fill="#1A202C" text-anchor="middle">сплайн, ограничение скорости изменения</text>
+
+    <line x1="105" y1="308" x2="105" y2="330" stroke="#1A4D3E" stroke-width="1.4" marker-end="url(#arr-pine)"/>
+    <text x="113" y="323" font-size="8.5" font-weight="700" fill="#1A4D3E">допущенная команда</text>
+
+    <rect x="40" y="334" width="130" height="28" rx="0" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+    <text x="105" y="352" font-size="9.5" font-weight="700" fill="#1A202C" text-anchor="middle">приводы</text>
+  </g>
+<metadata id="original-source-labels">(a) Two demonstrated modes
+Direct regression (MSE)
+mode A
+mode B
+obstacle
+mean
+s
+t
+Conditional diffusion
+mode A
+mode B
+noise
+sample
+(b) Iterative denoising
+step N: Gaussian noise
+intermediate step: coarse
+step 0: candidate chunk A
+0
+(c) Dual-rate decoupling
+application processor
+sampler, 15 Hz
+chunk A
+0
+black-channel link
+CRC, sequence number
+safety MCU, 1 kHz tick
+own memory
+buffer 0
+active
+buffer 1
+filling
+freshness check,
+spline, slew clamp
+admitted command
+drives</metadata></svg>
